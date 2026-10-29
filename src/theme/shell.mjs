@@ -141,7 +141,7 @@ function gateHtml(ctx) {
   const warn = ctx.site.footer.warning.replace(/^Warning:\s*/, '').split('. ')[0] + '.';
   return `<div class="age-gate" data-age-gate hidden>
 <div class="age-gate__card glass" role="dialog" aria-modal="true" aria-labelledby="age-gate-q" aria-describedby="age-gate-d">
-<img class="age-gate__logo" src="/assets/brand/dealer-cut.png" alt="" width="458" height="388" decoding="async">
+<img class="age-gate__logo" src="/assets/brand/dealer-cut.png" alt="" width="458" height="388" loading="lazy" decoding="async">
 <p class="kicker">${esc(ctx.site.brand.name)} · ${esc(ctx.site.brand.headerSub)}</p>
 <h2 class="age-gate__q" id="age-gate-q">Are you 21 or older?</h2>
 <p class="age-gate__d" id="age-gate-d">${esc(ctx.site.store.age)}</p>

@@ -7,6 +7,8 @@
   var root = doc.documentElement;
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var finePointer = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  /* touch screens: no scroll parallax (mobile.css drops the transform; this skips the rAF work too) */
+  var coarse = window.matchMedia && window.matchMedia('(hover: none), (pointer: coarse)').matches;
   var desktopMq = window.matchMedia ? window.matchMedia('(min-width: 1024px)') : { matches: true, addEventListener: function () {} };
   var $$ = function (sel, el) { return Array.prototype.slice.call((el || doc).querySelectorAll(sel)); };
   var $ = function (sel, el) { return (el || doc).querySelector(sel); };
@@ -172,7 +174,7 @@
   }
 
   /* ---------------- parallax ([data-depth], rAF, transform only) ---------------- */
-  var depthEls = reduce ? [] : $$('[data-depth]');
+  var depthEls = (reduce || coarse) ? [] : $$('[data-depth]');
   if (depthEls.length) {
     var ticking = false;
     var vis = new Set();
@@ -229,16 +231,19 @@
     }
   });
 
-  /* ---------------- ambient loops (video[data-ambient]): poster only under reduced motion; paused off-screen ---------------- */
+  /* ---------------- ambient loops (video[data-ambient]): markup has no autoplay and preload="none", so a below-fold
+     loop downloads nothing on first load; it starts (and loads) only when it comes within 200px of the viewport and
+     pauses off-screen; poster only under reduced motion ---------------- */
   $$('video[data-ambient]').forEach(function (v) {
     if (reduce) { v.removeAttribute('autoplay'); v.pause(); return; }
-    if (!hasIO) return;
+    var start = function () { var p = v.play(); if (p && p.catch) p.catch(function () {}); };
+    if (!hasIO) { start(); return; }
     new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (!en.isIntersecting) { if (!v.paused) v.pause(); }
-        else if (v.paused) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+        else if (v.paused) start();
       });
-    }, { threshold: 0.02 }).observe(v);
+    }, { rootMargin: '200px 0px 200px 0px', threshold: 0 }).observe(v);
   });
 
   /* ---------------- hero film: pause/play button; paused under reduced motion and off-screen ---------------- */

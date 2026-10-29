@@ -70,7 +70,7 @@ function crumbsFor(ctx, slug) {
 }
 
 // ---------- small pieces ----------
-const sketchImg = (id, cls = '') => `<span class="p-sketch ${cls}" aria-hidden="true">${gimg(id, { alt: '', eager: true, sizes: '(min-width: 1024px) 22vw, 120px', cls: 'p-sketch__img' })}</span>`;
+const sketchImg = (id, cls = '') => `<span class="p-sketch ${cls}" aria-hidden="true">${gimg(id, { alt: '', sizes: '(min-width: 1024px) 22vw, 120px', cls: 'p-sketch__img' })}</span>`;
 const photoImg = (file, opts = {}) => img({ src: '/assets/photos/' + file, alt: opts.alt != null ? opts.alt : PHOTO[file] || '' }, { sizes: opts.sizes || '100vw', eager: !!opts.eager, cls: opts.cls });
 const plainText = (blocks) => JSON.stringify(blocks || []);
 
@@ -188,7 +188,7 @@ function areaPage(ctx, slug) {
   }).join('\n');
   const rail = railFrom(chunks);
   const main = band('paper', `<div class="wrap p-guide${rail ? '' : ' p-guide--norail'}">${rail ? `<aside class="p-guide__rail">${rail}</aside>` : ''}<div class="p-guide__article prose">${article}</div></div>`, { mod: 'p-band--guide' });
-  const visit = isVisit ? band('night', `<div class="wrap p-visit"><div class="p-visit__media sk-tape" data-reveal>${photoImg('exterior-front.webp', { sizes: '(min-width: 1024px) 40vw, 100vw' })}</div><div class="glass glass--night p-visit__card" data-reveal style="--i:1">${renderBlock(last.h2, ctx, { ids, tone: 'night' })}${renderBlocks(last.blocks, ctx, { ids, tone: 'night' })}</div></div>`, { mod: 'p-band--visit' }) : '';
+  const visit = isVisit ? band('night', `<div class="wrap p-visit"><div class="p-visit__media sk-tape" data-reveal>${photoImg('exterior-front.webp', { sizes: '(min-width: 1024px) 40vw, 92vw' })}</div><div class="glass glass--night p-visit__card" data-reveal style="--i:1">${renderBlock(last.h2, ctx, { ids, tone: 'night' })}${renderBlocks(last.blocks, ctx, { ids, tone: 'night' })}</div></div>`, { mod: 'p-band--visit' }) : '';
   return out(ctx, slug, h + main + visit + RAIL_JS, { bodyClass: 'p-type-area' });
 }
 
@@ -237,7 +237,7 @@ function faqPage(ctx) {
   const tools = `<div class="p-faq__tools glass glass--milk"><label class="p-faq__label" for="p-faq-q">Search the questions</label><input class="p-faq__input" id="p-faq-q" type="search" autocomplete="off" spellcheck="false"><p class="p-faq__count" id="p-faq-count" aria-live="polite"></p></div>`;
   const rail = `<aside class="p-guide__rail p-faq__rail">${tools}${navB ? `<div class="p-rail p-rail--faq glass glass--milk">${renderBlock(navB, ctx, { ids })}</div>` : ''}</aside>`;
   const main = band('paper', `<div class="wrap p-guide p-faq">${rail}<div class="p-guide__article">${groups}<p class="p-faq__empty" id="p-faq-empty" hidden>No questions match that search. Try another word.</p></div></div>`, { mod: 'p-band--guide' });
-  const contact = isContact ? band('night', `<div class="wrap p-visit p-visit--faq"><div class="glass glass--night p-visit__card" data-reveal>${renderBlock(last.h2, ctx, { ids })}${renderBlocks(last.blocks, ctx, { ids, tone: 'night' })}</div><div class="p-visit__media sk-tape" data-reveal style="--i:1">${photoImg('sign.webp', { sizes: '(min-width: 1024px) 40vw, 100vw' })}</div></div>`, { mod: 'p-band--visit' }) : '';
+  const contact = isContact ? band('night', `<div class="wrap p-visit p-visit--faq"><div class="glass glass--night p-visit__card" data-reveal>${renderBlock(last.h2, ctx, { ids })}${renderBlocks(last.blocks, ctx, { ids, tone: 'night' })}</div><div class="p-visit__media sk-tape" data-reveal style="--i:1">${photoImg('sign.webp', { sizes: '(min-width: 1024px) 40vw, 92vw' })}</div></div>`, { mod: 'p-band--visit' }) : '';
   return out(ctx, slug, h + main + contact + FAQ_JS, { bodyClass: 'p-type-faq' });
 }
 

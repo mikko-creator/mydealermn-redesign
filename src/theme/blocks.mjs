@@ -33,6 +33,9 @@ export const fixHtml = (html) => fixLinks(String(html ?? '').replace(/href="(\/b
 
 const plain = (html) => stripTags(html).replace(/\s+/g, ' ').trim();
 const isExt = (u) => /^(https?:)?\/\//i.test(liveHref(u));
+// true when a link in this html is (almost) all of its text: a standalone control (44px on phones), not an inline link
+// in a sentence (same test as tools/phone-audit.mjs: block text longer than the link text + 12 chars = running text)
+const linkOnly = (html) => { const h = String(html ?? ''); const t = plain(h).length; return (h.match(/<a\b[^>]*>[\s\S]*?<\/a>/gi) || []).some((a) => t <= plain(a).length + 12); };
 
 // ---------- sketch strokes (decoration only, aria-hidden, drawn on by [data-draw]) ----------
 const SK = 'fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"';
@@ -81,10 +84,11 @@ export function renderBlock(b, ctx, opts = {}, i = 0) {
     }
     case 'p': {
       const t = plain(b.html);
-      if (/^Warning:/.test(t)) return `<p class="b-p b-warn">${fixHtml(b.html)}</p>`;
-      if (FINE.test(t)) return `<p class="b-p b-fine">${fixHtml(b.html)}</p>`;
+      const lk = linkOnly(b.html) ? ' b-p--link' : '';
+      if (/^Warning:/.test(t)) return `<p class="b-p b-warn${lk}">${fixHtml(b.html)}</p>`;
+      if (FINE.test(t)) return `<p class="b-p b-fine${lk}">${fixHtml(b.html)}</p>`;
       if (/^<strong>[^<]*<\/strong>$/.test(String(b.html).trim()) && t.length < 60) return `<p class="b-p b-stat">${fixHtml(b.html)}</p>`;
-      return `<p class="b-p">${fixHtml(b.html)}</p>`;
+      return `<p class="b-p${lk}">${fixHtml(b.html)}</p>`;
     }
     case 'text': return `<p class="b-text b-chip">${fixHtml(b.html)}</p>`;
     case 'ul': case 'ol': {
@@ -95,16 +99,16 @@ export function renderBlock(b, ctx, opts = {}, i = 0) {
       if (items.length && items.every((it) => typeof it === 'object')) {
         return `<${b.t} class="b-steps">${items.map((it, k) => `<li class="b-steps__item"${rv(opts, k)}>${renderBlocks(it.blocks, ctx, { ...opts, h2Rule: false })}</li>`).join('')}</${b.t}>`;
       }
-      return `<${b.t} class="b-list">${items.map((it) => `<li>${typeof it === 'string' ? fixHtml(it) : renderBlocks(it.blocks, ctx, opts)}</li>`).join('')}</${b.t}>`;
+      return `<${b.t} class="b-list">${items.map((it) => `<li${typeof it === 'string' && linkOnly(it) ? ' class="b-li--link"' : ''}>${typeof it === 'string' ? fixHtml(it) : renderBlocks(it.blocks, ctx, opts)}</li>`).join('')}</${b.t}>`;
     }
-    case 'dl': return `<dl class="b-dl">${(b.items || []).map((it, k) => `<div class="b-dl__item"${rv(opts, k)}><dt>${fixHtml(it.dt)}</dt>${(it.dd || []).map((d) => `<dd>${fixHtml(d)}</dd>`).join('')}</div>`).join('')}</dl>`;
+    case 'dl': return `<dl class="b-dl">${(b.items || []).map((it, k) => `<div class="b-dl__item"${rv(opts, k)}><dt>${fixHtml(it.dt)}</dt>${(it.dd || []).map((d) => `<dd${linkOnly(d) ? ' class="b-dd--link"' : ''}>${fixHtml(d)}</dd>`).join('')}</div>`).join('')}</dl>`;
     case 'quote': return `<figure class="b-quote"${rv(opts, 0)}>${skQuote}<blockquote>${b.html ? `<p>${fixHtml(b.html)}</p>` : renderBlocks(b.blocks, ctx, opts)}</blockquote>${skLine('b-quote__rule')}</figure>`;
     case 'img': {
       const style = opts.imgStyle || 'tape';
       const cls = style === 'tape' ? 'b-img sk-tape b-tape' : style === 'frame' ? 'b-img sk-frame b-frame' : 'b-img';
       const src = photoSrc(b.src);
       const isArt = src.startsWith('/assets/brand/');
-      return `<figure class="${cls}${isArt ? ' b-img--art' : ''}"${rv(opts, i)}>${style === 'frame' ? skCorners() : ''}${img({ src, alt: b.alt }, { sizes: opts.sizes || '(min-width: 1024px) 40vw, 100vw' })}</figure>`;
+      return `<figure class="${cls}${isArt ? ' b-img--art' : ''}"${rv(opts, i)}>${style === 'frame' ? skCorners() : ''}${img({ src, alt: b.alt }, { sizes: opts.sizes || '(min-width: 1024px) 40vw, 92vw' })}</figure>`;
     }
     case 'figure': return renderFigure(b, ctx, opts, i);
     case 'embed': {
@@ -121,7 +125,7 @@ export function renderBlock(b, ctx, opts = {}, i = 0) {
       const imgB = (b.blocks || []).find((x) => x.t === 'img');
       const rest = (b.blocks || []).filter((x) => x !== imgB);
       const ext = isExt(b.href);
-      return `<a class="b-linkcard"${linkAttrs(liveHref(b.href))}${rv(opts, i)}>${imgB ? `<span class="b-linkcard__media">${img({ src: photoSrc(imgB.src), alt: imgB.alt }, { sizes: '(min-width: 1024px) 25vw, 50vw' })}</span>` : ''}<span class="b-linkcard__body">${renderBlocks(rest, ctx, { ...opts, inLink: true, reveal: false, noKicker: true }).replace(/<p class="b-p">/g, '<span class="b-p">').replace(/<\/p>/g, '</span>').replace(/<p class="([^"]*)">/g, '<span class="$1">')}${ext ? skExt : skArrowR}</span></a>`;
+      return `<a class="b-linkcard"${linkAttrs(liveHref(b.href))}${rv(opts, i)}>${imgB ? `<span class="b-linkcard__media">${img({ src: photoSrc(imgB.src), alt: imgB.alt }, { sizes: '(min-width: 1024px) 25vw, (min-width: 600px) 50vw, 92vw' })}</span>` : ''}<span class="b-linkcard__body">${renderBlocks(rest, ctx, { ...opts, inLink: true, reveal: false, noKicker: true }).replace(/<p class="b-p">/g, '<span class="b-p">').replace(/<\/p>/g, '</span>').replace(/<p class="([^"]*)">/g, '<span class="$1">')}${ext ? skExt : skArrowR}</span></a>`;
     }
     case 'links': {
       const items = b.items || [];
@@ -130,7 +134,7 @@ export function renderBlock(b, ctx, opts = {}, i = 0) {
       return `<p class="b-links">${items.map((it, k) => {
         const ext = isExt(it.href);
         const v = k === 0 ? 'btn--gold' : opts.tone === 'paper' ? 'btn--ghost' : 'btn--glass';
-        return `<a class="btn ${v} b-btn"${linkAttrs(liveHref(it.href), it['aria-label'] ? { 'aria-label': it['aria-label'] } : {})}>${it.img ? img({ src: photoSrc(it.img.src), alt: it.img.alt }) : ''}<span>${fixHtml(it.html)}</span>${ext ? skExt : ''}</a>`;
+        return `<a class="btn ${v} b-btn"${linkAttrs(liveHref(it.href), it['aria-label'] ? { 'aria-label': it['aria-label'] } : {})}>${it.img ? img({ src: photoSrc(it.img.src), alt: it.img.alt }, { sizes: '22px' }) : ''}<span>${fixHtml(it.html)}</span>${ext ? skExt : ''}</a>`;
       }).join(' ')}</p>`;
     }
     case 'grid': {
@@ -139,7 +143,7 @@ export function renderBlock(b, ctx, opts = {}, i = 0) {
       if (all('details')) return `<div class="b-faq">${renderBlocks(kids, ctx, opts)}</div>`;
       if (all('figure')) {
         const arrow = kids.length === 2 ? `<span class="b-gallery__arrow" aria-hidden="true"><svg viewBox="0 0 120 60" focusable="false" data-draw><path pathLength="1" ${SK} stroke-width="2.4" d="M6 40c22-20 52-28 92-14M86 12c6 5 10 10 13 15-6 3-12 5-18 9"/></svg></span>` : '';
-        return `<div class="b-gallery b-gallery--${kids.length}" data-count="${kids.length}">${kids.map((k, n) => renderFigure(k, ctx, { ...opts, tilt: n % 2 ? 'r' : 'l' }, n) + (n === 0 ? arrow : '')).join('')}</div>`;
+        return `<div class="b-gallery b-gallery--${kids.length}" data-count="${kids.length}">${kids.map((k, n) => renderFigure(k, ctx, { ...opts, tilt: n % 2 ? 'r' : 'l', inGallery: true }, n) + (n === 0 ? arrow : '')).join('')}</div>`;
       }
       if (all('linkcard')) return `<div class="b-grid b-grid--links" data-count="${kids.length}">${renderBlocks(kids, ctx, opts)}</div>`;
       if (all('card')) return `<div class="b-grid b-grid--cards" data-count="${kids.length}">${kids.map((k, n) => renderBlock(k, ctx, opts, n)).join('\n')}</div>`;
@@ -165,7 +169,7 @@ function renderFigure(b, ctx, opts, i = 0) {
   if (kids.length === 1 && kids[0].t === 'img') {
     const im = kids[0];
     const tilt = opts.tilt === 'r' ? ' b-fig--r' : opts.tilt === 'l' ? ' b-fig--l' : '';
-    return `<figure class="b-fig b-fig--photo sk-tape${tilt}"${rv(opts, i)}><span class="b-fig__img">${img({ src: photoSrc(im.src), alt: im.alt }, { sizes: opts.sizes || '(min-width: 1024px) 45vw, 100vw' })}</span>${cap}</figure>`;
+    return `<figure class="b-fig b-fig--photo sk-tape${tilt}"${rv(opts, i)}><span class="b-fig__img">${img({ src: photoSrc(im.src), alt: im.alt }, { sizes: opts.sizes || (opts.inGallery ? '(min-width: 1024px) 45vw, (min-width: 768px) 50vw, 46vw' : '(min-width: 1024px) 45vw, 92vw') })}</span>${cap}</figure>`;
   }
   // cells: a new cell starts at an svg, or at an h3 not directly preceded by an svg
   const cells = [];

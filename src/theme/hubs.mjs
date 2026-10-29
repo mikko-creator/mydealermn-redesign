@@ -149,7 +149,7 @@ function hero({ kicker, title, lede, actions = '', bg = '', side = '', cls = '',
 </section>`;
 }
 
-const cutout = (cls = '') => `<div class="protrude r-cut ${cls}" aria-hidden="true" data-depth="-0.06">${img(PH.cut, { alt: '', sizes: '220px' })}</div>`;
+const cutout = (cls = '') => `<div class="protrude r-cut ${cls}" aria-hidden="true" data-depth="-0.06">${img(PH.cut, { alt: '', sizes: '(max-width: 767px) 150px, 220px' })}</div>`;
 
 function head2(kicker, title, intro = '', { center = false, id = '' } = {}) {
   return `<header class="band__head${center ? ' band__head--center' : ''}" data-reveal>
@@ -163,7 +163,7 @@ function storeCard(ctx, { level = 2, i = 0 } = {}) {
   const st = ctx.site.store;
   const a = st.address;
   return `<article class="glass glass--night glass--lift r-store" data-reveal style="--i:${i}">
-    <div class="r-store__photo">${img(PH.front, { sizes: '(min-width: 960px) 520px, 100vw', cls: 'r-store__img' })}${regMarks()}</div>
+    <div class="r-store__photo">${img(PH.front, { sizes: '(min-width: 960px) 520px, (max-width: 767px) 88vw, 100vw', cls: 'r-store__img' })}${regMarks()}</div>
     <div class="r-store__body">
       <p class="kicker">${esc(st.state)}</p>
       <h${level} class="r-store__name"><a${linkAttrs(st.path)}>${esc(st.name)}</a></h${level}>
@@ -357,7 +357,7 @@ function locationPage(ctx) {
     </div>
   </div>
   <figure class="protrude r-loc-tape" data-depth="-0.08">
-    <span class="r-loc-tape__photo sk-tape">${img(PH.front, { sizes: '(min-width: 960px) 420px, 60vw' })}</span>
+    <span class="r-loc-tape__photo sk-tape">${img(PH.front, { sizes: '(min-width: 960px) 420px, (max-width: 767px) 40vw, 60vw' })}</span>
     <figcaption class="sk-note r-loc-tape__note">${esc(landmarkNote)}${arrow('r-loc-tape__arrow')}</figcaption>
   </figure>
 </section>
@@ -398,7 +398,7 @@ function locationPage(ctx) {
     </div>
     <div class="r-routes">
       ${[[st.fromNorth, PH.north], [st.fromSouth, PH.south]].map(([r, ph], i) => `<article class="glass glass--night r-route" data-reveal style="--i:${i}">
-        <figure class="r-route__photo">${img(ph, { sizes: '(min-width: 960px) 600px, 100vw' })}</figure>
+        <figure class="r-route__photo">${img(ph, { sizes: '(min-width: 960px) 600px, (max-width: 767px) 92vw, 100vw' })}</figure>
         <div class="r-route__body">
           <p class="kicker">${esc(r.label)}</p>
           <h3 class="r-route__road">${icon('route')}${esc(r.road)}</h3>
@@ -413,7 +413,7 @@ function locationPage(ctx) {
   <div class="wrap r-more__grid">
     <div class="r-more__aside">
       ${head2('About the store', `More ${ul('information')}`, '', { id: 'r-more-h' })}
-      <figure class="r-more__photo sk-frame" data-reveal>${img(PH.floor, { sizes: '(min-width: 960px) 440px, 100vw' })}</figure>
+      <figure class="r-more__photo sk-frame" data-reveal>${img(PH.floor, { sizes: '(min-width: 960px) 440px, (max-width: 767px) 84vw, 100vw' })}</figure>
       <dl class="r-mini">
         <div><dt>Opened</dt><dd>${esc(st.opened)}</dd></div>
         <div><dt>Type</dt><dd>${esc(st.type)}</dd></div>
@@ -520,7 +520,7 @@ ${hero({
     title: `Deals at My Dealer <em>Bayport</em>`,
     lede: esc(S.announcement.text),
     actions: `${ext(st.menuUrl, S.headerCta[1], 'btn btn--gold')}${int('/rewards/', 'Rewards', 'btn btn--glass')}`,
-    side: `<figure class="r-hero__tape sk-tape" data-tilt>${gimg('g-deli-jars', { alt: '', sizes: '(min-width: 960px) 460px, 90vw' })}</figure>`,
+    side: `<figure class="r-hero__tape sk-tape" data-tilt>${gimg('g-deli-jars', { alt: '', sizes: '(min-width: 960px) 460px, (max-width: 767px) 78vw, 90vw' })}</figure>`,
     cls: 'r-hero--split',
     after: cutout('r-cut--deals'),
   })}
@@ -611,14 +611,14 @@ ${hero({
     title: `Guides by <em>town</em>`,
     lede: esc(S.servedAreas),
     actions: `${int(S.store.path, S.store.name, 'btn btn--gold')}${int('/cannabis-laws-by-state/', 'Cannabis laws by state', 'btn btn--glass')}`,
-    side: `<div class="r-sketches" aria-hidden="true">${gimg('s-leaf', { alt: '', cls: 'r-sketch r-sketch--a', sizes: '260px' })}${gimg('s-bud', { alt: '', cls: 'r-sketch r-sketch--b', sizes: '220px' })}</div>`,
+    side: `<div class="r-sketches" aria-hidden="true">${gimg('s-leaf', { alt: '', cls: 'r-sketch r-sketch--a', sizes: '(max-width: 767px) 180px, 260px' })}${gimg('s-bud', { alt: '', cls: 'r-sketch r-sketch--b', sizes: '(max-width: 767px) 150px, 220px' })}</div>`,
     cls: 'r-hero--split',
     after: cutout('r-cut--hero'),
   })}
 <section class="band band--paper r-guides" aria-labelledby="${sec('g-mn')}">
   <div class="wrap">
     ${head2('Minnesota', `${ul('Minnesota')}`, '', { id: sec('g-mn') })}
-    <figure class="r-strip-photo sk-frame" data-reveal>${img(PH.north, { sizes: '(min-width: 1280px) 1240px, 100vw' })}</figure>
+    <figure class="r-strip-photo sk-frame" data-reveal>${img(PH.north, { sizes: '(min-width: 1280px) 1240px, (max-width: 767px) 92vw, 100vw' })}</figure>
     <div class="r-area-grid">${areaCards(ctx, mnCards)}</div>
   </div>
 </section>
@@ -626,7 +626,7 @@ ${hero({
   <div class="band__clip" aria-hidden="true"><span class="r-glow r-glow--gold"></span></div>
   <div class="wrap">
     ${head2('Wisconsin', `Wisconsin <em>shoppers</em>`, '', { id: sec('g-wi') })}
-    <figure class="r-strip-photo sk-frame" data-reveal>${img(PH.south, { sizes: '(min-width: 1280px) 1240px, 100vw' })}</figure>
+    <figure class="r-strip-photo sk-frame" data-reveal>${img(PH.south, { sizes: '(min-width: 1280px) 1240px, (max-width: 767px) 92vw, 100vw' })}</figure>
     <div class="r-area-grid">${areaCards(ctx, wiCards)}</div>
   </div>
 </section>`;
@@ -647,7 +647,7 @@ ${hero({
     title: `Cannabis laws <em>by state</em>`,
     lede: 'Quoted word for word from our FAQ and our Wisconsin shoppers guide.',
     actions: `${int('/cannabis-laws-by-state/minnesota/', 'Minnesota Cannabis Laws', 'btn btn--gold')}${int(wi.path, wi.name, 'btn btn--glass')}`,
-    side: `<div class="r-sketches" aria-hidden="true">${gimg('s-jar', { alt: '', cls: 'r-sketch r-sketch--a', sizes: '260px' })}</div>`,
+    side: `<div class="r-sketches" aria-hidden="true">${gimg('s-jar', { alt: '', cls: 'r-sketch r-sketch--a', sizes: '(max-width: 767px) 180px, 260px' })}</div>`,
     cls: 'r-hero--split',
     after: cutout('r-cut--hero'),
   })}
@@ -684,7 +684,7 @@ ${hero({
     title: `Minnesota cannabis <em>laws</em>`,
     lede: 'Quoted word for word from our FAQ and our Wisconsin shoppers guide.',
     actions: `${ext('https://mn.gov/ocm/', 'Minnesota Office of Cannabis Management', 'btn btn--gold')}${int('/faq', 'FAQ', 'btn btn--glass')}`,
-    side: `<div class="r-sketches" aria-hidden="true">${gimg('s-leaf', { alt: '', cls: 'r-sketch r-sketch--a', sizes: '260px' })}</div>`,
+    side: `<div class="r-sketches" aria-hidden="true">${gimg('s-leaf', { alt: '', cls: 'r-sketch r-sketch--a', sizes: '(max-width: 767px) 180px, 260px' })}</div>`,
     cls: 'r-hero--split',
     after: cutout('r-cut--hero'),
   })}
@@ -753,7 +753,7 @@ function postArt(slug, sizes) {
 
 function postCard(p, i, feature = false) {
   return `<a class="card r-post${feature ? ' r-post--feature' : ''}" data-reveal style="--i:${i % 3}"${linkAttrs(p.path)}>
-    ${postArt(p.slug, feature ? '(min-width: 960px) 640px, 100vw' : '(min-width: 960px) 400px, 100vw')}
+    ${postArt(p.slug, feature ? '(min-width: 960px) 640px, (max-width: 767px) 92vw, 100vw' : '(min-width: 960px) 400px, (max-width: 767px) 88px, 100vw')}
     <span class="r-post__body">
       <span class="r-post__cat">${esc(p.cat?.name || '')}</span>
       <span class="r-post__title">${ulHover(esc(p.title))}</span>
@@ -777,7 +777,7 @@ ${hero({
     kicker: cat ? 'Blog' : 'Resources',
     title: cat ? `${ul(esc(cat.name))}` : `The ${ul('blog')}`,
     lede: cat ? `${list.length} ${list.length === 1 ? 'guide' : 'guides'} from My Dealer.` : 'Guides from My Dealer, by topic.',
-    bg: gimg('g-smoke', { alt: '', sizes: '100vw', cls: 'r-hero__bg r-hero__bg--smoke' }),
+    bg: gimg('g-smoke', { alt: '', eager: true, sizes: '100vw', cls: 'r-hero__bg r-hero__bg--smoke' }),
     cls: 'r-hero--blog',
     after: `<nav class="wrap r-filter" aria-label="Blog categories"><ul class="chip-row">${filters.map(([h, l, on]) => `<li><a class="chip${on ? ' is-on' : ''}"${linkAttrs(h, on ? { 'aria-current': 'page' } : {})}>${esc(l)}</a></li>`).join('')}</ul></nav>`,
   })}

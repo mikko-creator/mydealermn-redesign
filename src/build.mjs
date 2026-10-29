@@ -82,6 +82,44 @@ for (const name of MODULES) {
 const errs = imageErrors();
 if (errs.length) fail([...new Set(errs)].join('\n  '));
 
+// ---------- live-menu links ----------
+// mydealermn.com/bayport (the live menu) answered 403 to every connection this pitch could test from on 2026-10-29
+// (scripts, the operator's real Chrome, a US fetch service), so no page links there directly: every <a> to it, from a
+// template or from captured copy, is routed to the store menu page (menu.mjs), category URLs to that page's category
+// anchors, with the new-tab target and the external-link icon removed. Only links marked data-keep-live (the menu
+// page's own labelled buttons) still open the live menu. Link TEXT is never changed.
+const MENU_PAGE = '/dispensaries/minnesota/bayport/menu/';
+const MENU_ANCHOR = { 'flower-9630': 'flower', 'pre-rolls-10350': 'pre-rolls', 'weed-edibles-9631': 'edibles', 'hemp-edibles-12319': 'edibles', 'vapes-10353': 'vapes', 'hemp-beverages-12318': 'beverages' };
+const EXT_ICON = /<svg\b[^>]*>\s*<path d="M7 17 17 7"\/><path d="M8 7h9v9"\/>\s*<\/svg>/g;
+let routedLinks = 0;
+const unroutedMenu = [];
+function routeMenuLinks(html, p) {
+  if (!pages.has(MENU_PAGE)) return html;
+  return html.replace(/<a\s([^>]*?)href="(?:https:\/\/mydealermn\.com)?\/bayport(?:\/menu\/([a-z0-9-]+))?\/?"([^>]*)>([\s\S]*?)<\/a>/g, (all, pre, cat, post, inner) => {
+    if (/data-keep-live/.test(pre + post)) return all;
+    if (cat && !MENU_ANCHOR[cat]) { unroutedMenu.push(p + ' ' + cat); return all; }
+    routedLinks++;
+    const attrsOut = (pre + post).replace(/\s?(target|rel)="[^"]*"/g, '').trim();
+    // the link no longer leaves the site: drop every "external" mark the templates add (the shell's arrow svg, the
+    // pages' sketch arrow .b-sk-ext, the hubs' .r-ext arrow) and any "(opens in a new tab)" screen-reader text
+    const innerOut = inner.replace(EXT_ICON, '')
+      .replace(/<svg\b[^>]*class="[^"]*\bext\b[^"]*"[^>]*>[\s\S]*?<\/svg>/g, '')
+      .replace(/<span\b[^>]*class="[^"]*\br-ext\b[^"]*"[^>]*>[\s\S]*?<\/span>/g, '')
+      .replace(/<span\b[^>]*>\s*\(opens in a new tab\)\s*<\/span>/g, '');
+    return `<a ${attrsOut ? attrsOut + ' ' : ''}href="${MENU_PAGE}${cat ? '#' + MENU_ANCHOR[cat] : ''}">${innerOut}</a>`;
+  });
+}
+// The licence number (DIS-L24-000241, and the -01 site registration) must never break at its hyphens on a narrow
+// screen: wrap each occurrence in visible text (never inside a tag, a <script> or a <style>) in a no-wrap span.
+// Text is unchanged.
+function nobrLicence(html) {
+  return html.split(/(<script\b[\s\S]*?<\/script>|<style\b[\s\S]*?<\/style>)/i).map((part, i) => (i % 2
+    ? part
+    : part.replace(/>([^<]*)</g, (m, txt) => '>' + txt.replace(/DIS-L\d{2}-\d{6}(?:-\d{2})?/g, '<span class="nobr">$&</span>') + '<'))).join('');
+}
+for (const [p, rec] of pages) rec.html = nobrLicence(routeMenuLinks(rec.html, p));
+if (unroutedMenu.length) fail('live-menu category with no anchor on the menu page: ' + [...new Set(unroutedMenu)].join(', '));
+
 const warnings = [];
 for (const [p, { html, from }] of pages) {
   const rel = p.endsWith('/') ? p.slice(1) + 'index.html' : p.slice(1);
@@ -99,4 +137,4 @@ const iv = await writeVariants(OUT);
 const errs2 = imageErrors();
 if (errs2.length) fail([...new Set(errs2)].join('\n  '));
 for (const w of warnings) console.warn('warning: ' + w);
-console.log(`built ${pages.size} pages -> ${path.relative(ROOT, OUT) || '.'} | css ${cssFiles.join(',')} | js ${jsFiles.join(',')} | brand ${copied.brand}, fonts ${copied.fonts}, media ${copied.media}, photos ${copied.photos} | img variants ${iv.copied} (encoded ${iv.encoded}, ai-label ${iv.labelled ? 'yes' : 'no'}) | ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+console.log(`built ${pages.size} pages -> ${path.relative(ROOT, OUT) || '.'} | css ${cssFiles.join(',')} | js ${jsFiles.join(',')} | brand ${copied.brand}, fonts ${copied.fonts}, media ${copied.media}, photos ${copied.photos} | img variants ${iv.copied} (encoded ${iv.encoded}, ai-label ${iv.labelled ? 'yes' : 'no'}) | live-menu links routed to the menu page ${routedLinks} | ${((Date.now() - t0) / 1000).toFixed(1)}s`);

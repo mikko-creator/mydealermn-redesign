@@ -21,8 +21,13 @@ with or endorsed by My Dealer LLC.
   and hover states. See [docs/DESIGN.md](docs/DESIGN.md).
 - **Imagery.** The client's photos and brand film are kept. AI-generated illustrative stills and a motion loop are
   added and labelled as AI-generated; see [docs/MEDIA.md](docs/MEDIA.md).
+- **Phones first.** Every page is measured at 390 and 360 px with `tools/phone-audit.mjs` (DPR 3, touch): no
+  sideways scrolling, every standalone control at least 44 px, no text under 13 px, frosted glass only on the
+  header, menus and hero panels, right-sized WebP photos, and background video that loads only when it scrolls
+  into view.
 
-The live menu and preorder stay on My Dealer's existing menu at https://mydealermn.com/bayport.
+Every "Shop" and "View the menu" link opens the store menu page, `/dispensaries/minnesota/bayport/menu/`. Its labelled
+buttons open My Dealer's live menu and preorder at https://mydealermn.com/bayport.
 
 ## Build and run locally
 

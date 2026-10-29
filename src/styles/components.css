@@ -180,7 +180,7 @@ a.chip:hover { border-color: currentColor; transform: translateY(-1px); }
 .crumbs { font-family: var(--font-ui); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.02em; }
 .crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 0; }
 .crumbs li { display: inline-flex; align-items: center; gap: 6px; color: var(--band-muted, var(--muted-on-paper)); }
-.crumbs li + li::before { content: "/"; opacity: 0.55; }
+.crumbs li:not(:last-child)::after { content: "/"; opacity: 0.55; }
 .crumbs a { color: inherit; text-decoration: none; }
 .crumbs a:hover { text-decoration: underline; }
 .crumbs [aria-current] { color: var(--band-text, var(--text-on-paper)); font-weight: 600; }

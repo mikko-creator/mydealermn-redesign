@@ -1,0 +1,52 @@
+/* fix.css - main-session additions, loaded last. The store menu page (/dispensaries/minnesota/bayport/menu/, mn-). */
+.mn-hero { position: relative; overflow: visible; isolation: isolate; padding-block: clamp(56px, 8vw, 120px); }
+.mn-hero__media { position: absolute; inset: 0; }
+.mn-hero__media img { width: 100%; height: 100%; object-fit: cover; object-position: 70% 50%; opacity: 0.55; }
+.mn-hero__in { position: relative; }
+.mn-hero__panel { max-width: 720px; padding: clamp(24px, 4vw, 48px); border-radius: var(--r-lg); }
+.mn-hero__h { margin: 0.2em 0 0.35em; }
+.mn-hero__panel .lede { color: var(--muted-on-ink); }
+.mn-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 24px; margin: 28px 0 0; }
+.mn-facts div { border-top: 1px solid var(--line-ink); padding-top: 10px; }
+.mn-facts dt { font-family: var(--font-ui); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); }
+.mn-facts dd { margin: 4px 0 0; color: var(--text-on-ink); }
+.mn-cats__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: clamp(16px, 2vw, 28px); }
+.mn-cat { display: flex; flex-direction: column; overflow: hidden; border-radius: var(--r-lg); scroll-margin-top: calc(var(--header-h) + 24px); }
+.mn-cat__media { aspect-ratio: 3 / 2; overflow: hidden; }
+.mn-cat__media img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--dur-3) var(--ease-out); }
+.mn-cat:hover .mn-cat__media img, .mn-cat:focus-within .mn-cat__media img { transform: scale(1.04); }
+.mn-cat__body { padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+.mn-cat__h { font-family: var(--font-display); font-size: var(--fs-h3); margin: 0; }
+.mn-cat__p { margin: 0; }
+.mn-cat__links { list-style: none; margin: auto 0 0; padding: 8px 0 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.mn-shelf__in { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); align-items: start; }
+.mn-shelf__card { padding: clamp(22px, 3vw, 36px); border-radius: var(--r-lg); }
+.mn-shelf .chip-row { margin-top: 16px; }
+.mn-cat:target { outline: 2px solid var(--gold); outline-offset: 4px; }
+.mn-facts dt { font-size: 0.8125rem; }
+.mn-cat__links .btn { font-size: 0.875rem; }
+
+/* ---- integration fixes after the phone pass (2026-10-29) ---- */
+.nobr { white-space: nowrap; }
+@media (max-width: 767px) {
+  /* licence line on one short row; "Pick up at My Dealer Bayport" stays reachable in the drawer foot */
+  .utility__pickup { display: none; }
+  .utility__inner { min-height: 32px; justify-content: center; }
+  .utility__license { max-width: none; white-space: normal; text-align: center; }
+  /* the hero's buttons inside the 844 px first screen */
+  .h-hero { padding-top: calc(var(--header-h) + clamp(140px, 22svh, 230px)); }
+  /* the handwritten caption sits beside the taped photo, never under it */
+  .h-flower__note { max-width: 50%; }
+  /* the terpene range chart (viewBox 600x110) shrinks to about 0.55 on phones: its labels are drawn larger there so
+     they stay about 14 px on screen, and the whole range stays visible */
+  .b-chart svg { overflow: visible; }
+  .b-chart svg text { font-size: 26px; }
+}
+@media (max-width: 767px) {
+  .mn-hero { padding-block: 40px 48px; }
+  .mn-facts { grid-template-columns: minmax(0, 1fr); }
+  .mn-shelf__in { grid-template-columns: minmax(0, 1fr); }
+  .mn-cat__links a { min-height: 44px; display: inline-flex; align-items: center; }
+  .mn-hero__panel, .mn-shelf__card, .mn-cat { -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .mn-hero__panel, .mn-shelf__card { background: rgba(28, 30, 24, 0.94); }
+}

@@ -282,7 +282,7 @@
 }
 
 /* ---------- phones ---------- */
-@media (max-width: 760px) {
+@media (max-width: 767px) {
   .r-hero--split .r-hero__grid { grid-template-columns: minmax(0, 1fr); }
   .r-hero__side { min-height: 0; }
   .r-sketches { width: min(70%, 260px); }
@@ -315,6 +315,161 @@
   .r-post--feature { grid-template-columns: minmax(0, 1fr); }
   .r-post--feature .card__media { min-height: 0; aspect-ratio: 3 / 2; }
   .r-ul { white-space: normal; }
+}
+
+/* ---------- phones, pass 2: fast, compact, easy to tap (desktop >= 1024 untouched) ----------
+   Glass: on phones only the hero panels over a photo keep their backdrop-filter; every other panel gets a
+   near-opaque fill of the same tone (cream text on ~#1d1f19, ink text on ~#fdf8ef: both far above 4.5:1).
+   Rails: the area cards on the hub and store pages scroll sideways (scroll-snap, next card peeks); every card stays
+   in the markup and reachable without JS. */
+@media (max-width: 767px) {
+  .r-glow { filter: none; opacity: 0.4; }
+  .r-page main .glass:not(.r-hero__panel, .r-loc-card), .r-page main .btn--glass, .r-filter .chip, .r-faq .b-details { -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .r-page main .glass:not(.r-hero__panel, .r-loc-card) { background: rgba(30, 32, 26, 0.94); }
+  /* the store hero card floats over the storefront photo: it keeps its frost (the :has() id outranks the sitewide
+     phone rule that drops blur from cards; a browser without :has() just gets the solid fill) */
+  .r-loc-card { --glass-ink: rgba(28, 30, 24, 0.52); }
+  .r-loc-card:has(#r-loc-h1) { background: rgba(28, 30, 24, 0.52); -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)); backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)); }
+  .r-page main .glass.glass--milk, .r-page main .band--paper .glass:not(.glass--night) { background: rgba(255, 250, 241, 0.94); }
+  .r-page main .btn--glass { background: rgba(255, 250, 241, 0.13); }
+  .r-filter .chip { background: rgba(28, 30, 24, 0.86); }
+  .r-page .r-faq { --b-surface: rgba(255, 250, 241, 0.94); }
+  .r-page .band--night .r-faq { --b-surface: rgba(30, 32, 26, 0.94); }
+
+  /* tap targets: 44px rows / boxes, no layout jumps */
+  .r-page main .btn--sm { min-height: 44px; font-size: 0.875rem; }
+  .r-page main .btn-row .btn { min-height: 46px; white-space: normal; text-align: center; padding-block: 8px; }
+  .r-ext { font-size: 1em; }
+  .r-facts a, .r-dl dd a { display: inline-flex; align-items: center; min-height: 44px; }
+  .r-facts { gap: 4px; }
+  .r-facts li { align-items: center; }
+  .r-facts li > .r-ico { align-self: center; }
+  .r-h2link { display: inline-block; padding-block: 8px; }
+  .r-store__name a { display: inline-block; padding-block: 8px; }
+  .r-source a { display: inline-flex; align-items: center; min-height: 44px; }
+  .r-source { font-size: 0.875rem; }
+  .r-filter .chip { min-height: 44px; padding-inline: 16px; font-size: 0.875rem; }
+  .r-faq .b-details__body p > a { display: inline-block; padding-block: 11px; margin-block: -11px; }
+  .r-sm__list { gap: 0; }
+  .r-sm__list li { border-bottom: 1px solid var(--line-paper); }
+  .r-sm__list li:last-child { border-bottom: 0; }
+  .r-sm__list a { display: flex; align-items: center; gap: 6px; min-height: 46px; padding-block: 6px; background-image: none; }
+  .r-sm__list a[aria-current] { font-weight: 700; color: #7a5a17; }
+  .r-sm__sub { padding-left: 14px; font-size: 1rem; }
+  .r-sm__group { padding: 16px 18px 8px; }
+  .r-sm__title { margin-bottom: 4px; }
+
+  /* type: labels >= 13px, body copy >= 16px */
+  .r-dl dt, .r-mini dt, .r-area__state, .r-post__cat, .r-store__type, .r-group, .r-post__more { font-size: 0.8125rem; }
+  .r-area__blurb, .r-visit__card p, .r-post__excerpt, .r-mini, .r-next__small, .r-next__list, .r-coupon__text, .r-quote { font-size: 1rem; }
+  .r-filter .chip, .r-brands .chip { font-size: 0.875rem; }
+
+  /* location hero: card, buttons and address in the first screen; the taped photo still crosses the seam */
+  .r-loc-hero { padding-block: 16px 150px; }
+  .r-loc-card { padding: 20px 18px; gap: 12px; }
+  .r-loc-card__title { font-size: 2.5rem; }
+  .r-loc-card .btn-row { gap: 8px; }
+  .r-loc-tape { width: 40vw; bottom: -58px; }
+  .r-loc-tape__note { width: 40vw; }
+  .r-loc-hero + .r-strip { padding-top: 80px; }
+  .r-mark3 { margin-bottom: 30px; }
+
+  /* store details: compact rows */
+  .r-details__card { padding: 18px 16px; gap: 14px; }
+  .r-dl { gap: 8px; }
+  .r-dl > div { grid-template-columns: 26px minmax(0, 1fr); gap: 0 12px; padding-bottom: 8px; }
+  .r-dl dt { padding-top: 4px; }
+  .r-dl .r-ico { width: 22px; height: 22px; margin-top: 2px; }
+  .r-details__card .btn-row { gap: 8px; }
+  .r-map { min-height: 240px; }
+  .r-routes { gap: 14px; margin-top: 20px; }
+  .r-route__body { padding: 14px 16px 18px; gap: 6px; }
+  .r-route__road { font-size: 1.3rem; }
+
+  /* more information */
+  .r-more__grid { gap: 20px; }
+  .r-more__aside { gap: 18px; }
+  .r-more__photo { margin: 4px 8px; }
+  .r-qa { padding: 16px 0; }
+
+  /* visiting / laws cards: icon beside the label, text full width */
+  .r-visit__grid, .r-visit__grid--4 { gap: 12px; }
+  .r-visit__card { grid-template-columns: auto minmax(0, 1fr); align-items: center; column-gap: 12px; row-gap: 8px; padding: 18px 18px 20px; }
+  .r-visit__card > :not(.r-ico):not(.r-visit__label) { grid-column: 1 / -1; }
+  .r-visit__card .r-ico--lg { width: 34px; height: 34px; }
+  .r-visit__label { margin: 0; font-size: 1.25rem; }
+
+  /* amenities: compact 2-up icons */
+  .r-amen__grid { gap: 10px; }
+  .r-amen__item { padding: 14px 8px 12px; gap: 8px; font-size: 0.875rem; }
+  .r-amen__item .r-ico--xl { width: 40px; height: 40px; }
+
+  /* coupons stacked tight */
+  .r-coupons { gap: 14px; }
+  .r-coupon { padding: 24px 22px; gap: 8px; }
+  .r-coupon__value { font-size: 2.6rem; }
+
+  /* rewards benefits 2-up */
+  .r-ben__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .r-ben { padding: 16px 14px; gap: 10px; font-size: 1.05rem; }
+  .r-ben .r-ico--xl { width: 40px; height: 40px; }
+  .r-app { padding: 18px; }
+
+  /* quotes, FAQ asides, groups */
+  .r-quote { padding: 18px 16px; }
+  .r-wiq__grid { gap: 14px; }
+  .r-faqs__grid { gap: 22px; }
+  .r-faqs__aside { gap: 14px; }
+  .r-group { margin: 22px 0 10px; }
+  .r-strip-photo { margin: 0 4px 22px; }
+
+  /* area cards: arrow tucked top-right, tighter */
+  .r-area-grid { gap: 12px; }
+  .r-area { gap: 6px; padding: 16px 52px 18px 18px; }
+  .r-area__go { position: absolute; top: 16px; right: 12px; width: 32px; height: 20px; margin: 0; }
+  .r-area__name { font-size: 1.3rem; }
+  .r-store-row { gap: 14px; }
+  .r-next { padding: 20px 18px; gap: 8px; }
+  .r-area-grid--near .r-next { min-height: 0; }
+
+  /* rails on the hub and store pages (the guides hub keeps a compact list: those cards are its content) */
+  .r-area-grid--near, .r-page--hub .r-area-grid {
+    display: flex; gap: 12px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory;
+    margin-inline: calc(-1 * var(--gutter)); padding: 4px var(--gutter) 16px; scroll-padding-inline: var(--gutter);
+    scrollbar-width: thin; scrollbar-color: rgba(226, 182, 90, 0.5) transparent;
+  }
+  .r-area-grid--near, .r-page--hub .r-area-grid { align-items: flex-start; }
+  .r-area-grid--near > *, .r-page--hub .r-area-grid > * { flex: 0 0 min(80%, 320px); scroll-snap-align: start; }
+
+  /* blog: feature card, then compact rows (thumb beside category + title, excerpt full width) */
+  .r-post--feature { margin-bottom: 14px; }
+  .r-post--feature .r-post__body { padding: 18px 18px 20px; gap: 8px; }
+  .r-post-grid { gap: 12px; }
+  .r-post:not(.r-post--feature) {
+    grid-template-columns: 88px minmax(0, 1fr); grid-template-rows: none;
+    grid-template-areas: "media cat" "media title" "ex ex" "more more";
+    column-gap: 14px; row-gap: 4px; padding: 14px 16px 16px;
+  }
+  .r-post:not(.r-post--feature) .r-post__body { display: contents; }
+  .r-post:not(.r-post--feature) .card__media { grid-area: media; width: 88px; height: 88px; aspect-ratio: 1; align-self: start; border-radius: var(--r-md); }
+  .r-post:not(.r-post--feature) .r-post__cat { grid-area: cat; align-self: end; }
+  .r-post:not(.r-post--feature) .r-post__title { grid-area: title; align-self: start; font-size: 1.15rem; }
+  .r-post:not(.r-post--feature) .r-post__excerpt { grid-area: ex; margin-top: 8px; }
+  .r-post:not(.r-post--feature) .r-post__more { grid-area: more; margin-top: 4px; }
+  .r-filter { margin-top: 18px; }
+  .r-filter .chip-row { gap: 8px; }
+
+  /* heroes */
+  .r-hero__panel { padding: 22px 20px; gap: 12px; }
+}
+
+/* touch: no parallax, no hover lifts that stick, small vertical reveals */
+@media (hover: none), (pointer: coarse) {
+  .r-page [data-depth] { transform: none; will-change: auto; }
+  .r-loc-hero__photo { inset: 0; }
+  html.js .r-page [data-reveal]:not(.is-in) { translate: 0 16px; }
+  .r-page .glass--lift:hover, .r-page .glass--lift:focus-within, .r-amen__item:hover, .r-more__photo:hover { transform: none; }
+  .r-store:hover .r-store__photo img, .r-route:hover .r-route__photo img, .r-page .card:hover .card__media img { transform: none; }
 }
 
 /* ---------- motion off ---------- */

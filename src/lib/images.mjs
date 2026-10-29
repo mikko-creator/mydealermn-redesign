@@ -67,7 +67,30 @@ export function scanGenerated() {
       variants: widths.map((w) => ({ w, url: `/assets/img/${id}-${w}.webp`, cache: path.join(CACHE, `${id}-${w}-${key}.webp`) })),
     });
   }
+  scanPhotos();
   return registry;
+}
+
+// Client photos (assets/photos/*.webp|jpg|png) get WebP variants too, so a phone never downloads the 1800 px file:
+// /assets/img/p-<name>-<w>.webp, widths below. They are photographs, so they carry NO AI label (ai: false). The
+// original file still ships under /assets/photos/ for any direct reference (video posters, preloads).
+const PHOTO_WIDTHS = [480, 800, 1200, 1800];
+const photos = new Map(); // '/assets/photos/<file>' -> registry entry
+function scanPhotos() {
+  const dir = path.join(ROOT, 'assets/photos');
+  if (!fs.existsSync(dir)) return;
+  for (const f of fs.readdirSync(dir).filter((x) => /\.(webp|png|jpe?g)$/i.test(x)).sort()) {
+    const file = path.join(dir, f);
+    const st = fs.statSync(file);
+    const size = imageSize(fs.readFileSync(file));
+    if (!size) { errors.push('cannot read image size: assets/photos/' + f); continue; }
+    const id = 'p-' + f.replace(/\.\w+$/, '');
+    const widths = [...new Set(PHOTO_WIDTHS.map((w) => Math.min(w, size.w)))];
+    const key = st.size.toString(36) + Math.floor(st.mtimeMs).toString(36);
+    const entry = { id, file, ...size, cut: false, ai: false, photo: true, alt: '', variants: widths.map((w) => ({ w, url: `/assets/img/${id}-${w}.webp`, cache: path.join(CACHE, `${id}-${w}-${key}.webp`) })) };
+    registry.set(id, entry);
+    photos.set('/assets/photos/' + f, entry);
+  }
 }
 
 function run(cmd, args) {
@@ -97,7 +120,7 @@ export async function writeVariants(outDir, { log = console.log } = {}) {
       const q = im.cut ? ['-q', '82', '-alpha_q', '90', '-exact'] : ['-q', '78'];
       const r = await run('cwebp', ['-quiet', '-m', '5', '-metadata', 'none', ...q, ...resize, im.file, '-o', tmp]);
       if (r.code !== 0) { errors.push(`cwebp failed for ${im.id}@${v.w}: ${r.err.trim().slice(0, 200)}`); continue; }
-      if (hasMux) {
+      if (hasMux && im.ai) {
         const m = await run('webpmux', ['-set', 'xmp', xmp, tmp, '-o', v.cache]);
         if (m.code === 0) { fs.rmSync(tmp, { force: true }); continue; }
       }
@@ -149,6 +172,11 @@ export function img(ref, opts = {}) {
   }
   const p = typeof ref === 'string' ? { src: ref } : ref || {};
   if (!p.src) { errors.push('missing image: empty photo reference'); throw new Error('missing image: empty photo reference'); }
+  const ph = photos.get(String(p.src).split(/[?#]/)[0]);
+  if (ph) {
+    const alt = opts.alt != null ? opts.alt : p.alt || '';
+    return `<img${attrStr({ class: cls, src: ph.variants.find((v) => v.w >= 800)?.url || ph.variants[ph.variants.length - 1].url, srcset: ph.variants.map((v) => `${v.url} ${v.w}w`).join(', '), sizes, width: ph.w, height: ph.h, alt, decoding: 'async', ...lazy, ...attrs })}>`;
+  }
   const file = assetFile(p.src);
   if (!file) throw new Error('missing image: ' + p.src);
   let { w, h } = p;
