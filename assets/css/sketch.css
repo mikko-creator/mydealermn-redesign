@@ -1,0 +1,81 @@
+/* sketch.css - the hand-drawn layer (FOUNDATION). Inline SVG strokes from util.mjs helpers (skUnderline, skCircle,
+   skArrow, skFrame) carry class "sk" + data-draw; their paths carry pathLength="1" + class "sk-p" so motion.css can
+   draw them on. The rough edge comes from the shared filter #sk-rough (shell.mjs, once per page). */
+.sk { display: block; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; overflow: visible; pointer-events: none; }
+.sk text { fill: currentColor; stroke: none; }
+
+/* .scribble: wrap a word; a drawn underline sits under it (svg from skUnderline(), or this CSS fallback) */
+.scribble { position: relative; display: inline-block; white-space: nowrap; isolation: isolate; }
+.scribble > .sk-underline { position: absolute; left: -3%; width: 106%; bottom: -0.16em; height: 0.36em; color: var(--gold); z-index: -1; stroke-width: 3.2; }
+.band--paper .scribble > .sk-underline, .glass--milk .scribble > .sk-underline { color: var(--gold-2); }
+.scribble:not(:has(.sk))::after {
+  content: ""; position: absolute; left: -3%; right: -3%; bottom: -0.14em; height: 0.32em; z-index: -1;
+  background: no-repeat center / 100% 100% url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20' preserveAspectRatio='none'%3E%3Cpath d='M3 13C40 7 90 6 140 8S190 11 197 7' fill='none' stroke='%23e2b65a' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+/* circled word / object */
+.sk-circled { position: relative; display: inline-block; }
+.sk-circled > .sk-circle { position: absolute; left: -12%; top: -24%; width: 124%; height: 148%; color: var(--gold); stroke-width: 2.2; }
+.band--paper .sk-circled > .sk-circle { color: var(--gold-2); }
+
+/* arrows: skArrow(dir) -> .sk-arrow--right|left|down|up|down-left|down-right */
+.sk-arrow { width: 96px; height: 48px; color: var(--gold); stroke-width: 2.4; }
+.band--paper .sk-arrow { color: var(--graphite); }
+.sk-arrow--left { transform: scaleX(-1); }
+.sk-arrow--down { transform: rotate(90deg); }
+.sk-arrow--up { transform: rotate(-90deg); }
+.sk-arrow--down-right { transform: rotate(35deg); }
+.sk-arrow--down-left { transform: scaleX(-1) rotate(35deg); }
+
+/* hand annotation (decoration, or My Dealer's own words) */
+.sk-note {
+  display: inline-block; font-family: var(--font-hand); font-weight: 600; font-size: var(--fs-hand); line-height: 1.05;
+  color: var(--gold); transform: rotate(var(--note-tilt, -4deg)); transform-origin: left center;
+}
+.band--paper .sk-note, .glass--milk .sk-note { color: var(--graphite); }
+
+/* photo with registration / crop marks (CSS corners) + optional skFrame() rough outline */
+.sk-frame { position: relative; display: block; padding: 12px; color: var(--pencil); }
+.sk-frame::before {
+  content: ""; position: absolute; inset: -6px; pointer-events: none; z-index: 2;
+  --m: 22px; --t: 1.5px;
+  background:
+    linear-gradient(currentColor, currentColor) top left / var(--m) var(--t),
+    linear-gradient(currentColor, currentColor) top left / var(--t) var(--m),
+    linear-gradient(currentColor, currentColor) top right / var(--m) var(--t),
+    linear-gradient(currentColor, currentColor) top right / var(--t) var(--m),
+    linear-gradient(currentColor, currentColor) bottom left / var(--m) var(--t),
+    linear-gradient(currentColor, currentColor) bottom left / var(--t) var(--m),
+    linear-gradient(currentColor, currentColor) bottom right / var(--m) var(--t),
+    linear-gradient(currentColor, currentColor) bottom right / var(--t) var(--m);
+  background-repeat: no-repeat;
+}
+.band--night .sk-frame { color: rgba(246, 241, 230, 0.55); }
+.sk-frame > img, .sk-frame > picture img { width: 100%; height: auto; border-radius: 4px; transition: transform var(--dur-3) var(--ease-out), filter var(--dur-3); }
+.sk-frame:hover > img, .sk-frame:hover > picture img { transform: scale(1.015); }
+.sk-frame > .sk-frame__marks { position: absolute; inset: -4px; width: calc(100% + 8px); height: calc(100% + 8px); stroke-width: 0.45; color: inherit; z-index: 1; }
+.sk-frame__cap { display: block; margin-top: 8px; font-family: var(--font-hand); font-size: 1.15rem; color: inherit; }
+
+/* taped, tilted photo: straightens and lifts on hover */
+.sk-tape {
+  position: relative; display: block; padding: 10px 10px 12px; background: var(--cream); border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 18px 36px -12px rgba(18, 19, 16, 0.45);
+  rotate: var(--tilt, -2.5deg);
+  transition: rotate var(--dur-2) var(--ease-out), scale var(--dur-2) var(--ease-out), box-shadow var(--dur-2);
+}
+.sk-tape::before {
+  content: ""; position: absolute; top: -14px; left: 50%; width: 38%; max-width: 140px; height: 28px; translate: -50% 0; rotate: 3deg;
+  background: linear-gradient(90deg, rgba(233, 226, 211, 0.62), rgba(243, 238, 228, 0.85) 50%, rgba(233, 226, 211, 0.62));
+  border-left: 1px dashed rgba(111, 106, 96, 0.25); border-right: 1px dashed rgba(111, 106, 96, 0.25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12); z-index: 2;
+}
+.sk-tape img { width: 100%; height: auto; border-radius: 1px; }
+.sk-tape:hover { rotate: 0deg; scale: 1.02; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 28px 50px -14px rgba(18, 19, 16, 0.5); }
+.sk-tape figcaption, .sk-tape .sk-tape__cap { margin-top: 8px; font-family: var(--font-hand); font-size: 1.1rem; color: var(--graphite); line-height: 1.1; }
+
+/* pencil sketch illustrations (white paper): multiply on paper, inverted + screen on night */
+.sk-illo { mix-blend-mode: multiply; }
+.band--night .sk-illo, .glass .sk-illo:not(.glass--milk *) { filter: invert(1) contrast(1.05); mix-blend-mode: screen; opacity: 0.9; }
+
+/* leader line from a label to a thing */
+.sk-leader { stroke-width: 1.4; color: currentColor; opacity: 0.75; }

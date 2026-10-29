@@ -1,0 +1,211 @@
+/* components.css - the shared component contract (FOUNDATION defines; every lane uses).
+   Layout .wrap .band .band__clip · surfaces .glass .card · actions .btn · type .kicker .display .lede .prose ·
+   .chip .crumbs .img-slot .protrude. Sketch pieces live in sketch.css, motion hooks in motion.css. */
+
+/* ---------- layout ---------- */
+.wrap { width: min(100% - 2 * var(--gutter), var(--wrap)); margin-inline: auto; }
+.wrap--wide { width: min(100% - 2 * var(--gutter), var(--wrap-wide)); }
+.wrap--narrow { width: min(100% - 2 * var(--gutter), var(--wrap-narrow)); }
+
+/* A band is a full-bleed section. Grounds are painted on the band itself (glow + grid + grain via pseudo
+   elements); extra backdrop layers go in an inner .band__clip so the band can stay overflow:visible and let a
+   .protrude object cross its seam. Give the band that owns a protrusion .band--over (stacks above the next band). */
+.band { position: relative; isolation: isolate; padding-block: var(--section-y); }
+.band--tight { padding-block: clamp(48px, 6vw, 88px); }
+.band--flush { padding-block: 0; }
+.band--over { z-index: 3; }
+.band__clip { position: absolute; inset: 0; overflow: hidden; z-index: -1; pointer-events: none; }
+.band__clip > img, .band__clip > video, .band__clip > picture, .band__clip > picture > img { width: 100%; height: 100%; object-fit: cover; }
+
+.band--night {
+  --band-text: var(--text-on-ink);
+  --band-muted: var(--muted-on-ink);
+  --band-line: var(--line-ink);
+  --band-accent: var(--gold);
+  color: var(--text-on-ink);
+  background-color: var(--ink);
+  background-image:
+    radial-gradient(48% 60% at 8% 0%, rgba(226, 182, 90, 0.13), transparent 72%),
+    radial-gradient(42% 55% at 96% 100%, rgba(159, 176, 122, 0.12), transparent 72%);
+}
+.band--paper {
+  --band-text: var(--text-on-paper);
+  --band-muted: var(--muted-on-paper);
+  --band-line: var(--line-paper);
+  --band-accent: var(--gold-2);
+  color: var(--text-on-paper);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(50% 60% at 100% 0%, rgba(226, 182, 90, 0.10), transparent 70%),
+    radial-gradient(40% 50% at 0% 100%, rgba(159, 176, 122, 0.12), transparent 70%);
+}
+.band--cream { background-color: var(--cream); }
+.band--pine { background-color: var(--pine); }
+
+/* grid (faded out toward the centre, so body text never sits on the pattern) + grain */
+.band--night::before, .band--paper::before {
+  content: ""; position: absolute; inset: 0; z-index: -2; pointer-events: none;
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  background-position: center top;
+  -webkit-mask-image: radial-gradient(120% 90% at 50% 50%, transparent 38%, #000 82%);
+  mask-image: radial-gradient(120% 90% at 50% 50%, transparent 38%, #000 82%);
+}
+.band--night::before { --grid-line: var(--grid-ink); }
+.band--paper::before { --grid-line: var(--grid-paper); }
+.band--night::after, .band--paper::after {
+  content: ""; position: absolute; inset: 0; z-index: -2; pointer-events: none; opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+.band--paper::after { opacity: 0.8; mix-blend-mode: multiply; }
+
+/* section heads */
+.band__head { display: grid; gap: 14px; margin-bottom: clamp(32px, 4vw, 56px); max-width: 760px; }
+.band__head--center { margin-inline: auto; text-align: center; justify-items: center; }
+
+/* ---------- type ---------- */
+.kicker {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: var(--font-ui); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--band-accent, var(--gold-2));
+}
+.kicker::before { content: ""; width: 26px; height: 2px; border-radius: 2px; background: currentColor; opacity: 0.8; }
+.band--paper .kicker { color: #7a5a17; }
+.display {
+  font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h1); line-height: 1; letter-spacing: -0.025em;
+  font-variation-settings: "opsz" 144; text-wrap: balance;
+}
+.display em, h1 em, h2 em, h3 em { font-style: italic; font-weight: 500; color: var(--band-accent, var(--gold-2)); }
+.band--paper .display em, .band--paper h2 em { color: var(--pine); }
+.display--hero { font-size: var(--fs-hero); }
+.lede { font-size: var(--fs-lede); line-height: 1.55; color: var(--band-muted, var(--muted-on-paper)); max-width: 62ch; }
+.muted { color: var(--band-muted, var(--muted-on-paper)); }
+.ui-label { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; }
+
+/* ---------- glass (mid plane): only where something varied sits behind it ---------- */
+.glass {
+  position: relative;
+  color: var(--text-on-ink);
+  background: var(--glass-ink);
+  border: 1px solid var(--glass-ink-border);
+  border-radius: var(--r-lg);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  box-shadow: inset 0 1px 0 var(--glass-ink-hi), var(--shadow-2);
+}
+.glass--milk, .band--paper .glass:not(.glass--night) {
+  color: var(--text-on-paper);
+  background: var(--glass-milk);
+  border-color: var(--glass-milk-border);
+  box-shadow: inset 0 1px 0 var(--glass-milk-hi), var(--shadow-1);
+}
+.glass--night { color: var(--text-on-ink); background: var(--glass-ink); border-color: var(--glass-ink-border); box-shadow: inset 0 1px 0 var(--glass-ink-hi), var(--shadow-2); }
+.glass--lift { transition: transform var(--dur-2) var(--ease-out), box-shadow var(--dur-2) var(--ease-out), border-color var(--dur-2); }
+.glass--lift:hover, .glass--lift:focus-within { transform: translateY(-6px); box-shadow: inset 0 1px 0 var(--glass-ink-hi), var(--shadow-float); border-color: rgba(226, 182, 90, 0.45); }
+
+/* ---------- cards (plain surface, for reading) ---------- */
+.card {
+  position: relative; display: block;
+  background: var(--cream); color: var(--text-on-paper);
+  border: 1px solid var(--line-paper); border-radius: var(--r-md);
+  padding: clamp(20px, 2.4vw, 30px);
+  box-shadow: var(--shadow-1);
+}
+.band--night .card:not(.glass) { background: var(--ink-2); color: var(--text-on-ink); border-color: var(--line-ink); box-shadow: none; }
+a.card { text-decoration: none; transition: transform var(--dur-2) var(--ease-out), box-shadow var(--dur-2) var(--ease-out); }
+a.card:hover { transform: translateY(-4px); box-shadow: var(--shadow-2); }
+.card__media { margin: calc(-1 * clamp(20px, 2.4vw, 30px)) calc(-1 * clamp(20px, 2.4vw, 30px)) 18px; border-radius: var(--r-md) var(--r-md) 0 0; overflow: hidden; aspect-ratio: 3 / 2; }
+.card__media img, .card__media .img-slot { width: 100%; height: 100%; object-fit: cover; transition: transform var(--dur-3) var(--ease-out); }
+.card:hover .card__media img { transform: scale(1.04); }
+
+/* ---------- buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.55em;
+  min-height: 46px; padding: 0 22px; border-radius: var(--r-pill);
+  font-family: var(--font-ui); font-size: 0.88rem; font-weight: 600; letter-spacing: 0.02em; line-height: 1.1;
+  text-decoration: none; white-space: nowrap; cursor: pointer;
+  border: 1px solid transparent;
+  background: var(--ink); color: var(--cream);
+  transition: transform var(--dur-1) var(--ease-out), background-color var(--dur-1), border-color var(--dur-1), color var(--dur-1), box-shadow var(--dur-1);
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.45); text-decoration: none; }
+.btn:active { transform: translateY(0); }
+.band--night .btn:not([class*="btn--"]) { background: var(--cream); color: var(--ink); }
+.btn--gold { background: var(--gold); color: var(--ink); border-color: var(--gold); }
+.btn--gold:hover { background: #ecc574; border-color: #ecc574; }
+.btn--ghost { background: transparent; color: inherit; border-color: color-mix(in srgb, currentColor 38%, transparent); }
+.btn--ghost:hover { border-color: currentColor; background: color-mix(in srgb, currentColor 8%, transparent); }
+.btn--glass {
+  background: rgba(255, 250, 241, 0.1); color: var(--text-on-ink); border-color: var(--glass-ink-border);
+  -webkit-backdrop-filter: blur(10px) saturate(140%); backdrop-filter: blur(10px) saturate(140%);
+}
+.btn--glass:hover { background: rgba(255, 250, 241, 0.18); }
+.band--paper .btn--glass { background: rgba(255, 250, 241, 0.65); color: var(--ink); border-color: var(--glass-milk-border); }
+.btn--sm { min-height: 38px; padding: 0 16px; font-size: 0.8rem; }
+.btn .ico, .btn svg { width: 1.05em; height: 1.05em; flex: none; }
+.btn-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+
+/* ---------- chips ---------- */
+.chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 34px; padding: 4px 14px; border-radius: var(--r-pill);
+  font-family: var(--font-ui); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.02em;
+  border: 1px solid var(--band-line, var(--line-paper));
+  background: color-mix(in srgb, currentColor 5%, transparent);
+  color: inherit; text-decoration: none;
+  transition: border-color var(--dur-1), background-color var(--dur-1), transform var(--dur-1);
+}
+a.chip:hover { border-color: currentColor; transform: translateY(-1px); }
+.chip-row { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* ---------- prose (long reading: plain ground, no pattern) ---------- */
+.prose { max-width: 70ch; font-size: var(--fs-body); line-height: 1.7; }
+.prose > * + * { margin-top: 1em; }
+.prose h2 { font-size: clamp(1.6rem, 1.3rem + 1.2vw, 2.3rem); margin-top: 1.8em; }
+.prose h3 { font-size: var(--fs-h3); margin-top: 1.5em; }
+.prose h2 + *, .prose h3 + * { margin-top: 0.6em; }
+.prose ul, .prose ol { padding-left: 1.3em; }
+.prose li + li { margin-top: 0.35em; }
+.prose a { color: var(--pine); font-weight: 600; }
+.band--night .prose a { color: var(--gold); }
+.prose blockquote { font-family: var(--font-display); font-style: italic; font-size: 1.35em; line-height: 1.35; padding-left: 1em; border-left: 3px solid var(--gold); }
+.prose img { border-radius: var(--r-md); }
+.prose table { font-size: 0.95em; }
+.prose th, .prose td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--band-line, var(--line-paper)); vertical-align: top; }
+
+/* ---------- breadcrumbs ---------- */
+.crumbs { font-family: var(--font-ui); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.02em; }
+.crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 0; }
+.crumbs li { display: inline-flex; align-items: center; gap: 6px; color: var(--band-muted, var(--muted-on-paper)); }
+.crumbs li + li::before { content: "/"; opacity: 0.55; }
+.crumbs a { color: inherit; text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+.crumbs [aria-current] { color: var(--band-text, var(--text-on-paper)); font-weight: 600; }
+.crumbs-bar { padding-block: 14px; background: var(--paper); border-bottom: 1px solid var(--line-paper); }
+
+/* ---------- image placeholder (missing generated id during lane builds) ---------- */
+.img-slot {
+  position: relative; display: block; width: 100%; aspect-ratio: 3 / 2; overflow: hidden;
+  background-color: var(--ink-2);
+  background-image:
+    repeating-linear-gradient(135deg, rgba(226, 182, 90, 0.10) 0 1px, transparent 1px 14px),
+    radial-gradient(60% 60% at 30% 30%, rgba(159, 176, 122, 0.22), transparent 70%);
+  border-radius: inherit;
+}
+.img-slot::after {
+  content: attr(data-slot); position: absolute; left: 12px; bottom: 10px;
+  font-family: var(--font-hand); font-size: 1.15rem; color: var(--gold); opacity: 0.85;
+}
+
+/* ---------- depth (front plane) ---------- */
+.protrude { position: absolute; z-index: var(--z-protrude); pointer-events: none; filter: drop-shadow(0 22px 26px rgba(0, 0, 0, 0.42)); }
+.protrude img { width: 100%; height: auto; }
+
+/* ---------- small helpers ---------- */
+.ico { width: 1em; height: 1em; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.125em; }
+.stack > * + * { margin-top: var(--stack, 1rem); }
+.grid-auto { display: grid; gap: clamp(16px, 2vw, 28px); grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.media-cover { width: 100%; height: 100%; object-fit: cover; }

@@ -1,0 +1,95 @@
+/* tokens.css - "Sketchbook Noir": My Dealer's own palette and type (measured on mydealermn.com: ink #121310,
+   ink-2 #1c1e18, pine #2f3d3a, cream #fffaf1, paper #f3eee4, gold #e2b65a, sage #9fb07a; Fraunces, Figtree,
+   Montserrat) plus a hand face for sketch annotations. FOUNDATION may tune VALUES; nobody renames or removes a token. */
+:root {
+  /* brand */
+  --ink: #121310;
+  --ink-2: #1c1e18;
+  --ink-3: #262922;
+  --pine: #2f3d3a;
+  --pine-2: #3b4c47;
+  --cream: #fffaf1;
+  --paper: #f3eee4;
+  --paper-2: #e9e2d3;
+  --graphite: #6f6a60;
+  --pencil: #8a8478;
+  --gold: #e2b65a;
+  --gold-2: #c99a3c;
+  --gold-soft: rgba(226, 182, 90, 0.18);
+  --sage: #9fb07a;
+  --sage-2: #7f9160;
+  --sage-soft: rgba(159, 176, 122, 0.18);
+
+  /* text */
+  --text-on-ink: #f6f1e6;
+  --muted-on-ink: rgba(246, 241, 230, 0.74);
+  --text-on-paper: #1c1e18;
+  --muted-on-paper: #4f4b43;
+
+  /* glass */
+  --glass-blur: 18px;
+  --glass-sat: 140%;
+  --glass-ink: rgba(28, 30, 24, 0.52);
+  --glass-ink-border: rgba(255, 250, 241, 0.14);
+  --glass-ink-hi: rgba(255, 250, 241, 0.22);
+  --glass-milk: rgba(255, 250, 241, 0.6);
+  --glass-milk-border: rgba(18, 19, 16, 0.1);
+  --glass-milk-hi: rgba(255, 255, 255, 0.8);
+
+  /* shadows */
+  --shadow-1: 0 1px 2px rgba(18, 19, 16, 0.12), 0 8px 24px rgba(18, 19, 16, 0.12);
+  --shadow-2: 0 2px 6px rgba(18, 19, 16, 0.18), 0 24px 60px rgba(18, 19, 16, 0.28);
+  --shadow-float: 0 30px 80px -20px rgba(0, 0, 0, 0.55);
+
+  /* type */
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Figtree", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  --font-ui: "Montserrat", "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-hand: "Caveat", "Segoe Print", "Comic Sans MS", cursive;
+  --fs-hero: clamp(3rem, 1.9rem + 5vw, 6.6rem);
+  --fs-h1: clamp(2.4rem, 1.6rem + 3.4vw, 4.6rem);
+  --fs-h2: clamp(1.9rem, 1.4rem + 2vw, 3.2rem);
+  --fs-h3: clamp(1.25rem, 1.1rem + 0.6vw, 1.6rem);
+  --fs-lede: clamp(1.1rem, 1rem + 0.4vw, 1.35rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.875rem;
+  --fs-hand: clamp(1.2rem, 1rem + 0.8vw, 1.75rem);
+
+  /* space */
+  --wrap: 1240px;
+  --wrap-wide: 1440px;
+  --wrap-narrow: 760px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --section-y: clamp(72px, 9vw, 140px);
+  --header-h: 76px;
+
+  /* radius */
+  --r-sm: 10px;
+  --r-md: 18px;
+  --r-lg: 28px;
+  --r-xl: 40px;
+  --r-pill: 999px;
+
+  /* lines and grounds */
+  --line-ink: rgba(255, 250, 241, 0.12);
+  --line-paper: rgba(18, 19, 16, 0.12);
+  --grid-size: 44px;
+  --grid-ink: rgba(255, 250, 241, 0.045);
+  --grid-paper: rgba(47, 61, 58, 0.075);
+
+  /* motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-1: 0.25s;
+  --dur-2: 0.5s;
+  --dur-3: 0.9s;
+
+  /* layers */
+  --z-back: -1;
+  --z-sketch: 1;
+  --z-glass: 2;
+  --z-protrude: 5;
+  --z-header: 50;
+  --z-mega: 60;
+  --z-gate: 90;
+}
