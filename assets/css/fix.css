@@ -35,6 +35,18 @@
   .utility__license { max-width: none; white-space: normal; text-align: center; }
   /* the hero's buttons inside the 844 px first screen */
   .h-hero { padding-top: calc(var(--header-h) + clamp(140px, 22svh, 230px)); }
+  /* hero text without a box on phones: the film keeps its top (the dealer's face), the shade darkens everything the
+     text sits on, from just above the first line down */
+  .h-hero__panel { padding: 0; border-radius: 0; position: relative; isolation: isolate; }
+  .h-hero__shade { background: linear-gradient(180deg, rgba(18, 19, 16, 0.3) 0, rgba(18, 19, 16, 0) 12%); }
+  /* the shade follows the text block, not a share of the hero's height (a percentage left the first kicker line on
+     a bright film frame at 360x740): it fades in above the first line and stays dark to the hero's bottom edge, full
+     screen width, with no visible box edge */
+  .h-hero__panel::before {
+    content: ""; position: absolute; z-index: -1; pointer-events: none;
+    left: calc(-1 * var(--gutter)); right: calc(-1 * var(--gutter)); top: -110px; bottom: -84px;
+    background: linear-gradient(180deg, rgba(18, 19, 16, 0) 0, rgba(18, 19, 16, 0.9) 86px, rgba(18, 19, 16, 0.95) 130px, rgba(18, 19, 16, 0.97) 100%);
+  }
   /* the handwritten caption sits beside the taped photo, never under it */
   .h-flower__note { max-width: 50%; }
   /* the terpene range chart (viewBox 600x110) shrinks to about 0.55 on phones: its labels are drawn larger there so

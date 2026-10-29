@@ -1,6 +1,9 @@
 /* home.css - the home page "/" (FOUNDATION). Classes prefixed h-. */
 
-/* ---------- 1. hero: brand film under frosted glass ---------- */
+/* ---------- 1. hero: brand film, text set straight on it (no glass box; operator's call 2026-10-29) ----------
+   Readability comes from the shade layer: a dark plateau under the text column (--h-text-r = the column's right
+   edge at any width) that fades out before the film's character, plus the top/bottom shade, plus a soft text
+   shadow. Contrast is measured across the film's frames by tmp/hero/contrast.mjs. */
 .h-hero {
   min-height: clamp(480px, calc(100svh - 62px - 40px), 860px);
   padding-block: calc(var(--header-h) + clamp(10px, 2vh, 48px)) clamp(24px, 5vh, 96px);
@@ -13,18 +16,25 @@
   aspect-ratio: 16 / 9; min-width: 62%; object-fit: cover; object-position: 50% 40%;
   -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 22%); mask-image: linear-gradient(90deg, transparent 0, #000 22%);
 }
-.h-hero__shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(18, 19, 16, 0.35) 0, transparent 22%, transparent 70%, rgba(18, 19, 16, 0.55) 100%); }
+.h-hero { --h-text-w: 580px; --h-text-r: calc(max(var(--gutter), (100vw - 1440px) / 2 + var(--gutter)) + var(--h-text-w)); }
+.h-hero__shade {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(90deg, rgba(18, 19, 16, 0.94) 0, rgba(18, 19, 16, 0.9) calc(var(--h-text-r) - 40px), rgba(18, 19, 16, 0.55) calc(var(--h-text-r) + 60px), rgba(18, 19, 16, 0) calc(var(--h-text-r) + 260px)),
+    linear-gradient(180deg, rgba(18, 19, 16, 0.35) 0, transparent 22%, transparent 70%, rgba(18, 19, 16, 0.55) 100%);
+}
 .h-hero__inner { position: relative; z-index: 2; }
-.h-hero__panel { width: min(100%, 640px); padding: clamp(22px, 2.4vw, 38px) clamp(24px, 2.8vw, 40px); border-radius: var(--r-xl); background: rgba(24, 26, 21, 0.42); }
+.h-hero__panel { width: min(100%, var(--h-text-w)); padding: 0; background: none; border: 0; border-radius: 0; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; }
+.h-hero__h1, .h-hero__tag, .h-hero__intro { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6), 0 6px 24px rgba(0, 0, 0, 0.5); }
 .h-hero__h1 {
   display: flex; align-items: flex-start; gap: 10px; max-width: 46ch;
-  font-family: var(--font-ui); font-size: 0.7rem; font-weight: 600; line-height: 1.45; letter-spacing: 0.06em; text-transform: uppercase;
+  font-family: var(--font-ui); font-size: 0.8125rem; font-weight: 600; line-height: 1.45; letter-spacing: 0.06em; text-transform: uppercase;
   color: var(--gold);
 }
 .h-hero__h1 .ico { width: 16px; height: 16px; margin-top: 1px; }
 .h-hero__tag { margin-top: 14px; color: var(--cream); font-size: clamp(2.5rem, 1.2rem + 3.3vw, 5rem); line-height: 0.98; }
 .h-hero__tag em { color: var(--gold); }
-.h-hero__intro { margin-top: 16px; color: var(--muted-on-ink); font-size: 1rem; line-height: 1.55; max-width: 54ch; }
+.h-hero__intro { margin-top: 16px; color: #e6e0d4; font-size: 1.0625rem; line-height: 1.55; max-width: 54ch; }
 .h-hero__ctas { margin-top: 20px; }
 .h-film-btn {
   position: absolute; z-index: 4; right: var(--gutter); bottom: clamp(20px, 4vh, 36px);
