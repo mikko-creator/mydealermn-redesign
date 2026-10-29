@@ -219,3 +219,92 @@
 @media (prefers-reduced-motion: reduce) {
   .p-sketch--hero, .p-sketch--hat { rotate: 0deg; }
 }
+
+/* ---------- phones (phone pass): compact heroes, contents as a scrolling chip row, solid panels (glass only on the
+   hero panel over its photo), tighter rhythm, 44px controls. Desktop (>= 768px, fine pointer) is untouched. ---------- */
+@media (max-width: 767.98px) {
+  /* hero: kicker, H1, intro and buttons in the first screen; the sketch hangs below the panel, never over its text */
+  .p-hero { min-height: 0; padding-block: 14px 60px; }
+  .p-hero .b-h1 { font-size: clamp(1.85rem, 1.3rem + 2.6vw, 2.25rem); }
+  .p-hero__panel { padding: 18px 16px 20px; }
+  .p-hero__panel > * + * { margin-top: 10px; }
+  .p-hero__panel .b-p { font-size: 1rem; line-height: 1.5; }
+  .p-hero__panel .b-links { margin-top: 14px; gap: 10px; }
+  .p-hero__protrude, .p-hero--company .p-hero__protrude { width: 88px; right: 14px; bottom: -58px; }
+  .p-404__art { max-width: 170px; }
+
+  /* bands: about 48-56px instead of 64-150 */
+  .p-band { padding-block: 52px; }
+  .p-band--chunk { padding-block: 48px; }
+  .p-hero + .p-band--chunk, .p-hero + .p-band, .p-band--guide { padding-top: 76px; }
+  .p-band--guide { padding-bottom: 52px; }
+
+  /* "On this page" (rails, cannabis 101 contents, FAQ topics): one horizontally scrolling row of 44px chips */
+  .p-toc { margin-top: 18px; }
+  .p-toc__list, .p-rail__list, .p-rail--faq .b-nav ul {
+    display: flex; flex-wrap: nowrap; grid-template-columns: none; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity; scroll-padding-inline: var(--gutter); scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding: 2px var(--gutter) 6px;
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 48px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 48px), transparent);
+  }
+  .p-toc__list::-webkit-scrollbar, .p-rail__list::-webkit-scrollbar, .p-rail--faq .b-nav ul::-webkit-scrollbar { display: none; }
+  .p-toc__list li, .p-rail__list li, .p-rail--faq .b-nav li { flex: none; max-width: 78vw; scroll-snap-align: start; }
+  .p-rail--faq .b-nav li + li { margin-top: 0; }
+  .p-toc__list a { font-size: 0.875rem; -webkit-backdrop-filter: none; backdrop-filter: none; background: rgba(18, 19, 16, 0.72); }
+  .p-guide { gap: 22px; }
+  /* a nowrap chip row has a huge min-content width: pin the grid columns so it scrolls inside the screen */
+  .p-hero, .p-guide__rail { grid-template-columns: minmax(0, 1fr); }
+  .p-guide__rail { gap: 12px; }
+  .p-guide__rail .p-rail.glass { padding: 0; background: none; border: 0; border-radius: 0; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .p-rail__title { margin-bottom: 6px; font-size: 0.8125rem; }
+  .p-rail__list a, .p-rail--faq .b-nav a {
+    padding: 8px 16px; border: 1px solid rgba(18, 19, 16, 0.16); border-radius: 14px; background: var(--cream);
+    color: var(--ink); font-size: 0.9375rem; line-height: 1.25;
+  }
+  .p-rail__list a { padding-left: 40px; }
+  .p-rail__list a::before { top: 50%; translate: 0 -50%; left: 14px; font-size: 0.75rem; }
+  .p-band .p-faq__tools.glass { padding: 10px 14px 12px; background: var(--cream); }
+  .p-faq__label { font-size: 0.8125rem; }
+
+  /* glass off below the hero: solid surfaces with the same look (blur is costly on phone GPUs) */
+  .p-band .glass { -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .p-band.band--paper .glass:not(.glass--night), .p-band .glass--milk { background: #fcf8ef; }
+  .p-band .glass--night { background: #1b1d17; }
+
+  /* guides: tighter rhythm, same words */
+  .p-chunk { gap: 18px; }
+  .p-chunk__head { gap: 6px; }
+  .p-chunk__num { font-size: 2rem; }
+  .p-chunk__body > * + * { margin-top: 0.9rem; }
+  .p-cards { gap: 12px; }
+  .p-card { padding: 18px 16px 20px; }
+  .p-card .b-p, .p-contact__card .b-p { font-size: 1rem; line-height: 1.55; }
+  .p-sec + .p-sec { margin-top: 36px; padding-top: 32px; }
+  .p-sec__head { margin-bottom: 12px; }
+  .p-sec .b-h3 { margin-top: 1.3rem; }
+  .p-faq__group + .p-faq__group { margin-top: 36px; }
+
+  .p-visit, .p-split, .p-film { gap: 22px; }
+  .p-visit__media, .p-split__art .b-tape { max-width: 88%; }
+  .p-visit__card { padding: 20px 18px; }
+  .p-film__parts { margin-top: 0; }
+  .p-book { gap: 18px; }
+  .p-book__body > .b-gallery { margin-top: 20px; }
+  .p-book__body > .b-gallery + .b-h3 { margin-top: 36px; }
+  .p-way { padding-top: 56px; }
+  .p-way::before { top: 12px; font-size: 2.6rem; }
+  .p-role { padding: 20px 18px; }
+  .p-trait .b-chip { font-size: 2.2rem; }
+  .p-prose > .b-h2 { margin-top: 1.7em; }
+
+  /* reveals: a short vertical rise only */
+  html.js .p-page [data-reveal]:not(.is-in) { translate: 0 14px; }
+}
+/* 44px targets on phones and on any touch screen */
+@media (max-width: 767.98px), (pointer: coarse) {
+  .p-toc__list a { min-height: 44px; }
+  .p-rail__list a, .p-rail--faq .b-nav a { display: flex; align-items: center; min-height: 44px; }
+  .p-faq__label { display: flex; align-items: center; min-height: 44px; margin-bottom: 0; }
+}
+@media (hover: none) {
+  .p-band .glass--lift:hover, .p-band .glass--lift:focus-within { transform: none; }
+}

@@ -196,3 +196,39 @@ ol.b-list li::marker { font-family: var(--font-ui); font-weight: 700; font-size:
 @media (prefers-reduced-motion: reduce) {
   .b-details[open] > .b-details__body { animation: none; }
 }
+
+/* ---------- phones (phone pass): solid surfaces instead of blur, labels >= 13px, body >= 16px, tighter rhythm.
+   Desktop (>= 768px, fine pointer) is untouched. --b-solid = the blurred surface's look, opaque. ---------- */
+:root { --b-solid: #fcf7ed; }
+.band--night, .glass--night { --b-solid: #1b1d17; }
+@media (max-width: 767.98px) {
+  .b-details, .b-steps__item { -webkit-backdrop-filter: none; backdrop-filter: none; background: var(--b-solid); }
+  .b-linkcard { -webkit-backdrop-filter: none; backdrop-filter: none; background: #1b1d17; }
+  .b-kicker, .b-chip, .b-table th, .b-linkcard__body > span:nth-last-child(2) { font-size: 0.8125rem; }
+  .b-dl { gap: 10px; }
+  .b-dl__item { padding: 14px 14px 16px; }
+  .b-dl dt { font-size: 0.8125rem; letter-spacing: 0.1em; }
+  .b-dl dd { font-size: 1.12rem; }
+  .b-fig__cell .b-p, .b-fig--set > .b-fig__cap { font-size: 1rem; }
+  .b-fig--set { padding: 16px; }
+  .b-card { padding: 20px 18px; }
+  .b-steps { gap: 12px; }
+  .b-steps__item { padding: 18px 18px 20px; }
+  .b-faq { gap: 8px; }
+  .b-embed { padding: 6px; }
+  .b-quote__mark { width: 48px; height: 36px; margin-bottom: 8px; }
+  /* galleries: before | after side by side, tight */
+  .b-gallery:not(.b-gallery--1) { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 12px; padding-top: 8px; }
+  .b-fig.b-fig--photo > .b-fig__cap { margin-top: 8px; font-size: 1.15rem; }
+  .b-fig.b-fig--photo > .b-fig__cap strong { font-size: 0.8125rem; letter-spacing: 0.08em; }
+}
+/* standalone controls are 44px tall on phones and on any touch screen; inline links in sentences keep their size */
+@media (max-width: 767.98px), (pointer: coarse) {
+  .b-p--link a, .b-li--link > a, .b-dd--link a, .b-nav a, .b-chiplink { display: inline-flex; align-items: center; min-height: 44px; }
+  .b-li--link + .b-li--link { margin-top: 0; }
+}
+/* touch: a tap must not leave a card lifted or a photo zoomed */
+@media (hover: none) {
+  .b-steps__item:hover, .b-dl__item:hover, .b-linkcard:hover, .b-linkcard:focus-visible, .b-chiplink:hover { transform: none; }
+  .b-linkcard:hover .b-linkcard__media img, .b-fig--photo:hover .b-fig__img img { transform: none; }
+}

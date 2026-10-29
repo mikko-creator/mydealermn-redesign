@@ -36,8 +36,12 @@
   .mega__panel::before { display: none; }
   .mega__grid, .mega__grid--4, .mega__grid--3 { grid-template-columns: 1fr 1fr; gap: 18px; }
   .mega__card { min-height: 150px; }
+  .mega__h { font-size: 0.8125rem; margin-bottom: 4px; padding-bottom: 8px; }
+  .mega__links { gap: 0; }
+  .mega__links a { display: flex; min-height: 44px; padding: 8px 0; }
+  .mega__card-k { font-size: 0.75rem; }
   .nav__drawer-foot { display: grid; gap: 14px; margin-top: 22px; }
-  .nav__pickup { display: inline-flex; align-items: center; gap: 8px; color: var(--muted-on-ink); text-decoration: none; font-size: 0.9rem; }
+  .nav__pickup { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--muted-on-ink); text-decoration: none; font-size: 0.9rem; }
   .nav__pickup strong { color: var(--gold); }
   .nav__pickup .ico { color: var(--gold); }
 
@@ -60,32 +64,26 @@
 /* ---------- phones ---------- */
 @media (max-width: 719.98px) {
   :root { --header-h: 60px; --gutter: 16px; --section-y: 64px; }
-  .promo__inner { gap: 10px; min-height: 30px; padding-block: 5px; justify-content: space-between; }
-  .promo { font-size: 0.72rem; }
+  .promo__inner { gap: 10px; justify-content: space-between; }
   .promo__text { flex: 1 1 auto; white-space: nowrap; -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 90%, transparent); mask-image: linear-gradient(90deg, transparent, #000 4%, #000 90%, transparent); }
   .promo__msg { display: inline-flex; padding-left: 100%; animation: mdl-ticker 26s linear infinite; }
   .promo__msg .ico { display: none; }
-  .promo__link { font-size: 0.7rem; }
   .promo__link .ico { display: none; }
-  .utility { font-size: 0.66rem; }
-  .utility__inner { min-height: 26px; gap: 10px; }
   .brand__logo { width: 40px; height: 40px; }
   .brand__name { font-size: 1.15rem; }
-  .brand__sub { font-size: 0.6rem; }
   .mega__grid, .mega__grid--4, .mega__grid--3 { grid-template-columns: 1fr; }
 
-  .footer__cols, .footer__mid { grid-template-columns: 1fr; }
   .footer__legal { flex-direction: column; }
 
   /* hero: the film shows above the glass panel */
   .h-hero { min-height: 0; padding-top: calc(var(--header-h) + clamp(200px, 32svh, 290px)); padding-bottom: 84px; align-items: end; }
   .h-hero__film { left: 0; right: 0; bottom: auto; width: 100%; min-width: 0; height: auto; aspect-ratio: 496 / 720; object-fit: cover; object-position: 50% 0%; -webkit-mask-image: linear-gradient(180deg, #000 62%, transparent 100%); mask-image: linear-gradient(180deg, #000 62%, transparent 100%); }
   .h-hero__panel { padding: 22px 20px; border-radius: var(--r-lg); }
-  .h-hero__h1 { font-size: 0.7rem; letter-spacing: 0.1em; }
+  .h-hero__h1 { font-size: 0.8125rem; letter-spacing: 0.08em; }
   .h-hero__tag { font-size: clamp(2.5rem, 1.5rem + 6vw, 3.2rem); }
   .h-hero__intro { font-size: 0.98rem; }
   .h-hero__ctas .btn { flex: 1 1 auto; }
-  .h-film-btn { top: calc(var(--header-h) + 12px); bottom: auto; right: 12px; width: 40px; height: 40px; }
+  .h-film-btn { top: calc(var(--header-h) + 12px); bottom: auto; right: 12px; width: 44px; height: 44px; }
   .h-hero__dealer { left: auto; right: 14px; bottom: -40px; width: 96px; }
   .h-marquee { padding-block: 12px; }
 
@@ -100,13 +98,11 @@
   .h-cats__sketch { width: 96px; }
   .h-brands { grid-template-columns: 1fr; }
   .h-dealer__hat { width: 84px; top: -112px; right: 4px; left: auto; }
-  html.js [data-reveal="left"], html.js [data-reveal="right"] { translate: 0 28px; }
   .h-compare__card:nth-child(n) { rotate: 0deg; }
   .h-flower__tape { right: -4px; width: 46%; }
   .h-flower__media { padding-bottom: 40px; }
   .h-vapes__media { margin-top: 30px; }
   .h-vapes__note { left: 0; top: -40px; }
-  [data-depth] { transform: none; }
   .h-map__t { font-size: 16px; }
   .h-map__t--town, .h-map__t--store { font-size: 23px; }
   .h-vapes__arrow { display: none; }
@@ -115,6 +111,143 @@
   .h-noon__h { font-size: clamp(3.4rem, 2rem + 8vw, 4.6rem); }
   .age-gate__card { padding: 84px 22px 24px; }
   .age-gate__logo { width: 140px; top: -60px; }
+}
+/* ---------- phone pass (<768): fast, clean, easy to tap. Nothing here reaches 1024px and up. ---------- */
+@media (max-width: 767.98px) {
+  :root {
+    --section-y: 56px;
+    /* glass policy: cards lose their blur on phones (backdrop-filter is costly on phone GPUs) and keep the same tint,
+       near-opaque; blur stays on the header, drawer scrim, age gate, film button and the hero panels over imagery */
+    --glass-ink: rgba(30, 32, 26, 0.94);
+    --glass-milk: rgba(255, 250, 241, 0.94);
+  }
+  .h-hero__panel, .p-hero__panel, .r-hero__panel, .age-gate__card { --glass-ink: rgba(28, 30, 24, 0.52); --glass-milk: rgba(255, 250, 241, 0.6); }
+  .glass:not(.h-hero__panel):not(.p-hero__panel):not(.r-hero__panel):not(.age-gate__card):not(.mega__panel),
+  .btn--glass, .b-steps__item, .b-details, .b-linkcard, .p-toc__list a, .r-filter .chip { -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .h-flower .glass--milk { background: var(--glass-milk); }
+
+  /* top bars: two 44px rows that scroll away; only the header (60px) stays */
+  .promo { font-size: 0.8125rem; }
+  .promo__inner { min-height: 44px; padding-block: 0; }
+  .promo__link { min-height: 44px; font-size: 0.8125rem; }
+  .utility { font-size: 0.8125rem; letter-spacing: 0.01em; }
+  .utility__inner { min-height: 44px; gap: 12px; }
+  .utility__license { flex: 1 1 auto; min-width: 0; max-width: 15.5em; white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.3; }
+  .utility__pickup { flex: none; min-height: 44px; text-align: right; line-height: 1.25; }
+  .utility__pickup strong { display: block; }
+  .site-header .brand { min-height: 44px; }
+  .brand__sub { font-size: 0.8125rem; letter-spacing: 0.1em; }
+
+  /* tap targets and type floors for the shared components */
+  .btn { min-height: 48px; }
+  .btn--sm { min-height: 44px; }
+  .chip { min-height: 44px; padding: 6px 16px; font-size: 0.875rem; }
+  .chip-row { gap: 8px; }
+  .kicker { font-size: 0.8125rem; letter-spacing: 0.14em; }
+  .ui-label { font-size: 0.8125rem; }
+  .crumbs-bar { padding-block: 0; }
+  .crumbs { font-size: 0.875rem; }
+  .crumbs ol { gap: 0 8px; }
+  .crumbs a, .crumbs [aria-current] { display: inline-flex; align-items: center; min-height: 44px; }
+  .crumbs a { justify-content: center; min-width: 44px; padding-inline: 2px; }
+  .b-nav a { min-height: 44px; }
+  .b-dl__item > dt { font-size: 0.8125rem; }
+  summary { min-height: 44px; }
+  input:not([type="checkbox"]):not([type="radio"]), select, textarea { min-height: 44px; font-size: max(16px, 1em); }
+
+  /* shorter page: tighter section rhythm */
+  .band--tight { padding-block: 44px; }
+  .band__head { margin-bottom: 28px; gap: 10px; }
+
+  /* reveals: small and vertical only */
+  html.js [data-reveal], html.js [data-reveal="left"], html.js [data-reveal="right"] { translate: 0 16px; }
+  html.js [data-reveal="fade"], html.js [data-reveal="zoom"] { translate: none; }
+  html.js [data-reveal="zoom"] { scale: 0.97; }
+
+  /* footer: 44px link rows in two columns, legible labels */
+  .site-footer { padding-block: 48px 24px; }
+  .footer__top { gap: 28px; padding-bottom: 24px; }
+  .footer__brand > * + * { margin-top: 12px; }
+  .footer__tel a { min-height: 44px; }
+  .footer__socials { flex-wrap: wrap; gap: 8px; }
+  .footer__social { width: 44px; height: 44px; }
+  .footer__bbb { display: inline-flex; align-items: center; min-height: 44px; }
+  .footer__cols { grid-template-columns: 1fr 1fr; gap: 20px 16px; }
+  .footer__col--primary { grid-column: 1 / -1; }
+  .footer__col--primary .footer__links { grid-template-columns: 1fr 1fr; gap: 0 16px; }
+  .footer__col--primary .footer__links a { white-space: normal; font-size: 1.3rem; }
+  .footer__mid { grid-template-columns: 1fr 1fr; gap: 20px 16px; padding-block: 24px; }
+  .footer__licenses { grid-column: 1 / -1; }
+  .footer__h { font-size: 0.8125rem; margin-bottom: 2px; }
+  .footer__links { gap: 0; }
+  .footer__links a { display: flex; align-items: center; min-height: 44px; padding-block: 4px; font-size: 0.9375rem; line-height: 1.25; }
+  .footer__licbar { font-size: 0.8125rem; }
+  .footer__warning { margin-top: 24px; padding: 14px 16px; }
+  .footer__legal { margin-top: 16px; gap: 4px; font-size: 0.8125rem; }
+  .footer__legal a { display: inline-flex; align-items: center; min-height: 44px; }
+
+  /* home: tighter sections */
+  .h-cats { padding-top: 80px; }
+  .h-cats__head .band__head { margin-bottom: 20px; }
+  .h-cats__grid { gap: 10px; }
+  .h-cat { min-height: 150px; }
+  .h-cat--lead { min-height: 220px; }
+  .h-brands { gap: 14px; margin-top: 24px; padding-top: 20px; }
+  /* how to shop: a swipe rail (the next card peeks in) instead of three tall stacked cards */
+  .h-ways__list {
+    display: flex; gap: 12px; max-width: none; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory;
+    margin-inline: calc(-1 * var(--gutter)); padding: 4px var(--gutter) 14px; scroll-padding-inline: var(--gutter);
+    scrollbar-width: thin; scrollbar-color: rgba(226, 182, 90, 0.6) transparent;
+  }
+  .h-way { flex: 0 0 min(84%, 340px); scroll-snap-align: start; gap: 10px; padding: 20px 20px 22px; padding-top: 62px; }
+  .h-way__n { top: 12px; left: 20px; font-size: 2.8rem; }
+  .h-dealer { padding-top: calc(var(--section-y) + 40px); }
+  .h-dealer__head { gap: 16px; margin-bottom: 28px; }
+  .h-dealer__hat { width: 80px; top: -88px; right: 0; }
+  .h-compare { gap: 14px; }
+  .h-compare__card { gap: 8px; padding: 20px 20px 22px; }
+  .h-compare__label { font-size: 1.45rem; }
+  .h-compare__check { top: -30px; right: 12px; }
+  .h-compare__check .sk-arrow { width: 56px; height: 30px; }
+  .h-quote { padding-block: 64px; }
+  .h-quote__mark { font-size: 5.5rem; }
+  .h-quote__q p { font-size: clamp(1.6rem, 1.2rem + 2vw, 2.1rem); }
+  .h-quote__by { margin-top: 18px; }
+  .h-quote__link { min-height: 44px; }
+  .h-flower__grid { gap: 24px; }
+  .h-flower__tape { width: 40%; }
+  .h-flower__note { font-size: 1.2rem; }
+  .h-flower__copy { gap: 16px; }
+  .h-tiers { gap: 10px; }
+  .h-tier { padding: 14px 16px; }
+  .h-vapes__grid { gap: 48px; }
+  .h-vapes__copy { gap: 16px; }
+  .h-store { padding-top: 64px; }
+  .h-store__top { gap: 28px; }
+  .h-store__copy { gap: 14px; }
+  .h-store__build { min-height: 44px; }
+  .h-find { gap: 24px; margin-top: 44px; }
+  .h-find__copy { gap: 14px; }
+  .h-find__addr { font-size: 1.3rem; }
+  .h-dir { padding: 14px 16px; }
+  .h-dir__k { font-size: 0.8125rem; letter-spacing: 0.12em; }
+  .h-find__figs { gap: 12px; }
+  .h-next { gap: 16px; margin-top: 44px; padding: 22px 20px; }
+  .h-next__list a { display: inline-flex; align-items: center; min-height: 44px; }
+  .h-know__grid { gap: 20px; }
+  .h-know__art { min-height: 200px; }
+  .h-know__leaf, .h-know__art .img-slot { width: 170px; }
+  .h-know__logo { width: 132px; }
+  .h-know__card { gap: 14px; padding: 24px 20px; }
+  .h-noon__grid { gap: 36px; }
+  .h-noon__copy { gap: 14px; }
+  .h-noon__lic { font-size: 0.8125rem; }
+}
+/* touch screens: no parallax, no pointer tilt, no hover lift (site.js also skips the parallax work) */
+@media (hover: none), (pointer: coarse) {
+  [data-depth] { transform: none; will-change: auto; }
+  [data-tilt] { transform: none; transform-style: flat; }
+  .glass--lift:hover, .glass--lift:focus-within { transform: none; }
 }
 @keyframes mdl-ticker { from { transform: translateX(0); } to { transform: translateX(-100%); } }
 @media (prefers-reduced-motion: reduce) {
