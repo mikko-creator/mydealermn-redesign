@@ -1,0 +1,651 @@
+{
+ "path": "/",
+ "source": "https://mydealermn.com/",
+ "captured": "2026-10-29",
+ "title": "Cannabis Dispensary in Bayport, MN near Stillwater | My Dealer",
+ "description": "Licensed adult-use cannabis dispensary at 243 3rd St N in Bayport, MN, minutes from Stillwater on Hwy 95. Deli flower, pre-rolls, edibles. Open noon to 8 daily.",
+ "canonical": "https://mydealermn.com/",
+ "og": {
+  "og:title": "Cannabis Dispensary in Bayport, MN near Stillwater | My Dealer",
+  "og:type": "website",
+  "og:description": "Licensed adult-use cannabis dispensary at 243 3rd St N in Bayport, MN, minutes from Stillwater on Hwy 95. Deli flower, pre-rolls, edibles. Open noon to 8 daily.",
+  "og:url": "https://mydealermn.com/",
+  "og:image": "https://mydealermn.com/og.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:locale": "en_US",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "WebSite",
+   "@id": "https://mydealermn.com/#website",
+   "url": "https://mydealermn.com/",
+   "name": "My Dealer",
+   "alternateName": [
+    "My Dealer Bayport",
+    "My Dealer MN",
+    "mydealermn.com"
+   ],
+   "inLanguage": "en-US",
+   "publisher": {
+    "@id": "https://mydealermn.com/#business"
+   }
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Store",
+    "LocalBusiness"
+   ],
+   "@id": "https://mydealermn.com/#business",
+   "name": "My Dealer",
+   "legalName": "My Dealer LLC",
+   "alternateName": [
+    "My Dealer Bayport",
+    "My Dealer MN",
+    "My Dealer dispensary",
+    "My Dealer cannabis"
+   ],
+   "description": "Licensed adult-use cannabis retailer in Bayport, Minnesota. Cannabis Retailer License DIS-L24-000241 from the Minnesota Office of Cannabis Management. Adult-use retail only. We want to be your dealer.",
+   "url": "https://mydealermn.com",
+   "image": [
+    "https://mydealermn.com/og-card.jpg",
+    "https://mydealermn.com/build/exterior-front.webp",
+    "https://mydealermn.com/build/interior-display-cases.webp"
+   ],
+   "logo": "https://mydealermn.com/brand/logo-512.png",
+   "email": "morpheus@mydealermn.com",
+   "telephone": "+1-651-323-1266",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "243 3rd St N",
+    "addressLocality": "Bayport",
+    "addressRegion": "MN",
+    "postalCode": "55003",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.018012,
+    "longitude": -92.779534
+   },
+   "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+   "identifier": [
+    "DIS-L24-000241",
+    "DIS-L24-000241-01"
+   ],
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Bayport"
+    },
+    {
+     "@type": "City",
+     "name": "Stillwater"
+    },
+    {
+     "@type": "City",
+     "name": "Oak Park Heights"
+    },
+    {
+     "@type": "City",
+     "name": "Lakeland"
+    },
+    {
+     "@type": "City",
+     "name": "Hudson",
+     "containedInPlace": {
+      "@type": "State",
+      "name": "Wisconsin"
+     }
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington County"
+    },
+    {
+     "@type": "State",
+     "name": "Minnesota"
+    }
+   ],
+   "knowsAbout": [
+    "adult-use cannabis",
+    "Minnesota cannabis",
+    "cannabis dispensary",
+    "Bayport dispensary",
+    "cannabis flower"
+   ],
+   "sameAs": [
+    "https://x.com/MyDealerMN",
+    "https://www.instagram.com/mydealermn/",
+    "https://www.linkedin.com/company/mydealermn",
+    "https://share.google/FS0jvQqMZtD11QPEt",
+    "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+    "https://www.facebook.com/mydealermn/",
+    "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+    "https://maps.google.com/?cid=16369139820469574822",
+    "https://www.yelp.com/biz/my-dealer-bayport-2",
+    "https://www.leafly.com/dispensary-info/my-dealer",
+    "https://weedmaps.com/dispensaries/my-dealer"
+   ],
+   "founder": {
+    "@type": "Person",
+    "name": "Brandon Van Asten",
+    "url": "https://www.linkedin.com/in/brandonvanasten"
+   },
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+     ],
+     "opens": "12:00",
+     "closes": "20:00"
+    }
+   ],
+   "paymentAccepted": "Cash, Debit Card",
+   "currenciesAccepted": "USD",
+   "priceRange": "$",
+   "additionalType": "https://en.wikipedia.org/wiki/Cannabis_dispensary",
+   "amenityFeature": [
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "Parking lot behind the building",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "ATM on site",
+     "value": true
+    }
+   ],
+   "makesOffer": [
+    {
+     "@type": "Offer",
+     "name": "Veteran and active military discount",
+     "description": "15% off the entire order every day, in store or order ahead, with a valid military or veteran ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    },
+    {
+     "@type": "Offer",
+     "name": "Andersen employee discount",
+     "description": "10% off every Tuesday with a valid Andersen ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "video",
+     "sources": [
+      {
+       "src": "/brand/my-dealer-comes-to-life-mobile.mp4",
+       "media": "(max-width: 768px) and (max-aspect-ratio: 3/5)",
+       "type": "video/mp4"
+      },
+      {
+       "src": "/brand/my-dealer-comes-to-life.mp4",
+       "media": "",
+       "type": "video/mp4"
+      }
+     ],
+     "poster": "/brand/film-poster.jpg"
+    },
+    {
+     "t": "hidden",
+     "blocks": []
+    },
+    {
+     "t": "h1",
+     "html": "Licensed cannabis dispensary in Bayport, MN, minutes from Stillwater"
+    },
+    {
+     "t": "p",
+     "html": "We want to be <em>your dealer.</em>"
+    },
+    {
+     "t": "p",
+     "html": "The legal kind. Grown as cannabis, from the seed, in Minnesota. This isn't a hemp shop wearing a dispensary costume. It's a real store you can walk into, with a real menu, selling real cannabis."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/cannabis-101",
+       "html": "Know what you're buying"
+      },
+      {
+       "href": "/bayport",
+       "html": "View the menu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "text",
+     "html": "Grown as cannabis"
+    },
+    {
+     "t": "text",
+     "html": "Minnesota flower"
+    },
+    {
+     "t": "text",
+     "html": "Not hemp"
+    },
+    {
+     "t": "text",
+     "html": "Not the alley"
+    },
+    {
+     "t": "text",
+     "html": "21+"
+    },
+    {
+     "t": "text",
+     "html": "Bayport first"
+    },
+    {
+     "t": "text",
+     "html": "Wabasha next"
+    },
+    {
+     "t": "text",
+     "html": "We want to be your dealer"
+    },
+    {
+     "t": "text",
+     "html": "Grown as cannabis"
+    },
+    {
+     "t": "text",
+     "html": "Minnesota flower"
+    },
+    {
+     "t": "text",
+     "html": "Not hemp"
+    },
+    {
+     "t": "text",
+     "html": "Not the alley"
+    },
+    {
+     "t": "text",
+     "html": "21+"
+    },
+    {
+     "t": "text",
+     "html": "Bayport first"
+    },
+    {
+     "t": "text",
+     "html": "Wabasha next"
+    },
+    {
+     "t": "text",
+     "html": "We want to be your dealer"
+    },
+    {
+     "t": "text",
+     "html": "Grown as cannabis"
+    },
+    {
+     "t": "text",
+     "html": "Minnesota flower"
+    },
+    {
+     "t": "text",
+     "html": "Not hemp"
+    },
+    {
+     "t": "text",
+     "html": "Not the alley"
+    },
+    {
+     "t": "text",
+     "html": "21+"
+    },
+    {
+     "t": "text",
+     "html": "Bayport first"
+    },
+    {
+     "t": "text",
+     "html": "Wabasha next"
+    },
+    {
+     "t": "text",
+     "html": "We want to be your dealer"
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h2",
+     "html": "You already have a dealer. We'd like that to be us."
+    },
+    {
+     "t": "p",
+     "html": "The cannabis market used to be straightforward but has quickly become noisy and confusing for customers. Neon lit tobacco shops and gas stations are selling THC delta 6a, 8, 9, 10, THC-O, HHC, THCP, exo-THC and THCA in states where cannabis isn't even legalized. It's confusing... What happened to the old weed we all knew?! We also still have a black market operating that works because it is inexpensive, craft, and already in your network, but the service, accessibility, and product variety might not be A+. My Dealer is the alternative. A shop you can walk into with transparency and truth, a menu that actually changes, and is grown as cannabis here in Minnesota."
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "The alley"
+        },
+        {
+         "t": "h3",
+         "html": "Your guy"
+        },
+        {
+         "t": "p",
+         "html": "Your guy is usually pretty good. The catch is the menu. Most growers have a strain or two and they have to sell through what they grew. You meet when they can meet. You take what they have. Same flower, over and over, until the next run."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "The hemp shop"
+        },
+        {
+         "t": "h3",
+         "html": "The costume"
+        },
+        {
+         "t": "p",
+         "html": "Tobacco shops calling themselves dispensaries. THCA flower. Hemp grown as hemp, then converted. Sometimes sprayed. Legal in a loophole kind of way. Confusing on purpose."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "My Dealer"
+        },
+        {
+         "t": "h3",
+         "html": "The real thing"
+        },
+        {
+         "t": "p",
+         "html": "Walk in when you want. Check ID. Pick from a real menu. Edibles today, Blue Dream tomorrow, a different preroll next week. Grown as cannabis by licensed Minnesota cultivators. You can send grandma in for a tincture and still tell your friends you are going to your dealer to pick up an ounce of flower."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/exterior-front.webp",
+         "alt": "My Dealer storefront at 243 3rd Street North, with the cartoon head and name on the brick"
+        },
+        {
+         "t": "hidden",
+         "blocks": []
+        },
+        {
+         "t": "h2",
+         "html": "Bayport, first store"
+        },
+        {
+         "t": "p",
+         "html": "243 3rd Street North, right on Highway 95 through Bayport. We're located next to the post office and the American Legion, across from city hall and the police station. This location is a short drive from Wisconsin and is right on the main road coming up from interstate 94 to Stillwater. There is a parking lot and 2nd entrance at the back of the building. To get there, turn onto 1st Ave N, then take a left down the alleyway. Open noon to 8 daily. Longer hours are on the way."
+        },
+        {
+         "t": "p",
+         "html": "Veteran discount: 15% off every day with valid military or veteran ID. Andersen employees: 10% off Tuesdays with valid Andersen ID."
+        },
+        {
+         "t": "links",
+         "items": [
+          {
+           "href": "/bayport",
+           "html": "View the menu"
+          },
+          {
+           "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+           "html": "Get directions",
+           "target": "_blank",
+           "rel": "noreferrer"
+          }
+         ]
+        },
+        {
+         "t": "linkcard",
+         "href": "/build",
+         "blocks": [
+          {
+           "t": "text",
+           "html": "See the build"
+          },
+          {
+           "t": "svg",
+           "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-right size-4\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path></svg>"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "blocks": [
+        {
+         "t": "svg",
+         "raw": "<svg viewBox=\"0 0 640 400\" class=\"block h-auto w-full\" role=\"img\" aria-label=\"Map of Bayport on Highway 95, just south of Highway 36 and north of I-94 Exit 258\"><rect width=\"640\" height=\"400\" fill=\"#1c1e18\"></rect><path d=\"M530 0 C548 70 510 130 528 190 C552 270 500 330 548 400 L640 400 L640 0 Z\" fill=\"#2f3d3a\"></path><text x=\"598\" y=\"210\" fill=\"#9fb07a\" font-size=\"9\" letter-spacing=\"1.6\" text-anchor=\"middle\" transform=\"rotate(90 598 210)\">ST. CROIX RIVER</text><path d=\"M16 350 C170 342 300 358 470 346 C540 340 590 332 640 326\" fill=\"none\" stroke=\"#e2b65a\" stroke-width=\"7\" stroke-linecap=\"round\"></path><text x=\"56\" y=\"338\" fill=\"#fffaf1\" font-size=\"11\" font-weight=\"700\">I-94</text><text x=\"430\" y=\"328\" fill=\"#e2b65a\" font-size=\"10\" font-weight=\"700\">Exit 258</text><path d=\"M16 96 C150 90 280 102 430 94 C500 90 560 86 640 80\" fill=\"none\" stroke=\"#e2b65a\" stroke-width=\"7\" stroke-linecap=\"round\"></path><text x=\"56\" y=\"84\" fill=\"#fffaf1\" font-size=\"11\" font-weight=\"700\">Hwy 36</text><text x=\"430\" y=\"82\" fill=\"#e2b65a\" font-size=\"10\" font-weight=\"700\">Exit MN-95</text><path d=\"M502 12 C496 70 508 110 500 150 C492 210 506 280 498 392\" fill=\"none\" stroke=\"#f3eee4\" stroke-width=\"4\" stroke-linecap=\"round\"></path><text x=\"486\" y=\"248\" fill=\"#f3eee4\" font-size=\"11\" font-weight=\"700\" text-anchor=\"end\">Hwy</text><text x=\"486\" y=\"262\" fill=\"#f3eee4\" font-size=\"11\" font-weight=\"700\" text-anchor=\"end\">95</text><text x=\"430\" y=\"42\" fill=\"#9fb07a\" font-size=\"11\">Stillwater</text><text x=\"318\" y=\"118\" fill=\"#9fb07a\" font-size=\"10\">Oak Park Heights</text><text x=\"412\" y=\"372\" fill=\"#9fb07a\" font-size=\"11\">Lakeland</text><g transform=\"translate(500 148)\"><circle r=\"16\" fill=\"#121310\"></circle><path d=\"M0 -11 L2.4 -3.4 L10.5 -3.4 L4 1.4 L6.5 9.2 L0 4.4 L-6.5 9.2 L-4 1.4 L-10.5 -3.4 L-2.4 -3.4 Z\" fill=\"#e2b65a\"></path></g><text x=\"522\" y=\"144\" fill=\"#e2b65a\" font-size=\"13\" font-family=\"Montserrat, sans-serif\" font-weight=\"500\">My Dealer</text><text x=\"522\" y=\"160\" fill=\"#fffaf1\" font-size=\"10\">Bayport</text></svg>"
+        },
+        {
+         "t": "text",
+         "html": "Get directions"
+        },
+        {
+         "t": "svg",
+         "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right size-3.5\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg>"
+        },
+        {
+         "t": "p",
+         "html": "How to find us"
+        },
+        {
+         "t": "p",
+         "html": "243 3rd Street North"
+        },
+        {
+         "t": "p",
+         "html": "Bayport, Minnesota 55003"
+        },
+        {
+         "t": "p",
+         "html": "From the north"
+        },
+        {
+         "t": "p",
+         "html": "Highway 36"
+        },
+        {
+         "t": "p",
+         "html": "Stillwater / Bayport exit (MN-95), then about 2 minutes south on Highway 95. Store is on your left."
+        },
+        {
+         "t": "p",
+         "html": "From the south"
+        },
+        {
+         "t": "p",
+         "html": "Interstate 94"
+        },
+        {
+         "t": "p",
+         "html": "Exit 258 Stillwater, then about 4 miles north on Highway 95. Store is on your right."
+        },
+        {
+         "t": "grid",
+         "blocks": [
+          {
+           "t": "figure",
+           "blocks": [
+            {
+             "t": "img",
+             "src": "/build/exterior-from-north.webp",
+             "alt": "My Dealer from the north, on the left next to New Edge Exteriors and the Legion"
+            }
+           ],
+           "caption": "North · on your left"
+          },
+          {
+           "t": "figure",
+           "blocks": [
+            {
+             "t": "img",
+             "src": "/build/exterior-from-south.webp",
+             "alt": "My Dealer from the south, on the right next to the post office"
+            }
+           ],
+           "caption": "South · on your right"
+          }
+         ]
+        },
+        {
+         "t": "p",
+         "html": "Next to the post office and the American Legion. Across from city hall and the police station. The sign sits flat on the brick, so look for the face with the hat. Bayport goes by fast."
+        }
+       ],
+       "target": "_blank",
+       "rel": "noreferrer"
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "h2",
+         "html": "Wabasha next"
+        },
+        {
+         "t": "p",
+         "html": "Property is in hand. The building still needs to be built out. Same idea, down the river: a shop people can treat like their dealer, with a door and a menu."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "Second Minnesota store on the map",
+          "Bayport is open. Wabasha is next.",
+          "Three more licenses still looking for a home",
+          "Twin Cities metro is the longer bet",
+          "<a href=\"/company\">The company story</a>"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h2",
+     "html": "Know what you are buying."
+    },
+    {
+     "t": "p",
+     "html": "Labels, potency, terpenes, testing, hemp vs cannabis. Written so a regular person can shop without a chemistry degree or a sales pitch."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/cannabis-101",
+       "html": "Read the guide"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "/brand/logo.webp?v=2",
+     "alt": "My Dealer cartoon head logo with hat and glasses"
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "Licensed retail"
+    },
+    {
+     "t": "h2",
+     "html": "Noon to 8."
+    },
+    {
+     "t": "p",
+     "html": "A licensed cannabis dispensary at 243 3rd Street North in Bayport, minutes from Stillwater. Open noon to 8 daily. Longer hours are on the way."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/bayport",
+       "html": "View the menu"
+      },
+      {
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "html": "Get directions",
+       "target": "_blank",
+       "rel": "noreferrer"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Cannabis Retailer License DIS-L24-000241. Adult-use retail is 21+."
+    }
+   ]
+  }
+ ]
+}

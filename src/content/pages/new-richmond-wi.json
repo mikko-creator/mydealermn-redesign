@@ -1,0 +1,533 @@
+{
+ "path": "/new-richmond-wi",
+ "source": "https://mydealermn.com/new-richmond-wi",
+ "captured": "2026-10-29",
+ "title": "Dispensary Near New Richmond, WI | Licensed Cannabis in Bayport, MN",
+ "description": "Licensed Minnesota cannabis about 25 to 30 minutes from New Richmond, WI, west on Highway 64 over the St. Croix Crossing. My Dealer in Bayport: 21+ with valid ID. Buy in MN, use in MN only.",
+ "canonical": "https://mydealermn.com/new-richmond-wi",
+ "og": {
+  "og:title": "Dispensary Near New Richmond, WI | Licensed Cannabis in Bayport, MN",
+  "og:description": "Licensed Minnesota cannabis about 25 to 30 minutes from New Richmond, WI, west on Highway 64 over the St. Croix Crossing. My Dealer in Bayport: 21+ with valid ID. Buy in MN, use in MN only.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/new-richmond-wi",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://mydealermn.com/new-richmond-wi#webpage",
+     "url": "https://mydealermn.com/new-richmond-wi",
+     "name": "Dispensary Near New Richmond, WI | Licensed Cannabis in Bayport, MN",
+     "description": "Licensed Minnesota cannabis about 25 to 30 minutes from New Richmond, WI, west on Highway 64 over the St. Croix Crossing. My Dealer in Bayport: 21+ with valid ID. Buy in MN, use in MN only.",
+     "inLanguage": "en-US",
+     "about": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mydealermn.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dispensary near New Richmond, WI",
+        "item": "https://mydealermn.com/new-richmond-wi"
+       }
+      ]
+     },
+     "dateModified": "2026-10-22"
+    },
+    {
+     "@type": [
+      "Store",
+      "LocalBusiness"
+     ],
+     "@id": "https://mydealermn.com/#business",
+     "name": "My Dealer",
+     "url": "https://mydealermn.com",
+     "telephone": "+1-651-323-1266",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "243 3rd St N",
+      "addressLocality": "Bayport",
+      "addressRegion": "MN",
+      "postalCode": "55003",
+      "addressCountry": "US"
+     },
+     "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "New Richmond",
+       "containedInPlace": {
+        "@type": "State",
+        "name": "Wisconsin"
+       }
+      }
+     ],
+     "sameAs": [
+      "https://x.com/MyDealerMN",
+      "https://www.instagram.com/mydealermn/",
+      "https://www.linkedin.com/company/mydealermn",
+      "https://share.google/FS0jvQqMZtD11QPEt",
+      "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+      "https://www.facebook.com/mydealermn/",
+      "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+      "https://maps.google.com/?cid=16369139820469574822",
+      "https://www.yelp.com/biz/my-dealer-bayport-2",
+      "https://www.leafly.com/dispensary-info/my-dealer",
+      "https://weedmaps.com/dispensaries/my-dealer"
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://mydealermn.com/new-richmond-wi#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Can I bring it back to New Richmond?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Cannabis isn't legal in Wisconsin, and taking it across the river is illegal under state law. New Richmond is in St. Croix County, and the county's possession ordinance (ch. 58) carries a $125 to $500 forfeiture. We haven't verified whether the City of New Richmond has its own ordinance. Buy in Minnesota, use it in Minnesota. Details and sources are on our Wisconsin shoppers page."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is there a licensed dispensary in New Richmond?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Wisconsin hasn't legalized adult-use or medical cannabis, so New Richmond has no licensed dispensary. Shops using that word sell hemp-derived or CBD products."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Where can I buy THC near New Richmond after December 11?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If a \"dispensary near me\" search in New Richmond turns up hemp shops, that's because Wisconsin still has no licensed cannabis stores. Under current federal law, starting December 11, 2026, hemp products with more than 0.4 mg of total THC per package no longer meet the federal definition of hemp. For real cannabis, My Dealer is a Minnesota-licensed cannabis retailer in Bayport, about 25 to 30 minutes from New Richmond, for adults 21+ with valid ID. Licensed cannabis is legal under Minnesota law only, and everything we sell is for use in Minnesota only."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long is the drive from New Richmond?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About 18 miles and roughly 25 to 30 minutes from downtown, depending on traffic: Highway 64 west over the St. Croix Crossing, the first exit for Highway 95, then south about a mile and a half to Bayport."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does the I-94 bridge construction affect the drive?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not on the usual route. From New Richmond you'd take Highway 64 and the St. Croix Crossing, not I-94."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "New Richmond, WI · Adults 21+"
+    },
+    {
+     "t": "h1",
+     "html": "From New Richmond, it's about 25 to 30 minutes to licensed cannabis in Bayport"
+    },
+    {
+     "t": "p",
+     "html": "Hey, I'm Brandon. My Dealer is a state-licensed cannabis store in Bayport, Minnesota, just across the St. Croix, straight west of New Richmond on Highway 64. Adults 21+ with a valid ID, including a Wisconsin license, can shop here. The catch is simple: buy it in Minnesota and use it in Minnesota."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/bayport",
+       "html": "Preorder for pickup"
+      },
+      {
+       "href": "/wisconsin",
+       "html": "Guide for Wisconsin shoppers"
+      },
+      {
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "html": "Get directions",
+       "target": "_blank",
+       "rel": "noopener"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "h2",
+       "html": "Before anything else: buy here, use it here",
+       "id": "buy-in-mn-use-in-mn"
+      },
+      {
+       "t": "p",
+       "html": "New Richmond shoppers, this part matters most. Anything you buy at My Dealer is legal in Minnesota only, so it shouldn't ride back east on Highway 64. In Wisconsin, THC (outside of legal hemp) is a controlled substance, and New Richmond sits in St. Croix County, which adds its own possession ordinance. Our packages all say it: \"This product may be unlawful outside the state of Minnesota.\""
+      },
+      {
+       "t": "p",
+       "html": "If you're coming over, know ahead of time where you'll use it in Minnesota: a private residence, or private property where the owner allows it. See the <a href=\"/wisconsin\">guide for Wisconsin shoppers</a> for the details."
+      },
+      {
+       "t": "h2",
+       "html": "Local rules in New Richmond",
+       "id": "local-rules-new-richmond"
+      },
+      {
+       "t": "p",
+       "html": "New Richmond is in St. Croix County, where county Chapter 58 bans marijuana possession (up to 25 grams, first offense), with a forfeiture of $125 to $500. <a href=\"https://www.sccwi.gov/DocumentCenter/View/1139/Chapter-58-PDF?bidId=\" target=\"_blank\" rel=\"noopener\">St. Croix County ch. 58 (PDF)</a> Not verified: we haven't confirmed a separate City of New Richmond ordinance. State law applies on top of the county rule."
+      },
+      {
+       "t": "p",
+       "html": "In Bayport, City Code Sec. 26-77 (Ordinance 891, adopted August 7, 2023) bans smoking cannabis or hemp products in public places, and Sec. 26-28 bans open containers of cannabis or hemp drinks on streets, sidewalks, and other public places. <a href=\"https://library.municode.com/MN/Bayport/codes/Code_of_Ordinances?nodeId=MUCO_CH26EN\" target=\"_blank\" rel=\"noopener\">Bayport Code ch. 26</a>"
+      },
+      {
+       "t": "h2",
+       "html": "Getting here from New Richmond",
+       "id": "getting-here-from-new-richmond"
+      },
+      {
+       "t": "h3",
+       "html": "From downtown New Richmond"
+      },
+      {
+       "t": "p",
+       "html": "Highway 64 does almost all the work. Get on 64 heading west and stay on it to the river, where it crosses into Minnesota on the St. Croix Crossing bridge. Take the first exit on the Minnesota side, Highway 95, signed for Bayport and Stillwater. Turn left to head south on St. Croix Trail and stay on 95 about a mile and a half. It becomes 3rd Street in Bayport, and we're on your left, next to the American Legion and the post office, across from City Hall."
+      },
+      {
+       "t": "p",
+       "html": "<strong>About 18 miles, roughly 25 to 30 minutes (approximate).</strong>"
+      },
+      {
+       "t": "p",
+       "html": "This route skips I-94 entirely, so the I-94 bridge work near Hudson isn't a factor."
+      },
+      {
+       "t": "p",
+       "html": "Approximate drive time and distance: OpenStreetMap routing (OSRM), checked October 22, 2026, about 18 miles and about 26 minutes without traffic. Allow extra time when traffic is heavy."
+      },
+      {
+       "t": "h2",
+       "html": "Hemp THC on December 11: what changes, and what doesn't",
+       "id": "hemp-rules-new-richmond"
+      },
+      {
+       "t": "p",
+       "html": "Heads up for Wisconsin shoppers looking for cannabis near New Richmond. Under current federal law, starting December 11, 2026, a finished hemp product with more than 0.4 mg of total THC per package (the can, bottle, or bag it's sold in) no longer meets the federal definition of hemp. So do hemp products made with lab-converted cannabinoids. That covers most hemp THC gummies, vapes, and drinks, including delta-8. This is a federal change, not a new Wisconsin law. Wisconsin's hemp law hasn't changed, and two Wisconsin bills to regulate hemp THC products, AB 747 and SB 682, did not pass."
+      },
+      {
+       "t": "p",
+       "html": "Minnesota has its own hemp law. The Minnesota Office of Cannabis Management says the federal change doesn't change how Minnesota defines lower-potency hemp edibles and drinks, or whether they're legal under Minnesota law. OCM also notes that many hemp products that comply with Minnesota law, such as packages with more than 0.4 mg of THC, won't meet the new federal definition, which could affect hemp businesses' banking, taxes, and interstate shipping."
+      },
+      {
+       "t": "p",
+       "html": "Licensed cannabis isn't part of the hemp change because it was never hemp. It's the real weed people are usually asking about: grown as cannabis by licensed Minnesota cultivators and tracked by the state. It's legal under Minnesota law only, and it's still illegal under federal law and in Wisconsin. Come visit Bayport, about 25 to 30 minutes west on Highway 64. Everything you buy here, cannabis or hemp, is for use in Minnesota only."
+      },
+      {
+       "t": "p",
+       "html": "Our read, not legal advice. Sources: <a href=\"https://www.law.cornell.edu/uscode/text/7/1639o\" target=\"_blank\" rel=\"noopener\">7 U.S.C. 1639o</a> as amended by P.L. 119-37, Div. B, Sec. 781 (enacted November 12, 2025); timing under <a href=\"https://www.congress.gov/bill/119th-congress/house-bill/6500/text\" target=\"_blank\" rel=\"noopener\">P.L. 119-103, Sec. 2019</a> (signed September 2, 2026); <a href=\"https://www.congress.gov/crs-product/IF13136\" target=\"_blank\" rel=\"noopener\">Congressional Research Service IF13136</a>; <a href=\"https://mn.gov/ocm/businesses/resources/hemp/federal-hemp-changes.jsp\" target=\"_blank\" rel=\"noopener\">Minnesota OCM, Federal hemp changes</a>; Wisconsin <a href=\"https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/AB747\" target=\"_blank\" rel=\"noopener\">AB 747</a> and <a href=\"https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/SB682\" target=\"_blank\" rel=\"noopener\">SB 682</a>. Congress could still change these dates. Bills to delay the change again are in committee; as of October 22, 2026, none has passed."
+      },
+      {
+       "t": "h2",
+       "html": "Where Wisconsin cannabis law stands",
+       "id": "wi-law-short"
+      },
+      {
+       "t": "p",
+       "html": "As of October 22, 2026, Wisconsin has no adult-use or medical cannabis program. In the 2025-2026 session, lawmakers introduced a medical cannabis bill, a legalization bill, and several bills to regulate hemp THC products. None passed; all failed on March 23, 2026, under the session schedule, after the last regular floor period ended in mid-March. The <a href=\"/wisconsin#wisconsin-law-2026\">Wisconsin shoppers guide</a> lists each bill, its sponsors, and how to reach your legislators."
+      },
+      {
+       "t": "h2",
+       "html": "What we carry",
+       "id": "what-we-carry-new-richmond"
+      },
+      {
+       "t": "p",
+       "html": "From New Richmond it's about a half-hour trip, so most people come in with a plan. Browse the <a href=\"/bayport\">live menu</a> first, or preorder at <a href=\"/bayport\">mydealermn.com/bayport</a>, pick up the same day or the next, and pay at the counter."
+      },
+      {
+       "t": "p",
+       "html": "On the shelves: deli and pre-packed flower, pre-rolls, vapes, licensed cannabis edibles, and clearly labeled hemp products. It's a wide range of brands, many of them from Minnesota, including RYTHM, Dogwalkers, Good Green, &amp;Shine, Vireo, Campfire Cannabis, Flör, BLNCD, Minny Grown, Foundry, Granny's, and Philotimo, with Trawa flower at the deli counter."
+      },
+      {
+       "t": "h2",
+       "html": "Deli flower: ounces from $210, about 25 to 30 minutes from New Richmond",
+       "id": "deli-flower-new-richmond"
+      },
+      {
+       "t": "p",
+       "html": "If you're making the drive from New Richmond, deli flower is the budget-friendly way to make it worth the trip. It's real flower, grown as cannabis by licensed Minnesota cultivators. It's weighed to order at the counter on certified scales, right in front of you, so you pick the amount, from a single gram up to two ounces, the Minnesota limit for one purchase. Mixing strains within a tier still counts toward the bulk price."
+      },
+      {
+       "t": "p",
+       "html": "Ounces run $210 or $225 depending on the tier. The more you buy, the less each gram costs. In the $11 tier, a single gram is $11, 3.5 g works out to $10.00 a gram, 14 g to $8.57 a gram, and a full ounce to $7.50 a gram. The $12 tier steps down the same way, to $8.04 a gram at the ounce. Same rule as everything else here: it stays in Minnesota, so plan where you'll use it on this side of the river."
+      },
+      {
+       "t": "h3",
+       "html": "$11 tier"
+      },
+      {
+       "t": "p",
+       "html": "$7.50/g at the ounce"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "1 g$11",
+        "3.5 g$35",
+        "7 g$65",
+        "14 g$120",
+        "28 g$210"
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "$12 tier"
+      },
+      {
+       "t": "p",
+       "html": "$8.04/g at the ounce"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "1 g$12",
+        "3.5 g$38",
+        "7 g$70",
+        "14 g$130",
+        "28 g$225"
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Combined quantity: mix and match strains within a tier, and the total weight sets the price. Prices as of October 22, 2026. Which strains sit in each tier changes with every batch, so check the <a href=\"/bayport/menu/flower-9630\">flower menu</a> for today's lineup. Adults 21+ with valid ID."
+      },
+      {
+       "t": "h2",
+       "html": "Good to know before the drive",
+       "id": "first-visit-new-richmond"
+      },
+      {
+       "t": "p",
+       "html": "Have your ID ready: any valid U.S. driver's license or state ID works, including Wisconsin, and so do passports and Tribal IDs. It's 21 and up only. We're cash or debit (cashless ATM, $3 fee), with no credit cards."
+      },
+      {
+       "t": "p",
+       "html": "The Minnesota limit for one purchase is 2 ounces of flower, 8 grams of concentrate, and 800 mg of THC in edibles and hemp THC products combined. Andersen employees get 10% off on Tuesdays, and veterans and active military get 15% off every day."
+      },
+      {
+       "t": "p",
+       "html": "When you get here, park in the lot behind the store. You can come in through the front or the back; there are entrances on both sides."
+      },
+      {
+       "t": "h2",
+       "html": "New Richmond questions",
+       "id": "new-richmond-faq"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "Can I bring it back to New Richmond?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Cannabis isn't legal in Wisconsin, and taking it across the river is illegal under state law. New Richmond is in St. Croix County, and the county's possession ordinance (ch. 58) carries a $125 to $500 forfeiture. We haven't verified whether the City of New Richmond has its own ordinance. Buy in Minnesota, use it in Minnesota. Details and sources are on our <a href=\"/wisconsin\">Wisconsin shoppers page</a>."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Is there a licensed dispensary in New Richmond?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Wisconsin hasn't legalized adult-use or medical cannabis, so New Richmond has no licensed dispensary. Shops using that word sell hemp-derived or CBD products."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Where can I buy THC near New Richmond after December 11?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "If a \"dispensary near me\" search in New Richmond turns up hemp shops, that's because Wisconsin still has no licensed cannabis stores. Under current federal law, starting December 11, 2026, hemp products with more than 0.4 mg of total THC per package no longer meet the federal definition of hemp. For real cannabis, My Dealer is a Minnesota-licensed cannabis retailer in Bayport, about 25 to 30 minutes from New Richmond, for adults 21+ with valid ID. Licensed cannabis is legal under Minnesota law only, and everything we sell is for use in Minnesota only."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How long is the drive from New Richmond?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "About 18 miles and roughly 25 to 30 minutes from downtown, depending on traffic: Highway 64 west over the St. Croix Crossing, the first exit for Highway 95, then south about a mile and a half to Bayport."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Does the I-94 bridge construction affect the drive?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Not on the usual route. From New Richmond you'd take Highway 64 and the St. Croix Crossing, not I-94."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Visit My Dealer in Bayport",
+       "id": "visit-new-richmond"
+      },
+      {
+       "t": "p",
+       "html": "My Dealer, 243 3rd St N, Bayport, MN 55003"
+      },
+      {
+       "t": "p",
+       "html": "Phone: <a href=\"tel:+16513231266\">(651) 323-1266</a>"
+      },
+      {
+       "t": "p",
+       "html": "Open noon to 8, every day. Adults 21+ with valid ID only."
+      },
+      {
+       "t": "p",
+       "html": "Parking lot and a second entrance at the back: turn onto 1st Ave N, then take a left down the alley."
+      },
+      {
+       "t": "p",
+       "html": "<a href=\"/bayport\">Preorder for pickup</a> · <a href=\"/bayport\">Browse the Bayport menu</a> · <a href=\"https://www.google.com/maps/dir/?api=1&amp;destination=243+3rd+Street+North,+Bayport,+MN+55003\" target=\"_blank\" rel=\"noopener\">Google Maps directions</a>"
+      },
+      {
+       "t": "p",
+       "html": "Licensed by the Minnesota Office of Cannabis Management. Cannabis Retailer License DIS-L24-000241."
+      },
+      {
+       "t": "h2",
+       "html": "Other towns we serve",
+       "id": "nearby-new-richmond-wi"
+      },
+      {
+       "t": "p",
+       "html": "Coming from somewhere else in the valley? These pages have the route from your side of the river, and the Wisconsin shoppers guide covers the border rule in full."
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/wisconsin",
+         "html": "Wisconsin shoppers (all towns)"
+        },
+        {
+         "href": "/hudson-wi",
+         "html": "Hudson, WI"
+        },
+        {
+         "href": "/river-falls-wi",
+         "html": "River Falls, WI"
+        },
+        {
+         "href": "/somerset-wi",
+         "html": "Somerset, WI"
+        },
+        {
+         "href": "/stillwater",
+         "html": "Stillwater, MN"
+        },
+        {
+         "href": "/oak-park-heights",
+         "html": "Oak Park Heights, MN"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Shop by category:"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/flower",
+         "html": "Flower"
+        },
+        {
+         "href": "/pre-rolls",
+         "html": "Pre-rolls"
+        },
+        {
+         "href": "/edibles",
+         "html": "Edibles"
+        },
+        {
+         "href": "/vapes",
+         "html": "Vapes"
+        },
+        {
+         "href": "/beverages",
+         "html": "Hemp THC beverages"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "This page is general information, not legal advice. Laws change. For your own situation, talk to a licensed attorney."
+      },
+      {
+       "t": "p",
+       "html": "Information current as of October 22, 2026. Menu, prices, and stock change often; the live menu is the final word."
+      },
+      {
+       "t": "p",
+       "html": "For adults 21 and older only."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Hemp products containing THC are not for use by anyone under the age of 21. Using hemp products containing THC may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid hemp products containing THC due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

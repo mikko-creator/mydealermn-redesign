@@ -1,0 +1,483 @@
+{
+ "path": "/vapes",
+ "source": "https://mydealermn.com/vapes",
+ "captured": "2026-10-29",
+ "title": "Cannabis Vapes in Bayport, MN | My Dealer",
+ "description": "All-in-one cannabis vapes at My Dealer in Bayport, MN. What the label tells you, how vapes count toward Minnesota limits, and the live vape menu for preorder.",
+ "canonical": "https://mydealermn.com/vapes",
+ "og": {
+  "og:title": "Cannabis Vapes in Bayport, MN | My Dealer",
+  "og:description": "All-in-one cannabis vapes at My Dealer in Bayport, MN. What the label tells you, how vapes count toward Minnesota limits, and the live vape menu for preorder.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/vapes",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "CollectionPage",
+     "@id": "https://mydealermn.com/vapes#webpage",
+     "url": "https://mydealermn.com/vapes",
+     "name": "Cannabis Vapes in Bayport, MN | My Dealer",
+     "description": "All-in-one cannabis vapes at My Dealer in Bayport, MN. What the label tells you, how vapes count toward Minnesota limits, and the live vape menu for preorder.",
+     "inLanguage": "en-US",
+     "about": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "provider": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "significantLink": "https://mydealermn.com/bayport/menu/vapes-10353",
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mydealermn.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Menu",
+        "item": "https://mydealermn.com/bayport"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Vapes",
+        "item": "https://mydealermn.com/vapes"
+       }
+      ]
+     },
+     "dateModified": "2026-10-17"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://mydealermn.com/vapes#faq",
+     "url": "https://mydealermn.com/vapes",
+     "isPartOf": {
+      "@id": "https://mydealermn.com/vapes#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How fast does a vape kick in, and how long does it last?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually 1 to 10 minutes to start, a peak around 30 minutes, and 2 to 4 hours total, according to Minnesota OCM. Some effects can last up to 6 hours."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How many puffs should I start with?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One short puff, then wait 15 to 30 minutes. Vape oil is far more concentrated than flower, so a puff goes further than you might expect."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How do vapes count toward the Minnesota limit?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They count as concentrate. One purchase can include up to 8 grams of concentrate, so a 1 g device counts as 1 g."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I vape in my car or in public?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Minnesota law doesn't allow it in a vehicle, parked or moving, or anywhere smoking is banned. It's also banned inside apartment and other multifamily buildings, including balconies and patios. Use it in a private home or on private property where the owner allows it."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is vaping risk-free?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Vaping can irritate the lungs, according to Minnesota OCM. Use only licensed, tested devices as made, and don't add anything to them."
+       }
+      }
+     ]
+    },
+    {
+     "@type": [
+      "Store",
+      "LocalBusiness"
+     ],
+     "@id": "https://mydealermn.com/#business",
+     "name": "My Dealer",
+     "url": "https://mydealermn.com",
+     "telephone": "+1-651-323-1266",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "243 3rd St N",
+      "addressLocality": "Bayport",
+      "addressRegion": "MN",
+      "postalCode": "55003",
+      "addressCountry": "US"
+     },
+     "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+     "sameAs": [
+      "https://x.com/MyDealerMN",
+      "https://www.instagram.com/mydealermn/",
+      "https://www.linkedin.com/company/mydealermn",
+      "https://share.google/FS0jvQqMZtD11QPEt",
+      "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+      "https://www.facebook.com/mydealermn/",
+      "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+      "https://maps.google.com/?cid=16369139820469574822",
+      "https://www.yelp.com/biz/my-dealer-bayport-2",
+      "https://www.leafly.com/dispensary-info/my-dealer",
+      "https://weedmaps.com/dispensaries/my-dealer"
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "Vapes · Adults 21+"
+    },
+    {
+     "t": "h1",
+     "html": "Cannabis vapes in Bayport, MN"
+    },
+    {
+     "t": "p",
+     "html": "Our vape shelf is small and changes often. Here's what we carry, how it counts toward your limit, and where you can and can't use it."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/bayport",
+       "html": "Preorder for pickup"
+      },
+      {
+       "href": "/bayport/menu/vapes-10353",
+       "html": "See the vape menu"
+      },
+      {
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "html": "Get directions",
+       "target": "_blank",
+       "rel": "noopener"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "h2",
+       "html": "What we carry",
+       "id": "vape-formats"
+      },
+      {
+       "t": "p",
+       "html": "Right now our vapes are all-in-one (AIO) devices: the battery and the cannabis oil come together, so there's nothing to pair or refill. The menu lists the oil type (for example, distillate), the strain lineage, and the size, usually 1 g. Brands on the menu when we checked on October 17, 2026: Oma. Check the <a href=\"/bayport/menu/vapes-10353\">vape menu</a> for current stock before you come in."
+      },
+      {
+       "t": "p",
+       "html": "Looking for a specific cart or brand we don't have? Ask a budtender. The selection grows as new products come in."
+      },
+      {
+       "t": "h2",
+       "html": "Limits and where to use it",
+       "id": "vape-limits"
+      },
+      {
+       "t": "p",
+       "html": "Vapes count as concentrate. Minnesota caps one purchase at 8 grams of concentrate. <a href=\"https://www.revisor.mn.gov/statutes/cite/342.27\" target=\"_blank\" rel=\"noopener\">Minn. Stat. 342.27</a>"
+      },
+      {
+       "t": "p",
+       "html": "Vaping follows the same rules as smoking: not in any vehicle, not in public places, not anywhere Minnesota's smoking ban applies, and not where a minor would breathe it in. At home, store devices away from heat, and keep them out of reach of kids and pets."
+      },
+      {
+       "t": "h2",
+       "html": "How vapes work",
+       "id": "how-vapes-work"
+      },
+      {
+       "t": "dl",
+       "items": [
+        {
+         "dt": "Onset",
+         "dd": [
+          "1 to 10 minutes"
+         ]
+        },
+        {
+         "dt": "Peak",
+         "dd": [
+          "About 30 minutes"
+         ]
+        },
+        {
+         "dt": "Lasts",
+         "dd": [
+          "2 to 4 hours, sometimes up to 6"
+         ]
+        },
+        {
+         "dt": "Start with",
+         "dd": [
+          "One short puff, then wait 15 to 30 minutes"
+         ]
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "General estimates from Minnesota OCM and Health Canada. Timing varies from person to person."
+      },
+      {
+       "t": "h3",
+       "html": "When people choose it"
+      },
+      {
+       "t": "p",
+       "html": "A vape heats cannabis oil into an aerosol you inhale. There's no lighter, no ash, and nothing to grind or roll. People who want the quick onset of inhaling and like taking a single small puff and stopping often choose a vape."
+      },
+      {
+       "t": "h3",
+       "html": "Timing"
+      },
+      {
+       "t": "p",
+       "html": "Vaping is inhaled, so the timing is close to flower. Minnesota's Office of Cannabis Management (OCM) puts the onset at 1 to 10 minutes, the peak at about 30 minutes, and the total at 2 to 4 hours. Health Canada notes effects can last up to 6 hours, with some lingering effects up to 24."
+      },
+      {
+       "t": "h3",
+       "html": "Dosing basics"
+      },
+      {
+       "t": "p",
+       "html": "Vape oil is much more concentrated than flower. The device on our menu on October 17, 2026 was listed at 80.2% THC, while flower ran about 15% to 29%. So a single puff can deliver more THC than a puff of flower. Start with one short, gentle puff and wait 15 to 30 minutes before deciding on more, which follows OCM's start-low advice. Health Canada suggests the most caution with products over 20% THC, which includes distillates."
+      },
+      {
+       "t": "h3",
+       "html": "How it counts toward Minnesota limits"
+      },
+      {
+       "t": "p",
+       "html": "Vapes count as concentrate. One purchase can include up to 8 grams of concentrate, so a 1 g device counts as 1 g. That's also the most concentrate you can carry. <a href=\"https://www.revisor.mn.gov/statutes/cite/342.27\" target=\"_blank\" rel=\"noopener\">Minn. Stat. 342.27</a>, <a href=\"https://www.revisor.mn.gov/statutes/cite/342.09\" target=\"_blank\" rel=\"noopener\">342.09</a>"
+      },
+      {
+       "t": "h3",
+       "html": "Storage"
+      },
+      {
+       "t": "p",
+       "html": "Keep the device in a cool spot out of direct sun, and don't leave it in a hot car. Lock it up, out of reach of kids and pets. In the car, it goes in the trunk unless it's still in its sealed package. Devices have lithium batteries, so don't throw them in the trash; take them to a battery or household hazardous waste drop-off."
+      },
+      {
+       "t": "h3",
+       "html": "Practical tips"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Count your puffs. It's easy to lose track with a vape.",
+        "Use only the device as made. Don't refill it, open it, or add anything to it.",
+        "Charge it with the cable it came with, and stop using it if it's damaged or leaking.",
+        "Buy licensed, tested products. A label with the batch number and THC % tells you where it came from."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Safety"
+      },
+      {
+       "t": "p",
+       "html": "Vaping isn't risk-free. OCM notes that people who smoke or vape have a higher risk of chronic bronchitis and lung irritation. The CDC linked most cases in the 2019 vaping lung injury outbreak (EVALI) to THC vapes from informal sources, and to vitamin E acetate. Don't drive after using, and don't mix cannabis with alcohol. Vaping follows the same rules as smoking: use it only in a private home or on private property where the owner allows it. Not in a vehicle, parked or moving, not in public places, and not in our parking lot. Not anywhere Minnesota's smoking ban applies, and not where a minor would breathe it."
+      },
+      {
+       "t": "p",
+       "html": "If someone has used too much, or a child or pet gets into cannabis, call Poison Control at 1-800-222-1222 (for pets, call your vet). In an emergency, call 911."
+      },
+      {
+       "t": "h2",
+       "html": "Questions about vapes",
+       "id": "faq-vapes-work"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "How fast does a vape kick in, and how long does it last?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Usually 1 to 10 minutes to start, a peak around 30 minutes, and 2 to 4 hours total, according to Minnesota OCM. Some effects can last up to 6 hours."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How many puffs should I start with?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "One short puff, then wait 15 to 30 minutes. Vape oil is far more concentrated than flower, so a puff goes further than you might expect."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How do vapes count toward the Minnesota limit?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "They count as concentrate. One purchase can include up to 8 grams of concentrate, so a 1 g device counts as 1 g."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I vape in my car or in public?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Minnesota law doesn't allow it in a vehicle, parked or moving, or anywhere smoking is banned. It's also banned inside apartment and other multifamily buildings, including balconies and patios. Use it in a private home or on private property where the owner allows it."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Is vaping risk-free?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Vaping can irritate the lungs, according to Minnesota OCM. Use only licensed, tested devices as made, and don't add anything to them."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Sources: <a href=\"https://mn.gov/ocm/assets/Guide_to_Safer_Cannabis_Use_1.0_tcm1202-754055.pdf\" target=\"_blank\" rel=\"noopener\">Minnesota OCM Guide to Safer Cannabis Use</a>, <a href=\"https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/resources/what-you-need-to-know-if-you-choose-to-consume-cannabis.html\" target=\"_blank\" rel=\"noopener\">Health Canada</a>, <a href=\"https://archive.cdc.gov/www_cdc_gov/tobacco/basic_information/e-cigarettes/severe-lung-disease.html\" target=\"_blank\" rel=\"noopener\">CDC on EVALI</a>, <a href=\"https://nida.nih.gov/publications/drugfacts/cannabis-marijuana\" target=\"_blank\" rel=\"noopener\">NIDA</a>."
+      },
+      {
+       "t": "h2",
+       "html": "How to shop it",
+       "id": "how-to-shop"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<strong>Preorder:</strong> pick what you want on the <a href=\"/bayport/menu/vapes-10353\">vape menu</a>, or start at <a href=\"/bayport\">mydealermn.com/bayport</a>. Pick it up the same day or the next day, and pay at the counter.",
+        "<strong>In the store:</strong> talk it through with a budtender, or browse on the kiosk. We have paper menus too.",
+        "<strong>Bring ID:</strong> 21+ with a valid photo ID, every visit. Cash or debit (cashless ATM, $3 fee). Loyalty members earn 3% back in points."
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "More from the menu",
+       "id": "more-categories"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/flower",
+         "html": "Flower"
+        },
+        {
+         "href": "/pre-rolls",
+         "html": "Pre-rolls"
+        },
+        {
+         "href": "/edibles",
+         "html": "Edibles"
+        },
+        {
+         "href": "/beverages",
+         "html": "Hemp THC beverages"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Coming from out of town? Directions and parking from your side of the river:"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/stillwater",
+         "html": "Stillwater, MN"
+        },
+        {
+         "href": "/oak-park-heights",
+         "html": "Oak Park Heights, MN"
+        },
+        {
+         "href": "/hudson-wi",
+         "html": "Hudson, WI"
+        },
+        {
+         "href": "/river-falls-wi",
+         "html": "River Falls, WI"
+        },
+        {
+         "href": "/somerset-wi",
+         "html": "Somerset, WI"
+        },
+        {
+         "href": "/new-richmond-wi",
+         "html": "New Richmond, WI"
+        },
+        {
+         "href": "/wisconsin",
+         "html": "Wisconsin shoppers"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Information current as of October 17, 2026. Menu, prices, and stock change often; the live menu is the final word."
+      },
+      {
+       "t": "p",
+       "html": "For adults 21 and older only."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Hemp products containing THC are not for use by anyone under the age of 21. Using hemp products containing THC may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid hemp products containing THC due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

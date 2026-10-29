@@ -1,0 +1,182 @@
+{
+  "about": "Generated imagery for the My Dealer (mydealermn.com) redesign pitch, design 'Sketchbook Noir'. Run: node tools/fal-gen.mjs --plan src/content/image-plan.json --key-file <path outside the project>. Every result is AI-generated and illustrative: never a picture of My Dealer's store, staff, customers or products. g- ids are editorial still lifes on ink, wood or stone; s- ids are wordless pencil or ink concept sketches on plain white paper (templates multiply them onto cream and invert them onto ink).",
+  "defaults": {
+    "model": "fal-ai/flux-pro/v1.1-ultra",
+    "style": "no people, no hands, no faces, no text, no lettering, no numbers, no labels, no logos, no brand marks, all surfaces blank and unmarked",
+    "input": {
+      "aspect_ratio": "3:2",
+      "output_format": "jpeg",
+      "safety_tolerance": "5"
+    },
+    "cutoutModel": "fal-ai/birefnet/v2",
+    "cutoutInput": {
+      "model": "General Use (Heavy)",
+      "operating_resolution": "2048x2048",
+      "output_format": "png",
+      "refine_foreground": true
+    }
+  },
+  "images": [
+    {
+      "id": "g-bud-macro",
+      "file": "assets/generated/g-bud-macro.jpg",
+      "aspect": "16:9",
+      "role": "home flower spotlight, /flower hero, source still for the smoke loop",
+      "usedFor": [
+        "home flower spotlight",
+        "/flower hero"
+      ],
+      "alt": "Macro photograph of a cured cannabis flower bud covered in frosty trichomes, rim-lit in warm gold on a near-black background with soft smoke",
+      "prompt": "editorial macro still life photograph of a single dense cured cannabis flower bud resting on a dark matte surface, frosty glistening trichomes and thin amber pistils in crisp focus, muted sage green and olive tones, a few soft wisps of pale smoke drifting in the dark behind it, warm golden rim light from behind and the side, near-black background with gentle falloff, shallow depth of field, the bud placed right of centre with calm dark negative space on the left, quiet premium mood",
+      "input": {
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "id": "g-deli-jars",
+      "file": "assets/generated/g-deli-jars.jpg",
+      "aspect": "3:2",
+      "role": "home flower, /flower, deals",
+      "usedFor": [
+        "home flower",
+        "/flower",
+        "deals"
+      ],
+      "alt": "Three clear glass jars with white lids, filled with cured cannabis flower, on a dark wooden counter",
+      "prompt": "editorial still life photograph of three small clear glass deli jars with plain glass lids standing on a dark walnut wood counter, each jar holding a few cured cannabis flower buds, completely blank smooth glass with no labels and no stickers, low warm side light catching the glass rims, muted earthy palette of deep brown, olive and soft gold, dark background, calm and understated",
+      "input": {
+        "aspect_ratio": "3:2"
+      }
+    },
+    {
+      "id": "g-prerolls",
+      "file": "assets/generated/g-prerolls.jpg",
+      "aspect": "3:2",
+      "role": "/pre-rolls, Explore mega card",
+      "usedFor": [
+        "/pre-rolls",
+        "Explore mega"
+      ],
+      "alt": "Three empty cone-shaped pre-roll papers with white filter tips on a dark slate tray, beside loose crumbs of cannabis flower",
+      "prompt": "editorial still life photograph of three unlit cone-shaped pre-rolled joints lying in a neat parallel row on a dark slate tray, each joint tapers from a wide end closed with a small twisted paper tip down to a narrow end with a short white rolled card filter, plain unbleached natural paper with no print, a few loose crumbs of green cannabis flower on the tray, unlit with no ash and no smoke, soft directional window light from the left, muted natural tones of cream paper, charcoal slate and a touch of sage green, near-black background, minimal composition",
+      "input": {
+        "aspect_ratio": "3:2"
+      }
+    },
+    {
+      "id": "g-edibles",
+      "file": "assets/generated/g-edibles.jpg",
+      "aspect": "3:2",
+      "role": "/edibles",
+      "usedFor": [
+        "/edibles"
+      ],
+      "alt": "Four plain square amber gummies in a small cream stoneware dish on dark marble",
+      "prompt": "editorial still life photograph of a small shallow matte stoneware apothecary dish holding six plain square gummies in a deep muted honey amber colour, smooth matte surfaces without sugar coating, softly translucent, the dish on a dark honed charcoal stone surface, low warm side light, restrained muted palette of amber, charcoal and cream, quiet minimal composition, near-black background",
+      "input": {
+        "aspect_ratio": "3:2"
+      }
+    },
+    {
+      "id": "g-vape",
+      "file": "assets/generated/g-vape.jpg",
+      "aspect": "3:2",
+      "role": "home vape spotlight, /vapes",
+      "usedFor": [
+        "home vape spotlight",
+        "/vapes"
+      ],
+      "alt": "An unbranded matte black all-in-one vape device with a small amber oil window, lying on a dark stone ledge",
+      "prompt": "editorial product still life photograph of a single slim matte black all-in-one vape pen device with a small glass window showing golden oil, lying diagonally on a dark honed stone slab, completely blank unbranded hardware with no text, no logo and no markings, no vapour, soft warm golden rim light along its edges, a faint sage green reflection, near-black background, premium and understated",
+      "input": {
+        "aspect_ratio": "3:2"
+      }
+    },
+    {
+      "id": "g-beverage",
+      "file": "assets/generated/g-beverage.jpg",
+      "aspect": "3:2",
+      "role": "/beverages",
+      "usedFor": [
+        "/beverages"
+      ],
+      "alt": "Three blank unlabelled matte cans in sage, cream and charcoal, beaded with condensation on dark marble",
+      "prompt": "editorial product still life photograph of three blank unlabelled slim matte drink cans in muted sage green, warm cream and charcoal, beaded with fine cold condensation droplets, standing on a dark stone surface, completely blank cans with no text, no logo and no print, soft warm side light, near-black background, calm premium mood",
+      "input": {
+        "aspect_ratio": "3:2"
+      }
+    },
+    {
+      "id": "g-smoke",
+      "file": "assets/generated/g-smoke.jpg",
+      "aspect": "16:9",
+      "role": "night grounds, mega cards (texture)",
+      "usedFor": [
+        "night grounds",
+        "mega cards"
+      ],
+      "alt": "Soft wisps of pale smoke curling across a near-black background with a faint warm glow",
+      "prompt": "abstract photograph of soft wisps of pale grey smoke curling slowly through darkness, delicate fine smoke texture, near-black background, a faint warm gold glow at the right edge and a hint of muted sage green, minimal, lots of empty black space, no objects",
+      "input": {
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "id": "s-leaf",
+      "file": "assets/generated/s-leaf.jpg",
+      "aspect": "4:5",
+      "role": "sketch layer",
+      "usedFor": [
+        "sketch layer"
+      ],
+      "alt": "Pencil line drawing of a cannabis fan leaf with veined, serrated leaflets",
+      "prompt": "graphite pencil concept sketch of a single cannabis fan leaf with seven serrated leaflets, light construction lines, a centre axis and faint guide arcs, loose cross-hatched shading, drawn on plain bright white paper, flat scan of the drawing only, the leaf centred with generous white margins, a wordless drawing with no handwriting, no annotations, no letters and no numbers",
+      "input": {
+        "aspect_ratio": "3:4"
+      }
+    },
+    {
+      "id": "s-bud",
+      "file": "assets/generated/s-bud.jpg",
+      "aspect": "4:5",
+      "role": "sketch layer",
+      "usedFor": [
+        "sketch layer"
+      ],
+      "alt": "Ink sketch of a cannabis flower bud on its stem with thin leader lines ending in dots",
+      "prompt": "graphite botanical concept drawing of a single dense cannabis flower bud seen from the side, tightly packed calyxes, small pointed sugar leaves, curling pistil hairs and fine stippled trichomes, three thin straight leader lines pointing out from the bud and ending in small solid dots, light construction lines and cross-hatched shading, the drawing alone on a plain bright white page, scanned flat, the bud centred with wide white margins, nothing else in the frame, a wordless drawing with no handwriting, no annotations, no letters and no numbers",
+      "input": {
+        "aspect_ratio": "3:4"
+      }
+    },
+    {
+      "id": "s-jar",
+      "file": "assets/generated/s-jar.jpg",
+      "aspect": "4:5",
+      "role": "sketch layer",
+      "usedFor": [
+        "sketch layer"
+      ],
+      "alt": "Sketch of an empty apothecary jar with a knob lid, shaded with hatching",
+      "prompt": "graphite pencil concept sketch of a single glass apothecary jar with a domed lid, drawn in perspective with construction ellipses and a vertical centre line, cross-hatched shading, blank jar with no label, drawn on plain bright white paper, flat scan of the drawing only, the jar centred with generous white margins, a wordless drawing with no handwriting, no annotations, no letters and no numbers",
+      "input": {
+        "aspect_ratio": "3:4"
+      }
+    },
+    {
+      "id": "s-hat",
+      "file": "assets/generated/s-hat.jpg",
+      "aspect": "1:1",
+      "role": "sketch layer, 404",
+      "usedFor": [
+        "sketch layer",
+        "404"
+      ],
+      "alt": "Ink sketch of a fedora hat with a pair of sunglasses beside it",
+      "prompt": "black ink pen still life sketch of a classic fedora hat resting on an empty table top with a pair of folded dark sunglasses lying beside it, confident loose ink lines and cross-hatching, drawn on plain bright white paper, flat scan of the drawing only, centred with generous white margins, an empty still life of objects only, a wordless drawing with no handwriting, no annotations, no letters and no numbers",
+      "input": {
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}

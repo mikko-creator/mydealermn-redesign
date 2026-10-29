@@ -1,0 +1,53 @@
+{
+  "_note": "Information architecture adopted from a large multi-state dispensary operator's site (nav order, mega-menu groups, footer columns, page types, URL patterns). Labels and links are My Dealer's own. Internal doc docs/BUILD-CONTRACT.md has the mapping.",
+  "promo": {
+    "text": "Veterans and active military: 15% off every day. Andersen employees: 10% off every Tuesday. Valid ID required, ask your budtender at checkout.",
+    "link": ["/dispensaries/minnesota/deals/", "Shop latest deals"],
+    "pickup": { "label": "Pick up at", "store": "My Dealer Bayport", "href": "/dispensaries/minnesota/bayport/" }
+  },
+  "nav": [
+    { "label": "Shop", "href": "https://mydealermn.com/bayport", "external": true },
+    { "label": "Explore", "mega": [
+      { "group": "Deals", "links": [["/dispensaries/minnesota/deals/", "Deals at My Dealer Bayport"]] },
+      { "group": "Categories", "links": [["/flower", "Flower"], ["/pre-rolls", "Pre-rolls"], ["/edibles", "Edibles"], ["/vapes", "Vapes"], ["/beverages", "Hemp THC beverages"], ["https://mydealermn.com/bayport", "The full live menu"]] },
+      { "group": "Brands on the menu", "note": "The lineup changes; the live menu is the source of truth.", "links": [["https://mydealermn.com/bayport", "Vireo"], ["https://mydealermn.com/bayport", "RYTHM"], ["https://mydealermn.com/bayport", "Dogwalkers"], ["https://mydealermn.com/bayport", "Good Green"], ["https://mydealermn.com/bayport", "Campfire Cannabis"], ["https://mydealermn.com/bayport", "Trawa"]] },
+      { "group": "How to shop", "links": [["/shop", "Order ahead, in store or at the kiosk"], ["https://mydealermn.com/bayport", "Order ahead for pickup"], ["/faq", "Hours, ID, payment and limits"]] }
+    ] },
+    { "label": "Rewards", "href": "/rewards/" },
+    { "label": "Resources", "mega": [
+      { "group": "Guides", "links": [["/dispensary-guides/", "Dispensary Guide"], ["/cannabis-laws-by-state/minnesota/", "Minnesota Cannabis Laws"], ["/wisconsin", "Wisconsin shoppers"]] },
+      { "group": "Learn", "links": [["/blog/", "Blog"], ["/cannabis-101", "Cannabis 101"], ["/faq", "FAQ"]] },
+      { "group": "Company", "links": [["/company", "About Us"], ["/build", "The build"], ["/jobs", "Careers"], ["/contact", "Contact Us"]] }
+    ] },
+    { "label": "Dispensaries", "mega": [
+      { "group": "Minnesota", "links": [["/dispensaries/minnesota/bayport/", "My Dealer Bayport"], ["/dispensaries/minnesota/", "Minnesota dispensaries"]], "note": "Wabasha next: property is in hand, build-out still ahead." },
+      { "group": "Areas we serve", "links": [["/stillwater", "Stillwater, MN"], ["/oak-park-heights", "Oak Park Heights, MN"], ["/hudson-wi", "Hudson, WI"], ["/river-falls-wi", "River Falls, WI"], ["/somerset-wi", "Somerset, WI"], ["/new-richmond-wi", "New Richmond, WI"], ["/wisconsin", "Wisconsin shoppers"]] },
+      { "group": "All locations", "links": [["/dispensaries/", "All locations"]] }
+    ] }
+  ],
+  "cta": ["https://mydealermn.com/bayport", "View the menu"],
+  "footer": {
+    "licensesHeading": "My Dealer Bayport Licenses",
+    "primary": [["/", "Home"], ["https://mydealermn.com/bayport", "Shop"], ["/rewards/", "Rewards"], ["/blog/", "Blog"], ["/dispensaries/", "Dispensaries"]],
+    "moreInfo": [["/company", "About Us"], ["/build", "The build"], ["/contact", "Contact Us"], ["/faq", "FAQ"], ["/privacy", "Privacy Policy"], ["/site-map/", "Sitemap"], ["/jobs", "Careers"]]
+  },
+  "blogCategories": [
+    { "slug": "cannabis-101", "name": "Cannabis 101" },
+    { "slug": "shopping-and-reviews", "name": "Shopping & Reviews" },
+    { "slug": "resources", "name": "Resources" },
+    { "slug": "news-and-culture", "name": "News & Culture" }
+  ],
+  "blogPosts": [
+    { "path": "/cannabis-101", "cat": "cannabis-101" },
+    { "path": "/flower", "cat": "shopping-and-reviews" },
+    { "path": "/pre-rolls", "cat": "shopping-and-reviews" },
+    { "path": "/edibles", "cat": "shopping-and-reviews" },
+    { "path": "/vapes", "cat": "shopping-and-reviews" },
+    { "path": "/beverages", "cat": "shopping-and-reviews" },
+    { "path": "/shop", "cat": "shopping-and-reviews" },
+    { "path": "/wisconsin", "cat": "resources" },
+    { "path": "/faq", "cat": "resources" },
+    { "path": "/company", "cat": "news-and-culture" },
+    { "path": "/build", "cat": "news-and-culture" }
+  ]
+}

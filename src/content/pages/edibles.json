@@ -1,0 +1,495 @@
+{
+ "path": "/edibles",
+ "source": "https://mydealermn.com/edibles",
+ "captured": "2026-10-29",
+ "title": "THC Edibles in Bayport, MN | My Dealer",
+ "description": "Licensed cannabis gummies and lower-potency hemp edibles at My Dealer in Bayport, MN. Serving sizes, Minnesota limits, and links to the live edibles menu.",
+ "canonical": "https://mydealermn.com/edibles",
+ "og": {
+  "og:title": "THC Edibles in Bayport, MN | My Dealer",
+  "og:description": "Licensed cannabis gummies and lower-potency hemp edibles at My Dealer in Bayport, MN. Serving sizes, Minnesota limits, and links to the live edibles menu.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/edibles",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "CollectionPage",
+     "@id": "https://mydealermn.com/edibles#webpage",
+     "url": "https://mydealermn.com/edibles",
+     "name": "THC Edibles in Bayport, MN | My Dealer",
+     "description": "Licensed cannabis gummies and lower-potency hemp edibles at My Dealer in Bayport, MN. Serving sizes, Minnesota limits, and links to the live edibles menu.",
+     "inLanguage": "en-US",
+     "about": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "provider": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "significantLink": "https://mydealermn.com/bayport/menu/weed-edibles-9631",
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mydealermn.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Menu",
+        "item": "https://mydealermn.com/bayport"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Edibles",
+        "item": "https://mydealermn.com/edibles"
+       }
+      ]
+     },
+     "dateModified": "2026-10-17"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://mydealermn.com/edibles#faq",
+     "url": "https://mydealermn.com/edibles",
+     "isPartOf": {
+      "@id": "https://mydealermn.com/edibles#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How long do edibles take to kick in?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually 30 minutes to 2 hours, sometimes longer, according to Minnesota OCM. Full effects can take up to 4 hours, so wait at least 2 hours before deciding on more."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long do edibles last?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About 6 to 12 hours, with a peak around 3 to 4 hours, according to Minnesota OCM. Plan for a long stretch, and no driving."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much of an edible should I start with?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2.5 to 5 mg of THC, or less. That's half or a quarter of a typical 10 mg gummy. Next time, take the same amount or less until you know how it goes for you."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do hemp edibles count toward the Minnesota limit?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Cannabis edibles, hemp edibles, and hemp THC drinks share one 800 mg THC limit per purchase."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What if a child or pet eats an edible?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call Poison Control at 1-800-222-1222 right away, or 911 in an emergency. For a pet, call your vet. To help prevent it, keep edibles locked up in their original child-resistant package, away from regular snacks."
+       }
+      }
+     ]
+    },
+    {
+     "@type": [
+      "Store",
+      "LocalBusiness"
+     ],
+     "@id": "https://mydealermn.com/#business",
+     "name": "My Dealer",
+     "url": "https://mydealermn.com",
+     "telephone": "+1-651-323-1266",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "243 3rd St N",
+      "addressLocality": "Bayport",
+      "addressRegion": "MN",
+      "postalCode": "55003",
+      "addressCountry": "US"
+     },
+     "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+     "sameAs": [
+      "https://x.com/MyDealerMN",
+      "https://www.instagram.com/mydealermn/",
+      "https://www.linkedin.com/company/mydealermn",
+      "https://share.google/FS0jvQqMZtD11QPEt",
+      "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+      "https://www.facebook.com/mydealermn/",
+      "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+      "https://maps.google.com/?cid=16369139820469574822",
+      "https://www.yelp.com/biz/my-dealer-bayport-2",
+      "https://www.leafly.com/dispensary-info/my-dealer",
+      "https://weedmaps.com/dispensaries/my-dealer"
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "Edibles · Adults 21+"
+    },
+    {
+     "t": "h1",
+     "html": "THC edibles in Bayport: licensed cannabis and hemp"
+    },
+    {
+     "t": "p",
+     "html": "We carry two kinds of edibles, and they're labeled so you can tell them apart: licensed cannabis edibles and lower-potency hemp-derived edibles."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/bayport",
+       "html": "Preorder for pickup"
+      },
+      {
+       "href": "/bayport/menu/weed-edibles-9631",
+       "html": "See the edibles menu"
+      },
+      {
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "html": "Get directions",
+       "target": "_blank",
+       "rel": "noopener"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "h2",
+       "html": "Cannabis edibles vs. hemp edibles",
+       "id": "two-kinds"
+      },
+      {
+       "t": "h3",
+       "html": "Licensed cannabis edibles"
+      },
+      {
+       "t": "p",
+       "html": "Made by licensed Minnesota cannabis businesses. Right now these are mostly gummies in 100 mg packages of 10 pieces (10 mg THC each), including distillate and RSO gummies. Brands on the menu when we checked on October 17, 2026: &amp;Shine, Boundary Waters, Incensored, and Vireo. <a href=\"/bayport/menu/weed-edibles-9631\">Cannabis edibles menu</a>"
+      },
+      {
+       "t": "h3",
+       "html": "Hemp-derived edibles"
+      },
+      {
+       "t": "p",
+       "html": "Lower-potency hemp products, regulated by the Office of Cannabis Management with the same 21+ rule. You'll find gummies, chocolates, caramels, and snack items, often at lower doses per piece, plus THC-free CBD gummies, oils, and softgels. Brands include BLNCD, Crested River, Granny's, Minny Grown, and Philotimo. <a href=\"/bayport/menu/hemp-edibles-12319\">Hemp edibles menu</a>"
+      },
+      {
+       "t": "h2",
+       "html": "Serving sizes and limits",
+       "id": "serving-sizes"
+      },
+      {
+       "t": "p",
+       "html": "Minnesota edibles top out at 10 mg THC per serving and 200 mg per package, and one purchase can include up to 800 mg of THC across edibles, hemp edibles, and hemp THC drinks combined. <a href=\"https://www.revisor.mn.gov/statutes/cite/342.27\" target=\"_blank\" rel=\"noopener\">Minn. Stat. 342.27</a>"
+      },
+      {
+       "t": "p",
+       "html": "Start low and go slow. If you're new, or it's been a while, half a 10 mg piece or less is a reasonable first serving. Edibles can take 30 minutes to 2 hours to kick in, sometimes longer, so wait at least two hours before you think about more. Our <a href=\"/faq#how-much-of-an-edible-should-i-take\">FAQ</a> has more, and a budtender can point you to low-dose options."
+      },
+      {
+       "t": "p",
+       "html": "Edibles can look like regular snacks. Keep them locked up and out of reach of kids and pets."
+      },
+      {
+       "t": "h2",
+       "html": "How edibles work",
+       "id": "how-edibles-work"
+      },
+      {
+       "t": "dl",
+       "items": [
+        {
+         "dt": "Onset",
+         "dd": [
+          "30 minutes to 2 hours, sometimes longer"
+         ]
+        },
+        {
+         "dt": "Peak",
+         "dd": [
+          "3 to 4 hours"
+         ]
+        },
+        {
+         "dt": "Lasts",
+         "dd": [
+          "6 to 12 hours"
+         ]
+        },
+        {
+         "dt": "Start with",
+         "dd": [
+          "2.5 to 5 mg THC, then wait at least 2 hours"
+         ]
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "General estimates from Minnesota OCM and Health Canada. Timing varies from person to person."
+      },
+      {
+       "t": "h3",
+       "html": "When people choose it"
+      },
+      {
+       "t": "p",
+       "html": "Edibles are smoke-free, and each piece is measured in milligrams, so a portion is easy to repeat. People who want a smoke-free option with a set portion often choose them. Edibles last much longer than inhaling, so plan for a longer stretch and no driving."
+      },
+      {
+       "t": "h3",
+       "html": "Timing"
+      },
+      {
+       "t": "p",
+       "html": "An edible is digested, so it takes a while. Your liver turns THC into a stronger form called 11-hydroxy-THC, which is part of why edibles can feel stronger and last longer than smoking. Minnesota's Office of Cannabis Management (OCM) puts the onset at 30 minutes to 2 hours, the peak at 3 to 4 hours, and the total at 6 to 12 hours. Health Canada says it can take up to 4 hours to feel the full effects, and some effects can linger up to 24 hours. Food in your stomach, your metabolism, and your experience all change the timing."
+      },
+      {
+       "t": "h3",
+       "html": "Dosing basics"
+      },
+      {
+       "t": "p",
+       "html": "OCM's starting point is 2.5 to 5 mg of THC, or less. Most of our cannabis gummies are 10 mg pieces, so half a piece is 5 mg and a quarter is about 2.5 mg. Hemp edibles are capped at 5 mg THC per serving. Wait at least 2 hours before deciding on more. If you do take more next time, take the same amount or less, not a bigger piece."
+      },
+      {
+       "t": "h3",
+       "html": "How it counts toward Minnesota limits"
+      },
+      {
+       "t": "p",
+       "html": "Cannabis edibles top out at 10 mg THC per serving and 200 mg per package. One purchase can include up to 800 mg of THC across cannabis edibles, hemp edibles, and hemp THC drinks combined, and that's also the most you can carry. <a href=\"https://www.revisor.mn.gov/statutes/cite/342.27\" target=\"_blank\" rel=\"noopener\">Minn. Stat. 342.27</a>, <a href=\"https://www.revisor.mn.gov/statutes/cite/342.01\" target=\"_blank\" rel=\"noopener\">342.01</a>"
+      },
+      {
+       "t": "h3",
+       "html": "Storage"
+      },
+      {
+       "t": "p",
+       "html": "Keep edibles in the original child-resistant package, locked up, and away from regular snacks. They can look like candy, and NIDA calls children eating edibles a growing concern. Store them somewhere cool and dry so gummies don't melt. In the car, they go in the trunk unless the package is still sealed."
+      },
+      {
+       "t": "h3",
+       "html": "Practical tips"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Cut a gummy with a clean knife to get a smaller piece.",
+        "Write down the time and the milligrams. A phone timer helps you wait the full 2 hours.",
+        "Don't take more just because you don't feel it yet. Taking more too soon is how people end up with more than they wanted.",
+        "Try a new product when you have nowhere to be for the rest of the day."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Safety"
+      },
+      {
+       "t": "p",
+       "html": "Don't drive the rest of the day or night after an edible. Effects can last many hours. Don't mix edibles with alcohol, which raises impairment. Use it only in a private home or on private property where the owner allows it. Not in a vehicle, parked or moving, not in public places, and not in our parking lot."
+      },
+      {
+       "t": "p",
+       "html": "If someone has used too much, or a child or pet gets into cannabis, call Poison Control at 1-800-222-1222 (for pets, call your vet). In an emergency, call 911."
+      },
+      {
+       "t": "h2",
+       "html": "Questions about edibles",
+       "id": "faq-edibles-work"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "How long do edibles take to kick in?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Usually 30 minutes to 2 hours, sometimes longer, according to Minnesota OCM. Full effects can take up to 4 hours, so wait at least 2 hours before deciding on more."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How long do edibles last?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "About 6 to 12 hours, with a peak around 3 to 4 hours, according to Minnesota OCM. Plan for a long stretch, and no driving."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How much of an edible should I start with?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "2.5 to 5 mg of THC, or less. That's half or a quarter of a typical 10 mg gummy. Next time, take the same amount or less until you know how it goes for you."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Do hemp edibles count toward the Minnesota limit?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. Cannabis edibles, hemp edibles, and hemp THC drinks share one 800 mg THC limit per purchase."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "What if a child or pet eats an edible?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Call Poison Control at 1-800-222-1222 right away, or 911 in an emergency. For a pet, call your vet. To help prevent it, keep edibles locked up in their original child-resistant package, away from regular snacks."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Sources: <a href=\"https://mn.gov/ocm/assets/Guide_to_Safer_Cannabis_Use_1.0_tcm1202-754055.pdf\" target=\"_blank\" rel=\"noopener\">Minnesota OCM Guide to Safer Cannabis Use</a>, <a href=\"https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/resources/what-you-need-to-know-if-you-choose-to-consume-cannabis.html\" target=\"_blank\" rel=\"noopener\">Health Canada</a>, <a href=\"https://nida.nih.gov/publications/drugfacts/cannabis-marijuana\" target=\"_blank\" rel=\"noopener\">NIDA</a>, <a href=\"https://www.revisor.mn.gov/statutes/cite/342.01\" target=\"_blank\" rel=\"noopener\">Minn. Stat. 342.01</a>."
+      },
+      {
+       "t": "h2",
+       "html": "How to shop it",
+       "id": "how-to-shop"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<strong>Preorder:</strong> pick what you want on the <a href=\"/bayport/menu/weed-edibles-9631\">edibles menu</a>, or start at <a href=\"/bayport\">mydealermn.com/bayport</a>. Pick it up the same day or the next day, and pay at the counter.",
+        "<strong>In the store:</strong> talk it through with a budtender, or browse on the kiosk. We have paper menus too.",
+        "<strong>Bring ID:</strong> 21+ with a valid photo ID, every visit. Cash or debit (cashless ATM, $3 fee). Loyalty members earn 3% back in points."
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "More from the menu",
+       "id": "more-categories"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/flower",
+         "html": "Flower"
+        },
+        {
+         "href": "/pre-rolls",
+         "html": "Pre-rolls"
+        },
+        {
+         "href": "/vapes",
+         "html": "Vapes"
+        },
+        {
+         "href": "/beverages",
+         "html": "Hemp THC beverages"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Coming from out of town? Directions and parking from your side of the river:"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/stillwater",
+         "html": "Stillwater, MN"
+        },
+        {
+         "href": "/oak-park-heights",
+         "html": "Oak Park Heights, MN"
+        },
+        {
+         "href": "/hudson-wi",
+         "html": "Hudson, WI"
+        },
+        {
+         "href": "/river-falls-wi",
+         "html": "River Falls, WI"
+        },
+        {
+         "href": "/somerset-wi",
+         "html": "Somerset, WI"
+        },
+        {
+         "href": "/new-richmond-wi",
+         "html": "New Richmond, WI"
+        },
+        {
+         "href": "/wisconsin",
+         "html": "Wisconsin shoppers"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Information current as of October 17, 2026. Menu, prices, and stock change often; the live menu is the final word."
+      },
+      {
+       "t": "p",
+       "html": "For adults 21 and older only."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Hemp products containing THC are not for use by anyone under the age of 21. Using hemp products containing THC may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid hemp products containing THC due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

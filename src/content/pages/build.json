@@ -1,0 +1,486 @@
+{
+ "path": "/build",
+ "source": "https://mydealermn.com/build",
+ "captured": "2026-10-29",
+ "title": "The Build | My Dealer Bayport Cannabis Dispensary",
+ "description": "See the founder-built My Dealer cannabis shop at 243 3rd Street North, Bayport, MN. Buildout complete. Cannabis Retailer License DIS-L24-000241.",
+ "canonical": "https://mydealermn.com/build",
+ "og": {
+  "og:title": "The Build | My Dealer Bayport Cannabis Dispensary",
+  "og:type": "website",
+  "og:url": "https://mydealermn.com/build",
+  "og:description": "See the founder-built My Dealer cannabis shop at 243 3rd Street North, Bayport, MN. Buildout complete. Cannabis Retailer License DIS-L24-000241.",
+  "og:image": "https://mydealermn.com/og.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:locale": "en_US",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://mydealermn.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "The Build",
+     "item": "https://mydealermn.com/build"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Store",
+    "LocalBusiness"
+   ],
+   "@id": "https://mydealermn.com/#business",
+   "name": "My Dealer",
+   "legalName": "My Dealer LLC",
+   "alternateName": [
+    "My Dealer Bayport",
+    "My Dealer MN",
+    "My Dealer dispensary",
+    "My Dealer cannabis"
+   ],
+   "description": "Licensed adult-use cannabis retailer in Bayport, Minnesota. Cannabis Retailer License DIS-L24-000241 from the Minnesota Office of Cannabis Management. Adult-use retail only. We want to be your dealer.",
+   "url": "https://mydealermn.com",
+   "image": [
+    "https://mydealermn.com/og-card.jpg",
+    "https://mydealermn.com/build/exterior-front.webp",
+    "https://mydealermn.com/build/interior-display-cases.webp"
+   ],
+   "logo": "https://mydealermn.com/brand/logo-512.png",
+   "email": "morpheus@mydealermn.com",
+   "telephone": "+1-651-323-1266",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "243 3rd St N",
+    "addressLocality": "Bayport",
+    "addressRegion": "MN",
+    "postalCode": "55003",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.018012,
+    "longitude": -92.779534
+   },
+   "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+   "identifier": [
+    "DIS-L24-000241",
+    "DIS-L24-000241-01"
+   ],
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Bayport"
+    },
+    {
+     "@type": "City",
+     "name": "Stillwater"
+    },
+    {
+     "@type": "City",
+     "name": "Oak Park Heights"
+    },
+    {
+     "@type": "City",
+     "name": "Lakeland"
+    },
+    {
+     "@type": "City",
+     "name": "Hudson",
+     "containedInPlace": {
+      "@type": "State",
+      "name": "Wisconsin"
+     }
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington County"
+    },
+    {
+     "@type": "State",
+     "name": "Minnesota"
+    }
+   ],
+   "knowsAbout": [
+    "adult-use cannabis",
+    "Minnesota cannabis",
+    "cannabis dispensary",
+    "Bayport dispensary",
+    "cannabis flower"
+   ],
+   "sameAs": [
+    "https://x.com/MyDealerMN",
+    "https://www.instagram.com/mydealermn/",
+    "https://www.linkedin.com/company/mydealermn",
+    "https://share.google/FS0jvQqMZtD11QPEt",
+    "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+    "https://www.facebook.com/mydealermn/",
+    "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+    "https://maps.google.com/?cid=16369139820469574822",
+    "https://www.yelp.com/biz/my-dealer-bayport-2",
+    "https://www.leafly.com/dispensary-info/my-dealer",
+    "https://weedmaps.com/dispensaries/my-dealer"
+   ],
+   "founder": {
+    "@type": "Person",
+    "name": "Brandon Van Asten",
+    "url": "https://www.linkedin.com/in/brandonvanasten"
+   },
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+     ],
+     "opens": "12:00",
+     "closes": "20:00"
+    }
+   ],
+   "paymentAccepted": "Cash, Debit Card",
+   "currenciesAccepted": "USD",
+   "priceRange": "$",
+   "additionalType": "https://en.wikipedia.org/wiki/Cannabis_dispensary",
+   "amenityFeature": [
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "Parking lot behind the building",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "ATM on site",
+     "value": true
+    }
+   ],
+   "makesOffer": [
+    {
+     "@type": "Offer",
+     "name": "Veteran and active military discount",
+     "description": "15% off the entire order every day, in store or order ahead, with a valid military or veteran ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    },
+    {
+     "@type": "Offer",
+     "name": "Andersen employee discount",
+     "description": "10% off every Tuesday with a valid Andersen ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "From an open floor to a finished interior."
+    },
+    {
+     "t": "p",
+     "html": "The owner GC'd this job. Electrical, framing, and drywall help came in. Everything else (walls, counters, parking, the bathroom with the palm-tree wallpaper) was built by the person whose name is on the license."
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Complete"
+        },
+        {
+         "t": "h3",
+         "html": "Interior buildout"
+        },
+        {
+         "t": "p",
+         "html": "Retail floor, security, service areas, and the customer bathroom."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Complete"
+        },
+        {
+         "t": "h3",
+         "html": "Plans submitted"
+        },
+        {
+         "t": "p",
+         "html": "Updated site, security, and operating information sent for state review."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Complete"
+        },
+        {
+         "t": "h3",
+         "html": "Retail license"
+        },
+        {
+         "t": "p",
+         "html": "Cannabis Retailer License DIS-L24-000241 from Minnesota OCM. Adult-use retail only."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Now"
+        },
+        {
+         "t": "h3",
+         "html": "Noon to 8"
+        },
+        {
+         "t": "p",
+         "html": "Open noon to 8 daily. Longer hours are on the way."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h2",
+     "html": "HeartFelt Silks to My Dealer."
+    },
+    {
+     "t": "p",
+     "html": "We took over 243 in January 2026 and have been on the build since. The silk shop sign came down. Ours went on the brick."
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/exterior-front-before.webp",
+         "alt": "HeartFelt Silks"
+        }
+       ],
+       "caption": "<strong>Before</strong>HeartFelt Silks"
+      },
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/exterior-front-after.webp",
+         "alt": "The sign is up"
+        }
+       ],
+       "caption": "<strong>After</strong>The sign is up"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "Gravel to finished parking."
+    },
+    {
+     "t": "p",
+     "html": "The rear lot is paved, striped, fenced, and ready."
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/parking-before.webp",
+         "alt": "Gravel rear lot"
+        }
+       ],
+       "caption": "<strong>Before</strong>Gravel rear lot"
+      },
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/parking-after.webp",
+         "alt": "Paved customer parking"
+        }
+       ],
+       "caption": "<strong>After</strong>Paved customer parking"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Inside"
+    },
+    {
+     "t": "h2",
+     "html": "A secure retail space took shape."
+    },
+    {
+     "t": "p",
+     "html": "Useful square footage, no retail plan. New walls, service openings, counters, cameras, and display fixtures now tell people where to walk."
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/interior-before-open-floor.webp",
+         "alt": "Original open layout"
+        }
+       ],
+       "caption": "<strong>Before</strong>Original open layout"
+      },
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/interior-service-doors.webp",
+         "alt": "Finished retail floor"
+        }
+       ],
+       "caption": "<strong>Built</strong>Finished retail floor"
+      }
+     ]
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/interior-before-office.webp",
+         "alt": "Original back area"
+        }
+       ],
+       "caption": "<strong>Before</strong>Original back area"
+      },
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/interior-drywall.webp",
+         "alt": "Walls and openings"
+        }
+       ],
+       "caption": "<strong>Buildout</strong>Walls and openings"
+      },
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/interior-security-windows.webp",
+         "alt": "Security windows"
+        }
+       ],
+       "caption": "<strong>Installed</strong>Security windows"
+      },
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/interior-display-cases.webp",
+         "alt": "Building the cases"
+        }
+       ],
+       "caption": "<strong>Buildout</strong>Building the cases"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Accessibility"
+    },
+    {
+     "t": "h2",
+     "html": "ADA bathroom, with a wink."
+    },
+    {
+     "t": "p",
+     "html": "Brighter finish, new fixtures, grab bars, tile. Fun fact: the wallpaper came from Home Depot, and the palm trees look suspiciously like cannabis leaves."
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/restroom-before.webp",
+         "alt": "Original bathroom"
+        }
+       ],
+       "caption": "<strong>Before</strong>Original bathroom"
+      },
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/build/restroom-progress.webp",
+         "alt": "ADA update and new finishes"
+        }
+       ],
+       "caption": "<strong>After</strong>ADA update and new finishes"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

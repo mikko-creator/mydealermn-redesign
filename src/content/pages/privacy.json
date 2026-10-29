@@ -1,0 +1,380 @@
+{
+ "path": "/privacy",
+ "source": "https://mydealermn.com/privacy",
+ "captured": "2026-10-29",
+ "title": "Privacy Policy | My Dealer",
+ "description": "Privacy policy for MyDealerMN.com and the My Dealer cannabis retail app. How we handle information for the Bayport, Minnesota shop.",
+ "canonical": "https://mydealermn.com/privacy",
+ "og": {
+  "og:title": "Privacy Policy | My Dealer",
+  "og:description": "Privacy policy for MyDealerMN.com and the My Dealer cannabis retail app. How we handle information for the Bayport, Minnesota shop.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/privacy",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://mydealermn.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Privacy policy",
+     "item": "https://mydealermn.com/privacy"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Store",
+    "LocalBusiness"
+   ],
+   "@id": "https://mydealermn.com/#business",
+   "name": "My Dealer",
+   "legalName": "My Dealer LLC",
+   "alternateName": [
+    "My Dealer Bayport",
+    "My Dealer MN",
+    "My Dealer dispensary",
+    "My Dealer cannabis"
+   ],
+   "description": "Licensed adult-use cannabis retailer in Bayport, Minnesota. Cannabis Retailer License DIS-L24-000241 from the Minnesota Office of Cannabis Management. Adult-use retail only. We want to be your dealer.",
+   "url": "https://mydealermn.com",
+   "image": [
+    "https://mydealermn.com/og-card.jpg",
+    "https://mydealermn.com/build/exterior-front.webp",
+    "https://mydealermn.com/build/interior-display-cases.webp"
+   ],
+   "logo": "https://mydealermn.com/brand/logo-512.png",
+   "email": "morpheus@mydealermn.com",
+   "telephone": "+1-651-323-1266",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "243 3rd St N",
+    "addressLocality": "Bayport",
+    "addressRegion": "MN",
+    "postalCode": "55003",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.018012,
+    "longitude": -92.779534
+   },
+   "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+   "identifier": [
+    "DIS-L24-000241",
+    "DIS-L24-000241-01"
+   ],
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Bayport"
+    },
+    {
+     "@type": "City",
+     "name": "Stillwater"
+    },
+    {
+     "@type": "City",
+     "name": "Oak Park Heights"
+    },
+    {
+     "@type": "City",
+     "name": "Lakeland"
+    },
+    {
+     "@type": "City",
+     "name": "Hudson",
+     "containedInPlace": {
+      "@type": "State",
+      "name": "Wisconsin"
+     }
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington County"
+    },
+    {
+     "@type": "State",
+     "name": "Minnesota"
+    }
+   ],
+   "knowsAbout": [
+    "adult-use cannabis",
+    "Minnesota cannabis",
+    "cannabis dispensary",
+    "Bayport dispensary",
+    "cannabis flower"
+   ],
+   "sameAs": [
+    "https://x.com/MyDealerMN",
+    "https://www.instagram.com/mydealermn/",
+    "https://www.linkedin.com/company/mydealermn",
+    "https://share.google/FS0jvQqMZtD11QPEt",
+    "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+    "https://www.facebook.com/mydealermn/",
+    "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+    "https://maps.google.com/?cid=16369139820469574822",
+    "https://www.yelp.com/biz/my-dealer-bayport-2",
+    "https://www.leafly.com/dispensary-info/my-dealer",
+    "https://weedmaps.com/dispensaries/my-dealer"
+   ],
+   "founder": {
+    "@type": "Person",
+    "name": "Brandon Van Asten",
+    "url": "https://www.linkedin.com/in/brandonvanasten"
+   },
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+     ],
+     "opens": "12:00",
+     "closes": "20:00"
+    }
+   ],
+   "paymentAccepted": "Cash, Debit Card",
+   "currenciesAccepted": "USD",
+   "priceRange": "$",
+   "additionalType": "https://en.wikipedia.org/wiki/Cannabis_dispensary",
+   "amenityFeature": [
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "Parking lot behind the building",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "ATM on site",
+     "value": true
+    }
+   ],
+   "makesOffer": [
+    {
+     "@type": "Offer",
+     "name": "Veteran and active military discount",
+     "description": "15% off the entire order every day, in store or order ahead, with a valid military or veteran ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    },
+    {
+     "@type": "Offer",
+     "name": "Andersen employee discount",
+     "description": "10% off every Tuesday with a valid Andersen ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "Privacy policy (updated October 25, 2026)"
+    },
+    {
+     "t": "p",
+     "html": "This policy explains how My Dealer LLC handles information when you visit mydealermn.com, use the My Dealer mobile app, create an account, place an order, or contact us."
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "p",
+       "html": "Effective and last updated October 25, 2026"
+      },
+      {
+       "t": "h2",
+       "html": "Who operates these services"
+      },
+      {
+       "t": "p",
+       "html": "My Dealer LLC operates the My Dealer website, mobile app, and customer-facing retail services described in this policy. My Dealer is based in Bayport, Minnesota. Our mobile ordering, account, loyalty, communication, and related technology may be provided by SD Technologies, Inc., which does business as Sweed."
+      },
+      {
+       "t": "h2",
+       "html": "Information we may collect"
+      },
+      {
+       "t": "p",
+       "html": "The information collected depends on how you use our services and which app features you enable."
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<strong>Account and contact information.</strong> Name, email address, mobile phone number, login credentials, date of birth or age-confirmation information, communication preferences, and customer account identifiers.",
+        "<strong>Order and retail information.</strong> Items viewed or added to a cart, product searches, favorites, orders, purchase history, pickup details, loyalty activity, rewards, promotions, and communications about an order.",
+        "<strong>Device, usage, and technical information.</strong> IP address, device identifiers, device type and model, operating system, app version, browser information, language, pages or screens viewed, interactions, referring pages, timestamps, diagnostic information, crash information, and performance data.",
+        "<strong>Location information.</strong> The app or its providers may process approximate location derived from an IP address. If a feature requests device location, more precise location is collected only with permission through your device settings. Location may be used to show relevant store information or help restrict regulated services to permitted jurisdictions.",
+        "<strong>Communications.</strong> Information you include when contacting support, responding to a survey, or communicating with us. Email, SMS, and push-notification preferences and interactions may also be recorded.",
+        "<strong>Payment and transaction information.</strong> If an electronic payment option is enabled, payment information may be processed by Sweed or another payment provider. My Dealer may receive transaction confirmations and limited payment details needed to complete, reconcile, or support an order. Do not send payment information by email."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "<strong>Website visitors:</strong> The website does not currently provide customer accounts, online purchases, or a contact form. Information submitted through the mobile app or a future ecommerce storefront is handled as described in the app and ordering sections of this policy. Employment applications are submitted through Push Operations and are handled through that service and My Dealer's employment process."
+      },
+      {
+       "t": "h2",
+       "html": "How we collect information"
+      },
+      {
+       "t": "p",
+       "html": "We collect information that you provide, information generated when you use the website or app, information created through orders and store interactions, and information received from service providers. The app may use software development kits, device identifiers, cookies, web beacons, local storage, or similar technologies for account functions, analytics, performance, security, communications, and personalization."
+      },
+      {
+       "t": "h2",
+       "html": "How we use information"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Create, authenticate, maintain, and support customer accounts.",
+        "Display current products, availability, store information, and personalized content.",
+        "Build, transmit, accept, fulfill, update, and support pickup or other legally available orders.",
+        "Operate loyalty, rewards, promotions, favorites, and customer preferences when those features are enabled.",
+        "Send transactional email, SMS, or push notifications about accounts and orders.",
+        "Send marketing communications where permitted and consistent with your choices.",
+        "Understand usage, diagnose problems, secure the services, prevent fraud, and improve performance.",
+        "Confirm eligibility, location, and compliance with age and jurisdiction requirements.",
+        "Maintain records and comply with legal, tax, regulatory, safety, and law-enforcement obligations."
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "How information may be shared"
+      },
+      {
+       "t": "p",
+       "html": "We may disclose information to providers that help us operate the website, app, ordering, customer support, communications, analytics, hosting, cloud infrastructure, payments, security, and other business functions. These may include:"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<strong>Sweed.</strong> Sweed provides the app, customer-account, ecommerce, ordering, inventory, loyalty, communication, and related platform services selected by My Dealer. Sweed processes customer information for My Dealer and may also process information under its own published privacy policy.",
+        "<strong>Website providers.</strong> Hosting and analytics providers help us understand website traffic and performance.",
+        "<strong>Communication, analytics, payment, and infrastructure providers.</strong> These providers process information needed to deliver their configured services.",
+        "<strong>Authorities and professional advisers.</strong> We may disclose information when required by law, regulation, court order, or valid government request, or when reasonably necessary to protect rights, safety, security, and legal interests.",
+        "<strong>Business transactions.</strong> Information may be transferred as part of a merger, financing, reorganization, sale, or similar transaction, subject to applicable requirements."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "My Dealer does not sell customer lists. We may use information to communicate our own products, services, rewards, or promotions as permitted by law and your communication choices."
+      },
+      {
+       "t": "h2",
+       "html": "Analytics, advertising, and tracking"
+      },
+      {
+       "t": "p",
+       "html": "This website uses Google Analytics to understand how visitors use it, such as pages viewed, approximate location, and device type. Google Analytics sets cookies in your browser to do this. You can opt out with Google's browser add-on at tools.google.com/dlpage/gaoptout."
+      },
+      {
+       "t": "p",
+       "html": "Our contact page shows an embedded Google map. When the map loads, Google may set cookies and receive your IP address and basic browser information, under Google's own privacy policy."
+      },
+      {
+       "t": "p",
+       "html": "The mobile app and Sweed services may use analytics technologies and device identifiers to understand usage, improve services, personalize content, or measure communications. If a configured feature requires consent, tracking permission, or an opt-out under applicable law or Apple requirements, the app or provider will request or provide that choice."
+      },
+      {
+       "t": "h2",
+       "html": "Communications and your choices"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "You can manage push notifications through iOS Settings and any available in-app settings.",
+        "You can change location permission through iOS Settings.",
+        "You can follow the unsubscribe instructions in marketing emails.",
+        "You can reply STOP to eligible marketing text messages. Transactional messages about an active order may still be sent as permitted.",
+        "You can update available account and communication preferences through the app or by contacting us."
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Retention and deletion"
+      },
+      {
+       "t": "p",
+       "html": "We retain information for as long as reasonably necessary to provide services, maintain an account, complete and support transactions, meet regulatory and recordkeeping obligations, resolve disputes, enforce agreements, prevent fraud, and protect the business. Retention periods vary by information type and legal requirement. Sweed and other providers may retain information according to their contracts, legal obligations, and privacy policies."
+      },
+      {
+       "t": "p",
+       "html": "To request account deletion or deletion of personal information associated with your account, email <a href=\"mailto:morpheus@mydealermn.com?subject=Account%20deletion%20request\">morpheus@mydealermn.com</a> with the subject “Account deletion request.” We may need to verify your identity. Deleting an account may not delete transaction, compliance, security, or other records that must or may lawfully be retained. Sweed may assist My Dealer in completing verified requests involving information processed through its platform."
+      },
+      {
+       "t": "h2",
+       "html": "Access, correction, and privacy requests"
+      },
+      {
+       "t": "p",
+       "html": "Depending on applicable law, you may have rights to request access to, correction of, deletion of, or a copy of certain personal information, or to withdraw consent or object to certain processing. Send requests to <a href=\"mailto:morpheus@mydealermn.com?subject=Privacy%20request\">morpheus@mydealermn.com</a>. We will review requests, verify identity when appropriate, and respond consistent with applicable law."
+      },
+      {
+       "t": "h2",
+       "html": "Security"
+      },
+      {
+       "t": "p",
+       "html": "My Dealer and its providers use administrative, technical, and physical safeguards intended to protect information. No website, mobile app, transmission, or storage system can be guaranteed completely secure. Use a unique password and contact us if you believe your account has been accessed without permission."
+      },
+      {
+       "t": "h2",
+       "html": "Adults only"
+      },
+      {
+       "t": "p",
+       "html": "The mobile app and regulated cannabis ordering services are intended only for adults age 21 and older. They are not directed to children. If you believe a person under 18 has provided personal information through our services, contact us so the information can be reviewed and addressed."
+      },
+      {
+       "t": "h2",
+       "html": "Third-party services and links"
+      },
+      {
+       "t": "p",
+       "html": "The website and app may link to or interact with Sweed, Apple, Push Operations, Google, LinkedIn, payment providers, government resources, and other services. Those parties control their own services and privacy practices. Review their policies before providing information. Sweed's policy is available at <a href=\"https://www.sweedpos.com/privacy-policy\">sweedpos.com/privacy-policy</a>."
+      },
+      {
+       "t": "h2",
+       "html": "Changes to this policy"
+      },
+      {
+       "t": "p",
+       "html": "We may update this policy as the website, app, providers, legal requirements, or business practices change. The effective date at the top of this page identifies the latest revision. Material changes may also be communicated through the app or another appropriate channel."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,486 @@
+{
+ "path": "/flower",
+ "source": "https://mydealermn.com/flower",
+ "captured": "2026-10-29",
+ "title": "Cannabis Flower in Bayport, MN | My Dealer",
+ "description": "Deli flower by the gram and sealed 3.5 g and 7 g pre-packs from licensed Minnesota growers. See the live flower menu, then preorder for pickup at My Dealer in Bayport.",
+ "canonical": "https://mydealermn.com/flower",
+ "og": {
+  "og:title": "Cannabis Flower in Bayport, MN | My Dealer",
+  "og:description": "Deli flower by the gram and sealed 3.5 g and 7 g pre-packs from licensed Minnesota growers. See the live flower menu, then preorder for pickup at My Dealer in Bayport.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/flower",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "CollectionPage",
+     "@id": "https://mydealermn.com/flower#webpage",
+     "url": "https://mydealermn.com/flower",
+     "name": "Cannabis Flower in Bayport, MN | My Dealer",
+     "description": "Deli flower by the gram and sealed 3.5 g and 7 g pre-packs from licensed Minnesota growers. See the live flower menu, then preorder for pickup at My Dealer in Bayport.",
+     "inLanguage": "en-US",
+     "about": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "provider": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "significantLink": "https://mydealermn.com/bayport/menu/flower-9630",
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mydealermn.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Menu",
+        "item": "https://mydealermn.com/bayport"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Flower",
+        "item": "https://mydealermn.com/flower"
+       }
+      ]
+     },
+     "dateModified": "2026-10-17"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://mydealermn.com/flower#faq",
+     "url": "https://mydealermn.com/flower",
+     "isPartOf": {
+      "@id": "https://mydealermn.com/flower#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How long does flower take to kick in, and how long does it last?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually 1 to 10 minutes to start, a peak around 30 minutes, and 2 to 4 hours total, according to Minnesota OCM. Some effects can last up to 6 hours. It varies by person."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much flower should I start with?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One inhalation of a lower-THC flower, then wait 15 to 30 minutes before deciding on more. Our menu lists THC % for every strain, and a budtender can point you to the lower end."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much flower can I buy at once in Minnesota?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Up to 2 ounces per purchase, which is also the most you can carry in public. You can keep up to 2 pounds at home."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I drive after smoking flower?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Cannabis affects reaction time and judgment for hours, and impaired driving is illegal in Minnesota. Plan a ride or stay put."
+       }
+      }
+     ]
+    },
+    {
+     "@type": [
+      "Store",
+      "LocalBusiness"
+     ],
+     "@id": "https://mydealermn.com/#business",
+     "name": "My Dealer",
+     "url": "https://mydealermn.com",
+     "telephone": "+1-651-323-1266",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "243 3rd St N",
+      "addressLocality": "Bayport",
+      "addressRegion": "MN",
+      "postalCode": "55003",
+      "addressCountry": "US"
+     },
+     "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+     "sameAs": [
+      "https://x.com/MyDealerMN",
+      "https://www.instagram.com/mydealermn/",
+      "https://www.linkedin.com/company/mydealermn",
+      "https://share.google/FS0jvQqMZtD11QPEt",
+      "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+      "https://www.facebook.com/mydealermn/",
+      "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+      "https://maps.google.com/?cid=16369139820469574822",
+      "https://www.yelp.com/biz/my-dealer-bayport-2",
+      "https://www.leafly.com/dispensary-info/my-dealer",
+      "https://weedmaps.com/dispensaries/my-dealer"
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "Flower · Adults 21+"
+    },
+    {
+     "t": "h1",
+     "html": "Cannabis flower in Bayport, by the gram or pre-packed"
+    },
+    {
+     "t": "p",
+     "html": "Flower is what My Dealer is built around: cannabis grown as cannabis by licensed Minnesota cultivators. Here's how buying it works at our Bayport store."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/bayport",
+       "html": "Preorder for pickup"
+      },
+      {
+       "href": "/bayport/menu/flower-9630",
+       "html": "See the flower menu"
+      },
+      {
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "html": "Get directions",
+       "target": "_blank",
+       "rel": "noopener"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "h2",
+       "html": "Two ways to buy flower",
+       "id": "two-ways"
+      },
+      {
+       "t": "h3",
+       "html": "Deli flower, by the gram"
+      },
+      {
+       "t": "p",
+       "html": "We portion deli flower at the counter and price it by the gram, so you get the amount you want instead of a fixed jar size. The per-gram price drops as you buy more, up to a half ounce or an ounce."
+      },
+      {
+       "t": "h3",
+       "html": "Pre-packs"
+      },
+      {
+       "t": "p",
+       "html": "Sealed packages, mostly 3.5 g (an eighth) and 7 g (a quarter), with the strain, the grower, and the THC numbers on the label. Some are smaller-bud \"popcorn\" packs."
+      },
+      {
+       "t": "h2",
+       "html": "What the menu tells you",
+       "id": "reading-the-label"
+      },
+      {
+       "t": "p",
+       "html": "Every strain on the menu is marked Sativa, Sativa-dominant, Hybrid, Indica-dominant, or Indica to show its lineage, along with THC numbers and, when the lab reports them, the top terpenes. Those labels describe the plant and its aroma and flavor, not what it will do for you. For the details, read our <a href=\"/faq#cannabis-types-and-terpenes\">terpene and strain-label FAQ</a> or the <a href=\"/cannabis-101\">Cannabis 101</a> guide."
+      },
+      {
+       "t": "p",
+       "html": "Brands on the menu when we checked on October 17, 2026: Campfire Cannabis, Good Green, RYTHM, Trawa, and Vireo. The lineup changes with each batch, so the <a href=\"/bayport/menu/flower-9630\">flower menu</a> is the place to check."
+      },
+      {
+       "t": "h2",
+       "html": "Limits and the law",
+       "id": "flower-limits"
+      },
+      {
+       "t": "p",
+       "html": "Minnesota caps one purchase at 2 ounces of flower, which is also the most you can carry in public. Keep it sealed in the car and don't use it in a vehicle or our parking lot. <a href=\"https://www.revisor.mn.gov/statutes/cite/342.09\" target=\"_blank\" rel=\"noopener\">Minn. Stat. 342.09</a>"
+      },
+      {
+       "t": "p",
+       "html": "At home, store flower in an airtight container somewhere cool and dark, and lock it up away from kids and pets."
+      },
+      {
+       "t": "h2",
+       "html": "How flower works",
+       "id": "how-flower-works"
+      },
+      {
+       "t": "dl",
+       "items": [
+        {
+         "dt": "Onset",
+         "dd": [
+          "1 to 10 minutes"
+         ]
+        },
+        {
+         "dt": "Peak",
+         "dd": [
+          "About 30 minutes"
+         ]
+        },
+        {
+         "dt": "Lasts",
+         "dd": [
+          "2 to 4 hours, sometimes up to 6"
+         ]
+        },
+        {
+         "dt": "Start with",
+         "dd": [
+          "One inhalation of lower-THC flower, then wait 15 to 30 minutes"
+         ]
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "General estimates from Minnesota OCM and Health Canada. Timing varies from person to person."
+      },
+      {
+       "t": "h3",
+       "html": "When people choose it"
+      },
+      {
+       "t": "p",
+       "html": "Inhaling is the quickest way to feel cannabis, and it wears off sooner than an edible. People who want to feel the onset quickly and adjust as they go often choose flower. It's also the format for people who care about the plant itself: you can see the bud, smell it, and buy exactly the amount you want by the gram."
+      },
+      {
+       "t": "h3",
+       "html": "Timing"
+      },
+      {
+       "t": "p",
+       "html": "When you inhale, THC moves from your lungs into your bloodstream within seconds to minutes. Minnesota's Office of Cannabis Management (OCM) puts the onset at 1 to 10 minutes, the peak at about 30 minutes, and the total at 2 to 4 hours. Health Canada notes effects can last up to 6 hours, with some lingering effects up to 24. Everyone is different, and the same person can react differently from one day to the next."
+      },
+      {
+       "t": "h3",
+       "html": "Dosing basics"
+      },
+      {
+       "t": "p",
+       "html": "Flower is labeled by THC percentage, not milligrams. On our menu on October 17, 2026, flower ran from about 15% to 29% THC. OCM's starting point is one inhalation of a lower-potency product, then a 15 to 30 minute wait before deciding on more. Health Canada suggests the most caution with anything over 20% THC. If you're new, or it's been a while, ask a budtender to point you to the lower end of the range."
+      },
+      {
+       "t": "h3",
+       "html": "How it counts toward Minnesota limits"
+      },
+      {
+       "t": "p",
+       "html": "One purchase can include up to 2 ounces of flower. You can carry up to 2 ounces in public and keep up to 2 pounds at home. Pre-rolls count as flower; concentrates and edibles have their own limits. <a href=\"https://www.revisor.mn.gov/statutes/cite/342.27\" target=\"_blank\" rel=\"noopener\">Minn. Stat. 342.27</a>, <a href=\"https://www.revisor.mn.gov/statutes/cite/342.09\" target=\"_blank\" rel=\"noopener\">342.09</a>"
+      },
+      {
+       "t": "h3",
+       "html": "Storage"
+      },
+      {
+       "t": "p",
+       "html": "Keep flower in its original package or an airtight glass jar, somewhere cool and dark. Lock it up, out of reach of kids and pets. In the car, it goes in the trunk unless the package is still sealed."
+      },
+      {
+       "t": "h3",
+       "html": "Practical tips"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Pack a small amount at a time. You can always add more.",
+        "Take a normal breath, not a deep one, and don't hold it in. Lower-risk use guidelines advise against deep inhaling and breath-holding.",
+        "Keep notes: the strain, the THC %, how much, and how it went. It makes the next visit easier.",
+        "Ask us anything at the counter. We'd rather slow down than guess."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Safety"
+      },
+      {
+       "t": "p",
+       "html": "Cannabis smoke carries many of the same toxins and irritants as tobacco smoke and can harm lung tissue, according to the CDC. Don't drive after using: impairment can last for hours, and impaired driving is illegal in Minnesota. Don't mix cannabis with alcohol, which raises impairment. Use it only in a private home or on private property where the owner allows it. Not in a vehicle, parked or moving, not in public places, and not in our parking lot."
+      },
+      {
+       "t": "p",
+       "html": "If someone has used too much, or a child or pet gets into cannabis, call Poison Control at 1-800-222-1222 (for pets, call your vet). In an emergency, call 911."
+      },
+      {
+       "t": "h2",
+       "html": "Questions about flower",
+       "id": "faq-flower-works"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "How long does flower take to kick in, and how long does it last?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Usually 1 to 10 minutes to start, a peak around 30 minutes, and 2 to 4 hours total, according to Minnesota OCM. Some effects can last up to 6 hours. It varies by person."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How much flower should I start with?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "One inhalation of a lower-THC flower, then wait 15 to 30 minutes before deciding on more. Our menu lists THC % for every strain, and a budtender can point you to the lower end."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How much flower can I buy at once in Minnesota?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Up to 2 ounces per purchase, which is also the most you can carry in public. You can keep up to 2 pounds at home."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I drive after smoking flower?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Cannabis affects reaction time and judgment for hours, and impaired driving is illegal in Minnesota. Plan a ride or stay put."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Sources: <a href=\"https://mn.gov/ocm/assets/Guide_to_Safer_Cannabis_Use_1.0_tcm1202-754055.pdf\" target=\"_blank\" rel=\"noopener\">Minnesota OCM Guide to Safer Cannabis Use</a>, <a href=\"https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/resources/what-you-need-to-know-if-you-choose-to-consume-cannabis.html\" target=\"_blank\" rel=\"noopener\">Health Canada</a>, <a href=\"https://www.cdc.gov/cannabis/health-effects/lung-health.html\" target=\"_blank\" rel=\"noopener\">CDC</a>, <a href=\"https://nida.nih.gov/publications/drugfacts/cannabis-marijuana\" target=\"_blank\" rel=\"noopener\">NIDA</a>."
+      },
+      {
+       "t": "h2",
+       "html": "How to shop it",
+       "id": "how-to-shop"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<strong>Preorder:</strong> pick what you want on the <a href=\"/bayport/menu/flower-9630\">flower menu</a>, or start at <a href=\"/bayport\">mydealermn.com/bayport</a>. Pick it up the same day or the next day, and pay at the counter.",
+        "<strong>In the store:</strong> talk it through with a budtender, or browse on the kiosk. We have paper menus too.",
+        "<strong>Bring ID:</strong> 21+ with a valid photo ID, every visit. Cash or debit (cashless ATM, $3 fee). Loyalty members earn 3% back in points."
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "More from the menu",
+       "id": "more-categories"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/pre-rolls",
+         "html": "Pre-rolls"
+        },
+        {
+         "href": "/edibles",
+         "html": "Edibles"
+        },
+        {
+         "href": "/vapes",
+         "html": "Vapes"
+        },
+        {
+         "href": "/beverages",
+         "html": "Hemp THC beverages"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Coming from out of town? Directions and parking from your side of the river:"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/stillwater",
+         "html": "Stillwater, MN"
+        },
+        {
+         "href": "/oak-park-heights",
+         "html": "Oak Park Heights, MN"
+        },
+        {
+         "href": "/hudson-wi",
+         "html": "Hudson, WI"
+        },
+        {
+         "href": "/river-falls-wi",
+         "html": "River Falls, WI"
+        },
+        {
+         "href": "/somerset-wi",
+         "html": "Somerset, WI"
+        },
+        {
+         "href": "/new-richmond-wi",
+         "html": "New Richmond, WI"
+        },
+        {
+         "href": "/wisconsin",
+         "html": "Wisconsin shoppers"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Information current as of October 17, 2026. Menu, prices, and stock change often; the live menu is the final word."
+      },
+      {
+       "t": "p",
+       "html": "For adults 21 and older only."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Hemp products containing THC are not for use by anyone under the age of 21. Using hemp products containing THC may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid hemp products containing THC due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

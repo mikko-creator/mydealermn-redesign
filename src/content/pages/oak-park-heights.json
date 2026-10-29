@@ -1,0 +1,514 @@
+{
+ "path": "/oak-park-heights",
+ "source": "https://mydealermn.com/oak-park-heights",
+ "captured": "2026-10-29",
+ "title": "Dispensary Near Oak Park Heights, MN | My Dealer Bayport",
+ "description": "Licensed cannabis about 6 minutes from Oak Park Heights: Hwy 36 east to the Hwy 95 exit, then south to Bayport. Preorder online, park out back, 21+ with valid ID.",
+ "canonical": "https://mydealermn.com/oak-park-heights",
+ "og": {
+  "og:title": "Dispensary Near Oak Park Heights, MN | My Dealer Bayport",
+  "og:description": "Licensed cannabis about 6 minutes from Oak Park Heights: Hwy 36 east to the Hwy 95 exit, then south to Bayport. Preorder online, park out back, 21+ with valid ID.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/oak-park-heights",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://mydealermn.com/oak-park-heights#webpage",
+     "url": "https://mydealermn.com/oak-park-heights",
+     "name": "Dispensary Near Oak Park Heights, MN | My Dealer Bayport",
+     "description": "Licensed cannabis about 6 minutes from Oak Park Heights: Hwy 36 east to the Hwy 95 exit, then south to Bayport. Preorder online, park out back, 21+ with valid ID.",
+     "inLanguage": "en-US",
+     "about": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mydealermn.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dispensary near Oak Park Heights",
+        "item": "https://mydealermn.com/oak-park-heights"
+       }
+      ]
+     },
+     "dateModified": "2026-10-22"
+    },
+    {
+     "@type": [
+      "Store",
+      "LocalBusiness"
+     ],
+     "@id": "https://mydealermn.com/#business",
+     "name": "My Dealer",
+     "url": "https://mydealermn.com",
+     "telephone": "+1-651-323-1266",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "243 3rd St N",
+      "addressLocality": "Bayport",
+      "addressRegion": "MN",
+      "postalCode": "55003",
+      "addressCountry": "US"
+     },
+     "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Oak Park Heights",
+       "containedInPlace": {
+        "@type": "State",
+        "name": "Minnesota"
+       }
+      }
+     ],
+     "sameAs": [
+      "https://x.com/MyDealerMN",
+      "https://www.instagram.com/mydealermn/",
+      "https://www.linkedin.com/company/mydealermn",
+      "https://share.google/FS0jvQqMZtD11QPEt",
+      "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+      "https://www.facebook.com/mydealermn/",
+      "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+      "https://maps.google.com/?cid=16369139820469574822",
+      "https://www.yelp.com/biz/my-dealer-bayport-2",
+      "https://www.leafly.com/dispensary-info/my-dealer",
+      "https://weedmaps.com/dispensaries/my-dealer"
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://mydealermn.com/oak-park-heights#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How far is My Dealer from Oak Park Heights?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About 3 to 4 miles. From the center of Oak Park Heights it's about 6 minutes without traffic, and about 7 minutes from the Walmart on Norell Avenue. Highway 36 east to the Highway 95 exit, then south."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I preorder and grab it on my way home?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Order at mydealermn.com/bayport, then pick up the same day or the next day. You pay at pickup, and we check ID at the counter."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is there parking?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. There's a paved lot behind the building (turn onto 1st Ave N, then left down the alley), street parking on 3rd Street out front, and the public lot at Bayport City Hall across the street. The building has entrances at both the front and the back, so come in either way."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What are your hours?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Noon to 8, every day. If that changes, we'll update the site."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I use cannabis in the car or in the parking lot?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Minnesota law doesn't allow cannabis use in a motor vehicle, parked or moving, and our lot is no exception. Take it home. Minn. Stat. 342.09"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "Oak Park Heights, MN · Adults 21+"
+    },
+    {
+     "t": "h1",
+     "html": "Licensed cannabis one exit down Highway 95 from Oak Park Heights"
+    },
+    {
+     "t": "p",
+     "html": "My Dealer is a state-licensed cannabis store at 243 3rd St N in Bayport, the next town south on Highway 95. From the Highway 36 corridor it's about 7 minutes. Open noon to 8 daily, with a parking lot out back and entrances front and back, so you can be in and out."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/bayport",
+       "html": "Preorder for pickup"
+      },
+      {
+       "href": "/bayport",
+       "html": "See the live menu"
+      },
+      {
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "html": "Get directions",
+       "target": "_blank",
+       "rel": "noopener"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "h2",
+       "html": "Getting here from Oak Park Heights",
+       "id": "getting-here-from-oak-park-heights"
+      },
+      {
+       "t": "h3",
+       "html": "From the Highway 36 stores"
+      },
+      {
+       "t": "p",
+       "html": "If you're running errands along 36 (the Walmart on Norell Avenue, Kowalski's on Neal Avenue), get on Highway 36 heading east toward the river. Take the Highway 95 exit (Stillwater / Bayport) and turn right to go south. Stay on 95 about a mile and a half. It becomes 3rd Street in Bayport, and we're on your left, next to the American Legion and the post office."
+      },
+      {
+       "t": "p",
+       "html": "<strong>About 7 minutes, 3.7 miles from the Walmart lot. About 6 minutes, 3.2 miles from the middle of town.</strong>"
+      },
+      {
+       "t": "h3",
+       "html": "Coming back over the St. Croix Crossing"
+      },
+      {
+       "t": "p",
+       "html": "Highway 95 is the first exit on the Minnesota side after the St. Croix Crossing bridge. Take it, head south, and you're here in a couple of minutes. Wisconsin shoppers, please read the <a href=\"/wisconsin\">guide for Wisconsin shoppers</a> before you come: what you buy here stays in Minnesota."
+      },
+      {
+       "t": "p",
+       "html": "Drive time and distance: OpenStreetMap routing (OSRM), checked October 22, 2026, without traffic. Allow extra time when traffic is heavy."
+      },
+      {
+       "t": "h2",
+       "html": "One exit, no detour",
+       "id": "why-bayport-oph"
+      },
+      {
+       "t": "p",
+       "html": "Oak Park Heights sits right between Stillwater and Bayport, so for most of town we're a straight shot down 95. If you work in Bayport or commute past the Andersen campus, we're already on your way. Andersen employees get 10% off on Tuesdays with their Andersen ID."
+      },
+      {
+       "t": "p",
+       "html": "We're one locally owned store. I built most of it myself, and you can see the before-and-after on <a href=\"/build\">the build page</a>."
+      },
+      {
+       "t": "h2",
+       "html": "Where to park",
+       "id": "parking-oph"
+      },
+      {
+       "t": "p",
+       "html": "Use the paved lot behind the building (turn onto 1st Ave N, then take a left down the alley) or street parking on 3rd Street out front. If those are full, there's a public lot at City Hall across the street. The building has entrances at both the front and the back, so come in whichever way is closer."
+      },
+      {
+       "t": "h2",
+       "html": "What's on the menu",
+       "id": "what-we-carry-oph"
+      },
+      {
+       "t": "p",
+       "html": "Everything here is sold under a Minnesota Office of Cannabis Management retail license (DIS-L24-000241). Licensed cannabis and hemp-derived products are labeled separately, so you always know which you're buying. If you're grabbing something on the way home, these are the quick links:"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<a href=\"/bayport/menu/flower-9630\">Flower</a>: deli flower by the gram, or 3.5 g and 7 g pre-packs. <a href=\"/flower\">How flower works here</a>",
+        "<a href=\"/bayport/menu/pre-rolls-10350\">Pre-rolls</a>: one at a time or in packs. <a href=\"/pre-rolls\">Pre-roll formats</a>",
+        "<a href=\"/bayport/menu/weed-edibles-9631\">Cannabis edibles</a> and <a href=\"/bayport/menu/hemp-edibles-12319\">hemp edibles</a>. <a href=\"/edibles\">Edibles guide</a>",
+        "<a href=\"/bayport/menu/vapes-10353\">Vapes</a>. <a href=\"/vapes\">About our vapes</a>",
+        "<a href=\"/bayport/menu/hemp-beverages-12318\">Hemp THC drinks</a>. <a href=\"/beverages\">About the drinks</a>"
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Beyond the deli counter, you'll find a wide range of brands, many of them from Minnesota. Brands we carry include RYTHM, Dogwalkers, Good Green, &amp;Shine, Vireo, Campfire Cannabis, Flör, BLNCD, Minny Grown, Foundry, Granny's, and Philotimo, plus Trawa flower at the deli counter. The lineup changes as new batches come in."
+      },
+      {
+       "t": "p",
+       "html": "The fastest trip is a preorder: <a href=\"/bayport\">order at mydealermn.com/bayport</a>, pick it up the same day or the next, and pay at the counter."
+      },
+      {
+       "t": "h2",
+       "html": "Deli flower by the gram or by the ounce",
+       "id": "deli-flower-oph"
+      },
+      {
+       "t": "p",
+       "html": "Looking for a dispensary near Oak Park Heights where an ounce won't break the budget? Deli flower is our budget-friendly way to buy flower. It's weighed to order at the counter on certified scales, right in front of you, anywhere from 1 gram up to two ounces, the Minnesota limit for one purchase."
+      },
+      {
+       "t": "p",
+       "html": "Mix strains within a tier and the combined quantity sets your price, so a mixed ounce is still $210 or $225. The more you buy, the less each gram costs. In the $11 tier, a single gram is $11, 3.5 g works out to $10.00 a gram, 14 g to $8.57 a gram, and a full ounce to $7.50 a gram. The $12 tier steps down the same way, to $8.04 a gram at the ounce. From the Highway 36 stores it's about 7 minutes, so it fits on the way home."
+      },
+      {
+       "t": "h3",
+       "html": "$11 tier"
+      },
+      {
+       "t": "p",
+       "html": "$7.50/g at the ounce"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "1 g$11",
+        "3.5 g$35",
+        "7 g$65",
+        "14 g$120",
+        "28 g$210"
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "$12 tier"
+      },
+      {
+       "t": "p",
+       "html": "$8.04/g at the ounce"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "1 g$12",
+        "3.5 g$38",
+        "7 g$70",
+        "14 g$130",
+        "28 g$225"
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Combined quantity: mix and match strains within a tier, and the total weight sets the price. Prices as of October 22, 2026. Which strains sit in each tier changes with every batch, so check the <a href=\"/bayport/menu/flower-9630\">flower menu</a> for today's lineup. Adults 21+ with valid ID."
+      },
+      {
+       "t": "h2",
+       "html": "Before your first visit",
+       "id": "first-visit-oph"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Have your ID out. We card everyone, every time, 21 and up only. A license from any state is fine, and so are passports, passport cards, Tribal IDs, and Canadian IDs. Expired IDs can't be accepted.",
+        "Cash or debit only. Debit runs through a cashless ATM with a $3 fee, and there's a regular ATM on site.",
+        "Join the loyalty program with your phone number. It's 3% back in points, and members see the deals.",
+        "Not sure what you want? Ask at the counter, or browse on the in-store kiosk at your own pace."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Local rules: Oak Park Heights regulates cannabis businesses in City Code Chapter 1413. Not verified: we didn't find a separate Oak Park Heights rule on public use. In Bayport, City Code Sec. 26-77 (Ordinance 891, adopted August 7, 2023) bans smoking cannabis or hemp products in public places, and Sec. 26-28 bans open containers of cannabis or hemp drinks on streets, sidewalks, and other public places. <a href=\"https://library.municode.com/MN/Bayport/codes/Code_of_Ordinances?nodeId=MUCO_CH26EN\" target=\"_blank\" rel=\"noopener\">Bayport Code ch. 26</a>"
+      },
+      {
+       "t": "h2",
+       "html": "Oak Park Heights questions",
+       "id": "oak-park-heights-faq"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "How far is My Dealer from Oak Park Heights?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "About 3 to 4 miles. From the center of Oak Park Heights it's about 6 minutes without traffic, and about 7 minutes from the Walmart on Norell Avenue. Highway 36 east to the Highway 95 exit, then south."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I preorder and grab it on my way home?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. Order at <a href=\"/bayport\">mydealermn.com/bayport</a>, then pick up the same day or the next day. You pay at pickup, and we check ID at the counter."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Is there parking?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. There's a paved lot behind the building (turn onto 1st Ave N, then left down the alley), street parking on 3rd Street out front, and the public lot at Bayport City Hall across the street. The building has entrances at both the front and the back, so come in either way."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "What are your hours?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Noon to 8, every day. If that changes, we'll update the site."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I use cannabis in the car or in the parking lot?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Minnesota law doesn't allow cannabis use in a motor vehicle, parked or moving, and our lot is no exception. Take it home. <a href=\"https://www.revisor.mn.gov/statutes/cite/342.09\" target=\"_blank\" rel=\"noopener\">Minn. Stat. 342.09</a>"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Visit My Dealer in Bayport",
+       "id": "visit-oph"
+      },
+      {
+       "t": "p",
+       "html": "My Dealer, 243 3rd St N, Bayport, MN 55003"
+      },
+      {
+       "t": "p",
+       "html": "Phone: <a href=\"tel:+16513231266\">(651) 323-1266</a>"
+      },
+      {
+       "t": "p",
+       "html": "Open noon to 8, every day. Adults 21+ with valid ID only."
+      },
+      {
+       "t": "p",
+       "html": "Parking lot and a second entrance at the back: turn onto 1st Ave N, then take a left down the alley."
+      },
+      {
+       "t": "p",
+       "html": "<a href=\"/bayport\">Preorder for pickup</a> · <a href=\"/bayport\">Browse the Bayport menu</a> · <a href=\"https://www.google.com/maps/dir/?api=1&amp;destination=243+3rd+Street+North,+Bayport,+MN+55003\" target=\"_blank\" rel=\"noopener\">Google Maps directions</a>"
+      },
+      {
+       "t": "p",
+       "html": "Licensed by the Minnesota Office of Cannabis Management. Cannabis Retailer License DIS-L24-000241."
+      },
+      {
+       "t": "h2",
+       "html": "Other towns we serve",
+       "id": "nearby-oak-park-heights"
+      },
+      {
+       "t": "p",
+       "html": "Coming from somewhere else in the valley? These pages have the route from your side of the river."
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/stillwater",
+         "html": "Stillwater, MN"
+        },
+        {
+         "href": "/hudson-wi",
+         "html": "Hudson, WI"
+        },
+        {
+         "href": "/river-falls-wi",
+         "html": "River Falls, WI"
+        },
+        {
+         "href": "/somerset-wi",
+         "html": "Somerset, WI"
+        },
+        {
+         "href": "/new-richmond-wi",
+         "html": "New Richmond, WI"
+        },
+        {
+         "href": "/wisconsin",
+         "html": "Wisconsin shoppers"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Shop by category:"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/flower",
+         "html": "Flower"
+        },
+        {
+         "href": "/pre-rolls",
+         "html": "Pre-rolls"
+        },
+        {
+         "href": "/edibles",
+         "html": "Edibles"
+        },
+        {
+         "href": "/vapes",
+         "html": "Vapes"
+        },
+        {
+         "href": "/beverages",
+         "html": "Hemp THC beverages"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Information current as of October 22, 2026. Menu, prices, and stock change often; the live menu is the final word."
+      },
+      {
+       "t": "p",
+       "html": "For adults 21 and older only."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Hemp products containing THC are not for use by anyone under the age of 21. Using hemp products containing THC may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid hemp products containing THC due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

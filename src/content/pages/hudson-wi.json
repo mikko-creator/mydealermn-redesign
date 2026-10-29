@@ -1,0 +1,589 @@
+{
+ "path": "/hudson-wi",
+ "source": "https://mydealermn.com/hudson-wi",
+ "captured": "2026-10-29",
+ "title": "Dispensary Near Hudson, WI | Licensed Cannabis in Bayport, MN",
+ "description": "Licensed Minnesota cannabis about 10 minutes from downtown Hudson, WI, over the I-94 bridge. My Dealer in Bayport: 21+ with valid ID. Buy in MN, use in MN only.",
+ "canonical": "https://mydealermn.com/hudson-wi",
+ "og": {
+  "og:title": "Dispensary Near Hudson, WI | Licensed Cannabis in Bayport, MN",
+  "og:description": "Licensed Minnesota cannabis about 10 minutes from downtown Hudson, WI, over the I-94 bridge. My Dealer in Bayport: 21+ with valid ID. Buy in MN, use in MN only.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/hudson-wi",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://mydealermn.com/hudson-wi#webpage",
+     "url": "https://mydealermn.com/hudson-wi",
+     "name": "Dispensary Near Hudson, WI | Licensed Cannabis in Bayport, MN",
+     "description": "Licensed Minnesota cannabis about 10 minutes from downtown Hudson, WI, over the I-94 bridge. My Dealer in Bayport: 21+ with valid ID. Buy in MN, use in MN only.",
+     "inLanguage": "en-US",
+     "about": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mydealermn.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dispensary near Hudson, WI",
+        "item": "https://mydealermn.com/hudson-wi"
+       }
+      ]
+     },
+     "dateModified": "2026-10-22"
+    },
+    {
+     "@type": [
+      "Store",
+      "LocalBusiness"
+     ],
+     "@id": "https://mydealermn.com/#business",
+     "name": "My Dealer",
+     "url": "https://mydealermn.com",
+     "telephone": "+1-651-323-1266",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "243 3rd St N",
+      "addressLocality": "Bayport",
+      "addressRegion": "MN",
+      "postalCode": "55003",
+      "addressCountry": "US"
+     },
+     "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "Hudson",
+       "containedInPlace": {
+        "@type": "State",
+        "name": "Wisconsin"
+       }
+      }
+     ],
+     "sameAs": [
+      "https://x.com/MyDealerMN",
+      "https://www.instagram.com/mydealermn/",
+      "https://www.linkedin.com/company/mydealermn",
+      "https://share.google/FS0jvQqMZtD11QPEt",
+      "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+      "https://www.facebook.com/mydealermn/",
+      "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+      "https://maps.google.com/?cid=16369139820469574822",
+      "https://www.yelp.com/biz/my-dealer-bayport-2",
+      "https://www.leafly.com/dispensary-info/my-dealer",
+      "https://weedmaps.com/dispensaries/my-dealer"
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://mydealermn.com/hudson-wi#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Can I buy at My Dealer with a Wisconsin driver's license?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Any adult 21 or older with a valid, unexpired photo ID can buy here, within Minnesota's purchase limits. Wisconsin licenses work the same as Minnesota ones."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I bring it back to Hudson?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Cannabis isn't legal in Wisconsin, and taking it across the river is illegal. The City of Hudson's own ordinance (Chapter 118) carries a $50 to $500 forfeiture, and state law applies on top of that. Buy in Minnesota, use it in Minnesota. Details and sources are on our Wisconsin shoppers page."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is there a licensed dispensary in Hudson?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Wisconsin has no adult-use or medical cannabis program, so there are no state-licensed cannabis dispensaries there. Shops in Wisconsin that use the word dispensary sell hemp or CBD products."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Where can I buy THC near Hudson after December 11?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If a \"dispensary near me\" search in Hudson turns up hemp shops, that's because Wisconsin still has no licensed cannabis stores. Under current federal law, starting December 11, 2026, hemp products with more than 0.4 mg of total THC per package no longer meet the federal definition of hemp. For real cannabis, My Dealer is a Minnesota-licensed cannabis retailer in Bayport, about 10 minutes from downtown Hudson, for adults 21+ with valid ID. Licensed cannabis is legal under Minnesota law only, and everything we sell is for use in Minnesota only."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long is the drive from Hudson?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About 10 minutes and 5.7 miles from downtown Hudson without traffic: I-94 west over the river, exit 258 for Highway 95, then north about 4 miles to Bayport."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Where can I legally use it in Minnesota?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At a private residence, including the yard, or on private property that isn't open to the public, as long as the owner hasn't said no. A business or event licensed for on-site use works too. Not in a vehicle, not in public places, not in our parking lot, and no smoking or vaping inside apartment buildings, balconies included. If you're visiting, sort that out before you shop. Full rundown."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "Hudson, WI · Adults 21+"
+    },
+    {
+     "t": "h1",
+     "html": "From Hudson, it's about 10 minutes to licensed cannabis in Bayport"
+    },
+    {
+     "t": "p",
+     "html": "Hey, I'm Brandon. My Dealer is a state-licensed cannabis store in Bayport, Minnesota, just across the St. Croix from Hudson. Adults 21+ with a valid ID, including a Wisconsin license, can shop here. The catch is simple: buy it in Minnesota and use it in Minnesota."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/bayport",
+       "html": "Preorder for pickup"
+      },
+      {
+       "href": "/wisconsin",
+       "html": "Guide for Wisconsin shoppers"
+      },
+      {
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "html": "Get directions",
+       "target": "_blank",
+       "rel": "noopener"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "h2",
+       "html": "First, the rule: buy in Minnesota, use it in Minnesota",
+       "id": "buy-in-mn-use-in-mn"
+      },
+      {
+       "t": "p",
+       "html": "I'd rather lose a sale than have you get in trouble, so this goes first. What you buy at My Dealer is legal in Minnesota only. Don't carry cannabis across state lines, and that includes the I-94 bridge back to Hudson. Wisconsin treats THC (outside of legal hemp) as a controlled substance, and Hudson has its own possession ordinance on top of state law. Every package we sell says it: \"This product may be unlawful outside the state of Minnesota.\""
+      },
+      {
+       "t": "p",
+       "html": "So plan where you'll use it on this side of the river before you come: a private residence, or private property where the owner is fine with it. Not in the car, not in a park, not in our lot. Our <a href=\"/wisconsin\">guide for Wisconsin shoppers</a> has the statutes, the Hudson and St. Croix County ordinances, and the rest of the detail."
+      },
+      {
+       "t": "h2",
+       "html": "Local rules in Hudson and North Hudson",
+       "id": "local-rules-hudson"
+      },
+      {
+       "t": "p",
+       "html": "City of Hudson Code Chapter 118 (amended in full August 19, 2024) bans possessing or using marijuana, with a forfeiture of $50 to $500 plus costs. For more than 25 grams, or after a prior conviction, the city can cite you only if the St. Croix County District Attorney declines to charge. The same chapter makes it illegal for anyone under 21 to possess hemp-derived THC products such as delta-8 or THCA. <a href=\"https://ecode360.com/9772967\" target=\"_blank\" rel=\"noopener\">Hudson Code ch. 118</a>"
+      },
+      {
+       "t": "p",
+       "html": "St. Croix County Chapter 58 also bans marijuana possession (up to 25 grams, first offense), with a forfeiture of $125 to $500. <a href=\"https://www.sccwi.gov/DocumentCenter/View/1139/Chapter-58-PDF?bidId=\" target=\"_blank\" rel=\"noopener\">St. Croix County ch. 58 (PDF)</a> The Village of North Hudson's code (Sec. 70-12) also prohibits marijuana possession or use; we haven't verified its fine. <a href=\"https://library.municode.com/wi/north_hudson/codes/code_of_ordinances\" target=\"_blank\" rel=\"noopener\">North Hudson code</a> State law applies on top of all of these."
+      },
+      {
+       "t": "p",
+       "html": "In Bayport, City Code Sec. 26-77 (Ordinance 891, adopted August 7, 2023) bans smoking cannabis or hemp products in public places, and Sec. 26-28 bans open containers of cannabis or hemp drinks on streets, sidewalks, and other public places. <a href=\"https://library.municode.com/MN/Bayport/codes/Code_of_Ordinances?nodeId=MUCO_CH26EN\" target=\"_blank\" rel=\"noopener\">Bayport Code ch. 26</a>"
+      },
+      {
+       "t": "h2",
+       "html": "Getting here from Hudson",
+       "id": "getting-here-from-hudson"
+      },
+      {
+       "t": "h3",
+       "html": "From downtown Hudson"
+      },
+      {
+       "t": "p",
+       "html": "Take Second Street (Highway 35) up to I-94 and head west across the St. Croix. Take exit 258, the first exit on the Minnesota side, for Highway 95 toward Lakeland and Stillwater. Go north on 95 about 4 miles, through Lakeland and Lakeland Shores. In Bayport, we're on your right at 243 3rd St N, next to the American Legion and the post office and across from City Hall."
+      },
+      {
+       "t": "p",
+       "html": "<strong>About 10 minutes, 5.7 miles.</strong> From North Hudson, about 13 minutes."
+      },
+      {
+       "t": "p",
+       "html": "The I-94 bridges over the St. Croix are under repair in 2026. I-94 has stayed open, with lane shifts. Check <a href=\"https://projects.511wi.gov/i94stcroixriverbridges/trafficimpacts/\" target=\"_blank\" rel=\"noopener\">511 Wisconsin's project page</a> for current traffic impacts."
+      },
+      {
+       "t": "h3",
+       "html": "From Houlton or farther north"
+      },
+      {
+       "t": "p",
+       "html": "Cross on the St. Croix Crossing (Highway 64 into Minnesota Highway 36), take the first exit for Highway 95, and head south. About 7 minutes from Houlton."
+      },
+      {
+       "t": "p",
+       "html": "Drive time and distance: OpenStreetMap routing (OSRM), checked October 22, 2026, without traffic. Allow extra time when traffic is heavy."
+      },
+      {
+       "t": "h2",
+       "html": "Licensed cannabis vs. a hemp shop",
+       "id": "licensed-vs-hemp"
+      },
+      {
+       "t": "p",
+       "html": "There are shops on the Wisconsin side that call themselves dispensaries. They sell hemp-derived products, which is a different, lower-potency category with different rules. My Dealer is licensed by the Minnesota Office of Cannabis Management as a cannabis retailer (license DIS-L24-000241), and our flower is grown as cannabis by licensed Minnesota cultivators and tracked by the state. We carry some hemp-derived products too, and those are labeled as hemp. You can <a href=\"https://mn.gov/ocm/data-reports/application-data/\" target=\"_blank\" rel=\"noopener\">look our license up on OCM's list</a>."
+      },
+      {
+       "t": "h2",
+       "html": "Hemp THC on December 11: what changes, and what doesn't",
+       "id": "hemp-rules-hudson"
+      },
+      {
+       "t": "p",
+       "html": "Heads up for Wisconsin shoppers looking for cannabis near Hudson. Under current federal law, starting December 11, 2026, a finished hemp product with more than 0.4 mg of total THC per package (the can, bottle, or bag it's sold in) no longer meets the federal definition of hemp. So do hemp products made with lab-converted cannabinoids. That covers most hemp THC gummies, vapes, and drinks, including delta-8. This is a federal change, not a new Wisconsin law. Wisconsin's hemp law hasn't changed, and two Wisconsin bills to regulate hemp THC products, AB 747 and SB 682, did not pass."
+      },
+      {
+       "t": "p",
+       "html": "Minnesota has its own hemp law. The Minnesota Office of Cannabis Management says the federal change doesn't change how Minnesota defines lower-potency hemp edibles and drinks, or whether they're legal under Minnesota law. OCM also notes that many hemp products that comply with Minnesota law, such as packages with more than 0.4 mg of THC, won't meet the new federal definition, which could affect hemp businesses' banking, taxes, and interstate shipping."
+      },
+      {
+       "t": "p",
+       "html": "Licensed Minnesota cannabis was never hemp. It's what most people mean by real weed: grown as cannabis by licensed Minnesota cultivators, tested, and tracked by the state. It's legal under Minnesota law only, and it's still illegal under federal law and in Wisconsin. Come visit Bayport, about 10 minutes from Hudson. Everything you buy here, cannabis or hemp, is for use in Minnesota only."
+      },
+      {
+       "t": "p",
+       "html": "Our read, not legal advice. Sources: <a href=\"https://www.law.cornell.edu/uscode/text/7/1639o\" target=\"_blank\" rel=\"noopener\">7 U.S.C. 1639o</a> as amended by P.L. 119-37, Div. B, Sec. 781 (enacted November 12, 2025); timing under <a href=\"https://www.congress.gov/bill/119th-congress/house-bill/6500/text\" target=\"_blank\" rel=\"noopener\">P.L. 119-103, Sec. 2019</a> (signed September 2, 2026); <a href=\"https://www.congress.gov/crs-product/IF13136\" target=\"_blank\" rel=\"noopener\">Congressional Research Service IF13136</a>; <a href=\"https://mn.gov/ocm/businesses/resources/hemp/federal-hemp-changes.jsp\" target=\"_blank\" rel=\"noopener\">Minnesota OCM, Federal hemp changes</a>; Wisconsin <a href=\"https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/AB747\" target=\"_blank\" rel=\"noopener\">AB 747</a> and <a href=\"https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/SB682\" target=\"_blank\" rel=\"noopener\">SB 682</a>. Congress could still change these dates. Bills to delay the change again are in committee; as of October 22, 2026, none has passed."
+      },
+      {
+       "t": "h2",
+       "html": "Where Wisconsin cannabis law stands",
+       "id": "wi-law-short"
+      },
+      {
+       "t": "p",
+       "html": "As of October 22, 2026, Wisconsin has no adult-use or medical cannabis program. In the 2025-2026 session, lawmakers introduced a medical cannabis bill, a legalization bill, and several bills to regulate hemp THC products. None passed; all failed on March 23, 2026, under the session schedule, after the last regular floor period ended in mid-March. The <a href=\"/wisconsin#wisconsin-law-2026\">Wisconsin shoppers guide</a> lists each bill, its sponsors, and how to reach your legislators."
+      },
+      {
+       "t": "h2",
+       "html": "What we carry",
+       "id": "what-we-carry-hudson"
+      },
+      {
+       "t": "p",
+       "html": "New to cannabis? Deli flower, a single pre-roll, or a low-dose edible are easy places to start, and a budtender can walk you through any of them. Come visit Bayport and you'll find a wide range of brands, many of them from Minnesota, including RYTHM, Dogwalkers, Good Green, &amp;Shine, Vireo, Campfire Cannabis, Flör, BLNCD, Minny Grown, Foundry, Granny's, and Philotimo, plus Trawa flower at the deli counter. Here's the full lineup."
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<a href=\"/flower\">Flower</a>: deli flower weighed out at the counter by the gram, plus sealed 3.5 g and 7 g pre-packs. <a href=\"/bayport/menu/flower-9630\">Flower on the menu</a>",
+        "<a href=\"/pre-rolls\">Pre-rolls</a>: singles and multi-packs. <a href=\"/bayport/menu/pre-rolls-10350\">Pre-rolls on the menu</a>",
+        "<a href=\"/edibles\">Edibles</a>: licensed cannabis gummies and lower-potency hemp edibles. <a href=\"/bayport/menu/weed-edibles-9631\">Cannabis edibles</a> · <a href=\"/bayport/menu/hemp-edibles-12319\">Hemp edibles</a>",
+        "<a href=\"/vapes\">Vapes</a>: all-in-one vapes. <a href=\"/bayport/menu/vapes-10353\">Vapes on the menu</a>",
+        "<a href=\"/beverages\">Hemp THC beverages</a>: canned and bottled drinks. <a href=\"/bayport/menu/hemp-beverages-12318\">Beverages on the menu</a>"
+       ]
+      },
+      {
+       "t": "p",
+       "html": "We also carry hemp topicals, cannabis seeds, and accessories. What's on the shelf changes as batches come in, so the <a href=\"/bayport\">live menu</a> is the place to check today's stock. Know what you want? <a href=\"/bayport\">Preorder at mydealermn.com/bayport</a>, then pay and show ID when you pick up, the same day or the next day."
+      },
+      {
+       "t": "h2",
+       "html": "Deli flower: ounces from $210, about 10 minutes from Hudson",
+       "id": "deli-flower-hudson"
+      },
+      {
+       "t": "p",
+       "html": "Searching for a dispensary near Hudson, or for budget-friendly ounces near Hudson? Deli flower is the reason I'd point you over the bridge. It's weighed to order at the counter on certified scales, right in front of you, so you pick the amount, from a single gram up to two ounces, the Minnesota limit for one purchase. Mixing strains within a tier still counts toward the bulk price."
+      },
+      {
+       "t": "p",
+       "html": "Ounces run $210 or $225 depending on the tier. The more you buy, the less each gram costs. In the $11 tier, a single gram is $11, 3.5 g works out to $10.00 a gram, 14 g to $8.57 a gram, and a full ounce to $7.50 a gram. The $12 tier steps down the same way, to $8.04 a gram at the ounce. Same rule as everything else here: it stays in Minnesota, so plan where you'll use it on this side of the river."
+      },
+      {
+       "t": "h3",
+       "html": "$11 tier"
+      },
+      {
+       "t": "p",
+       "html": "$7.50/g at the ounce"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "1 g$11",
+        "3.5 g$35",
+        "7 g$65",
+        "14 g$120",
+        "28 g$210"
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "$12 tier"
+      },
+      {
+       "t": "p",
+       "html": "$8.04/g at the ounce"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "1 g$12",
+        "3.5 g$38",
+        "7 g$70",
+        "14 g$130",
+        "28 g$225"
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Combined quantity: mix and match strains within a tier, and the total weight sets the price. Prices as of October 22, 2026. Which strains sit in each tier changes with every batch, so check the <a href=\"/bayport/menu/flower-9630\">flower menu</a> for today's lineup. Adults 21+ with valid ID."
+      },
+      {
+       "t": "h2",
+       "html": "Your first visit",
+       "id": "first-visit-hudson"
+      },
+      {
+       "t": "p",
+       "html": "Your Wisconsin ID works. So does any other valid ID on this list."
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<strong>21+ with a valid ID, every visit.</strong> A driver's license or state ID from any U.S. state works, and so do a Canadian license or ID, a Tribal ID, a U.S. passport or passport card, or a foreign passport. No one under 21 can come in, even with an adult.",
+        "<strong>Paying:</strong> cash, or your debit card through our cashless ATM ($3 fee). There's a regular ATM on site too. No credit cards.",
+        "<strong>Loyalty:</strong> give us your phone number at checkout and you earn 3% back in points, plus access to member deals.",
+        "<strong>Discounts:</strong> veterans and active military get 15% off every day, and Andersen employees get 10% off on Tuesdays, with valid ID. Discounts don't stack; you get the best one for your cart.",
+        "<strong>Limits:</strong> Minnesota caps one purchase at 2 ounces of flower, 8 grams of concentrate (vapes count here), and 800 mg of THC in edibles and hemp THC products combined.",
+        "<strong>No consumption on site.</strong> We're a retail store only, and there's no place to use cannabis at My Dealer."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Park in the lot behind the building (turn onto 1st Ave N, then take a left down the alley) or on 3rd Street out front. There are entrances at both the front and the back."
+      },
+      {
+       "t": "h2",
+       "html": "Hudson questions",
+       "id": "hudson-faq"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "Can I buy at My Dealer with a Wisconsin driver's license?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. Any adult 21 or older with a valid, unexpired photo ID can buy here, within Minnesota's purchase limits. Wisconsin licenses work the same as Minnesota ones."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I bring it back to Hudson?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Cannabis isn't legal in Wisconsin, and taking it across the river is illegal. The City of Hudson's own ordinance (Chapter 118) carries a $50 to $500 forfeiture, and state law applies on top of that. Buy in Minnesota, use it in Minnesota. Details and sources are on our <a href=\"/wisconsin\">Wisconsin shoppers page</a>."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Is there a licensed dispensary in Hudson?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Wisconsin has no adult-use or medical cannabis program, so there are no state-licensed cannabis dispensaries there. Shops in Wisconsin that use the word dispensary sell hemp or CBD products."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Where can I buy THC near Hudson after December 11?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "If a \"dispensary near me\" search in Hudson turns up hemp shops, that's because Wisconsin still has no licensed cannabis stores. Under current federal law, starting December 11, 2026, hemp products with more than 0.4 mg of total THC per package no longer meet the federal definition of hemp. For real cannabis, My Dealer is a Minnesota-licensed cannabis retailer in Bayport, about 10 minutes from downtown Hudson, for adults 21+ with valid ID. Licensed cannabis is legal under Minnesota law only, and everything we sell is for use in Minnesota only."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How long is the drive from Hudson?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "About 10 minutes and 5.7 miles from downtown Hudson without traffic: I-94 west over the river, exit 258 for Highway 95, then north about 4 miles to Bayport."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Where can I legally use it in Minnesota?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "At a private residence, including the yard, or on private property that isn't open to the public, as long as the owner hasn't said no. A business or event licensed for on-site use works too. Not in a vehicle, not in public places, not in our parking lot, and no smoking or vaping inside apartment buildings, balconies included. If you're visiting, sort that out before you shop. <a href=\"/wisconsin#using-it-legally-in-minnesota\">Full rundown</a>."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Visit My Dealer in Bayport",
+       "id": "visit-hudson"
+      },
+      {
+       "t": "p",
+       "html": "My Dealer, 243 3rd St N, Bayport, MN 55003"
+      },
+      {
+       "t": "p",
+       "html": "Phone: <a href=\"tel:+16513231266\">(651) 323-1266</a>"
+      },
+      {
+       "t": "p",
+       "html": "Open noon to 8, every day. Adults 21+ with valid ID only."
+      },
+      {
+       "t": "p",
+       "html": "Parking lot and a second entrance at the back: turn onto 1st Ave N, then take a left down the alley."
+      },
+      {
+       "t": "p",
+       "html": "<a href=\"/bayport\">Preorder for pickup</a> · <a href=\"/bayport\">Browse the Bayport menu</a> · <a href=\"https://www.google.com/maps/dir/?api=1&amp;destination=243+3rd+Street+North,+Bayport,+MN+55003\" target=\"_blank\" rel=\"noopener\">Google Maps directions</a>"
+      },
+      {
+       "t": "p",
+       "html": "Licensed by the Minnesota Office of Cannabis Management. Cannabis Retailer License DIS-L24-000241."
+      },
+      {
+       "t": "h2",
+       "html": "Other towns we serve",
+       "id": "nearby-hudson-wi"
+      },
+      {
+       "t": "p",
+       "html": "Coming from somewhere else in the valley? These pages have the route from your side of the river, and the Wisconsin shoppers guide covers the border rule in full."
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/wisconsin",
+         "html": "Wisconsin shoppers (all towns)"
+        },
+        {
+         "href": "/river-falls-wi",
+         "html": "River Falls, WI"
+        },
+        {
+         "href": "/somerset-wi",
+         "html": "Somerset, WI"
+        },
+        {
+         "href": "/new-richmond-wi",
+         "html": "New Richmond, WI"
+        },
+        {
+         "href": "/stillwater",
+         "html": "Stillwater, MN"
+        },
+        {
+         "href": "/oak-park-heights",
+         "html": "Oak Park Heights, MN"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Shop by category:"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/flower",
+         "html": "Flower"
+        },
+        {
+         "href": "/pre-rolls",
+         "html": "Pre-rolls"
+        },
+        {
+         "href": "/edibles",
+         "html": "Edibles"
+        },
+        {
+         "href": "/vapes",
+         "html": "Vapes"
+        },
+        {
+         "href": "/beverages",
+         "html": "Hemp THC beverages"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "This page is general information, not legal advice. Laws change. For your own situation, talk to a licensed attorney."
+      },
+      {
+       "t": "p",
+       "html": "Information current as of October 22, 2026. Menu, prices, and stock change often; the live menu is the final word."
+      },
+      {
+       "t": "p",
+       "html": "For adults 21 and older only."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Hemp products containing THC are not for use by anyone under the age of 21. Using hemp products containing THC may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid hemp products containing THC due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

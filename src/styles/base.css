@@ -1,0 +1,57 @@
+/* base.css - reset, document defaults, focus, type scale (FOUNDATION). Tokens live in tokens.css. */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: calc(var(--header-h) + 16px); }
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+  color: var(--text-on-paper);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+img, video, svg, picture { max-width: 100%; }
+img, video, picture { display: block; height: auto; }
+h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd { margin: 0; }
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height: 1.08; letter-spacing: -0.015em; font-optical-sizing: auto; text-wrap: balance; }
+h1 { font-size: var(--fs-h1); }
+h2 { font-size: var(--fs-h2); }
+h3 { font-size: var(--fs-h3); line-height: 1.2; }
+h4 { font-size: 1.1rem; }
+p { text-wrap: pretty; }
+ul, ol { margin: 0; padding: 0; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+a:hover { text-decoration-thickness: 2px; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+input, select, textarea { font: inherit; color: inherit; }
+em, i { font-style: italic; }
+strong, b { font-weight: 700; }
+hr { border: 0; border-top: 1px solid var(--line-paper); margin: 2rem 0; }
+table { border-collapse: collapse; width: 100%; }
+::selection { background: var(--gold); color: var(--ink); }
+
+/* focus: always visible for keyboard users */
+:focus { outline: none; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 6px; }
+.band--paper :focus-visible, .glass--milk :focus-visible { outline-color: var(--pine); }
+
+/* skip link + screen-reader text */
+.skip {
+  position: fixed; left: 12px; top: 12px; z-index: 200;
+  padding: 10px 16px; border-radius: var(--r-pill);
+  background: var(--gold); color: var(--ink); font-family: var(--font-ui); font-weight: 700; font-size: 0.85rem;
+  text-decoration: none; transform: translateY(-160%); transition: transform var(--dur-1) var(--ease-out);
+}
+.skip:focus { transform: none; }
+.sr-only {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* the shared SVG defs holder (sk-rough filter): takes no space */
+.sk-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+
+main { display: block; overflow-x: clip; } /* safety net: a reveal offset or protrusion never widens the page */

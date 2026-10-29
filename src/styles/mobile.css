@@ -1,0 +1,123 @@
+/* mobile.css - the phone/tablet pass (FOUNDATION; loaded after the lane sheets, before fix.css).
+   Header: drawer + button only below 1024px. Phones: smaller protrusions, single columns, never horizontal overflow. */
+
+/* ---------- below 1024: drawer ---------- */
+@media (max-width: 1023.98px) {
+  :root { --header-h: 64px; }
+  .header-cta { display: none; }
+  .nav-toggle {
+    display: grid; place-items: center; align-self: center; margin-left: auto; width: 46px; height: 46px; border-radius: 50%;
+    color: var(--cream); background: rgba(255, 250, 241, 0.1); border: 1px solid var(--glass-ink-border);
+  }
+  .nav-toggle .ico { width: 22px; height: 22px; }
+  .nav {
+    position: fixed; top: 0; right: 0; bottom: 0; z-index: calc(var(--z-mega) + 5);
+    width: min(420px, 100%); flex-direction: column; overflow-y: auto; overscroll-behavior: contain;
+    padding: 0 20px 28px; background: #141511; color: var(--text-on-ink);
+    box-shadow: -30px 0 80px rgba(0, 0, 0, 0.45);
+    transform: translateX(105%); visibility: hidden;
+    transition: transform var(--dur-2) var(--ease-out), visibility 0s linear var(--dur-2);
+  }
+  html.nav-open .nav { transform: none; visibility: visible; transition-delay: 0s; }
+  html.nav-open .site-header { z-index: calc(var(--z-mega) + 6); } /* the drawer lives in the header: lift it over the scrim and top bars */
+  .nav-scrim { position: fixed; inset: 0; z-index: calc(var(--z-mega) + 4); background: rgba(10, 11, 9, 0.55); -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); }
+  .nav__drawer-head { display: flex; align-items: center; justify-content: space-between; min-height: 64px; border-bottom: 1px solid var(--line-ink); color: var(--gold); }
+  .nav__close { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line-ink); }
+  .nav__close .ico { width: 20px; height: 20px; }
+  .nav__list { flex-direction: column; align-items: stretch; margin: 8px 0 0; gap: 0; }
+  .nav__item { display: block; border-bottom: 1px solid var(--line-ink); }
+  .nav__link { width: 100%; height: auto; min-height: 56px; padding: 0 4px; border-radius: 0; justify-content: space-between; font-size: 1.05rem; }
+  .nav__link::after { display: none; }
+  .nav__link:hover, .nav__item.is-open > .nav__link { background: none; color: var(--gold); }
+  .mega { position: static; padding: 0 0 14px; visibility: visible; opacity: 1; transform: none; display: none; transition: none; }
+  .mega::before { display: none; }
+  .nav__item.is-open > .mega { display: block; }
+  .mega__panel { display: grid; grid-template-columns: 1fr; gap: 18px; width: 100%; padding: 4px 0 0; background: none; border: 0; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; border-radius: 0; }
+  .mega__panel::before { display: none; }
+  .mega__grid, .mega__grid--4, .mega__grid--3 { grid-template-columns: 1fr 1fr; gap: 18px; }
+  .mega__card { min-height: 150px; }
+  .nav__drawer-foot { display: grid; gap: 14px; margin-top: 22px; }
+  .nav__pickup { display: inline-flex; align-items: center; gap: 8px; color: var(--muted-on-ink); text-decoration: none; font-size: 0.9rem; }
+  .nav__pickup strong { color: var(--gold); }
+  .nav__pickup .ico { color: var(--gold); }
+
+  /* footer */
+  .footer__top { grid-template-columns: 1fr; }
+  .footer__cols { grid-template-columns: 1fr 1fr; }
+  .footer__mid { grid-template-columns: 1fr 1fr; }
+  .footer__licenses { grid-column: 1 / -1; }
+
+  /* home: stack the two-column sections */
+  .h-flower__grid, .h-vapes__grid, .h-store__top, .h-find, .h-know__grid, .h-noon__grid, .h-dealer__head { grid-template-columns: 1fr; }
+  .h-ways__list { grid-template-columns: 1fr; max-width: 640px; }
+  .h-compare { grid-template-columns: 1fr; max-width: 640px; }
+  .h-store__photo { margin-top: calc(-1 * clamp(80px, 12vw, 120px)); max-width: 640px; }
+  .h-next { grid-template-columns: 1fr; }
+  .h-dealer__hat { top: -150px; }
+  .h-know__art { min-height: 260px; }
+}
+
+/* ---------- phones ---------- */
+@media (max-width: 719.98px) {
+  :root { --header-h: 60px; --gutter: 16px; --section-y: 64px; }
+  .promo__inner { gap: 10px; min-height: 30px; padding-block: 5px; justify-content: space-between; }
+  .promo { font-size: 0.72rem; }
+  .promo__text { flex: 1 1 auto; white-space: nowrap; -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 90%, transparent); mask-image: linear-gradient(90deg, transparent, #000 4%, #000 90%, transparent); }
+  .promo__msg { display: inline-flex; padding-left: 100%; animation: mdl-ticker 26s linear infinite; }
+  .promo__msg .ico { display: none; }
+  .promo__link { font-size: 0.7rem; }
+  .promo__link .ico { display: none; }
+  .utility { font-size: 0.66rem; }
+  .utility__inner { min-height: 26px; gap: 10px; }
+  .brand__logo { width: 40px; height: 40px; }
+  .brand__name { font-size: 1.15rem; }
+  .brand__sub { font-size: 0.6rem; }
+  .mega__grid, .mega__grid--4, .mega__grid--3 { grid-template-columns: 1fr; }
+
+  .footer__cols, .footer__mid { grid-template-columns: 1fr; }
+  .footer__legal { flex-direction: column; }
+
+  /* hero: the film shows above the glass panel */
+  .h-hero { min-height: 0; padding-top: calc(var(--header-h) + clamp(200px, 32svh, 290px)); padding-bottom: 84px; align-items: end; }
+  .h-hero__film { left: 0; right: 0; bottom: auto; width: 100%; min-width: 0; height: auto; aspect-ratio: 496 / 720; object-fit: cover; object-position: 50% 0%; -webkit-mask-image: linear-gradient(180deg, #000 62%, transparent 100%); mask-image: linear-gradient(180deg, #000 62%, transparent 100%); }
+  .h-hero__panel { padding: 22px 20px; border-radius: var(--r-lg); }
+  .h-hero__h1 { font-size: 0.7rem; letter-spacing: 0.1em; }
+  .h-hero__tag { font-size: clamp(2.5rem, 1.5rem + 6vw, 3.2rem); }
+  .h-hero__intro { font-size: 0.98rem; }
+  .h-hero__ctas .btn { flex: 1 1 auto; }
+  .h-film-btn { top: calc(var(--header-h) + 12px); bottom: auto; right: 12px; width: 40px; height: 40px; }
+  .h-hero__dealer { left: auto; right: 14px; bottom: -40px; width: 96px; }
+  .h-marquee { padding-block: 12px; }
+
+  .h-cats__grid { grid-template-columns: 1fr 1fr; grid-template-rows: none; }
+  .h-cat { min-height: 200px; }
+  .h-cat--lead { grid-column: 1 / -1; grid-row: auto; min-height: 280px; }
+  .h-cat__body { padding: 14px; padding-right: 14px; }
+  .h-cat__name { font-size: 1.2rem; }
+  .h-cat__blurb { display: none; }
+  .h-cat--lead .h-cat__blurb { display: block; }
+  .h-cat__go { display: none; }
+  .h-cats__sketch { width: 96px; }
+  .h-brands { grid-template-columns: 1fr; }
+  .h-dealer__hat { width: 84px; top: -112px; right: 4px; left: auto; }
+  html.js [data-reveal="left"], html.js [data-reveal="right"] { translate: 0 28px; }
+  .h-compare__card:nth-child(n) { rotate: 0deg; }
+  .h-flower__tape { right: -4px; width: 46%; }
+  .h-flower__media { padding-bottom: 40px; }
+  .h-vapes__media { margin-top: 30px; }
+  .h-vapes__note { left: 0; top: -40px; }
+  [data-depth] { transform: none; }
+  .h-map__t { font-size: 16px; }
+  .h-map__t--town, .h-map__t--store { font-size: 23px; }
+  .h-vapes__arrow { display: none; }
+  .h-find__dirs { grid-template-columns: 1fr; }
+  .h-store__photo { margin-top: -72px; }
+  .h-noon__h { font-size: clamp(3.4rem, 2rem + 8vw, 4.6rem); }
+  .age-gate__card { padding: 84px 22px 24px; }
+  .age-gate__logo { width: 140px; top: -60px; }
+}
+@keyframes mdl-ticker { from { transform: translateX(0); } to { transform: translateX(-100%); } }
+@media (prefers-reduced-motion: reduce) {
+  .promo__text { white-space: normal; -webkit-mask-image: none; mask-image: none; }
+  .promo__msg { padding-left: 0; animation: none; }
+}

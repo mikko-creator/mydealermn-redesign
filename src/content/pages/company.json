@@ -1,0 +1,505 @@
+{
+ "path": "/company",
+ "source": "https://mydealermn.com/company",
+ "captured": "2026-10-29",
+ "title": "Company | My Dealer Cannabis Shop, Bayport MN",
+ "description": "The story behind My Dealer, a licensed adult-use cannabis shop at 243 3rd Street North in Bayport, Minnesota. Founder-built. License DIS-L24-000241. Includes the founder's 2009 high school documentary on cannabis.",
+ "canonical": "https://mydealermn.com/company",
+ "og": {
+  "og:title": "Company | My Dealer Cannabis Shop, Bayport MN",
+  "og:type": "website",
+  "og:url": "https://mydealermn.com/company",
+  "og:description": "The story behind My Dealer, a licensed adult-use cannabis shop at 243 3rd Street North in Bayport, Minnesota. Founder-built. License DIS-L24-000241. Includes the founder's 2009 high school documentary on cannabis.",
+  "og:image": "https://mydealermn.com/og.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:locale": "en_US",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://mydealermn.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Company",
+     "item": "https://mydealermn.com/company"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Store",
+    "LocalBusiness"
+   ],
+   "@id": "https://mydealermn.com/#business",
+   "name": "My Dealer",
+   "legalName": "My Dealer LLC",
+   "alternateName": [
+    "My Dealer Bayport",
+    "My Dealer MN",
+    "My Dealer dispensary",
+    "My Dealer cannabis"
+   ],
+   "description": "Licensed adult-use cannabis retailer in Bayport, Minnesota. Cannabis Retailer License DIS-L24-000241 from the Minnesota Office of Cannabis Management. Adult-use retail only. We want to be your dealer.",
+   "url": "https://mydealermn.com",
+   "image": [
+    "https://mydealermn.com/og-card.jpg",
+    "https://mydealermn.com/build/exterior-front.webp",
+    "https://mydealermn.com/build/interior-display-cases.webp"
+   ],
+   "logo": "https://mydealermn.com/brand/logo-512.png",
+   "email": "morpheus@mydealermn.com",
+   "telephone": "+1-651-323-1266",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "243 3rd St N",
+    "addressLocality": "Bayport",
+    "addressRegion": "MN",
+    "postalCode": "55003",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.018012,
+    "longitude": -92.779534
+   },
+   "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+   "identifier": [
+    "DIS-L24-000241",
+    "DIS-L24-000241-01"
+   ],
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Bayport"
+    },
+    {
+     "@type": "City",
+     "name": "Stillwater"
+    },
+    {
+     "@type": "City",
+     "name": "Oak Park Heights"
+    },
+    {
+     "@type": "City",
+     "name": "Lakeland"
+    },
+    {
+     "@type": "City",
+     "name": "Hudson",
+     "containedInPlace": {
+      "@type": "State",
+      "name": "Wisconsin"
+     }
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington County"
+    },
+    {
+     "@type": "State",
+     "name": "Minnesota"
+    }
+   ],
+   "knowsAbout": [
+    "adult-use cannabis",
+    "Minnesota cannabis",
+    "cannabis dispensary",
+    "Bayport dispensary",
+    "cannabis flower"
+   ],
+   "sameAs": [
+    "https://x.com/MyDealerMN",
+    "https://www.instagram.com/mydealermn/",
+    "https://www.linkedin.com/company/mydealermn",
+    "https://share.google/FS0jvQqMZtD11QPEt",
+    "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+    "https://www.facebook.com/mydealermn/",
+    "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+    "https://maps.google.com/?cid=16369139820469574822",
+    "https://www.yelp.com/biz/my-dealer-bayport-2",
+    "https://www.leafly.com/dispensary-info/my-dealer",
+    "https://weedmaps.com/dispensaries/my-dealer"
+   ],
+   "founder": {
+    "@type": "Person",
+    "name": "Brandon Van Asten",
+    "url": "https://www.linkedin.com/in/brandonvanasten"
+   },
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+     ],
+     "opens": "12:00",
+     "closes": "20:00"
+    }
+   ],
+   "paymentAccepted": "Cash, Debit Card",
+   "currenciesAccepted": "USD",
+   "priceRange": "$",
+   "additionalType": "https://en.wikipedia.org/wiki/Cannabis_dispensary",
+   "amenityFeature": [
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "Parking lot behind the building",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "ATM on site",
+     "value": true
+    }
+   ],
+   "makesOffer": [
+    {
+     "@type": "Offer",
+     "name": "Veteran and active military discount",
+     "description": "15% off the entire order every day, in store or order ahead, with a valid military or veteran ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    },
+    {
+     "@type": "Offer",
+     "name": "Andersen employee discount",
+     "description": "10% off every Tuesday with a valid Andersen ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "I used to be the other kind of dealer."
+    },
+    {
+     "t": "p",
+     "html": "Brandon Van Asten won a Minnesota social-equity retail license after his felony cannabis distribution records were expunged. The name is a poke at the last twenty years. The store is licensed and built by hand."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "mailto:brandon@mydealermn.com?subject=My%20Dealer%20company%20background%20inquiry",
+       "html": "Contact Brandon"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h2",
+     "html": "Social equity is not a slogan here."
+    },
+    {
+     "t": "p",
+     "html": "In college, Brandon sold cannabis, did four months in jail, and got kicked out of school. He completed additional jail and probation time, got the record expunged, and that history is what made him eligible as a social-equity applicant in Minnesota's lottery. He won a retail license. Then he put a second mortgage on the house and built the majority of the first store himself."
+    },
+    {
+     "t": "p",
+     "html": "He GC'd the job. Electrical, framing, drywall, and the parking lot were contracted. He did the bathroom renovation, the store and sign design, installed the garage doors, wired the security equipment, and designed and built the display cases. Wherever the bottleneck was, that is where he spent the hours. Plenty of 10-hour days, including nights sleeping on the floor to keep the project moving. There is no large team or investor group behind this. One owner, one store, and a lot of hustle."
+    },
+    {
+     "t": "quote",
+     "html": "Build stores people trust, give employees real ownership of the work, and improve the operation one shift at a time."
+    }
+   ]
+  },
+  {
+   "id": "film",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "High school film class · 2009"
+    },
+    {
+     "t": "h2",
+     "html": "This started before the shop."
+    },
+    {
+     "t": "p",
+     "html": "Brandon made a four-part documentary on cannabis for a film-class in high school. He called it Potamentary and it surprisingly still sticks. It was recorded on an old computer mic and the picture quality is 2009 amateur YouTube, but the messaging is dialed. This is not here because a teenager predicted Minnesota retail. It is here because the question has not changed much: why was this plant treated like a monster, and why was the underground doing a job a store should do."
+    },
+    {
+     "t": "p",
+     "html": "The film walks through the scare stories, then the history. Bad science. Racism. A federal bureau that needed a bigger enemy. Growers, agencies, and other industries that did just fine with the ban. Then it puts alcohol prohibition next to cannabis prohibition and lets that sit. The closer is the part that still matters in Bayport. A ban did not make alcohol safer. It will not make cannabis safer. A shop does."
+    },
+    {
+     "t": "p",
+     "html": "Some people meet a new dispensary owner and want to know if they have been in this a long time, or if they just found a license. Fair question. Watch the film. Then come see the store."
+    },
+    {
+     "t": "p",
+     "html": "About 39 minutes, four parts. A few lines are of their time, including the budget numbers and the way a 17-year-old talks. The core still stands. This is not medical advice, and it is not the shopping guide. For labels, testing, and how we sell, see <a href=\"/cannabis-101\">Cannabis 101</a>."
+    },
+    {
+     "t": "embed",
+     "src": "https://www.youtube-nocookie.com/embed/VlG3fVZTF7w",
+     "title": "Potamentary Part 1, a 2009 high school documentary on cannabis"
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "linkcard",
+       "href": "https://www.youtube.com/watch?v=VlG3fVZTF7w",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/film/part-1.jpg",
+         "alt": ""
+        },
+        {
+         "t": "p",
+         "html": "Part 1"
+        },
+        {
+         "t": "p",
+         "html": "What the plant is, how people use it, and why medicine and hemp got buried under one scary word."
+        },
+        {
+         "t": "p",
+         "html": "Watch on YouTube"
+        }
+       ],
+       "target": "_blank",
+       "rel": "noreferrer"
+      },
+      {
+       "t": "linkcard",
+       "href": "https://www.youtube.com/watch?v=NQdlTAGljkU",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/film/part-2.jpg",
+         "alt": ""
+        },
+        {
+         "t": "p",
+         "html": "Part 2"
+        },
+        {
+         "t": "p",
+         "html": "Gateway. Brain cells. Stupidity. The black market as the actual problem."
+        },
+        {
+         "t": "p",
+         "html": "Watch on YouTube"
+        }
+       ],
+       "target": "_blank",
+       "rel": "noreferrer"
+      },
+      {
+       "t": "linkcard",
+       "href": "https://www.youtube.com/watch?v=nb7w4IiwWFk",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/film/part-3.jpg",
+         "alt": ""
+        },
+        {
+         "t": "p",
+         "html": "Part 3"
+        },
+        {
+         "t": "p",
+         "html": "Why it was banned. Racism, a new federal bureau, and a lot of people who needed the war to stay a war. YouTube may ask your age."
+        },
+        {
+         "t": "p",
+         "html": "Watch on YouTube"
+        }
+       ],
+       "target": "_blank",
+       "rel": "noreferrer"
+      },
+      {
+       "t": "linkcard",
+       "href": "https://www.youtube.com/watch?v=rgPJ4eOpClk",
+       "blocks": [
+        {
+         "t": "img",
+         "src": "/film/part-4.jpg",
+         "alt": ""
+        },
+        {
+         "t": "p",
+         "html": "Part 4"
+        },
+        {
+         "t": "p",
+         "html": "Alcohol prohibition as the warning. The closer: put it in a shop."
+        },
+        {
+         "t": "p",
+         "html": "Watch on YouTube"
+        }
+       ],
+       "target": "_blank",
+       "rel": "noreferrer"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Bayport, first store"
+        },
+        {
+         "t": "p",
+         "html": "Interior done. Parking done. Cannabis Retailer License DIS-L24-000241."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Wabasha next"
+        },
+        {
+         "t": "p",
+         "html": "Property in hand. Build-out still ahead. Bayport is open. Wabasha is next."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "We run lean"
+        },
+        {
+         "t": "p",
+         "html": "Founder on the floor. Honest about inventory. No pressure to oversell."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "h2",
+         "html": "Bayport, first store"
+        },
+        {
+         "t": "p",
+         "html": "A high-visibility location on the main traffic route through Bayport, with a completed interior, finished rear customer parking, and a Minnesota cannabis retailer license. Open noon to 8 daily since October 5, 2026."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "Buildout complete",
+          "Cannabis Retailer License DIS-L24-000241",
+          "Noon to 8"
+         ]
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "h2",
+         "html": "Wabasha next"
+        },
+        {
+         "t": "p",
+         "html": "A second Minnesota community in the current roadmap. Timing follows Bayport execution and the approvals that come with it."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "Property secured, build-out still to come",
+          "Three additional stores are a longer-term possibility",
+          "Likely Twin Cities metro after the first two"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "/build/interior-security-windows.webp",
+     "alt": "Security checkpoint windows between the lobby and the sales floor"
+    },
+    {
+     "t": "h2",
+     "html": "How we intend to win"
+    },
+    {
+     "t": "p",
+     "html": "Labor efficiency was at the top of the list when we designed and built the store. Budtenders can check IDs from people coming in on both sides, using the security checkpoint windows between each lobby and behind the sales counter. Garage doors make inventory easier to reach and make opening and closing simpler. A low fixed-cost structure and efficient labor are how we stay competitive, even if the rules or the competition change."
+    },
+    {
+     "t": "p",
+     "html": "The name gets you in the door. The shift is what makes you come back. Core customers, people who already use cannabis, will not be scared off by “My Dealer.” Grandma buying a tincture still has to feel comfortable. That is why the cartoon head, and why the stick figure, and why we talk like a person."
+    },
+    {
+     "t": "p",
+     "html": "This page is general business information, not a securities offering. No investment terms are presented on this website."
+    }
+   ]
+  }
+ ]
+}

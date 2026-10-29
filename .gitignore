@@ -1,0 +1,7 @@
+/tmp/
+/dist/
+/publish/
+/preview/
+node_modules/
+*.log
+/assets/source/

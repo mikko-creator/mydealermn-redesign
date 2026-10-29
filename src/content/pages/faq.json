@@ -1,0 +1,1638 @@
+{
+ "path": "/faq",
+ "source": "https://mydealermn.com/faq",
+ "captured": "2026-10-29",
+ "title": "FAQ | My Dealer, Cannabis Dispensary in Bayport, MN",
+ "description": "Answers about My Dealer in Bayport, MN: hours, parking, ID, Wisconsin shoppers, preorders, payment, discounts, purchase limits, and cannabis basics. Adults 21+.",
+ "canonical": "https://mydealermn.com/faq",
+ "og": {
+  "og:title": "FAQ | My Dealer, Cannabis Dispensary in Bayport, MN",
+  "og:description": "Answers about My Dealer in Bayport, MN: hours, parking, ID, Wisconsin shoppers, preorders, payment, discounts, purchase limits, and cannabis basics. Adults 21+.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/faq",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://mydealermn.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "FAQ",
+     "item": "https://mydealermn.com/faq"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "@id": "https://mydealermn.com/faq#faq",
+   "url": "https://mydealermn.com/faq",
+   "name": "My Dealer FAQ: Your Cannabis Dispensary in Bayport, MN",
+   "dateModified": "2026-10-21",
+   "author": {
+    "@type": "Person",
+    "name": "Brandon",
+    "worksFor": {
+     "@type": "Organization",
+     "name": "My Dealer",
+     "url": "https://mydealermn.com/"
+    }
+   },
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Where is My Dealer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "243 3rd Street North in Bayport, MN 55003. That's Highway 95 right through downtown Bayport. We're next door to the American Legion and the post office, across from city hall and the police station. The sign sits flat on the brick, so look for the face with the hat."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is there a dispensary near Stillwater?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, us. We're a few minutes south of Stillwater on Highway 95, right across the river from Wisconsin. From Highway 36, take the Stillwater/Bayport exit (MN-95) and head south about 2 minutes. We'll be on your left. From I-94, take Exit 258 and go about 4 miles north on 95. We'll be on your right."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where do I park?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The building has entrances at both the front and the back, so come in whichever way is easier. There's a paved lot behind the building: turn onto 1st Ave N, then take a left down the alley. There's also street parking out front on 3rd Street (Highway 95), and a public lot at City Hall across the street."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What are your hours?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Noon to 8, every day. Longer hours are on the way, and I'll update this page when they change."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are you a chain?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. It's one locally owned store. I got a Minnesota social equity retail license, put a second mortgage on the house, and built most of this place myself. Wabasha is next, but right now it's just Bayport."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is this real cannabis or a hemp shop?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Real cannabis. We're licensed by the Minnesota Office of Cannabis Management (OCM), Cannabis Retailer License DIS-L24-000241 (verify on OCM's licensed-business list (https://mn.gov/ocm/data-reports/application-data/)). Our flower is grown as cannabis by licensed Minnesota cultivators and tracked by the state from seed to sale. We also carry some hemp-derived products, and those are labeled as hemp so you always know which is which."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need to be 21 to shop?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Everyone has to be 21 or older with a valid ID. We check ID every visit, no exceptions."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I bring someone under 21 with me?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Nobody under 21 is allowed in the store, even with a parent or another adult."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What ID do you accept?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A driver's license or state ID from any U.S. state A Canadian driver's license or ID A Tribal ID A U.S. passport or passport card A Minnesota instructional permit, if you're 21 or older A passport, if you're a foreign national We can't take expired IDs, altered IDs, or a foreign driver's license or national ID card (that's state law, not us being picky). The photo has to match you."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "I live in Wisconsin. Can I buy at My Dealer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Any adult 21 or older with a valid ID can buy here, including Wisconsin residents, within Minnesota's limits. Just know that what you buy is legal in Minnesota only. Cannabis isn't legal in Wisconsin, and you can't take it across the river. For the full rundown on the border rule, where you can legally use it in Minnesota, and what's legal back home, see our guide for Wisconsin shoppers (/wisconsin)."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is there a cannabis dispensary in Hudson, WI?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not a licensed one. Cannabis isn't legal in Wisconsin, so there are no licensed cannabis dispensaries there. A shop on that side of the river calling itself a dispensary is a hemp, smoke, or tobacco-type store, not a state-licensed cannabis retailer. A close licensed option is on the Minnesota side: us, in Bayport, about 10 minutes from downtown Hudson."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I shop at My Dealer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "However it's easiest for you: Preorder online at mydealermn.com/bayport (/bayport) and pick it up the same day or the next day. Walk in and talk it through with a budtender. We have paper menus too. Browse on the in-store iPad kiosk, or scan the QR code to pull the menu up on your phone. Flower by the gram, pre-rolls, vapes, edibles, THC drinks, and more, all in one stop. We want to be your dealer."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I order ahead for pickup?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Use the live menu at mydealermn.com/bayport (/bayport) to place a preorder for pickup the same day or the next day. You pay when you pick up, and bring your ID. If an order isn't picked up by the end of the next day, it goes back into inventory."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you have an app?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not yet. A My Dealer customer app is coming soon. Until then, use the live menu at mydealermn.com/bayport (/bayport) to browse and preorder."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you deliver?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not right now. Everything is in-store or preorder for pickup. If that changes, it'll be on this page."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What products do you have?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Deli flower, sold by the gram Packaged flower (pre-packs) Pre-rolls, singles and packs Vapes and carts THC gummies and other edibles Hemp edibles and hemp THC beverages Hemp topicals Cannabis seeds Accessories The menu changes as new batches come in, so check mydealermn.com/bayport (/bayport) for what's actually on the shelf today."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What's deli flower?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It's flower we portion out for you at the counter, priced by the gram, so you can get exactly the amount you want instead of a fixed jar size. The per-gram price drops when you buy more."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you take credit cards?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. We take cash, or your debit card through our cashless ATM. We also have a regular ATM on site. The cashless ATM has a $3 fee, the same idea as a regular ATM. It runs in $10 steps, so your withdrawal rounds up to the nearest $10 and we hand you the difference back in cash."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why don't you give coins?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We don't use coins. After tax, every total rounds up to the nearest dollar, and that little bit goes straight to the employees as their tip."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need to tip?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. The roundup is the tip. Nobody here expects anything extra."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What taxes are on cannabis in Minnesota?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Adult-use cannabis products carry Minnesota's 15% cannabis gross receipts tax, plus the 6.875% state sales tax and any local sales tax where you buy. Every tax shows on your receipt."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you have a veteran discount?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Veterans and active military get 15% off every day. Show a valid military or veteran ID at checkout. These discounts don't stack, but don't worry, you'll get the best possible discount on your cart."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is there a discount for Andersen employees?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Andersen employees get 10% off every Tuesday. Show your valid Andersen ID at checkout. These discounts don't stack, but don't worry, you'll get the best possible discount on your cart."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you have a rewards program?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Give us your phone number to sign up and you'll earn 3% back in points on your purchases, plus member deals. Nearly all of our promotions are for members only. If you're a member viewing the menu online, log in to see all deals applied."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I combine discounts?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Generally, no. Discounts don't stack, and that includes the veteran and military discount and Andersen Tuesdays, unless a promo specifically says it stacks. You'll automatically get the single best discount for your cart. If a BOGO beats 15% off, you get the BOGO. You're never stuck with the lesser deal."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much cannabis can I buy at once?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Minnesota caps a single purchase at: 2 ounces of flower (pre-rolls count by weight) 8 grams of concentrate (vapes count here) 800 mg of THC in edibles, shared across cannabis edibles, hemp edibles, and hemp THC drinks Each edible serving can have up to 10 mg THC and each package up to 200 mg. Drinks top out at 10 mg per serving and two servings per container. For carrying: up to 2 ounces of flower in public, up to 2 pounds of flower at home, and up to 8 grams of concentrate and 800 mg of edible THC."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I use it in the parking lot or my car?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Minnesota law doesn't allow anyone to use cannabis in a motor vehicle, parked or moving, driver or passenger (Minn. Stat. 342.09, subd. 1(b)(2) (https://www.revisor.mn.gov/statutes/cite/342.09#stat.342.09.1)). That includes our lot. For the ride home, keep products in the trunk or rear cargo area unless they're still sealed in the original package. Use it at home or on private property where it's allowed."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I drive after using cannabis?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Driving while impaired by cannabis is illegal in Minnesota and carries DWI penalties, even if you feel fine. Cannabis slows reaction time and judgment, and edibles can last 6 to 12 hours. Get a ride or wait it out."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where can I legally use cannabis in Minnesota?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Adults 21 and older can use it: In a private home, including the yard On private property that isn't open to the public, unless the owner says no At a business or event licensed for on-site use You can't use it: In any motor vehicle, parked or moving Smoking or vaping anywhere Minnesota's Clean Indoor Air Act bans smoking Smoking or vaping inside an apartment or other multifamily building, including balconies and patios At public schools, state prisons, on federal property (like national parks), or in federally subsidized housing Anywhere a minor would breathe the smoke or vapor In public places Cities can add their own rules. In Bayport, smoking or vaping cannabis in public places is banned, and that includes our parking lot. Bayport also bans open cannabis drinks on streets, sidewalks, and parking areas. There's no place to use it at My Dealer."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How should I carry cannabis in the car?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Keep it out of reach. OCM says products should ride in the trunk or rear cargo area unless they're still sealed in the original, labeled package. Nobody can use cannabis in a vehicle, parked or moving, driver or passenger, and driving high is a DWI. Don't take it across state lines, even into another legal state. That's a federal crime."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I grow my own?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, if you're 21 or older. Minnesota allows up to eight plants per residence, with no more than four of them mature, flowering plants at one time (Minn. Stat. 342.09, subd. 2 (https://www.revisor.mn.gov/statutes/cite/342.09#stat.342.09.2)). They have to be at the primary residence of someone 21+, in an enclosed, locked space the public can't see. The limit is per home, not per person. Making concentrates at home with butane or other volatile solvents isn't allowed. We carry cannabis seeds, so ask what's in stock."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you sell medical cannabis?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. We're an adult-use store and sell to adults 21 and older only. For how Minnesota's Medical Cannabis Program works, see the Office of Cannabis Management's Division of Medical Cannabis at mn.gov/ocm/medical-cannabis (https://mn.gov/ocm/medical-cannabis/). We can't diagnose or certify anyone, and this isn't medical advice."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does THC % mean?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It's how much of the product's weight is THC. Most of the THC in raw flower is THCA, which turns into THC when it's heated. So labels and our menu show total THC, which Minnesota defines as THCA x 0.877, plus all forms of THC (mostly delta-9). Example: flower with 20% THCA and 0.5% delta-9 THC works out to about 18% total THC. That's the number to compare. A higher number means stronger, not better. Aroma, terpenes, and your own experience matter just as much. For edibles and drinks, look at milligrams (mg) per serving and per package instead."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What's the difference between hemp and cannabis?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Legally, it comes down to THC. Botanically they're the same plant, Cannabis sativa. Under Minnesota law, a growing hemp plant has no more than 0.3% delta-9 THC by dry weight, and above that it's cannabis (Minn. Stat. 342.01 (https://www.revisor.mn.gov/statutes/cite/342.01)). Federal law uses the same 0.3% delta-9 line today. On December 11, 2026, it switches to 0.3% total THC, which counts THCA too. Minnesota also allows lower-potency hemp edibles and hemp THC drinks. OCM regulates them with the same 21+ age limit, testing, and labeling rules, and they count toward the same 800 mg limit as cannabis edibles. Everything we sell is labeled as either cannabis or hemp."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What's the difference between indica, sativa, and hybrid?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not as much as people think. Indica, sativa, and hybrid mostly describe a plant's family tree and how it grows. Studies comparing those labels with genetic and lab data found they often don't line up (Sawler et al., 2015 (https://doi.org/10.1371/journal.pone.0133292); Watts et al., 2021 (https://doi.org/10.1038/s41477-021-01003-y); Smith et al., 2022 (https://doi.org/10.1371/journal.pone.0267498)). Strains have been cross-bred for decades, and the same name can differ from one grower to the next. Our menu still shows which way a strain leans (Sativa, Sativa-dominant, Hybrid, Indica-dominant, Indica), because it's familiar shorthand. For a better read, look at: Total THC and CBD on the label The top terpenes, when listed, and how the flower smells to you The format: inhaled products usually start within minutes, while edibles can take up to 2 hours Your own notes on batches you liked Ask a budtender about a specific batch."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much of an edible should I take?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Start low and go slow. If you're new, or it's been a while, start with 2.5 to 5 mg of THC or less. That's a quarter to half of a typical 10 mg gummy. Per OCM, edibles usually take 30 minutes to 2 hours to kick in, peak around 3 to 4 hours, and last 6 to 12 hours. Don't take more just because you don't feel it yet. Wait at least 2 hours before you think about more. Too much can mean hours of anxiety, nausea, or vomiting, so patience pays off."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is it okay to mix cannabis and alcohol?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We don't recommend it. OCM says mixing cannabis with alcohol, prescription medications, or other substances can sharply increase impairment and the risk of effects you didn't expect. Pick one."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How should I store cannabis at home?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Keep flower in an airtight container, like the original packaging or a glass jar, in a cool, dark place. Heat, light, and air wear down aroma and potency over time, so a cupboard beats a sunny windowsill. A relative humidity of around 58 to 62% keeps flower from drying out or getting too damp, and we sell small two-way humidity packs that hold it in that range. Most of all, keep it locked up in its child-resistant package. See How do I keep cannabis away from kids and pets? (/faq#how-do-i-keep-cannabis-away-from-kids-and-pets)"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can your budtenders give medical advice?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. We can talk about products, formats, aroma, and what's on the label, but we're not doctors, and we don't diagnose or recommend cannabis for any condition. Cannabis can change how some medications work, so if you have a health condition or take medication, talk with your health care provider or pharmacist first."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Nothing hits like it used to. What should I do?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "That's common with regular use. Your body adapts to THC over time, so the same amount can start to feel like less. Before trading up to stronger products, a lot of regulars try a short break of a few days. When you come back, start with a small amount and work up slowly. If cutting back feels hard, or cannabis is getting in the way at home or work, talk with a health care provider, or call SAMHSA's free National Helpline at 1-800-662-4357."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Should I try a product with both CBD and THC?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It's worth asking about if you're new to THC or it sometimes feels like too much. CBD isn't intoxicating the way THC is. Some people who are new or sensitive to THC pick balanced products with both, and many say the experience feels gentler. It doesn't work the same for everyone, and CBD doesn't cancel THC out: a gummy with 5 mg THC and 5 mg CBD still has 5 mg of THC, so dose by the THC number. Start low either way, and ask a budtender to show you the balanced options."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What are CBG and CBN?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They're two of the minor cannabinoids, compounds the plant makes in smaller amounts than THC and CBD. CBG starts out as a building block: in its raw form, the plant turns most of it into other cannabinoids, so mature flower usually has only a little. CBN forms as THC ages and breaks down, which is one reason older flower can test higher in CBN. Neither is usually described as intoxicating the way THC is. Research on both is still early, and we don't make promises about what they do. If a product lists CBG or CBN, the label shows how many milligrams are in each serving."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I read a cannabis label?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Start with three things: Serving vs. package. Edibles and drinks list THC per serving and for the whole package. A 100 mg package of gummies is often ten 10 mg pieces. Minnesota caps edibles at 10 mg THC per serving and 200 mg per package, and drinks at 10 mg per serving with no more than two servings per container. Total THC for flower and vapes. Raw flower is mostly THCA, which turns into THC when heated. Total THC = THCA x 0.877, plus THC. Example: 20% THCA and 0.5% THC is about 18% total THC. Batch and testing. Every package has a batch number and shows it passed state testing. You'll also see the ingredients, the license number of whoever grew or made it, the universal cannabis symbol, and \"Keep this product out of reach of children.\" If something doesn't add up, ask a budtender."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I keep cannabis away from kids and pets?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Keep it in its original child-resistant package, locked up and out of sight. Edibles and drinks can look like regular snacks, so store them apart from food. If a child eats cannabis, call Poison Control at 1-800-222-1222 right away, or 911 in an emergency. If it's a pet, call your vet. And don't smoke or vape anywhere a child would breathe it."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What are terpenes?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Terpenes are natural aroma compounds made by many plants, including cannabis. They're a big part of why one strain smells like citrus and another like pine or pepper. Cannabis contains hundreds of different compounds, and here's a surprise: THC and CBD on their own have almost no smell. What you're smelling is mostly terpenes. They're made in the tiny resin glands (trichomes) on the flower, and the same ones show up across nature: limonene in citrus peel, pinene in pine needles, linalool in lavender (Booth et al., 2020 (https://doi.org/10.1104/pp.20.00593)). When you shop, smell the flower and check the top terpenes on the label. Plenty of people find they have favorite aromas, and that's a good way to find products you like."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which terpenes are common in cannabis, and what do they smell like?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The most common are myrcene, beta-caryophyllene, limonene, terpinolene, pinene, linalool, and humulene. The table below lists aroma notes and where else each one occurs in nature."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much terpene content is typical in cannabis flower?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Usually about 1% to 3% of the flower's dry weight. Published studies of cured flower range from roughly 0.5% up to about 3–4%. 72 commercial medical cannabis flower samples: 0.6% to 3.3% total terpenoids by dry weight (Richins et al., 2018 (https://doi.org/10.1371/journal.pone.0201119)). Flower of three chemovars: 1.28% to 2.14% (Jin et al., 2020 (https://doi.org/10.1038/s41598-020-60172-6)), which notes up to about 4% reported in unfertilized flowers in earlier work. Mature flowers of five cultivars: 9.3 to 13.6 mg/g, or about 0.9% to 1.4% (Booth et al., 2020 (https://doi.org/10.1104/pp.20.00593)). Terpenes evaporate, so numbers depend on how the flower was grown, dried, stored, and tested. A lab label showing total terpenes is a snapshot of that batch."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Anything else to do while I'm in Bayport?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "If you're coming over from Wisconsin or just passing through, downtown Bayport is small and easy to walk. Not Justa Cafe, just down 3rd Street, serves breakfast all day. My go-to is the omelette. The American Legion right next door has cheese curds with a homemade blackberry barbecue dipping sauce. Best dipping sauce around, if you ask me. Woody's, also on 3rd Street a few doors down, makes a fire homemade Bloody Mary and jalapeño poppers. It seems the closer to the Wisconsin border you are, the better the Bloody Mary."
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Store",
+    "LocalBusiness"
+   ],
+   "@id": "https://mydealermn.com/#business",
+   "name": "My Dealer",
+   "legalName": "My Dealer LLC",
+   "alternateName": [
+    "My Dealer Bayport",
+    "My Dealer MN",
+    "My Dealer dispensary",
+    "My Dealer cannabis"
+   ],
+   "description": "Licensed adult-use cannabis retailer in Bayport, Minnesota. Cannabis Retailer License DIS-L24-000241 from the Minnesota Office of Cannabis Management. Adult-use retail only. We want to be your dealer.",
+   "url": "https://mydealermn.com",
+   "image": [
+    "https://mydealermn.com/og-card.jpg",
+    "https://mydealermn.com/build/exterior-front.webp",
+    "https://mydealermn.com/build/interior-display-cases.webp"
+   ],
+   "logo": "https://mydealermn.com/brand/logo-512.png",
+   "email": "morpheus@mydealermn.com",
+   "telephone": "+1-651-323-1266",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "243 3rd St N",
+    "addressLocality": "Bayport",
+    "addressRegion": "MN",
+    "postalCode": "55003",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.018012,
+    "longitude": -92.779534
+   },
+   "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+   "identifier": [
+    "DIS-L24-000241",
+    "DIS-L24-000241-01"
+   ],
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Bayport"
+    },
+    {
+     "@type": "City",
+     "name": "Stillwater"
+    },
+    {
+     "@type": "City",
+     "name": "Oak Park Heights"
+    },
+    {
+     "@type": "City",
+     "name": "Lakeland"
+    },
+    {
+     "@type": "City",
+     "name": "Hudson",
+     "containedInPlace": {
+      "@type": "State",
+      "name": "Wisconsin"
+     }
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington County"
+    },
+    {
+     "@type": "State",
+     "name": "Minnesota"
+    }
+   ],
+   "knowsAbout": [
+    "adult-use cannabis",
+    "Minnesota cannabis",
+    "cannabis dispensary",
+    "Bayport dispensary",
+    "cannabis flower"
+   ],
+   "sameAs": [
+    "https://x.com/MyDealerMN",
+    "https://www.instagram.com/mydealermn/",
+    "https://www.linkedin.com/company/mydealermn",
+    "https://share.google/FS0jvQqMZtD11QPEt",
+    "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+    "https://www.facebook.com/mydealermn/",
+    "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+    "https://maps.google.com/?cid=16369139820469574822",
+    "https://www.yelp.com/biz/my-dealer-bayport-2",
+    "https://www.leafly.com/dispensary-info/my-dealer",
+    "https://weedmaps.com/dispensaries/my-dealer"
+   ],
+   "founder": {
+    "@type": "Person",
+    "name": "Brandon Van Asten",
+    "url": "https://www.linkedin.com/in/brandonvanasten"
+   },
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+     ],
+     "opens": "12:00",
+     "closes": "20:00"
+    }
+   ],
+   "paymentAccepted": "Cash, Debit Card",
+   "currenciesAccepted": "USD",
+   "priceRange": "$",
+   "additionalType": "https://en.wikipedia.org/wiki/Cannabis_dispensary",
+   "amenityFeature": [
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "Parking lot behind the building",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "ATM on site",
+     "value": true
+    }
+   ],
+   "makesOffer": [
+    {
+     "@type": "Offer",
+     "name": "Veteran and active military discount",
+     "description": "15% off the entire order every day, in store or order ahead, with a valid military or veteran ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    },
+    {
+     "@type": "Offer",
+     "name": "Andersen employee discount",
+     "description": "10% off every Tuesday with a valid Andersen ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "FAQ"
+    },
+    {
+     "t": "h1",
+     "html": "My Dealer FAQ: Your Cannabis Dispensary in Bayport, MN"
+    },
+    {
+     "t": "p",
+     "html": "Hey, I'm Brandon. I own My Dealer, and these are the questions people have been asking since we opened the doors on October 5. If yours isn't here, call the store at <a href=\"tel:+16513231266\">651-323-1266</a> and ask."
+    },
+    {
+     "t": "p",
+     "html": "Last updated <time datetime=\"2026-10-21\">October 21, 2026</time> by Brandon, owner, My Dealer (Bayport, MN). Adults 21+ only."
+    },
+    {
+     "t": "nav",
+     "label": "FAQ sections",
+     "blocks": [
+      {
+       "t": "ul",
+       "items": [
+        "<a href=\"#finding-us-and-getting-in\">Finding us and getting in</a>",
+        "<a href=\"#id-and-age\">ID and age</a>",
+        "<a href=\"#wisconsin-hudson-and-crossing-the-river\">Wisconsin, Hudson, and crossing the river</a>",
+        "<a href=\"#shopping-and-preorders\">Shopping and preorders</a>",
+        "<a href=\"#what-we-carry\">What we carry</a>",
+        "<a href=\"#paying\">Paying</a>",
+        "<a href=\"#discounts-and-membership\">Discounts and membership</a>",
+        "<a href=\"#limits-and-the-law\">Limits and the law</a>",
+        "<a href=\"#medical-cannabis\">Medical cannabis</a>",
+        "<a href=\"#cannabis-basics\">Cannabis basics</a>",
+        "<a href=\"#cannabis-types-and-terpenes\">Cannabis types and terpenes</a>",
+        "<a href=\"#making-a-day-of-it\">Making a day of it</a>"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "h2",
+       "html": "Finding us and getting in",
+       "id": "finding-us-and-getting-in"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "Where is My Dealer?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "243 3rd Street North in Bayport, MN 55003. That's Highway 95 right through downtown Bayport. We're next door to the American Legion and the post office, across from city hall and the police station. The sign sits flat on the brick, so look for the face with the hat."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Is there a dispensary near Stillwater?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes, us. We're a few minutes south of Stillwater on Highway 95, right across the river from Wisconsin. From Highway 36, take the Stillwater/Bayport exit (MN-95) and head south about 2 minutes. We'll be on your left. From I-94, take Exit 258 and go about 4 miles north on 95. We'll be on your right."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Where do I park?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "The building has entrances at both the front and the back, so come in whichever way is easier. There's a paved lot behind the building: turn onto 1st Ave N, then take a left down the alley. There's also street parking out front on 3rd Street (Highway 95), and a public lot at City Hall across the street."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "What are your hours?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Noon to 8, every day. Longer hours are on the way, and I'll update this page when they change."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Are you a chain?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. It's one locally owned store. I got a Minnesota social equity retail license, put a second mortgage on the house, and built most of this place myself. Wabasha is next, but right now it's just Bayport."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Is this real cannabis or a hemp shop?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Real cannabis. We're licensed by the Minnesota Office of Cannabis Management (OCM), Cannabis Retailer License DIS-L24-000241 (<a href=\"https://mn.gov/ocm/data-reports/application-data/\" target=\"_blank\" rel=\"noreferrer\">verify on OCM's licensed-business list</a>). Our flower is grown as cannabis by licensed Minnesota cultivators and tracked by the state from seed to sale. We also carry some hemp-derived products, and those are labeled as hemp so you always know which is which."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "ID and age",
+       "id": "id-and-age"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "Do I need to be 21 to shop?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. Everyone has to be 21 or older with a valid ID. We check ID every visit, no exceptions."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I bring someone under 21 with me?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Nobody under 21 is allowed in the store, even with a parent or another adult."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "What ID do you accept?",
+         "blocks": [
+          {
+           "t": "ul",
+           "items": [
+            "A driver's license or state ID from any U.S. state",
+            "A Canadian driver's license or ID",
+            "A Tribal ID",
+            "A U.S. passport or passport card",
+            "A Minnesota instructional permit, if you're 21 or older",
+            "A passport, if you're a foreign national"
+           ]
+          },
+          {
+           "t": "p",
+           "html": "We can't take expired IDs, altered IDs, or a foreign driver's license or national ID card (that's state law, not us being picky). The photo has to match you."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Wisconsin, Hudson, and crossing the river",
+       "id": "wisconsin-hudson-and-crossing-the-river"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "I live in Wisconsin. Can I buy at My Dealer?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. Any adult 21 or older with a valid ID can buy here, including Wisconsin residents, within Minnesota's limits. Just know that what you buy is legal in Minnesota only. Cannabis isn't legal in Wisconsin, and you can't take it across the river. For the full rundown on the border rule, where you can legally use it in Minnesota, and what's legal back home, see our <a href=\"/wisconsin\">guide for Wisconsin shoppers</a>."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Is there a cannabis dispensary in Hudson, WI?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Not a licensed one. Cannabis isn't legal in Wisconsin, so there are no licensed cannabis dispensaries there. A shop on that side of the river calling itself a dispensary is a hemp, smoke, or tobacco-type store, not a state-licensed cannabis retailer. A close licensed option is on the Minnesota side: us, in Bayport, about 10 minutes from downtown Hudson."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Shopping and preorders",
+       "id": "shopping-and-preorders"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "How do I shop at My Dealer?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "However it's easiest for you:"
+          },
+          {
+           "t": "ul",
+           "items": [
+            "Preorder online at <a href=\"/bayport\">mydealermn.com/bayport</a> and pick it up the same day or the next day.",
+            "Walk in and talk it through with a budtender. We have paper menus too.",
+            "Browse on the in-store iPad kiosk, or scan the QR code to pull the menu up on your phone."
+           ]
+          },
+          {
+           "t": "p",
+           "html": "Flower by the gram, pre-rolls, vapes, edibles, THC drinks, and more, all in one stop. We want to be your dealer."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I order ahead for pickup?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. Use the live menu at <a href=\"/bayport\">mydealermn.com/bayport</a> to place a preorder for pickup the same day or the next day. You pay when you pick up, and bring your ID. If an order isn't picked up by the end of the next day, it goes back into inventory."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Do you have an app?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Not yet. A My Dealer customer app is coming soon. Until then, use the live menu at <a href=\"/bayport\">mydealermn.com/bayport</a> to browse and preorder."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Do you deliver?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Not right now. Everything is in-store or preorder for pickup. If that changes, it'll be on this page."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "What we carry",
+       "id": "what-we-carry"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "What products do you have?",
+         "blocks": [
+          {
+           "t": "ul",
+           "items": [
+            "Deli flower, sold by the gram",
+            "Packaged flower (pre-packs)",
+            "Pre-rolls, singles and packs",
+            "Vapes and carts",
+            "THC gummies and other edibles",
+            "Hemp edibles and hemp THC beverages",
+            "Hemp topicals",
+            "Cannabis seeds",
+            "Accessories"
+           ]
+          },
+          {
+           "t": "p",
+           "html": "The menu changes as new batches come in, so check <a href=\"/bayport\">mydealermn.com/bayport</a> for what's actually on the shelf today."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "What's deli flower?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "It's flower we portion out for you at the counter, priced by the gram, so you can get exactly the amount you want instead of a fixed jar size. The per-gram price drops when you buy more."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Paying",
+       "id": "paying"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "Do you take credit cards?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. We take cash, or your debit card through our cashless ATM. We also have a regular ATM on site. The cashless ATM has a $3 fee, the same idea as a regular ATM. It runs in $10 steps, so your withdrawal rounds up to the nearest $10 and we hand you the difference back in cash."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Why don't you give coins?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "We don't use coins. After tax, every total rounds up to the nearest dollar, and that little bit goes straight to the employees as their tip."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Do I need to tip?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. The roundup is the tip. Nobody here expects anything extra."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "What taxes are on cannabis in Minnesota?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Adult-use cannabis products carry Minnesota's 15% cannabis gross receipts tax, plus the 6.875% state sales tax and any local sales tax where you buy. Every tax shows on your receipt."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Discounts and membership",
+       "id": "discounts-and-membership"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "Do you have a veteran discount?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. Veterans and active military get 15% off every day. Show a valid military or veteran ID at checkout. These discounts don't stack, but don't worry, you'll get the best possible discount on your cart."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Is there a discount for Andersen employees?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. Andersen employees get 10% off every Tuesday. Show your valid Andersen ID at checkout. These discounts don't stack, but don't worry, you'll get the best possible discount on your cart."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Do you have a rewards program?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. Give us your phone number to sign up and you'll earn 3% back in points on your purchases, plus member deals. Nearly all of our promotions are for members only. If you're a member viewing the menu online, log in to see all deals applied."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I combine discounts?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Generally, no. Discounts don't stack, and that includes the veteran and military discount and Andersen Tuesdays, unless a promo specifically says it stacks. You'll automatically get the single best discount for your cart. If a BOGO beats 15% off, you get the BOGO. You're never stuck with the lesser deal."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Limits and the law",
+       "id": "limits-and-the-law"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "How much cannabis can I buy at once?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Minnesota caps a single purchase at:"
+          },
+          {
+           "t": "ul",
+           "items": [
+            "2 ounces of flower (pre-rolls count by weight)",
+            "8 grams of concentrate (vapes count here)",
+            "800 mg of THC in edibles, shared across cannabis edibles, hemp edibles, and hemp THC drinks"
+           ]
+          },
+          {
+           "t": "p",
+           "html": "Each edible serving can have up to 10 mg THC and each package up to 200 mg. Drinks top out at 10 mg per serving and two servings per container."
+          },
+          {
+           "t": "p",
+           "html": "For carrying: up to 2 ounces of flower in public, up to 2 pounds of flower at home, and up to 8 grams of concentrate and 800 mg of edible THC."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I use it in the parking lot or my car?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Minnesota law doesn't allow anyone to use cannabis in a motor vehicle, parked or moving, driver or passenger (<a href=\"https://www.revisor.mn.gov/statutes/cite/342.09#stat.342.09.1\" target=\"_blank\" rel=\"noreferrer\">Minn. Stat. 342.09, subd. 1(b)(2)</a>). That includes our lot. For the ride home, keep products in the trunk or rear cargo area unless they're still sealed in the original package. Use it at home or on private property where it's allowed."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I drive after using cannabis?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Driving while impaired by cannabis is illegal in Minnesota and carries DWI penalties, even if you feel fine. Cannabis slows reaction time and judgment, and edibles can last 6 to 12 hours. Get a ride or wait it out."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Where can I legally use cannabis in Minnesota?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Adults 21 and older can use it:"
+          },
+          {
+           "t": "ul",
+           "items": [
+            "In a private home, including the yard",
+            "On private property that isn't open to the public, unless the owner says no",
+            "At a business or event licensed for on-site use"
+           ]
+          },
+          {
+           "t": "p",
+           "html": "You can't use it:"
+          },
+          {
+           "t": "ul",
+           "items": [
+            "In any motor vehicle, parked or moving",
+            "Smoking or vaping anywhere Minnesota's Clean Indoor Air Act bans smoking",
+            "Smoking or vaping inside an apartment or other multifamily building, including balconies and patios",
+            "At public schools, state prisons, on federal property (like national parks), or in federally subsidized housing",
+            "Anywhere a minor would breathe the smoke or vapor",
+            "In public places"
+           ]
+          },
+          {
+           "t": "p",
+           "html": "Cities can add their own rules. In Bayport, smoking or vaping cannabis in public places is banned, and that includes our parking lot. Bayport also bans open cannabis drinks on streets, sidewalks, and parking areas. There's no place to use it at My Dealer."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How should I carry cannabis in the car?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Keep it out of reach. OCM says products should ride in the trunk or rear cargo area unless they're still sealed in the original, labeled package. Nobody can use cannabis in a vehicle, parked or moving, driver or passenger, and driving high is a DWI. Don't take it across state lines, even into another legal state. That's a federal crime."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I grow my own?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes, if you're 21 or older. Minnesota allows up to eight plants per residence, with no more than four of them mature, flowering plants at one time (<a href=\"https://www.revisor.mn.gov/statutes/cite/342.09#stat.342.09.2\" target=\"_blank\" rel=\"noreferrer\">Minn. Stat. 342.09, subd. 2</a>). They have to be at the primary residence of someone 21+, in an enclosed, locked space the public can't see. The limit is per home, not per person. Making concentrates at home with butane or other volatile solvents isn't allowed. We carry cannabis seeds, so ask what's in stock."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Medical cannabis",
+       "id": "medical-cannabis"
+      },
+      {
+       "t": "details",
+       "summary": "Do you sell medical cannabis?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "No. We're an adult-use store and sell to adults 21 and older only. For how Minnesota's Medical Cannabis Program works, see the Office of Cannabis Management's Division of Medical Cannabis at <a href=\"https://mn.gov/ocm/medical-cannabis/\" target=\"_blank\" rel=\"noreferrer\">mn.gov/ocm/medical-cannabis</a>. We can't diagnose or certify anyone, and this isn't medical advice."
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Cannabis basics",
+       "id": "cannabis-basics"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "What does THC % mean?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "It's how much of the product's weight is THC. Most of the THC in raw flower is THCA, which turns into THC when it's heated. So labels and our menu show total THC, which Minnesota defines as THCA x 0.877, plus all forms of THC (mostly delta-9). Example: flower with 20% THCA and 0.5% delta-9 THC works out to about 18% total THC. That's the number to compare. A higher number means stronger, not better. Aroma, terpenes, and your own experience matter just as much. For edibles and drinks, look at milligrams (mg) per serving and per package instead."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "What's the difference between hemp and cannabis?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Legally, it comes down to THC. Botanically they're the same plant, <em>Cannabis sativa</em>. Under Minnesota law, a growing hemp plant has no more than 0.3% delta-9 THC by dry weight, and above that it's cannabis (<a href=\"https://www.revisor.mn.gov/statutes/cite/342.01\" target=\"_blank\" rel=\"noreferrer\">Minn. Stat. 342.01</a>). Federal law uses the same 0.3% delta-9 line today. On December 11, 2026, it switches to 0.3% total THC, which counts THCA too."
+          },
+          {
+           "t": "p",
+           "html": "Minnesota also allows lower-potency hemp edibles and hemp THC drinks. OCM regulates them with the same 21+ age limit, testing, and labeling rules, and they count toward the same 800 mg limit as cannabis edibles. Everything we sell is labeled as either cannabis or hemp."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "What's the difference between indica, sativa, and hybrid?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Not as much as people think. Indica, sativa, and hybrid mostly describe a plant's family tree and how it grows. Studies comparing those labels with genetic and lab data found they often don't line up (<a href=\"https://doi.org/10.1371/journal.pone.0133292\" target=\"_blank\" rel=\"noreferrer\">Sawler et al., 2015</a>; <a href=\"https://doi.org/10.1038/s41477-021-01003-y\" target=\"_blank\" rel=\"noreferrer\">Watts et al., 2021</a>; <a href=\"https://doi.org/10.1371/journal.pone.0267498\" target=\"_blank\" rel=\"noreferrer\">Smith et al., 2022</a>). Strains have been cross-bred for decades, and the same name can differ from one grower to the next."
+          },
+          {
+           "t": "p",
+           "html": "Our menu still shows which way a strain leans (Sativa, Sativa-dominant, Hybrid, Indica-dominant, Indica), because it's familiar shorthand. For a better read, look at:"
+          },
+          {
+           "t": "ul",
+           "items": [
+            "Total THC and CBD on the label",
+            "The top terpenes, when listed, and how the flower smells to you",
+            "The format: inhaled products usually start within minutes, while edibles can take up to 2 hours",
+            "Your own notes on batches you liked"
+           ]
+          },
+          {
+           "t": "p",
+           "html": "Ask a budtender about a specific batch."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How much of an edible should I take?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Start low and go slow. If you're new, or it's been a while, start with 2.5 to 5 mg of THC or less. That's a quarter to half of a typical 10 mg gummy. Per OCM, edibles usually take 30 minutes to 2 hours to kick in, peak around 3 to 4 hours, and last 6 to 12 hours. Don't take more just because you don't feel it yet. Wait at least 2 hours before you think about more. Too much can mean hours of anxiety, nausea, or vomiting, so patience pays off."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Is it okay to mix cannabis and alcohol?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "We don't recommend it. OCM says mixing cannabis with alcohol, prescription medications, or other substances can sharply increase impairment and the risk of effects you didn't expect. Pick one."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How should I store cannabis at home?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Keep flower in an airtight container, like the original packaging or a glass jar, in a cool, dark place. Heat, light, and air wear down aroma and potency over time, so a cupboard beats a sunny windowsill. A relative humidity of around 58 to 62% keeps flower from drying out or getting too damp, and we sell small two-way humidity packs that hold it in that range. Most of all, keep it locked up in its child-resistant package. See <a href=\"/faq#how-do-i-keep-cannabis-away-from-kids-and-pets\">How do I keep cannabis away from kids and pets?</a>"
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can your budtenders give medical advice?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. We can talk about products, formats, aroma, and what's on the label, but we're not doctors, and we don't diagnose or recommend cannabis for any condition. Cannabis can change how some medications work, so if you have a health condition or take medication, talk with your health care provider or pharmacist first."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Nothing hits like it used to. What should I do?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "That's common with regular use. Your body adapts to THC over time, so the same amount can start to feel like less. Before trading up to stronger products, a lot of regulars try a short break of a few days. When you come back, start with a small amount and work up slowly. If cutting back feels hard, or cannabis is getting in the way at home or work, talk with a health care provider, or call SAMHSA's free National Helpline at 1-800-662-4357."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Should I try a product with both CBD and THC?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "It's worth asking about if you're new to THC or it sometimes feels like too much. CBD isn't intoxicating the way THC is. Some people who are new or sensitive to THC pick balanced products with both, and many say the experience feels gentler. It doesn't work the same for everyone, and CBD doesn't cancel THC out: a gummy with 5 mg THC and 5 mg CBD still has 5 mg of THC, so dose by the THC number. Start low either way, and ask a budtender to show you the balanced options."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "What are CBG and CBN?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "They're two of the minor cannabinoids, compounds the plant makes in smaller amounts than THC and CBD. CBG starts out as a building block: in its raw form, the plant turns most of it into other cannabinoids, so mature flower usually has only a little. CBN forms as THC ages and breaks down, which is one reason older flower can test higher in CBN. Neither is usually described as intoxicating the way THC is. Research on both is still early, and we don't make promises about what they do. If a product lists CBG or CBN, the label shows how many milligrams are in each serving."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How do I read a cannabis label?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Start with three things:"
+          },
+          {
+           "t": "ul",
+           "items": [
+            "<strong>Serving vs. package.</strong> Edibles and drinks list THC per serving and for the whole package. A 100 mg package of gummies is often ten 10 mg pieces. Minnesota caps edibles at 10 mg THC per serving and 200 mg per package, and drinks at 10 mg per serving with no more than two servings per container.",
+            "<strong>Total THC for flower and vapes.</strong> Raw flower is mostly THCA, which turns into THC when heated. Total THC = THCA x 0.877, plus THC. Example: 20% THCA and 0.5% THC is about 18% total THC.",
+            "<strong>Batch and testing.</strong> Every package has a batch number and shows it passed state testing."
+           ]
+          },
+          {
+           "t": "p",
+           "html": "You'll also see the ingredients, the license number of whoever grew or made it, the universal cannabis symbol, and \"Keep this product out of reach of children.\" If something doesn't add up, ask a budtender."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How do I keep cannabis away from kids and pets?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Keep it in its original child-resistant package, locked up and out of sight. Edibles and drinks can look like regular snacks, so store them apart from food. If a child eats cannabis, call Poison Control at 1-800-222-1222 right away, or 911 in an emergency. If it's a pet, call your vet. And don't smoke or vape anywhere a child would breathe it."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Cannabis types and terpenes",
+       "id": "cannabis-types-and-terpenes"
+      },
+      {
+       "t": "p",
+       "html": "Plain-language answers about how cannabis gets classified and what terpenes are. This section covers labeling, aroma, and flavor only. It is not health advice. Sources are linked in each answer and listed at the end of this section."
+      },
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "svg",
+         "raw": "<svg viewBox=\"0 0 40 40\" width=\"40\" height=\"40\" aria-hidden=\"true\"><path d=\"M20 4v32M20 12l-8-4M20 12l8-4M20 20l-11-5M20 20l11-5M20 28l-9-3M20 28l9-3\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/></svg>"
+        },
+        {
+         "t": "h3",
+         "html": "Hemp"
+        },
+        {
+         "t": "p",
+         "html": "Legal definition: cannabis plant with no more than 0.3% delta-9 THC by dry weight."
+        },
+        {
+         "t": "svg",
+         "raw": "<svg viewBox=\"0 0 40 40\" width=\"40\" height=\"40\" aria-hidden=\"true\"><path d=\"M20 6c-7 6-10 12-10 18a10 10 0 0 0 20 0c0-6-3-12-10-18z\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\"/></svg>"
+        },
+        {
+         "t": "h3",
+         "html": "Cannabis (marijuana)"
+        },
+        {
+         "t": "p",
+         "html": "Above 0.3% delta-9 THC. In Minnesota, sold only by licensed cannabis businesses to adults 21+."
+        },
+        {
+         "t": "svg",
+         "raw": "<svg viewBox=\"0 0 40 40\" width=\"40\" height=\"40\" aria-hidden=\"true\"><path d=\"M20 6c-9 7-12 13-12 18s5 10 12 10 12-5 12-10S29 13 20 6z\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\"/></svg>"
+        },
+        {
+         "t": "h3",
+         "html": "\"Indica\""
+        },
+        {
+         "t": "p",
+         "html": "Traditional label for shorter, bushier plants with broad leaflets."
+        },
+        {
+         "t": "svg",
+         "raw": "<svg viewBox=\"0 0 40 40\" width=\"40\" height=\"40\" aria-hidden=\"true\"><path d=\"M20 4c-4 8-5 18-5 22a5 9 0 0 0 10 0c0-4-1-14-5-22z\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\"/></svg>"
+        },
+        {
+         "t": "h3",
+         "html": "\"Sativa\""
+        },
+        {
+         "t": "p",
+         "html": "Traditional label for taller, lankier plants with narrow leaflets."
+        },
+        {
+         "t": "svg",
+         "raw": "<svg viewBox=\"0 0 40 40\" width=\"40\" height=\"40\" aria-hidden=\"true\"><circle cx=\"15\" cy=\"20\" r=\"9\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\"/><circle cx=\"25\" cy=\"20\" r=\"9\" stroke=\"currentColor\" stroke-width=\"2.5\" fill=\"none\"/></svg>"
+        },
+        {
+         "t": "h3",
+         "html": "\"Hybrid\""
+        },
+        {
+         "t": "p",
+         "html": "A cross of both lineages. Most modern strains are hybrids."
+        }
+       ],
+       "caption": "Hemp vs. cannabis is a legal line set by delta-9 THC content. Indica, sativa, and hybrid are informal lineage and growth-habit labels. For what a product actually contains, read the lab-tested cannabinoid and terpene numbers."
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "What are terpenes?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "<strong>Terpenes are natural aroma compounds made by many plants, including cannabis.</strong> They're a big part of why one strain smells like citrus and another like pine or pepper."
+          },
+          {
+           "t": "p",
+           "html": "Cannabis contains hundreds of different compounds, and here's a surprise: THC and CBD on their own have almost no smell. What you're smelling is mostly terpenes. They're made in the tiny resin glands (trichomes) on the flower, and the same ones show up across nature: limonene in citrus peel, pinene in pine needles, linalool in lavender (<a href=\"https://doi.org/10.1104/pp.20.00593\" target=\"_blank\" rel=\"noreferrer\">Booth et al., 2020</a>)."
+          },
+          {
+           "t": "p",
+           "html": "When you shop, smell the flower and check the top terpenes on the label. Plenty of people find they have favorite aromas, and that's a good way to find products you like."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Which terpenes are common in cannabis, and what do they smell like?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "<strong>The most common are myrcene, beta-caryophyllene, limonene, terpinolene, pinene, linalool, and humulene.</strong> The table below lists aroma notes and where else each one occurs in nature."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Myrcene"
+        },
+        {
+         "t": "p",
+         "html": "Earthy, musky, ripe fruit"
+        },
+        {
+         "t": "p",
+         "html": "Also in: hops, mango, lemongrass, thyme"
+        },
+        {
+         "t": "h3",
+         "html": "Beta-caryophyllene"
+        },
+        {
+         "t": "p",
+         "html": "Peppery, spicy, woody"
+        },
+        {
+         "t": "p",
+         "html": "Also in: black pepper, cloves, cinnamon"
+        },
+        {
+         "t": "h3",
+         "html": "Limonene"
+        },
+        {
+         "t": "p",
+         "html": "Bright citrus"
+        },
+        {
+         "t": "p",
+         "html": "Also in: lemon, orange, and grapefruit peel"
+        },
+        {
+         "t": "h3",
+         "html": "Terpinolene"
+        },
+        {
+         "t": "p",
+         "html": "Fresh, piney, herbal, floral"
+        },
+        {
+         "t": "p",
+         "html": "Also in: tea tree, nutmeg, apples, lilac"
+        },
+        {
+         "t": "h3",
+         "html": "Alpha- &amp; beta-pinene"
+        },
+        {
+         "t": "p",
+         "html": "Pine, fresh forest"
+        },
+        {
+         "t": "p",
+         "html": "Also in: pine needles, rosemary, basil, dill"
+        },
+        {
+         "t": "h3",
+         "html": "Linalool"
+        },
+        {
+         "t": "p",
+         "html": "Floral, lavender, light spice"
+        },
+        {
+         "t": "p",
+         "html": "Also in: lavender, coriander, birch"
+        },
+        {
+         "t": "h3",
+         "html": "Humulene"
+        },
+        {
+         "t": "p",
+         "html": "Woody, earthy, hoppy"
+        },
+        {
+         "t": "p",
+         "html": "Also in: hops, sage, ginseng"
+        },
+        {
+         "t": "h3",
+         "html": "Ocimene"
+        },
+        {
+         "t": "p",
+         "html": "Sweet, herbal, woody"
+        },
+        {
+         "t": "p",
+         "html": "Also in: basil, mint, parsley, orchids"
+        },
+        {
+         "t": "h3",
+         "html": "Nerolidol"
+        },
+        {
+         "t": "p",
+         "html": "Woody, floral, fresh bark"
+        },
+        {
+         "t": "p",
+         "html": "Also in: jasmine, tea tree, neroli"
+        },
+        {
+         "t": "h3",
+         "html": "Bisabolol"
+        },
+        {
+         "t": "p",
+         "html": "Soft floral, delicate sweet"
+        },
+        {
+         "t": "p",
+         "html": "Also in: chamomile, candeia tree"
+        }
+       ],
+       "caption": "Common cannabis terpenes, their aroma and flavor notes, and other natural sources. Which terpenes appear, and how much, varies by strain and batch (<a href=\"https://doi.org/10.1371/journal.pone.0173911\" target=\"_blank\" rel=\"noreferrer\">Booth et al., 2017</a>; <a href=\"https://doi.org/10.1104/pp.20.00593\" target=\"_blank\" rel=\"noreferrer\">Booth et al., 2020</a>)."
+      },
+      {
+       "t": "details",
+       "summary": "How much terpene content is typical in cannabis flower?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "<strong>Usually about 1% to 3% of the flower's dry weight.</strong> Published studies of cured flower range from roughly 0.5% up to about 3–4%."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "72 commercial medical cannabis flower samples: 0.6% to 3.3% total terpenoids by dry weight (<a href=\"https://doi.org/10.1371/journal.pone.0201119\" target=\"_blank\" rel=\"noreferrer\">Richins et al., 2018</a>).",
+          "Flower of three chemovars: 1.28% to 2.14% (<a href=\"https://doi.org/10.1038/s41598-020-60172-6\" target=\"_blank\" rel=\"noreferrer\">Jin et al., 2020</a>), which notes up to about 4% reported in unfertilized flowers in earlier work.",
+          "Mature flowers of five cultivars: 9.3 to 13.6 mg/g, or about 0.9% to 1.4% (<a href=\"https://doi.org/10.1104/pp.20.00593\" target=\"_blank\" rel=\"noreferrer\">Booth et al., 2020</a>)."
+         ]
+        },
+        {
+         "t": "p",
+         "html": "Terpenes evaporate, so numbers depend on how the flower was grown, dried, stored, and tested. A lab label showing total terpenes is a snapshot of that batch."
+        }
+       ]
+      },
+      {
+       "t": "figure",
+       "blocks": [
+        {
+         "t": "svg",
+         "raw": "<svg viewBox=\"0 0 600 110\" role=\"img\" aria-labelledby=\"range-title\" class=\"terp-bar\"><title id=\"range-title\">Total terpene content by dry weight, 0 to 5 percent scale. Typical range about 1 to 3 percent; published samples from about 0.5 to about 4 percent.</title><rect x=\"20\" y=\"30\" width=\"560\" height=\"28\" rx=\"14\" fill=\"#e9e3d6\"/><rect x=\"76\" y=\"30\" width=\"392\" height=\"28\" rx=\"0\" fill=\"#d8c48a\"/><rect x=\"132\" y=\"30\" width=\"224\" height=\"28\" fill=\"#b08d2c\"/><g fill=\"#121310\" font-size=\"16\" font-family=\"inherit\"><text x=\"20\" y=\"88\">0%</text><text x=\"132\" y=\"88\" text-anchor=\"middle\">1%</text><text x=\"244\" y=\"88\" text-anchor=\"middle\">2%</text><text x=\"356\" y=\"88\" text-anchor=\"middle\">3%</text><text x=\"468\" y=\"88\" text-anchor=\"middle\">4%</text><text x=\"580\" y=\"88\" text-anchor=\"end\">5%</text><text x=\"244\" y=\"20\" text-anchor=\"middle\" font-weight=\"700\">Typical: ~1–3%</text></g></svg>"
+        }
+       ],
+       "caption": "Dark band: typical total terpenes, about 1–3% of dry weight. Light band: range reported in published samples, about 0.5% to about 4% (Richins et al., 2018; Jin et al., 2020; Booth et al., 2020)."
+      },
+      {
+       "t": "h3",
+       "html": "Sources for this section",
+       "id": "terpene-sources"
+      },
+      {
+       "t": "ol",
+       "items": [
+        "<a href=\"https://www.law.cornell.edu/uscode/text/7/1639o\" target=\"_blank\" rel=\"noreferrer\">7 U.S.C. § 1639o</a>, federal hemp definition.",
+        "<a href=\"https://www.revisor.mn.gov/statutes/cite/342.01\" target=\"_blank\" rel=\"noreferrer\">Minn. Stat. § 342.01</a>, Minnesota definitions.",
+        "Sawler J. et al. (2015). The genetic structure of marijuana and hemp. PLOS ONE. <a href=\"https://doi.org/10.1371/journal.pone.0133292\" target=\"_blank\" rel=\"noreferrer\">doi:10.1371/journal.pone.0133292</a>",
+        "Watts S. et al. (2021). Cannabis labelling is associated with genetic variation in terpene synthase genes. Nature Plants. <a href=\"https://doi.org/10.1038/s41477-021-01003-y\" target=\"_blank\" rel=\"noreferrer\">doi:10.1038/s41477-021-01003-y</a>",
+        "Smith C.J. et al. (2022). The phytochemical diversity of commercial Cannabis in the United States. PLOS ONE. <a href=\"https://doi.org/10.1371/journal.pone.0267498\" target=\"_blank\" rel=\"noreferrer\">doi:10.1371/journal.pone.0267498</a>",
+        "Booth J.K., Page J.E., Bohlmann J. (2017). Terpene synthases from Cannabis sativa. PLOS ONE. <a href=\"https://doi.org/10.1371/journal.pone.0173911\" target=\"_blank\" rel=\"noreferrer\">doi:10.1371/journal.pone.0173911</a>",
+        "Booth J.K. et al. (2020). Terpene synthases and terpene variation in Cannabis sativa. Plant Physiology. <a href=\"https://doi.org/10.1104/pp.20.00593\" target=\"_blank\" rel=\"noreferrer\">doi:10.1104/pp.20.00593</a>",
+        "Richins R.D. et al. (2018). Accumulation of bioactive metabolites in cultivated medical Cannabis. PLOS ONE. <a href=\"https://doi.org/10.1371/journal.pone.0201119\" target=\"_blank\" rel=\"noreferrer\">doi:10.1371/journal.pone.0201119</a>",
+        "Jin D. et al. (2020). Secondary metabolites profiled in Cannabis inflorescences, leaves, stem barks, and roots for medicinal purposes. Scientific Reports. <a href=\"https://doi.org/10.1038/s41598-020-60172-6\" target=\"_blank\" rel=\"noreferrer\">doi:10.1038/s41598-020-60172-6</a>"
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Making a day of it",
+       "id": "making-a-day-of-it"
+      },
+      {
+       "t": "details",
+       "summary": "Anything else to do while I'm in Bayport?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "If you're coming over from Wisconsin or just passing through, downtown Bayport is small and easy to walk."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "Not Justa Cafe, just down 3rd Street, serves breakfast all day. My go-to is the omelette.",
+          "The American Legion right next door has cheese curds with a homemade blackberry barbecue dipping sauce. Best dipping sauce around, if you ask me.",
+          "Woody's, also on 3rd Street a few doors down, makes a fire homemade Bloody Mary and jalapeño poppers. It seems the closer to the Wisconsin border you are, the better the Bloody Mary."
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Contact",
+       "id": "contact"
+      },
+      {
+       "t": "p",
+       "html": "My Dealer, 243 3rd Street North, Bayport, MN 55003"
+      },
+      {
+       "t": "p",
+       "html": "Phone: <a href=\"tel:+16513231266\">651-323-1266</a>"
+      },
+      {
+       "t": "p",
+       "html": "Email: <a href=\"mailto:morpheus@mydealermn.com\">morpheus@mydealermn.com</a>"
+      },
+      {
+       "t": "p",
+       "html": "Open noon to 8 daily. Adults 21+ only."
+      },
+      {
+       "t": "p",
+       "html": "Licensed by the Minnesota Office of Cannabis Management. Cannabis Retailer License DIS-L24-000241."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Hemp products containing THC are not for use by anyone under the age of 21. Using hemp products containing THC may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid hemp products containing THC due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

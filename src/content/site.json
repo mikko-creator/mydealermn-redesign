@@ -1,0 +1,123 @@
+{
+  "_sources": "Every value below is copied from mydealermn.com as captured 2026-10-29: the header, footer and home page (audit/raw/*.html) and the site's own llms.txt / llms-full.txt (audit/raw-extra/). Nothing here may be extended with facts from anywhere else. Field-level source in each _src.",
+  "brand": {
+    "name": "My Dealer",
+    "legal": "My Dealer LLC",
+    "tagline": "We want to be your dealer.",
+    "subline": "The legal kind.",
+    "headerSub": "Bayport, MN",
+    "footerSub": "Bayport · Wabasha",
+    "blurb": "A founder-built adult-use cannabis shop. Real Minnesota cannabis, grown as cannabis. Licensed in Bayport.",
+    "logo": "/assets/brand/logo.webp",
+    "logoAlt": "My Dealer cartoon head logo with hat and glasses",
+    "_src": "home header/footer; logo alt from the home page"
+  },
+  "announcement": {
+    "text": "Veterans and active military: 15% off every day. Andersen employees: 10% off every Tuesday. Valid ID required, ask your budtender at checkout.",
+    "_src": "live announcement bar (home)"
+  },
+  "licenseBar": "Licensed cannabis retailer · DIS-L24-000241",
+  "store": {
+    "name": "My Dealer Bayport",
+    "short": "Bayport",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "slug": "bayport",
+    "path": "/dispensaries/minnesota/bayport/",
+    "address": { "street": "243 3rd Street North", "city": "Bayport", "region": "MN", "regionName": "Minnesota", "postal": "55003" },
+    "phone": "651-323-1266",
+    "tel": "+16513231266",
+    "email": "morpheus@mydealermn.com",
+    "hours": "Noon to 8 pm, 7 days a week. Longer hours are on the way.",
+    "hoursShort": "Open noon to 8 daily. Longer hours are on the way.",
+    "license": "Cannabis Retailer License DIS-L24-000241",
+    "licenseNo": "DIS-L24-000241",
+    "licenseLine": "Licensed by the Minnesota Office of Cannabis Management. Cannabis Retailer License DIS-L24-000241. 243 3rd Street North, Bayport, MN 55003.",
+    "type": "Licensed adult-use (recreational) cannabis dispensary. Adult-use retail only; not a medical cannabis dispensary.",
+    "opened": "October 5, 2026",
+    "age": "21+ only, with valid ID, every visit.",
+    "orderAhead": "Order ahead online at https://mydealermn.com/bayport and pick up in store the same day or the next day. You pay when you pick up, and bring your ID. Orders not picked up by the end of the next day go back into inventory.",
+    "payment": "Cash, or debit card through the cashless ATM. No credit cards.",
+    "atm": "My Dealer takes cash, or your debit card through the cashless ATM. There is also a regular ATM on site. The cashless ATM has a $3 fee and runs in $10 steps, so your withdrawal rounds up to the nearest $10 and you get the difference back in cash.",
+    "parking": "The building has entrances at both the front and the back. There's a paved lot behind the building: turn onto 1st Ave N, then take a left down the alley. There's also street parking out front on 3rd Street (Highway 95), and a public lot at City Hall across the street.",
+    "landmarks": "Next to the post office and the American Legion. Across from city hall and the police station. The sign sits flat on the brick, so look for the face with the hat. Bayport goes by fast.",
+    "fromNorth": { "label": "From the north", "road": "Highway 36", "text": "Stillwater / Bayport exit (MN-95), then about 2 minutes south on Highway 95. Store is on your left." },
+    "fromSouth": { "label": "From the south", "road": "Interstate 94", "text": "Exit 258 Stillwater, then about 4 miles north on Highway 95. Store is on your right." },
+    "delivery": "Not right now. Everything is in-store or preorder for pickup.",
+    "consumption": "No. There is no on-site consumption, and Minnesota law doesn't allow cannabis use in a motor vehicle, parked or moving. Bayport bans smoking or vaping cannabis in public places, including the store's lot.",
+    "app": "Not yet. A My Dealer customer app is coming soon. Until then, use https://mydealermn.com/bayport to order ahead.",
+    "medical": "No. My Dealer is an adult-use store for adults 21 and older. Staff don't give medical advice.",
+    "limits": "Up to 2 ounces of flower, 8 grams of concentrate (vapes count here), and 800 mg of THC in edibles (shared across cannabis edibles, hemp edibles, and hemp THC drinks) per purchase.",
+    "sells": "Deli flower (weighed at the counter, priced by the gram), packaged flower (pre-packs), pre-rolls, vapes and carts, THC edibles, hemp edibles, hemp THC beverages, hemp topicals, cannabis seeds, and accessories. The menu changes with each batch; check https://mydealermn.com/bayport for what's on the shelf today.",
+    "chain": "No. It's one locally owned store, built mostly by founder Brandon Van Asten, who won a Minnesota social-equity retail license. Wabasha, MN is planned as the second store: property is secured, build-out still to come.",
+    "menuUrl": "https://mydealermn.com/bayport",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+    "googleUrl": "https://maps.google.com/?cid=16369139820469574822",
+    "bbbUrl": "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172/#sealclick",
+    "bbbSeal": "https://seal-minnesota.bbb.org/seals/black-seal-250-52-whitetxt-bbb-1000085172.png",
+    "bbbAlt": "My Dealer LLC BBB Business Review",
+    "geo": { "lat": null, "lng": null, "_note": "not published on the site; do not invent" },
+    "_src": "llms-full.txt Quick facts + Q&A (verbatim answers); home 'How to find us'"
+  },
+  "next": {
+    "name": "Wabasha",
+    "text": "Property is in hand. The building still needs to be built out. Same idea, down the river: a shop people can treat like their dealer, with a door and a menu.",
+    "list": ["Second Minnesota store on the map", "Bayport is open. Wabasha is next.", "Three more licenses still looking for a home", "Twin Cities metro is the longer bet"],
+    "_src": "home 'Wabasha next' card"
+  },
+  "discounts": [
+    { "title": "Veterans and active military", "value": "15% off", "text": "Veterans and active military get 15% off the entire order every day, in store or order ahead, with a valid military or veteran ID. It can't be combined with other discounts; you automatically get the single best discount for your cart." },
+    { "title": "Andersen employees", "value": "10% off Tuesdays", "text": "Andersen employees get 10% off every Tuesday with a valid Andersen ID. Discounts don't stack unless a promo says it does." }
+  ],
+  "rewards": {
+    "text": "Sign up with your phone number and earn 3% back in points on purchases, plus member deals. Nearly all promotions are for members only.",
+    "points": "3% back in points",
+    "_src": "llms-full.txt Q 'Is there a rewards or loyalty program?'"
+  },
+  "brandsCarried": {
+    "intro": "Brands on the live menu include Vireo, RYTHM, Dogwalkers, Good Green, Campfire Cannabis, and Trawa. The lineup changes; the live menu is the source of truth.",
+    "items": ["Vireo", "RYTHM", "Dogwalkers", "Good Green", "Campfire Cannabis", "Trawa"],
+    "_src": "llms-full.txt Q 'What brands does My Dealer carry?'"
+  },
+  "deliFlower": {
+    "intro": "Deli flower is weighed at the counter. Prices as of October 22, 2026 (check the live menu for current prices). You can mix and match strains within a price tier.",
+    "tiers": [
+      { "name": "$11/g tier", "strains": "Froot by the Foot, Gummibears", "prices": "1 g $11, 3.5 g $35, 7 g $65, 14 g $120, 28 g $210 ($7.50/g)" },
+      { "name": "$12/g tier", "strains": "White Widow", "prices": "1 g $12, 3.5 g $38, 7 g $70, 14 g $130, 28 g $225 ($8.04/g)" }
+    ],
+    "_src": "llms-full.txt Q 'How much is deli flower?' (dated; the flower page carries its own copy)"
+  },
+  "categories": [
+    { "slug": "flower", "path": "/flower", "name": "Flower", "blurb": "Deli flower by the gram and sealed 3.5 g and 7 g pre-packs from licensed Minnesota growers." },
+    { "slug": "pre-rolls", "path": "/pre-rolls", "name": "Pre-rolls", "blurb": "Single pre-rolls and multi-packs of licensed Minnesota cannabis." },
+    { "slug": "edibles", "path": "/edibles", "name": "Edibles", "blurb": "Licensed cannabis gummies and lower-potency hemp edibles, serving sizes, and Minnesota limits." },
+    { "slug": "vapes", "path": "/vapes", "name": "Vapes", "blurb": "All-in-one cannabis vapes, what the label tells you, and how vapes count toward Minnesota limits." },
+    { "slug": "beverages", "path": "/beverages", "name": "Hemp THC beverages", "blurb": "Hemp-derived THC drinks in 5 mg and 10 mg cans and bottles, plus THC-free CBD water." }
+  ],
+  "areas": [
+    { "slug": "stillwater", "path": "/stillwater", "name": "Stillwater, MN", "state": "MN", "blurb": "Licensed dispensary about 5 minutes south of downtown Stillwater on Highway 95. Deli flower weighed to order; ounces $210 or $225." },
+    { "slug": "oak-park-heights", "path": "/oak-park-heights", "name": "Oak Park Heights, MN", "state": "MN", "blurb": "About 6 minutes from Oak Park Heights: Hwy 36 east to the Hwy 95 exit, then south to Bayport. Deli flower weighed to order; ounces $210 or $225." },
+    { "slug": "hudson-wi", "path": "/hudson-wi", "name": "Hudson, WI", "state": "WI", "blurb": "About 10 minutes from downtown Hudson; buy in Minnesota, use in Minnesota. Deli flower weighed to order; ounces $210 or $225." },
+    { "slug": "river-falls-wi", "path": "/river-falls-wi", "name": "River Falls, WI", "state": "WI", "blurb": "About 25 to 30 minutes from River Falls via Highway 35 and I-94; buy in Minnesota, use in Minnesota. Deli flower weighed to order; ounces $210 or $225." },
+    { "slug": "somerset-wi", "path": "/somerset-wi", "name": "Somerset, WI", "state": "WI", "blurb": "About 15 to 20 minutes from Somerset over the St. Croix Crossing; buy in Minnesota, use in Minnesota. Deli flower weighed to order; ounces $210 or $225." },
+    { "slug": "new-richmond-wi", "path": "/new-richmond-wi", "name": "New Richmond, WI", "state": "WI", "blurb": "About 25 to 30 minutes from New Richmond via Highway 64 and the St. Croix Crossing; buy in Minnesota, use in Minnesota. Deli flower weighed to order; ounces $210 or $225." },
+    { "slug": "wisconsin", "path": "/wisconsin", "name": "Wisconsin shoppers", "state": "WI", "blurb": "The border rule, where you can legally use cannabis in Minnesota, the federal hemp change, and where Wisconsin cannabis law stands (as of October 22, 2026)." }
+  ],
+  "servedAreas": "Bayport, Stillwater, Oak Park Heights, and Lakeland in Washington County, MN, plus Wisconsin shoppers from Hudson, River Falls, Somerset, New Richmond, and elsewhere across the St. Croix River, who come to Bayport to shop. What you buy here is for use in Minnesota only.",
+  "social": [
+    { "name": "Instagram", "url": "https://www.instagram.com/mydealermn/", "label": "My Dealer on Instagram" },
+    { "name": "X", "url": "https://x.com/MyDealerMN", "label": "My Dealer on X" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/company/mydealermn", "label": "My Dealer on LinkedIn" },
+    { "name": "Google", "url": "https://share.google/FS0jvQqMZtD11QPEt", "label": "My Dealer on Google" }
+  ],
+  "footer": {
+    "explore": [["/", "Home"], ["/shop", "Shop"], ["/build", "The build"], ["/cannabis-101", "Cannabis 101"], ["/company", "Company background"]],
+    "connect": [["mailto:morpheus@mydealermn.com", "morpheus@mydealermn.com"], ["/jobs", "Careers"], ["/contact", "Contact"], ["https://maps.google.com/?cid=16369139820469574822", "Find us on Google"], ["https://www.linkedin.com/in/brandonvanasten", "Brandon on LinkedIn"]],
+    "warning": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development.",
+    "copyright": "© 2026 My Dealer LLC. All rights reserved.",
+    "legalLine": "Adult-use retail is 21+ · Cannabis Retailer License DIS-L24-000241 ·",
+    "_src": "home footer, verbatim"
+  },
+  "headerNavOriginal": [["/", "Home"], ["/shop", "Shop"], ["/build", "The build"], ["/cannabis-101", "Cannabis 101"], ["/company", "Company"], ["/faq", "FAQ"]],
+  "headerCta": ["https://mydealermn.com/bayport", "View the menu"]
+}

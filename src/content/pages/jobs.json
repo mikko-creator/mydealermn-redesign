@@ -1,0 +1,390 @@
+{
+ "path": "/jobs",
+ "source": "https://mydealermn.com/jobs",
+ "captured": "2026-10-29",
+ "title": "Jobs | My Dealer Bayport Cannabis Dispensary",
+ "description": "My Dealer will continue hiring and growing the team in Bayport, Minnesota over the next several months. 21+.",
+ "canonical": "https://mydealermn.com/jobs",
+ "og": {
+  "og:title": "Jobs | My Dealer Bayport Cannabis Dispensary",
+  "og:type": "website",
+  "og:url": "https://mydealermn.com/jobs",
+  "og:description": "My Dealer will continue hiring and growing the team in Bayport, Minnesota over the next several months. 21+.",
+  "og:image": "https://mydealermn.com/og.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:locale": "en_US",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://mydealermn.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Jobs",
+     "item": "https://mydealermn.com/jobs"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Store",
+    "LocalBusiness"
+   ],
+   "@id": "https://mydealermn.com/#business",
+   "name": "My Dealer",
+   "legalName": "My Dealer LLC",
+   "alternateName": [
+    "My Dealer Bayport",
+    "My Dealer MN",
+    "My Dealer dispensary",
+    "My Dealer cannabis"
+   ],
+   "description": "Licensed adult-use cannabis retailer in Bayport, Minnesota. Cannabis Retailer License DIS-L24-000241 from the Minnesota Office of Cannabis Management. Adult-use retail only. We want to be your dealer.",
+   "url": "https://mydealermn.com",
+   "image": [
+    "https://mydealermn.com/og-card.jpg",
+    "https://mydealermn.com/build/exterior-front.webp",
+    "https://mydealermn.com/build/interior-display-cases.webp"
+   ],
+   "logo": "https://mydealermn.com/brand/logo-512.png",
+   "email": "morpheus@mydealermn.com",
+   "telephone": "+1-651-323-1266",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "243 3rd St N",
+    "addressLocality": "Bayport",
+    "addressRegion": "MN",
+    "postalCode": "55003",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.018012,
+    "longitude": -92.779534
+   },
+   "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+   "identifier": [
+    "DIS-L24-000241",
+    "DIS-L24-000241-01"
+   ],
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Bayport"
+    },
+    {
+     "@type": "City",
+     "name": "Stillwater"
+    },
+    {
+     "@type": "City",
+     "name": "Oak Park Heights"
+    },
+    {
+     "@type": "City",
+     "name": "Lakeland"
+    },
+    {
+     "@type": "City",
+     "name": "Hudson",
+     "containedInPlace": {
+      "@type": "State",
+      "name": "Wisconsin"
+     }
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington County"
+    },
+    {
+     "@type": "State",
+     "name": "Minnesota"
+    }
+   ],
+   "knowsAbout": [
+    "adult-use cannabis",
+    "Minnesota cannabis",
+    "cannabis dispensary",
+    "Bayport dispensary",
+    "cannabis flower"
+   ],
+   "sameAs": [
+    "https://x.com/MyDealerMN",
+    "https://www.instagram.com/mydealermn/",
+    "https://www.linkedin.com/company/mydealermn",
+    "https://share.google/FS0jvQqMZtD11QPEt",
+    "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+    "https://www.facebook.com/mydealermn/",
+    "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+    "https://maps.google.com/?cid=16369139820469574822",
+    "https://www.yelp.com/biz/my-dealer-bayport-2",
+    "https://www.leafly.com/dispensary-info/my-dealer",
+    "https://weedmaps.com/dispensaries/my-dealer"
+   ],
+   "founder": {
+    "@type": "Person",
+    "name": "Brandon Van Asten",
+    "url": "https://www.linkedin.com/in/brandonvanasten"
+   },
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+     ],
+     "opens": "12:00",
+     "closes": "20:00"
+    }
+   ],
+   "paymentAccepted": "Cash, Debit Card",
+   "currenciesAccepted": "USD",
+   "priceRange": "$",
+   "additionalType": "https://en.wikipedia.org/wiki/Cannabis_dispensary",
+   "amenityFeature": [
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "Parking lot behind the building",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "ATM on site",
+     "value": true
+    }
+   ],
+   "makesOffer": [
+    {
+     "@type": "Offer",
+     "name": "Veteran and active military discount",
+     "description": "15% off the entire order every day, in store or order ahead, with a valid military or veteran ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    },
+    {
+     "@type": "Offer",
+     "name": "Andersen employee discount",
+     "description": "10% off every Tuesday with a valid Andersen ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "Good people. High standards. Room to grow."
+    },
+    {
+     "t": "p",
+     "html": "If you have bartended a Saturday, waited tables, or run a shop that actually cares, you already know the hard parts. We can teach cannabis. Warmth is the part we hire for."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "mailto:morpheus@mydealermn.com?subject=Job%20interest%20-%20My%20Dealer%20Bayport",
+       "html": "Email us about openings"
+      },
+      {
+       "href": "#roles",
+       "html": "Meet the roles"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roles",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h2",
+     "html": "Hiring over the next several months"
+    },
+    {
+     "t": "p",
+     "html": "We will continue hiring and growing the team over the next several months. Brandon, our founder, will operate the store alongside the team for the first several months."
+    },
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "text",
+       "html": "Part-time"
+      },
+      {
+       "t": "text",
+       "html": "21+"
+      },
+      {
+       "t": "h3",
+       "html": "Part-Time Budtender"
+      },
+      {
+       "t": "p",
+       "html": "Make people feel welcome, keep details straight, and learn a new market in real time."
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Check IDs and complete accurate point-of-sale transactions",
+        "Ask smart questions and explain products without pressure",
+        "Keep the sales floor stocked, clean, and ready",
+        "Move between conversation, cash handling, and side work",
+        "Stay curious as inventory changes quickly"
+       ]
+      }
+     ]
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "mailto:morpheus@mydealermn.com?subject=Job%20interest%20-%20My%20Dealer%20Bayport",
+       "html": "Email us about openings"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Final schedules, compensation, benefits, and start dates will be discussed in interviews. Bayport is open. We opened October 5, 2026, and we're excited to be open. Employment remains subject to applicable cannabis-worker background checks."
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h2",
+     "html": "Hospitality instincts beat cannabis trivia."
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "text",
+         "html": "01"
+        },
+        {
+         "t": "h3",
+         "html": "Service reflexes"
+        },
+        {
+         "t": "p",
+         "html": "You read the room, remember people, and know when to talk and when to listen."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "text",
+         "html": "02"
+        },
+        {
+         "t": "h3",
+         "html": "Calm accuracy"
+        },
+        {
+         "t": "p",
+         "html": "You can check an ID, handle money, and keep details straight while the line builds."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "text",
+         "html": "03"
+        },
+        {
+         "t": "h3",
+         "html": "Owner energy"
+        },
+        {
+         "t": "p",
+         "html": "You notice what needs cleaning, stocking, or fixing and move without waiting to be told."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "text",
+         "html": "04"
+        },
+        {
+         "t": "h3",
+         "html": "Active curiosity"
+        },
+        {
+         "t": "p",
+         "html": "You enjoy learning products, asking questions, and explaining new ideas in plain language."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "img",
+     "src": "/build/sign.webp",
+     "alt": "Illuminated My Dealer sign on the Bayport storefront"
+    },
+    {
+     "t": "h2",
+     "html": "Slow first. Fast later."
+    },
+    {
+     "t": "p",
+     "html": "Minnesota's adult-use supply chain is still developing. Our menu is narrower than mature-market shops for now. We're honest about what is in stock, help people choose from what we have, and add depth as licensed supply grows."
+    },
+    {
+     "t": "p",
+     "html": "Early days: training, organizing, cleaning, receiving, refining. Later: a busy bar. Quick decisions, multiple customers, constant resets, plenty of personality."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/contact",
+       "html": "Questions? Email us"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

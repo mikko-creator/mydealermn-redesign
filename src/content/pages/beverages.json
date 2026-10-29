@@ -1,0 +1,495 @@
+{
+ "path": "/beverages",
+ "source": "https://mydealermn.com/beverages",
+ "captured": "2026-10-29",
+ "title": "Hemp THC Beverages in Bayport, MN | My Dealer",
+ "description": "Hemp-derived THC drinks in 5 mg and 10 mg cans and bottles, multi-serving bottles, and THC-free CBD water at My Dealer in Bayport, MN. See the live menu.",
+ "canonical": "https://mydealermn.com/beverages",
+ "og": {
+  "og:title": "Hemp THC Beverages in Bayport, MN | My Dealer",
+  "og:description": "Hemp-derived THC drinks in 5 mg and 10 mg cans and bottles, multi-serving bottles, and THC-free CBD water at My Dealer in Bayport, MN. See the live menu.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/beverages",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "CollectionPage",
+     "@id": "https://mydealermn.com/beverages#webpage",
+     "url": "https://mydealermn.com/beverages",
+     "name": "Hemp THC Beverages in Bayport, MN | My Dealer",
+     "description": "Hemp-derived THC drinks in 5 mg and 10 mg cans and bottles, multi-serving bottles, and THC-free CBD water at My Dealer in Bayport, MN. See the live menu.",
+     "inLanguage": "en-US",
+     "about": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "provider": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "significantLink": "https://mydealermn.com/bayport/menu/hemp-beverages-12318",
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mydealermn.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Menu",
+        "item": "https://mydealermn.com/bayport"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Hemp THC beverages",
+        "item": "https://mydealermn.com/beverages"
+       }
+      ]
+     },
+     "dateModified": "2026-10-17"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://mydealermn.com/beverages#faq",
+     "url": "https://mydealermn.com/beverages",
+     "isPartOf": {
+      "@id": "https://mydealermn.com/beverages#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Do THC drinks kick in faster than gummies?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not reliably. Some people say drinks come on a little sooner, but it varies by product and person. Minnesota OCM gives drinks the same 30 minutes to 2 hours as edibles, so wait at least 2 hours before having more."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long does a THC drink last?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Plan on 6 to 12 hours, the same as edibles, with a peak around 3 to 4 hours. Don't drive."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Are hemp THC drinks still intoxicating?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Hemp-derived THC is THC. A 5 mg drink is 5 mg of THC, and it's 21+ only."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I mix a THC drink with alcohol?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We don't recommend it. Mixing cannabis with alcohol increases impairment, according to Minnesota OCM. Pick one."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How do THC drinks count toward the Minnesota limit?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They share one 800 mg THC limit per purchase with cannabis edibles and hemp edibles. Each drink can have up to 10 mg of THC per serving and no more than two servings per container, so check the can for the per-serving number."
+       }
+      }
+     ]
+    },
+    {
+     "@type": [
+      "Store",
+      "LocalBusiness"
+     ],
+     "@id": "https://mydealermn.com/#business",
+     "name": "My Dealer",
+     "url": "https://mydealermn.com",
+     "telephone": "+1-651-323-1266",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "243 3rd St N",
+      "addressLocality": "Bayport",
+      "addressRegion": "MN",
+      "postalCode": "55003",
+      "addressCountry": "US"
+     },
+     "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+     "sameAs": [
+      "https://x.com/MyDealerMN",
+      "https://www.instagram.com/mydealermn/",
+      "https://www.linkedin.com/company/mydealermn",
+      "https://share.google/FS0jvQqMZtD11QPEt",
+      "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+      "https://www.facebook.com/mydealermn/",
+      "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+      "https://maps.google.com/?cid=16369139820469574822",
+      "https://www.yelp.com/biz/my-dealer-bayport-2",
+      "https://www.leafly.com/dispensary-info/my-dealer",
+      "https://weedmaps.com/dispensaries/my-dealer"
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "Hemp THC beverages · Adults 21+"
+    },
+    {
+     "t": "h1",
+     "html": "Hemp THC beverages in Bayport, MN"
+    },
+    {
+     "t": "p",
+     "html": "Our drinks are hemp-derived THC beverages, regulated by the Minnesota Office of Cannabis Management and sold to adults 21+ only. Here's what's on the shelf."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/bayport",
+       "html": "Preorder for pickup"
+      },
+      {
+       "href": "/bayport/menu/hemp-beverages-12318",
+       "html": "See the beverage menu"
+      },
+      {
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "html": "Get directions",
+       "target": "_blank",
+       "rel": "noopener"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "h2",
+       "html": "Formats",
+       "id": "drink-formats"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<strong>Single cans and bottles:</strong> mostly 5 mg or 10 mg THC each, in sodas, sparkling waters, and non-alcoholic mocktail-style flavors. Some also list CBG.",
+        "<strong>Multi-serving bottles:</strong> larger bottles with more total THC, meant to be measured out over several servings. Read the label for the serving size.",
+        "<strong>THC-free:</strong> CBD sparkling water with no THC."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Brands on the menu when we checked on October 17, 2026: BLNCD and Foundry. See today's lineup on the <a href=\"/bayport/menu/hemp-beverages-12318\">beverage menu</a>."
+      },
+      {
+       "t": "h2",
+       "html": "Serving sizes and limits",
+       "id": "drink-limits"
+      },
+      {
+       "t": "p",
+       "html": "Hemp THC drinks count toward the same 800 mg THC per-purchase limit as edibles and hemp edibles. Start with one serving, give it time, and don't mix with alcohol. Treat drinks like edibles: they can take a while to kick in. <a href=\"/faq#how-much-of-an-edible-should-i-take\">More in our FAQ</a>."
+      },
+      {
+       "t": "p",
+       "html": "Open containers don't belong in the car, and THC drinks can look like ordinary soda, so store them where kids can't reach."
+      },
+      {
+       "t": "h2",
+       "html": "How THC drinks work",
+       "id": "how-thc-drinks-work"
+      },
+      {
+       "t": "dl",
+       "items": [
+        {
+         "dt": "Onset",
+         "dd": [
+          "About 20 minutes to 2 hours, varies by drink"
+         ]
+        },
+        {
+         "dt": "Peak",
+         "dd": [
+          "Plan for up to 3 to 4 hours"
+         ]
+        },
+        {
+         "dt": "Lasts",
+         "dd": [
+          "Plan for 6 to 12 hours"
+         ]
+        },
+        {
+         "dt": "Start with",
+         "dd": [
+          "2.5 to 5 mg THC, then wait at least 2 hours"
+         ]
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "OCM groups drinks with edibles. Some drinks start sooner, but plan for edible timing. Timing varies from person to person."
+      },
+      {
+       "t": "h3",
+       "html": "When people choose it"
+      },
+      {
+       "t": "p",
+       "html": "THC drinks are smoke-free and alcohol-free, and each can lists its milligrams, so a portion is easy to measure. You can sip slowly and stop. They're still edibles, so plan for a longer stretch and no driving."
+      },
+      {
+       "t": "h3",
+       "html": "Timing"
+      },
+      {
+       "t": "p",
+       "html": "Minnesota's Office of Cannabis Management (OCM) groups drinks with edibles: onset in 30 minutes to 2 hours, a peak at 3 to 4 hours, and 6 to 12 hours total. Some drinks do start sooner than a gummy. A 2024 review by McMaster University researchers found that drink users in one survey reported onset in about 20 minutes on average, and a lab study saw onset at 30 to 50 minutes. It varies a lot by product and person, so treat a drink like any other edible and give it time."
+      },
+      {
+       "t": "h3",
+       "html": "Hemp THC is still THC"
+      },
+      {
+       "t": "p",
+       "html": "Our drinks are hemp-derived, but the THC in them is still intoxicating. 5 mg of THC in a can is 5 mg of THC. They carry the same 21+ rule and the same warnings as cannabis products."
+      },
+      {
+       "t": "h3",
+       "html": "Dosing basics"
+      },
+      {
+       "t": "p",
+       "html": "OCM's starting point is 2.5 to 5 mg of THC, or less. Many of our cans are 5 mg or 10 mg, so half of a 10 mg can is 5 mg. For multi-serving bottles, read the serving size and measure it out. Wait at least 2 hours before deciding on more."
+      },
+      {
+       "t": "h3",
+       "html": "How it counts toward Minnesota limits"
+      },
+      {
+       "t": "p",
+       "html": "Hemp THC drinks count toward the same 800 mg THC per-purchase limit as cannabis edibles and hemp edibles combined. <a href=\"https://www.revisor.mn.gov/statutes/cite/342.27\" target=\"_blank\" rel=\"noopener\">Minn. Stat. 342.27</a>"
+      },
+      {
+       "t": "h3",
+       "html": "Storage"
+      },
+      {
+       "t": "p",
+       "html": "THC drinks can look just like soda. Keep them in a spot kids can't reach, apart from regular drinks, and don't hand one out by mistake. Follow the label on refrigeration after opening. Open containers don't belong in the car; keep them sealed, in the trunk."
+      },
+      {
+       "t": "h3",
+       "html": "Practical tips"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Pour a half serving into a glass and put the rest away.",
+        "Sip, then wait. Set a phone timer for 2 hours.",
+        "Don't use a THC drink as a mixer with alcohol.",
+        "Write down the brand and milligrams of the ones you try."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Safety"
+      },
+      {
+       "t": "p",
+       "html": "Don't drive the rest of the day or night after a THC drink. Don't mix it with alcohol, which raises impairment. Use it only in a private home or on private property where the owner allows it. Not in a vehicle, parked or moving, not in public places, and not in our parking lot."
+      },
+      {
+       "t": "p",
+       "html": "If someone has used too much, or a child or pet gets into cannabis, call Poison Control at 1-800-222-1222 (for pets, call your vet). In an emergency, call 911."
+      },
+      {
+       "t": "h2",
+       "html": "Questions about THC drinks",
+       "id": "faq-thc-drinks-work"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "Do THC drinks kick in faster than gummies?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Not reliably. Some people say drinks come on a little sooner, but it varies by product and person. Minnesota OCM gives drinks the same 30 minutes to 2 hours as edibles, so wait at least 2 hours before having more."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How long does a THC drink last?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Plan on 6 to 12 hours, the same as edibles, with a peak around 3 to 4 hours. Don't drive."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Are hemp THC drinks still intoxicating?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. Hemp-derived THC is THC. A 5 mg drink is 5 mg of THC, and it's 21+ only."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Can I mix a THC drink with alcohol?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "We don't recommend it. Mixing cannabis with alcohol increases impairment, according to Minnesota OCM. Pick one."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How do THC drinks count toward the Minnesota limit?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "They share one 800 mg THC limit per purchase with cannabis edibles and hemp edibles. Each drink can have up to 10 mg of THC per serving and no more than two servings per container, so check the can for the per-serving number."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Sources: <a href=\"https://mn.gov/ocm/assets/Guide_to_Safer_Cannabis_Use_1.0_tcm1202-754055.pdf\" target=\"_blank\" rel=\"noopener\">Minnesota OCM Guide to Safer Cannabis Use</a>, <a href=\"https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/resources/what-you-need-to-know-if-you-choose-to-consume-cannabis.html\" target=\"_blank\" rel=\"noopener\">Health Canada</a>, <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11705039/\" target=\"_blank\" rel=\"noopener\">Froude et al., Cannabis, 2024</a>, <a href=\"https://nida.nih.gov/publications/drugfacts/cannabis-marijuana\" target=\"_blank\" rel=\"noopener\">NIDA</a>."
+      },
+      {
+       "t": "h2",
+       "html": "How to shop it",
+       "id": "how-to-shop"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<strong>Preorder:</strong> pick what you want on the <a href=\"/bayport/menu/hemp-beverages-12318\">beverage menu</a>, or start at <a href=\"/bayport\">mydealermn.com/bayport</a>. Pick it up the same day or the next day, and pay at the counter.",
+        "<strong>In the store:</strong> talk it through with a budtender, or browse on the kiosk. We have paper menus too.",
+        "<strong>Bring ID:</strong> 21+ with a valid photo ID, every visit. Cash or debit (cashless ATM, $3 fee). Loyalty members earn 3% back in points."
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "More from the menu",
+       "id": "more-categories"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/flower",
+         "html": "Flower"
+        },
+        {
+         "href": "/pre-rolls",
+         "html": "Pre-rolls"
+        },
+        {
+         "href": "/edibles",
+         "html": "Edibles"
+        },
+        {
+         "href": "/vapes",
+         "html": "Vapes"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Coming from out of town? Directions and parking from your side of the river:"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/stillwater",
+         "html": "Stillwater, MN"
+        },
+        {
+         "href": "/oak-park-heights",
+         "html": "Oak Park Heights, MN"
+        },
+        {
+         "href": "/hudson-wi",
+         "html": "Hudson, WI"
+        },
+        {
+         "href": "/river-falls-wi",
+         "html": "River Falls, WI"
+        },
+        {
+         "href": "/somerset-wi",
+         "html": "Somerset, WI"
+        },
+        {
+         "href": "/new-richmond-wi",
+         "html": "New Richmond, WI"
+        },
+        {
+         "href": "/wisconsin",
+         "html": "Wisconsin shoppers"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Information current as of October 17, 2026. Menu, prices, and stock change often; the live menu is the final word."
+      },
+      {
+       "t": "p",
+       "html": "For adults 21 and older only."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Hemp products containing THC are not for use by anyone under the age of 21. Using hemp products containing THC may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid hemp products containing THC due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

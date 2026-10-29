@@ -1,0 +1,273 @@
+{
+  "about": "Image and media registry for the My Dealer redesign (IMAGERY lane). photos: the client's own photos and film stills (alts reuse the captured alts where they exist). generated: AI-generated illustrative stills in assets/generated (the build makes WebP variants; use gimg(id)). media: the AI smoke loop and the client's brand film.",
+  "photos": {
+    "exterior-from-north": {
+      "src": "/assets/photos/exterior-from-north.webp",
+      "w": 1400,
+      "h": 279,
+      "alt": "My Dealer from the north, on the left next to New Edge Exteriors and the Legion",
+      "note": "panorama strip, about 5:1"
+    },
+    "exterior-from-south": {
+      "src": "/assets/photos/exterior-from-south.webp",
+      "w": 1400,
+      "h": 270,
+      "alt": "My Dealer from the south, on the right next to the post office",
+      "note": "panorama strip, about 5:1"
+    },
+    "exterior-front-after": {
+      "src": "/assets/photos/exterior-front-after.webp",
+      "w": 1800,
+      "h": 1350,
+      "alt": "The sign is up: the My Dealer cartoon head and name on the brick above the green storefront"
+    },
+    "exterior-front-before": {
+      "src": "/assets/photos/exterior-front-before.webp",
+      "w": 1800,
+      "h": 1350,
+      "alt": "The storefront before the remodel, still HeartFelt Silks, with a for-sale sign in the window"
+    },
+    "exterior-front": {
+      "src": "/assets/photos/exterior-front.webp",
+      "w": 1800,
+      "h": 1273,
+      "alt": "My Dealer storefront at 243 3rd Street North, with the cartoon head and name on the brick"
+    },
+    "film-poster": {
+      "src": "/assets/photos/film-poster.jpg",
+      "w": 1280,
+      "h": 720,
+      "alt": "The My Dealer cartoon character in a fedora and sunglasses beside a white cloud, on black",
+      "note": "poster frame of the brand film (captured src /brand/film-poster.jpg)"
+    },
+    "interior-before-office": {
+      "src": "/assets/photos/interior-before-office.webp",
+      "w": 1800,
+      "h": 1350,
+      "alt": "Original back area: a carpeted office space before the build-out"
+    },
+    "interior-before-open-floor": {
+      "src": "/assets/photos/interior-before-open-floor.webp",
+      "w": 1800,
+      "h": 1350,
+      "alt": "Original open layout: a bright open floor with tables and chairs before the build-out"
+    },
+    "interior-display-cases": {
+      "src": "/assets/photos/interior-display-cases.webp",
+      "w": 1800,
+      "h": 1350,
+      "alt": "Building the cases: a selfie in safety glasses in front of wood-topped display cases under construction",
+      "note": "shows a person (a builder selfie): keep it in the build story, do not promote it to a hero"
+    },
+    "interior-drywall": {
+      "src": "/assets/photos/interior-drywall.webp",
+      "w": 1800,
+      "h": 1350,
+      "alt": "Walls and openings: new drywall, a service window and doors during the build-out"
+    },
+    "interior-security-windows": {
+      "src": "/assets/photos/interior-security-windows.webp",
+      "w": 1800,
+      "h": 1350,
+      "alt": "Security checkpoint windows between the lobby and the sales floor"
+    },
+    "interior-service-doors": {
+      "src": "/assets/photos/interior-service-doors.webp",
+      "w": 1800,
+      "h": 1350,
+      "alt": "Finished retail floor: long dark counters with screens and roll-up service doors under strip lights"
+    },
+    "parking-after": {
+      "src": "/assets/photos/parking-after.webp",
+      "w": 1800,
+      "h": 1350,
+      "alt": "Paved customer parking: a freshly striped asphalt lot behind the building"
+    },
+    "parking-before": {
+      "src": "/assets/photos/parking-before.webp",
+      "w": 1800,
+      "h": 1350,
+      "alt": "Gravel rear lot at night, before paving"
+    },
+    "part-1": {
+      "src": "/assets/photos/part-1.jpg",
+      "w": 480,
+      "h": 360,
+      "alt": "Still from Potamentary Part 1: a man speaking in a shop aisle",
+      "note": "film thumbnail; the captured /company link card uses alt \"\" because the card text labels it (captured src /film/part-1.jpg)"
+    },
+    "part-2": {
+      "src": "/assets/photos/part-2.jpg",
+      "w": 480,
+      "h": 360,
+      "alt": "Still from Potamentary Part 2: a black-and-white archival photo of an early touring car with passengers",
+      "note": "film thumbnail; captured alt \"\" in the /company link card (captured src /film/part-2.jpg)"
+    },
+    "part-3": {
+      "src": "/assets/photos/part-3.jpg",
+      "w": 480,
+      "h": 360,
+      "alt": "Still from Potamentary Part 3: an aerial archival photo of a large crowd along the Reflecting Pool in Washington, D.C.",
+      "note": "film thumbnail; captured alt \"\" in the /company link card (captured src /film/part-3.jpg)"
+    },
+    "part-4": {
+      "src": "/assets/photos/part-4.jpg",
+      "w": 480,
+      "h": 360,
+      "alt": "Still from Potamentary Part 4: grainy black-and-white archival film of men at a machine",
+      "note": "film thumbnail; captured alt \"\" in the /company link card (captured src /film/part-4.jpg)"
+    },
+    "restroom-before": {
+      "src": "/assets/photos/restroom-before.webp",
+      "w": 1600,
+      "h": 1200,
+      "alt": "Original bathroom with a urinal, a toilet and dark red wainscoting"
+    },
+    "restroom-progress": {
+      "src": "/assets/photos/restroom-progress.webp",
+      "w": 1600,
+      "h": 1200,
+      "alt": "ADA update and new finishes: grab bars, a wall-hung sink and leaf-pattern wallpaper"
+    },
+    "sign": {
+      "src": "/assets/photos/sign.webp",
+      "w": 1920,
+      "h": 1440,
+      "alt": "Illuminated My Dealer sign on the Bayport storefront"
+    }
+  },
+  "media": {
+    "loop-smoke": {
+      "mp4": "/assets/media/loop-smoke.mp4",
+      "mp4Small": "/assets/media/loop-smoke-sm.mp4",
+      "poster": "/assets/media/loop-smoke.jpg",
+      "w": 1920,
+      "h": 1068,
+      "wSmall": 900,
+      "hSmall": 500,
+      "duration": 10,
+      "audio": false,
+      "use": "seamless loop (forward then reverse): muted, loop, playsinline, decorative (aria-hidden); show the poster and do not autoplay under prefers-reduced-motion",
+      "note": "AI-generated illustrative motion (Higgsfield kling-video/v3.0-turbo/image-to-video, animated from the AI-generated still g-smoke; forward-then-reverse loop). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of My Dealer (mydealermn.com), its store, staff, customers, products or brands."
+    },
+    "brand-film": {
+      "mp4": "/assets/media/my-dealer-comes-to-life.mp4",
+      "mp4Small": "/assets/media/my-dealer-comes-to-life-mobile.mp4",
+      "mobileMedia": "(max-width: 768px) and (max-aspect-ratio: 3/5)",
+      "poster": "/assets/photos/film-poster.jpg",
+      "w": 1280,
+      "h": 720,
+      "wSmall": 496,
+      "hSmall": 720,
+      "duration": 17.2,
+      "note": "The client's own brand film (the dealer character comes to life): the home hero film, as on the live site. Not made by this redesign and not AI-generated by it."
+    }
+  },
+  "generated": {
+    "g-bud-macro": {
+      "alt": "Macro photograph of a cured cannabis flower bud covered in frosty trichomes, rim-lit in warm gold on a near-black background with soft smoke",
+      "aspect": "16:9",
+      "w": 2752,
+      "h": 1536,
+      "kind": "photo",
+      "orientation": "landscape",
+      "ground": "dark (ink, stone or wood)",
+      "style": "bud centred, smoke wisps either side"
+    },
+    "g-deli-jars": {
+      "alt": "Three clear glass jars with white lids, filled with cured cannabis flower, on a dark wooden counter",
+      "aspect": "3:2",
+      "w": 2496,
+      "h": 1664,
+      "kind": "photo",
+      "orientation": "landscape",
+      "ground": "dark (ink, stone or wood)"
+    },
+    "g-prerolls": {
+      "alt": "Three empty cone-shaped pre-roll papers with white filter tips on a dark slate tray, beside loose crumbs of cannabis flower",
+      "aspect": "3:2",
+      "w": 2496,
+      "h": 1664,
+      "kind": "photo",
+      "orientation": "landscape",
+      "ground": "dark (ink, stone or wood)"
+    },
+    "g-edibles": {
+      "alt": "Four plain square amber gummies in a small cream stoneware dish on dark marble",
+      "aspect": "3:2",
+      "w": 2496,
+      "h": 1664,
+      "kind": "photo",
+      "orientation": "landscape",
+      "ground": "dark (ink, stone or wood)"
+    },
+    "g-vape": {
+      "alt": "An unbranded matte black all-in-one vape device with a small amber oil window, lying on a dark stone ledge",
+      "aspect": "3:2",
+      "w": 2496,
+      "h": 1664,
+      "kind": "photo",
+      "orientation": "landscape",
+      "ground": "dark (ink, stone or wood)"
+    },
+    "g-beverage": {
+      "alt": "Three blank unlabelled matte cans in sage, cream and charcoal, beaded with condensation on dark marble",
+      "aspect": "3:2",
+      "w": 2496,
+      "h": 1664,
+      "kind": "photo",
+      "orientation": "landscape",
+      "ground": "dark (ink, stone or wood)"
+    },
+    "g-smoke": {
+      "alt": "Soft wisps of pale smoke curling across a near-black background with a faint warm glow",
+      "aspect": "16:9",
+      "w": 2752,
+      "h": 1536,
+      "kind": "photo",
+      "orientation": "landscape",
+      "ground": "dark (ink, stone or wood)",
+      "style": "texture; mostly near-black with a warm glow at the top right"
+    },
+    "s-leaf": {
+      "alt": "Pencil line drawing of a cannabis fan leaf with veined, serrated leaflets",
+      "aspect": "4:5",
+      "w": 1792,
+      "h": 2240,
+      "kind": "sketch",
+      "orientation": "portrait",
+      "ground": "pure white paper (#fff): multiply onto cream, invert(1) + screen onto ink",
+      "style": "line-only (outlines and veins, almost no shading)"
+    },
+    "s-bud": {
+      "alt": "Ink sketch of a cannabis flower bud on its stem with thin leader lines ending in dots",
+      "aspect": "4:5",
+      "w": 1792,
+      "h": 2240,
+      "kind": "sketch",
+      "orientation": "portrait",
+      "ground": "pure white paper (#fff): multiply onto cream, invert(1) + screen onto ink",
+      "style": "ink line work with dense shading on the bud; five leader lines ending in dots"
+    },
+    "s-jar": {
+      "alt": "Sketch of an empty apothecary jar with a knob lid, shaded with hatching",
+      "aspect": "4:5",
+      "w": 1792,
+      "h": 2240,
+      "kind": "sketch",
+      "orientation": "portrait",
+      "ground": "pure white paper (#fff): multiply onto cream, invert(1) + screen onto ink",
+      "style": "loose hatched sketch; ground line and cast shadow under the jar"
+    },
+    "s-hat": {
+      "alt": "Ink sketch of a fedora hat with a pair of sunglasses beside it",
+      "aspect": "1:1",
+      "w": 2048,
+      "h": 2048,
+      "kind": "sketch",
+      "orientation": "square",
+      "ground": "pure white paper (#fff): multiply onto cream, invert(1) + screen onto ink",
+      "style": "heavy cross-hatched ink; the darkest of the sketches"
+    }
+  }
+}

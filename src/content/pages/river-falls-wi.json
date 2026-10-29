@@ -1,0 +1,515 @@
+{
+ "path": "/river-falls-wi",
+ "source": "https://mydealermn.com/river-falls-wi",
+ "captured": "2026-10-29",
+ "title": "Dispensary Near River Falls, WI | Licensed Cannabis in Bayport, MN",
+ "description": "Licensed Minnesota cannabis about 25 to 30 minutes from River Falls, WI, via Highway 35 and I-94. My Dealer in Bayport: 21+ with valid ID. Buy in MN, use in MN only.",
+ "canonical": "https://mydealermn.com/river-falls-wi",
+ "og": {
+  "og:title": "Dispensary Near River Falls, WI | Licensed Cannabis in Bayport, MN",
+  "og:description": "Licensed Minnesota cannabis about 25 to 30 minutes from River Falls, WI, via Highway 35 and I-94. My Dealer in Bayport: 21+ with valid ID. Buy in MN, use in MN only.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/river-falls-wi",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "WebPage",
+     "@id": "https://mydealermn.com/river-falls-wi#webpage",
+     "url": "https://mydealermn.com/river-falls-wi",
+     "name": "Dispensary Near River Falls, WI | Licensed Cannabis in Bayport, MN",
+     "description": "Licensed Minnesota cannabis about 25 to 30 minutes from River Falls, WI, via Highway 35 and I-94. My Dealer in Bayport: 21+ with valid ID. Buy in MN, use in MN only.",
+     "inLanguage": "en-US",
+     "about": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mydealermn.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dispensary near River Falls, WI",
+        "item": "https://mydealermn.com/river-falls-wi"
+       }
+      ]
+     },
+     "dateModified": "2026-10-22"
+    },
+    {
+     "@type": [
+      "Store",
+      "LocalBusiness"
+     ],
+     "@id": "https://mydealermn.com/#business",
+     "name": "My Dealer",
+     "url": "https://mydealermn.com",
+     "telephone": "+1-651-323-1266",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "243 3rd St N",
+      "addressLocality": "Bayport",
+      "addressRegion": "MN",
+      "postalCode": "55003",
+      "addressCountry": "US"
+     },
+     "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+     "areaServed": [
+      {
+       "@type": "City",
+       "name": "River Falls",
+       "containedInPlace": {
+        "@type": "State",
+        "name": "Wisconsin"
+       }
+      }
+     ],
+     "sameAs": [
+      "https://x.com/MyDealerMN",
+      "https://www.instagram.com/mydealermn/",
+      "https://www.linkedin.com/company/mydealermn",
+      "https://share.google/FS0jvQqMZtD11QPEt",
+      "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+      "https://www.facebook.com/mydealermn/",
+      "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+      "https://maps.google.com/?cid=16369139820469574822",
+      "https://www.yelp.com/biz/my-dealer-bayport-2",
+      "https://www.leafly.com/dispensary-info/my-dealer",
+      "https://weedmaps.com/dispensaries/my-dealer"
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://mydealermn.com/river-falls-wi#faq",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Can I bring it back to River Falls?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Cannabis isn't legal in Wisconsin, and taking it across the river is illegal under state law. The part of River Falls in St. Croix County is also covered by the county's possession ordinance (ch. 58), with a $125 to $500 forfeiture. The Pierce County side has a county possession ordinance (ch. 176) with a forfeiture of up to $500. Buy in Minnesota, use it in Minnesota. Details and sources are on our Wisconsin shoppers page."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is there a licensed dispensary in River Falls?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Wisconsin has no adult-use or medical cannabis program, so River Falls has no state-licensed dispensary. Shops there that use the word dispensary sell hemp or CBD products. The licensed option is on the Minnesota side, in Bayport."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Where can I buy THC near River Falls after December 11?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If a \"dispensary near me\" search in River Falls turns up hemp shops, that's because Wisconsin still has no licensed cannabis stores. Under current federal law, starting December 11, 2026, hemp products with more than 0.4 mg of total THC per package no longer meet the federal definition of hemp. For real cannabis, My Dealer is a Minnesota-licensed cannabis retailer in Bayport, about 25 to 30 minutes from River Falls, for adults 21+ with valid ID. Licensed cannabis is legal under Minnesota law only, and everything we sell is for use in Minnesota only."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How long is the drive from River Falls?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About 16 miles and roughly 25 to 30 minutes from downtown River Falls, depending on traffic: Highway 35 north to I-94, west over the river, exit 258 for Highway 95, then north about 4 miles to Bayport."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "River Falls, WI · Adults 21+"
+    },
+    {
+     "t": "h1",
+     "html": "From River Falls, it's about 25 to 30 minutes to licensed cannabis in Bayport"
+    },
+    {
+     "t": "p",
+     "html": "Hey, I'm Brandon. My Dealer is a state-licensed cannabis store in Bayport, Minnesota, just across the St. Croix, a straight shot from River Falls on Highway 35 and I-94. Adults 21+ with a valid ID, including a Wisconsin license, can shop here. The catch is simple: buy it in Minnesota and use it in Minnesota."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/bayport",
+       "html": "Preorder for pickup"
+      },
+      {
+       "href": "/wisconsin",
+       "html": "Guide for Wisconsin shoppers"
+      },
+      {
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "html": "Get directions",
+       "target": "_blank",
+       "rel": "noopener"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "h2",
+       "html": "First, the rule: buy in Minnesota, use it in Minnesota",
+       "id": "buy-in-mn-use-in-mn"
+      },
+      {
+       "t": "p",
+       "html": "I'd rather lose a sale than have you get in trouble, so here it is up front. What you buy at My Dealer is legal in Minnesota only, and it doesn't go back down I-94 toward River Falls. Wisconsin treats THC (outside of legal hemp) as a controlled substance, and the St. Croix County part of River Falls is also covered by a county possession ordinance. Every package we sell carries the line \"This product may be unlawful outside the state of Minnesota.\""
+      },
+      {
+       "t": "p",
+       "html": "Before you make the drive, sort out where you'll use it on this side of the river, like a private residence or private property where the owner is fine with it. Our <a href=\"/wisconsin\">guide for Wisconsin shoppers</a> has the statutes and the rest of the detail."
+      },
+      {
+       "t": "h2",
+       "html": "Local rules around River Falls",
+       "id": "local-rules-river-falls"
+      },
+      {
+       "t": "p",
+       "html": "River Falls sits in two counties. In the St. Croix County part of town, county Chapter 58 bans marijuana possession (up to 25 grams, first offense), with a forfeiture of $125 to $500. <a href=\"https://www.sccwi.gov/DocumentCenter/View/1139/Chapter-58-PDF?bidId=\" target=\"_blank\" rel=\"noopener\">St. Croix County ch. 58 (PDF)</a> Pierce County's code (Chapter 176, Article II) prohibits marijuana possession, with a forfeiture of up to $500 for an ounce or less. Not verified: how that older ordinance lines up with the state's current 25-gram limit for local cases. <a href=\"https://ecode360.com/9817223\" target=\"_blank\" rel=\"noopener\">Pierce County ch. 176</a> The City of River Falls municipal court bond schedule also lists marijuana possession under city code 9.04.010, which adopts the state statute; we haven't verified the city code text or its fine. State law applies on top of all of these."
+      },
+      {
+       "t": "p",
+       "html": "In Bayport, City Code Sec. 26-77 (Ordinance 891, adopted August 7, 2023) bans smoking cannabis or hemp products in public places, and Sec. 26-28 bans open containers of cannabis or hemp drinks on streets, sidewalks, and other public places. <a href=\"https://library.municode.com/MN/Bayport/codes/Code_of_Ordinances?nodeId=MUCO_CH26EN\" target=\"_blank\" rel=\"noopener\">Bayport Code ch. 26</a>"
+      },
+      {
+       "t": "h2",
+       "html": "Getting here from River Falls",
+       "id": "getting-here-from-river-falls"
+      },
+      {
+       "t": "h3",
+       "html": "From downtown River Falls"
+      },
+      {
+       "t": "p",
+       "html": "Head north out of town on Main Street and pick up Highway 35 north toward Hudson. Highway 35 joins I-94 near Hudson; stay on I-94 west across the St. Croix. Take exit 258, the first exit on the Minnesota side, for Highway 95 toward Lakeland and Stillwater. Go north on 95 about 4 miles, through Lakeland and Lakeland Shores. In Bayport, we're on your right at 243 3rd St N, next to the American Legion and the post office and across from City Hall."
+      },
+      {
+       "t": "p",
+       "html": "<strong>About 16 miles, roughly 25 to 30 minutes (approximate).</strong>"
+      },
+      {
+       "t": "p",
+       "html": "The I-94 bridges over the St. Croix are under repair in 2026. I-94 has stayed open, with lane shifts. Check <a href=\"https://projects.511wi.gov/i94stcroixriverbridges/trafficimpacts/\" target=\"_blank\" rel=\"noopener\">511 Wisconsin's project page</a> for current traffic impacts."
+      },
+      {
+       "t": "p",
+       "html": "Approximate drive time and distance: OpenStreetMap routing (OSRM), checked October 22, 2026, about 16 miles and about 23 minutes without traffic. We say 25 to 30 to allow for traffic in town and on the bridge."
+      },
+      {
+       "t": "h2",
+       "html": "Hemp THC on December 11: what changes, and what doesn't",
+       "id": "hemp-rules-river-falls"
+      },
+      {
+       "t": "p",
+       "html": "Heads up for Wisconsin shoppers looking for cannabis near River Falls. Under current federal law, starting December 11, 2026, a finished hemp product with more than 0.4 mg of total THC per package (the can, bottle, or bag it's sold in) no longer meets the federal definition of hemp. So do hemp products made with lab-converted cannabinoids. That covers most hemp THC gummies, vapes, and drinks, including delta-8. This is a federal change, not a new Wisconsin law. Wisconsin's hemp law hasn't changed, and two Wisconsin bills to regulate hemp THC products, AB 747 and SB 682, did not pass."
+      },
+      {
+       "t": "p",
+       "html": "Minnesota has its own hemp law. The Minnesota Office of Cannabis Management says the federal change doesn't change how Minnesota defines lower-potency hemp edibles and drinks, or whether they're legal under Minnesota law. OCM also notes that many hemp products that comply with Minnesota law, such as packages with more than 0.4 mg of THC, won't meet the new federal definition, which could affect hemp businesses' banking, taxes, and interstate shipping."
+      },
+      {
+       "t": "p",
+       "html": "Licensed Minnesota cannabis was never hemp. It's what most people mean by real weed: grown as cannabis by licensed Minnesota cultivators, tested, and tracked by the state. It's legal under Minnesota law only, and it's still illegal under federal law and in Wisconsin. Come visit Bayport, about 25 to 30 minutes from River Falls. Everything you buy here, cannabis or hemp, is for use in Minnesota only."
+      },
+      {
+       "t": "p",
+       "html": "Our read, not legal advice. Sources: <a href=\"https://www.law.cornell.edu/uscode/text/7/1639o\" target=\"_blank\" rel=\"noopener\">7 U.S.C. 1639o</a> as amended by P.L. 119-37, Div. B, Sec. 781 (enacted November 12, 2025); timing under <a href=\"https://www.congress.gov/bill/119th-congress/house-bill/6500/text\" target=\"_blank\" rel=\"noopener\">P.L. 119-103, Sec. 2019</a> (signed September 2, 2026); <a href=\"https://www.congress.gov/crs-product/IF13136\" target=\"_blank\" rel=\"noopener\">Congressional Research Service IF13136</a>; <a href=\"https://mn.gov/ocm/businesses/resources/hemp/federal-hemp-changes.jsp\" target=\"_blank\" rel=\"noopener\">Minnesota OCM, Federal hemp changes</a>; Wisconsin <a href=\"https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/AB747\" target=\"_blank\" rel=\"noopener\">AB 747</a> and <a href=\"https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/SB682\" target=\"_blank\" rel=\"noopener\">SB 682</a>. Congress could still change these dates. Bills to delay the change again are in committee; as of October 22, 2026, none has passed."
+      },
+      {
+       "t": "h2",
+       "html": "Where Wisconsin cannabis law stands",
+       "id": "wi-law-short"
+      },
+      {
+       "t": "p",
+       "html": "As of October 22, 2026, Wisconsin has no adult-use or medical cannabis program. In the 2025-2026 session, lawmakers introduced a medical cannabis bill, a legalization bill, and several bills to regulate hemp THC products. None passed; all failed on March 23, 2026, under the session schedule, after the last regular floor period ended in mid-March. The <a href=\"/wisconsin#wisconsin-law-2026\">Wisconsin shoppers guide</a> lists each bill, its sponsors, and how to reach your legislators."
+      },
+      {
+       "t": "h2",
+       "html": "What we carry",
+       "id": "what-we-carry-river-falls"
+      },
+      {
+       "t": "p",
+       "html": "The menu covers flower (deli by the gram and sealed 3.5 g and 7 g pre-packs), pre-rolls, all-in-one vapes, and licensed cannabis gummies, plus labeled hemp edibles and drinks, hemp topicals, seeds, and accessories. It's a wide range of brands, many of them from Minnesota: RYTHM, Dogwalkers, Good Green, &amp;Shine, Vireo, Campfire Cannabis, Flör, BLNCD, Minny Grown, Foundry, Granny's, and Philotimo, plus Trawa flower at the deli counter."
+      },
+      {
+       "t": "p",
+       "html": "Since River Falls is a longer drive, check the <a href=\"/bayport\">live menu</a> before you leave, or preorder at <a href=\"/bayport\">mydealermn.com/bayport</a> and it'll be ready when you get here. You pay and show ID at pickup, the same day or the next day."
+      },
+      {
+       "t": "h2",
+       "html": "Deli flower: ounces from $210, about 25 to 30 minutes from River Falls",
+       "id": "deli-flower-river-falls"
+      },
+      {
+       "t": "p",
+       "html": "Deli flower is the budget-friendly way to buy here, and the reason I'd point you up Highway 35. It's real flower, grown as cannabis by licensed Minnesota cultivators. It's weighed to order at the counter on certified scales, right in front of you, so you pick the amount, from a single gram up to two ounces, the Minnesota limit for one purchase. Mixing strains within a tier still counts toward the bulk price."
+      },
+      {
+       "t": "p",
+       "html": "Ounces run $210 or $225 depending on the tier. The more you buy, the less each gram costs. In the $11 tier, a single gram is $11, 3.5 g works out to $10.00 a gram, 14 g to $8.57 a gram, and a full ounce to $7.50 a gram. The $12 tier steps down the same way, to $8.04 a gram at the ounce. Same rule as everything else here: it stays in Minnesota, so plan where you'll use it on this side of the river."
+      },
+      {
+       "t": "h3",
+       "html": "$11 tier"
+      },
+      {
+       "t": "p",
+       "html": "$7.50/g at the ounce"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "1 g$11",
+        "3.5 g$35",
+        "7 g$65",
+        "14 g$120",
+        "28 g$210"
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "$12 tier"
+      },
+      {
+       "t": "p",
+       "html": "$8.04/g at the ounce"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "1 g$12",
+        "3.5 g$38",
+        "7 g$70",
+        "14 g$130",
+        "28 g$225"
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Combined quantity: mix and match strains within a tier, and the total weight sets the price. Prices as of October 22, 2026. Which strains sit in each tier changes with every batch, so check the <a href=\"/bayport/menu/flower-9630\">flower menu</a> for today's lineup. Adults 21+ with valid ID."
+      },
+      {
+       "t": "h2",
+       "html": "Before you head up from River Falls",
+       "id": "first-visit-river-falls"
+      },
+      {
+       "t": "p",
+       "html": "Bring a valid photo ID. Your Wisconsin license works, and everyone has to be 21 or older, every visit. We take cash, or debit through our cashless ATM ($3 fee); no credit cards."
+      },
+      {
+       "t": "p",
+       "html": "One purchase can include up to 2 ounces of flower, 8 grams of concentrate, and 800 mg of THC in edibles and hemp THC products combined. Veterans and active military get 15% off every day."
+      },
+      {
+       "t": "p",
+       "html": "Park in the lot behind the store. There are entrances at both the front and the back of the building. More on ID, payment, and limits is in the <a href=\"/faq\">FAQ</a>."
+      },
+      {
+       "t": "h2",
+       "html": "River Falls questions",
+       "id": "river-falls-faq"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "Can I bring it back to River Falls?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Cannabis isn't legal in Wisconsin, and taking it across the river is illegal under state law. The part of River Falls in St. Croix County is also covered by the county's possession ordinance (ch. 58), with a $125 to $500 forfeiture. The Pierce County side has a county possession ordinance (ch. 176) with a forfeiture of up to $500. Buy in Minnesota, use it in Minnesota. Details and sources are on our <a href=\"/wisconsin\">Wisconsin shoppers page</a>."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Is there a licensed dispensary in River Falls?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Wisconsin has no adult-use or medical cannabis program, so River Falls has no state-licensed dispensary. Shops there that use the word dispensary sell hemp or CBD products. The licensed option is on the Minnesota side, in Bayport."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Where can I buy THC near River Falls after December 11?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "If a \"dispensary near me\" search in River Falls turns up hemp shops, that's because Wisconsin still has no licensed cannabis stores. Under current federal law, starting December 11, 2026, hemp products with more than 0.4 mg of total THC per package no longer meet the federal definition of hemp. For real cannabis, My Dealer is a Minnesota-licensed cannabis retailer in Bayport, about 25 to 30 minutes from River Falls, for adults 21+ with valid ID. Licensed cannabis is legal under Minnesota law only, and everything we sell is for use in Minnesota only."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "How long is the drive from River Falls?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "About 16 miles and roughly 25 to 30 minutes from downtown River Falls, depending on traffic: Highway 35 north to I-94, west over the river, exit 258 for Highway 95, then north about 4 miles to Bayport."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "Visit My Dealer in Bayport",
+       "id": "visit-river-falls"
+      },
+      {
+       "t": "p",
+       "html": "My Dealer, 243 3rd St N, Bayport, MN 55003"
+      },
+      {
+       "t": "p",
+       "html": "Phone: <a href=\"tel:+16513231266\">(651) 323-1266</a>"
+      },
+      {
+       "t": "p",
+       "html": "Open noon to 8, every day. Adults 21+ with valid ID only."
+      },
+      {
+       "t": "p",
+       "html": "Parking lot and a second entrance at the back: turn onto 1st Ave N, then take a left down the alley."
+      },
+      {
+       "t": "p",
+       "html": "<a href=\"/bayport\">Preorder for pickup</a> · <a href=\"/bayport\">Browse the Bayport menu</a> · <a href=\"https://www.google.com/maps/dir/?api=1&amp;destination=243+3rd+Street+North,+Bayport,+MN+55003\" target=\"_blank\" rel=\"noopener\">Google Maps directions</a>"
+      },
+      {
+       "t": "p",
+       "html": "Licensed by the Minnesota Office of Cannabis Management. Cannabis Retailer License DIS-L24-000241."
+      },
+      {
+       "t": "h2",
+       "html": "Other towns we serve",
+       "id": "nearby-river-falls-wi"
+      },
+      {
+       "t": "p",
+       "html": "Coming from somewhere else in the valley? These pages have the route from your side of the river, and the Wisconsin shoppers guide covers the border rule in full."
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/wisconsin",
+         "html": "Wisconsin shoppers (all towns)"
+        },
+        {
+         "href": "/hudson-wi",
+         "html": "Hudson, WI"
+        },
+        {
+         "href": "/somerset-wi",
+         "html": "Somerset, WI"
+        },
+        {
+         "href": "/new-richmond-wi",
+         "html": "New Richmond, WI"
+        },
+        {
+         "href": "/stillwater",
+         "html": "Stillwater, MN"
+        },
+        {
+         "href": "/oak-park-heights",
+         "html": "Oak Park Heights, MN"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Shop by category:"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/flower",
+         "html": "Flower"
+        },
+        {
+         "href": "/pre-rolls",
+         "html": "Pre-rolls"
+        },
+        {
+         "href": "/edibles",
+         "html": "Edibles"
+        },
+        {
+         "href": "/vapes",
+         "html": "Vapes"
+        },
+        {
+         "href": "/beverages",
+         "html": "Hemp THC beverages"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "This page is general information, not legal advice. Laws change. For your own situation, talk to a licensed attorney."
+      },
+      {
+       "t": "p",
+       "html": "Information current as of October 22, 2026. Menu, prices, and stock change often; the live menu is the final word."
+      },
+      {
+       "t": "p",
+       "html": "For adults 21 and older only."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Hemp products containing THC are not for use by anyone under the age of 21. Using hemp products containing THC may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid hemp products containing THC due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

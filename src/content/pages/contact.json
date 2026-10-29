@@ -1,0 +1,362 @@
+{
+ "path": "/contact",
+ "source": "https://mydealermn.com/contact",
+ "captured": "2026-10-29",
+ "title": "Contact | My Dealer Bayport Cannabis Dispensary",
+ "description": "Contact My Dealer, the cannabis dispensary at 243 3rd Street North, Bayport, Minnesota, near Stillwater. Call 651-323-1266.",
+ "canonical": "https://mydealermn.com/contact",
+ "og": {
+  "og:title": "Contact | My Dealer Bayport Cannabis Dispensary",
+  "og:description": "Contact My Dealer, the cannabis dispensary at 243 3rd Street North, Bayport, Minnesota, near Stillwater. Call 651-323-1266.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/contact",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://mydealermn.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Contact",
+     "item": "https://mydealermn.com/contact"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Store",
+    "LocalBusiness"
+   ],
+   "@id": "https://mydealermn.com/#business",
+   "name": "My Dealer",
+   "legalName": "My Dealer LLC",
+   "alternateName": [
+    "My Dealer Bayport",
+    "My Dealer MN",
+    "My Dealer dispensary",
+    "My Dealer cannabis"
+   ],
+   "description": "Licensed adult-use cannabis retailer in Bayport, Minnesota. Cannabis Retailer License DIS-L24-000241 from the Minnesota Office of Cannabis Management. Adult-use retail only. We want to be your dealer.",
+   "url": "https://mydealermn.com",
+   "image": [
+    "https://mydealermn.com/og-card.jpg",
+    "https://mydealermn.com/build/exterior-front.webp",
+    "https://mydealermn.com/build/interior-display-cases.webp"
+   ],
+   "logo": "https://mydealermn.com/brand/logo-512.png",
+   "email": "morpheus@mydealermn.com",
+   "telephone": "+1-651-323-1266",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "243 3rd St N",
+    "addressLocality": "Bayport",
+    "addressRegion": "MN",
+    "postalCode": "55003",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.018012,
+    "longitude": -92.779534
+   },
+   "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+   "identifier": [
+    "DIS-L24-000241",
+    "DIS-L24-000241-01"
+   ],
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Bayport"
+    },
+    {
+     "@type": "City",
+     "name": "Stillwater"
+    },
+    {
+     "@type": "City",
+     "name": "Oak Park Heights"
+    },
+    {
+     "@type": "City",
+     "name": "Lakeland"
+    },
+    {
+     "@type": "City",
+     "name": "Hudson",
+     "containedInPlace": {
+      "@type": "State",
+      "name": "Wisconsin"
+     }
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Washington County"
+    },
+    {
+     "@type": "State",
+     "name": "Minnesota"
+    }
+   ],
+   "knowsAbout": [
+    "adult-use cannabis",
+    "Minnesota cannabis",
+    "cannabis dispensary",
+    "Bayport dispensary",
+    "cannabis flower"
+   ],
+   "sameAs": [
+    "https://x.com/MyDealerMN",
+    "https://www.instagram.com/mydealermn/",
+    "https://www.linkedin.com/company/mydealermn",
+    "https://share.google/FS0jvQqMZtD11QPEt",
+    "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+    "https://www.facebook.com/mydealermn/",
+    "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+    "https://maps.google.com/?cid=16369139820469574822",
+    "https://www.yelp.com/biz/my-dealer-bayport-2",
+    "https://www.leafly.com/dispensary-info/my-dealer",
+    "https://weedmaps.com/dispensaries/my-dealer"
+   ],
+   "founder": {
+    "@type": "Person",
+    "name": "Brandon Van Asten",
+    "url": "https://www.linkedin.com/in/brandonvanasten"
+   },
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+     ],
+     "opens": "12:00",
+     "closes": "20:00"
+    }
+   ],
+   "paymentAccepted": "Cash, Debit Card",
+   "currenciesAccepted": "USD",
+   "priceRange": "$",
+   "additionalType": "https://en.wikipedia.org/wiki/Cannabis_dispensary",
+   "amenityFeature": [
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "Parking lot behind the building",
+     "value": true
+    },
+    {
+     "@type": "LocationFeatureSpecification",
+     "name": "ATM on site",
+     "value": true
+    }
+   ],
+   "makesOffer": [
+    {
+     "@type": "Offer",
+     "name": "Veteran and active military discount",
+     "description": "15% off the entire order every day, in store or order ahead, with a valid military or veteran ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    },
+    {
+     "@type": "Offer",
+     "name": "Andersen employee discount",
+     "description": "10% off every Tuesday with a valid Andersen ID. Does not combine with other discounts.",
+     "url": "https://mydealermn.com/faq"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "Let's talk."
+    },
+    {
+     "t": "p",
+     "html": "Pick the inbox that matches the question. We do not collect messages through a website form."
+    }
+   ]
+  },
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Mobile app support"
+        },
+        {
+         "t": "h2",
+         "html": "Need help with the My Dealer app?"
+        },
+        {
+         "t": "p",
+         "html": "For login, account, ordering, notification, privacy, or technical questions, email our support inbox. Include your iPhone model, iOS version, app version, and a short description of what happened. Do not send passwords, payment details, or a photo of your ID by email."
+        },
+        {
+         "t": "links",
+         "items": [
+          {
+           "href": "mailto:morpheus@mydealermn.com?subject=My%20Dealer%20App%20Support",
+           "html": "Email app support"
+          }
+         ]
+        },
+        {
+         "t": "p",
+         "html": "For account or personal-data deletion requests, use the subject line “Account deletion request.” We may need to verify your identity before completing a request."
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "General"
+        },
+        {
+         "t": "h2",
+         "html": "Email My Dealer"
+        },
+        {
+         "t": "p",
+         "html": "Business, community, store, or media questions."
+        },
+        {
+         "t": "links",
+         "items": [
+          {
+           "href": "mailto:morpheus@mydealermn.com",
+           "html": "morpheus@mydealermn.com"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Employment"
+        },
+        {
+         "t": "h2",
+         "html": "Apply online"
+        },
+        {
+         "t": "p",
+         "html": "No open postings right now. Email us and check back."
+        },
+        {
+         "t": "links",
+         "items": [
+          {
+           "href": "mailto:morpheus@mydealermn.com?subject=Job%20interest%20-%20My%20Dealer%20Bayport",
+           "html": "Email us about openings"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Company inquiries"
+        },
+        {
+         "t": "h2",
+         "html": "Contact the founder"
+        },
+        {
+         "t": "p",
+         "html": "For company background or a private conversation, email Brandon."
+        },
+        {
+         "t": "links",
+         "items": [
+          {
+           "href": "mailto:brandon@mydealermn.com",
+           "html": "brandon@mydealermn.com"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Location"
+        },
+        {
+         "t": "h2",
+         "html": "Find us in Bayport"
+        },
+        {
+         "t": "p",
+         "html": "Storefront location, directions, and current business information."
+        },
+        {
+         "t": "links",
+         "items": [
+          {
+           "href": "https://maps.google.com/?cid=16369139820469574822",
+           "html": "Find us on Google",
+           "target": "_blank",
+           "rel": "noreferrer"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "card",
+       "blocks": [
+        {
+         "t": "embed",
+         "src": "https://www.google.com/maps?q=My+Dealer+243+3rd+Street+N+Bayport+MN+55003&output=embed",
+         "title": "Google map of My Dealer at 243 3rd Street North, Bayport, MN 55003"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

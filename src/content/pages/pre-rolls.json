@@ -1,0 +1,474 @@
+{
+ "path": "/pre-rolls",
+ "source": "https://mydealermn.com/pre-rolls",
+ "captured": "2026-10-29",
+ "title": "Cannabis Pre-Rolls in Bayport, MN | My Dealer",
+ "description": "Single pre-rolls and multi-packs of licensed Minnesota cannabis at My Dealer in Bayport, MN. Check the live pre-roll menu and preorder for pickup on Hwy 95.",
+ "canonical": "https://mydealermn.com/pre-rolls",
+ "og": {
+  "og:title": "Cannabis Pre-Rolls in Bayport, MN | My Dealer",
+  "og:description": "Single pre-rolls and multi-packs of licensed Minnesota cannabis at My Dealer in Bayport, MN. Check the live pre-roll menu and preorder for pickup on Hwy 95.",
+  "og:type": "website",
+  "og:site_name": "My Dealer",
+  "og:locale": "en_US",
+  "og:url": "https://mydealermn.com/pre-rolls",
+  "og:image": "https://mydealermn.com/og-card.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "My Dealer logo, the cartoon head with the hat and glasses, Bayport Minnesota"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "CollectionPage",
+     "@id": "https://mydealermn.com/pre-rolls#webpage",
+     "url": "https://mydealermn.com/pre-rolls",
+     "name": "Cannabis Pre-Rolls in Bayport, MN | My Dealer",
+     "description": "Single pre-rolls and multi-packs of licensed Minnesota cannabis at My Dealer in Bayport, MN. Check the live pre-roll menu and preorder for pickup on Hwy 95.",
+     "inLanguage": "en-US",
+     "about": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "provider": {
+      "@id": "https://mydealermn.com/#business"
+     },
+     "significantLink": "https://mydealermn.com/bayport/menu/pre-rolls-10350",
+     "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mydealermn.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Menu",
+        "item": "https://mydealermn.com/bayport"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pre-rolls",
+        "item": "https://mydealermn.com/pre-rolls"
+       }
+      ]
+     },
+     "dateModified": "2026-10-17"
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://mydealermn.com/pre-rolls#faq",
+     "url": "https://mydealermn.com/pre-rolls",
+     "isPartOf": {
+      "@id": "https://mydealermn.com/pre-rolls#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How long does a pre-roll take to kick in, and how long does it last?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The same as other smoked flower: usually 1 to 10 minutes to start, a peak around 30 minutes, and 2 to 4 hours total, according to Minnesota OCM. Some effects can last up to 6 hours."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I have to smoke the whole pre-roll?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Take one or two small puffs, put it out fully, and wait 15 to 30 minutes. Once it's cool, store the rest in its tube, locked up and away from kids and pets."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do pre-rolls count toward the flower limit?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. They count as flower by weight, toward the 2 ounce per-purchase limit."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Which pre-roll size should I pick for a first try?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A smaller joint, like 0.35 g, with a lower THC number on the label. You can always light another; you can't take back what you've already smoked."
+       }
+      }
+     ]
+    },
+    {
+     "@type": [
+      "Store",
+      "LocalBusiness"
+     ],
+     "@id": "https://mydealermn.com/#business",
+     "name": "My Dealer",
+     "url": "https://mydealermn.com",
+     "telephone": "+1-651-323-1266",
+     "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "243 3rd St N",
+      "addressLocality": "Bayport",
+      "addressRegion": "MN",
+      "postalCode": "55003",
+      "addressCountry": "US"
+     },
+     "hasMap": "https://maps.google.com/?cid=16369139820469574822",
+     "sameAs": [
+      "https://x.com/MyDealerMN",
+      "https://www.instagram.com/mydealermn/",
+      "https://www.linkedin.com/company/mydealermn",
+      "https://share.google/FS0jvQqMZtD11QPEt",
+      "https://www.bbb.org/us/mn/bayport/profile/cannabis/my-dealer-llc-0704-1000085172",
+      "https://www.facebook.com/mydealermn/",
+      "https://nextdoor.com/pages/my-dealer-bayport-mn/",
+      "https://maps.google.com/?cid=16369139820469574822",
+      "https://www.yelp.com/biz/my-dealer-bayport-2",
+      "https://www.leafly.com/dispensary-info/my-dealer",
+      "https://weedmaps.com/dispensaries/my-dealer"
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "",
+   "aria-label": "",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "Pre-rolls · Adults 21+"
+    },
+    {
+     "t": "h1",
+     "html": "Cannabis pre-rolls in Bayport, MN"
+    },
+    {
+     "t": "p",
+     "html": "Already rolled, no gear needed. We carry single pre-rolls and multi-packs of licensed Minnesota cannabis at our Bayport store."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/bayport",
+       "html": "Preorder for pickup"
+      },
+      {
+       "href": "/bayport/menu/pre-rolls-10350",
+       "html": "See the pre-roll menu"
+      },
+      {
+       "href": "https://www.google.com/maps/dir/?api=1&destination=243+3rd+Street+North,+Bayport,+MN+55003",
+       "html": "Get directions",
+       "target": "_blank",
+       "rel": "noopener"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "card",
+     "blocks": [
+      {
+       "t": "h2",
+       "html": "Formats on the shelf",
+       "id": "pre-roll-formats"
+      },
+      {
+       "t": "p",
+       "html": "Pre-rolls come in a few sizes, and the menu lists both the size of each joint and the total weight of the pack:"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Singles, usually 1 g or 0.35 g",
+        "2-packs of 0.5 g joints (1 g total)",
+        "5-packs of 0.35 g or 0.5 g joints (1.75 g or 2.5 g total)",
+        "Larger packs, like a 12-pack of 0.35 g joints (4.2 g total)"
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Smaller joints in a pack are handy for sharing with other adults or for a shorter session. Like flower, each one is labeled with the strain's lineage (Sativa through Indica) and THC."
+      },
+      {
+       "t": "p",
+       "html": "Brands on the menu when we checked on October 17, 2026: &amp;Shine, Campfire Cannabis, Dogwalkers, Flör, and Good Green. See what's in stock on the <a href=\"/bayport/menu/pre-rolls-10350\">pre-roll menu</a>."
+      },
+      {
+       "t": "h2",
+       "html": "Where you can smoke one",
+       "id": "pre-roll-rules"
+      },
+      {
+       "t": "p",
+       "html": "Private residences, or private property where the owner allows it. Not in a vehicle (parked or moving), not in public places, not where a minor would breathe the smoke, and not in our parking lot. <a href=\"/wisconsin#using-it-legally-in-minnesota\">More on where it's legal</a>."
+      },
+      {
+       "t": "h2",
+       "html": "How pre-rolls work",
+       "id": "how-pre-rolls-work"
+      },
+      {
+       "t": "dl",
+       "items": [
+        {
+         "dt": "Onset",
+         "dd": [
+          "1 to 10 minutes"
+         ]
+        },
+        {
+         "dt": "Peak",
+         "dd": [
+          "About 30 minutes"
+         ]
+        },
+        {
+         "dt": "Lasts",
+         "dd": [
+          "2 to 4 hours, sometimes up to 6"
+         ]
+        },
+        {
+         "dt": "Start with",
+         "dd": [
+          "One or two small puffs, then wait 15 to 30 minutes"
+         ]
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "General estimates from Minnesota OCM and Health Canada. Timing varies from person to person."
+      },
+      {
+       "t": "h3",
+       "html": "When people choose it"
+      },
+      {
+       "t": "p",
+       "html": "A pre-roll is flower that's already ground and rolled, so there's nothing to set up beyond a lighter. People who want inhaled cannabis without the gear often choose them. Multi-packs of smaller joints make it easy to portion: light one small joint instead of a big one."
+      },
+      {
+       "t": "h3",
+       "html": "Timing"
+      },
+      {
+       "t": "p",
+       "html": "A pre-roll is smoked flower, so the timing is the same. Minnesota's Office of Cannabis Management (OCM) puts the onset at 1 to 10 minutes, the peak at about 30 minutes, and the total at 2 to 4 hours. Health Canada notes effects can last up to 6 hours, with some lingering effects up to 24."
+      },
+      {
+       "t": "h3",
+       "html": "Dosing basics"
+      },
+      {
+       "t": "p",
+       "html": "You don't have to finish a joint. Take one or two small puffs, put it out, and wait 15 to 30 minutes before deciding on more, which follows OCM's start-low advice for inhaled products. Pre-rolls on our menu on October 17, 2026 ran from about 10% to 30% THC, and the label shows the number for each pack. If you're new, start with a smaller joint (0.35 g) and a lower THC number."
+      },
+      {
+       "t": "h3",
+       "html": "How it counts toward Minnesota limits"
+      },
+      {
+       "t": "p",
+       "html": "Pre-rolls count as flower, by weight. One purchase can include up to 2 ounces of flower in total, so a 12-pack of 0.35 g joints counts as 4.2 g. You can carry up to 2 ounces in public. <a href=\"https://www.revisor.mn.gov/statutes/cite/342.27\" target=\"_blank\" rel=\"noopener\">Minn. Stat. 342.27</a>"
+      },
+      {
+       "t": "h3",
+       "html": "Storage"
+      },
+      {
+       "t": "p",
+       "html": "Keep pre-rolls in their tubes or pack, somewhere cool and dry, locked up and out of reach of kids and pets. A half-smoked joint goes back in its tube once it's fully out and cool. In the car, packs go in the trunk unless they're still sealed."
+      },
+      {
+       "t": "h3",
+       "html": "Practical tips"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Use an ashtray and make sure it's fully out. Never leave a lit joint unattended.",
+        "Take a normal breath, not a deep one, and don't hold it in. Lower-risk use guidelines advise against deep inhaling and breath-holding.",
+        "If you share, share only with adults 21+. Never pass one to anyone under 21.",
+        "Note the brand, size, and THC % of the ones you like."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Safety"
+      },
+      {
+       "t": "p",
+       "html": "Cannabis smoke carries many of the same toxins and irritants as tobacco smoke and can harm lung tissue, according to the CDC. Don't drive after using, and don't mix cannabis with alcohol. Use it only in a private home or on private property where the owner allows it. Not in a vehicle, parked or moving, not in public places, and not in our parking lot. Don't smoke where a minor would breathe it."
+      },
+      {
+       "t": "p",
+       "html": "If someone has used too much, or a child or pet gets into cannabis, call Poison Control at 1-800-222-1222 (for pets, call your vet). In an emergency, call 911."
+      },
+      {
+       "t": "h2",
+       "html": "Questions about pre-rolls",
+       "id": "faq-pre-rolls-work"
+      },
+      {
+       "t": "grid",
+       "blocks": [
+        {
+         "t": "details",
+         "summary": "How long does a pre-roll take to kick in, and how long does it last?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "The same as other smoked flower: usually 1 to 10 minutes to start, a peak around 30 minutes, and 2 to 4 hours total, according to Minnesota OCM. Some effects can last up to 6 hours."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Do I have to smoke the whole pre-roll?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "No. Take one or two small puffs, put it out fully, and wait 15 to 30 minutes. Once it's cool, store the rest in its tube, locked up and away from kids and pets."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Do pre-rolls count toward the flower limit?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "Yes. They count as flower by weight, toward the 2 ounce per-purchase limit."
+          }
+         ]
+        },
+        {
+         "t": "details",
+         "summary": "Which pre-roll size should I pick for a first try?",
+         "blocks": [
+          {
+           "t": "p",
+           "html": "A smaller joint, like 0.35 g, with a lower THC number on the label. You can always light another; you can't take back what you've already smoked."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Sources: <a href=\"https://mn.gov/ocm/assets/Guide_to_Safer_Cannabis_Use_1.0_tcm1202-754055.pdf\" target=\"_blank\" rel=\"noopener\">Minnesota OCM Guide to Safer Cannabis Use</a>, <a href=\"https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/resources/what-you-need-to-know-if-you-choose-to-consume-cannabis.html\" target=\"_blank\" rel=\"noopener\">Health Canada</a>, <a href=\"https://www.cdc.gov/cannabis/health-effects/lung-health.html\" target=\"_blank\" rel=\"noopener\">CDC</a>, <a href=\"https://nida.nih.gov/publications/drugfacts/cannabis-marijuana\" target=\"_blank\" rel=\"noopener\">NIDA</a>."
+      },
+      {
+       "t": "h2",
+       "html": "How to shop it",
+       "id": "how-to-shop"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "<strong>Preorder:</strong> pick what you want on the <a href=\"/bayport/menu/pre-rolls-10350\">pre-roll menu</a>, or start at <a href=\"/bayport\">mydealermn.com/bayport</a>. Pick it up the same day or the next day, and pay at the counter.",
+        "<strong>In the store:</strong> talk it through with a budtender, or browse on the kiosk. We have paper menus too.",
+        "<strong>Bring ID:</strong> 21+ with a valid photo ID, every visit. Cash or debit (cashless ATM, $3 fee). Loyalty members earn 3% back in points."
+       ]
+      },
+      {
+       "t": "h2",
+       "html": "More from the menu",
+       "id": "more-categories"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/flower",
+         "html": "Flower"
+        },
+        {
+         "href": "/edibles",
+         "html": "Edibles"
+        },
+        {
+         "href": "/vapes",
+         "html": "Vapes"
+        },
+        {
+         "href": "/beverages",
+         "html": "Hemp THC beverages"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Coming from out of town? Directions and parking from your side of the river:"
+      },
+      {
+       "t": "links",
+       "items": [
+        {
+         "href": "/stillwater",
+         "html": "Stillwater, MN"
+        },
+        {
+         "href": "/oak-park-heights",
+         "html": "Oak Park Heights, MN"
+        },
+        {
+         "href": "/hudson-wi",
+         "html": "Hudson, WI"
+        },
+        {
+         "href": "/river-falls-wi",
+         "html": "River Falls, WI"
+        },
+        {
+         "href": "/somerset-wi",
+         "html": "Somerset, WI"
+        },
+        {
+         "href": "/new-richmond-wi",
+         "html": "New Richmond, WI"
+        },
+        {
+         "href": "/wisconsin",
+         "html": "Wisconsin shoppers"
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Information current as of October 17, 2026. Menu, prices, and stock change often; the live menu is the final word."
+      },
+      {
+       "t": "p",
+       "html": "For adults 21 and older only."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Cannabis products are not for use by anyone under the age of 21. Cannabis use may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid cannabis due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      },
+      {
+       "t": "p",
+       "html": "Warning: Hemp products containing THC are not for use by anyone under the age of 21. Using hemp products containing THC may cause drowsiness, affect focus, reaction time, and decision-making. These products are not evaluated or approved by the FDA. Pregnant people should avoid hemp products containing THC due to the risk of low birth weight, premature birth, stillbirth, and harm to fetal brain development."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
