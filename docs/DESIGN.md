@@ -12,8 +12,9 @@ planes of depth, hand-drawn strokes that draw themselves as you scroll, and the 
    toward the middle of each band, so body text always sits on a calm ground.
 2. **Glass (middle).** Frosted panels (`backdrop-filter: blur + saturate`, a 1px edge, an inset top highlight, a deep
    soft shadow, large radius). Glass is used only where something varied sits behind it: the header and mega menus
-   over the film and page, the hero panel over the brand film, the "three ways to shop" cards over a slow smoke loop,
-   dialogs. Long reading uses plain surfaces.
+   over the film and page, the "three ways to shop" cards over a slow smoke loop, dialogs. Long reading uses plain
+   surfaces. The home hero's text sits straight on the brand film with no box: a dark shade under the text column
+   (fading out before the character) and a soft text shadow keep every line above 7:1 contrast on every frame.
 3. **Front.** At most one or two objects per page cross a section seam: on the home page the dealer character climbs
    out of the hero into the ribbon below, and the taped storefront photo crosses into the band above it. The recipe:
    the band's backdrop layers live in an inner clip layer, the band itself stays `overflow: visible` and stacks above

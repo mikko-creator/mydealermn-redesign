@@ -103,7 +103,7 @@ export async function render(ctx) {
 <span class="h-hero__shade"></span>
 </div>
 <div class="wrap wrap--wide h-hero__inner">
-<div class="h-hero__panel glass" data-reveal="left">
+<div class="h-hero__panel" data-reveal="left">
 <h1 class="h-hero__h1" id="h-hero-h1">${ICO.pin}<span>${fixLinks(h1.html)}</span></h1>
 <p class="display display--hero h-hero__tag">${taglineHtml}</p>
 ${P(intro, 'h-hero__intro')}
